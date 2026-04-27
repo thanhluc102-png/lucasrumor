@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 800px;
+    background: #f0f4ff;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #0f172a;
+  }
+
+  /* ══ HEADER BLOCK — đậm màu để nổi trên Facebook ══ */
+  .header-block {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #1d4ed8 100%);
+    padding: 28px 36px 32px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* dot grid overlay trên header */
+  .header-block::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.08) 1px, transparent 1px);
+    background-size: 20px 20px;
+    pointer-events: none;
+  }
+
+  /* đường accent góc trên phải */
+  .header-block::after {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(96,165,250,0.18), transparent 70%);
+    pointer-events: none;
+  }
+
+  .header-top {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 24px; position: relative; z-index: 1;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-icon {
+    width: 36px; height: 36px; border-radius: 9px;
+    overflow: hidden; flex-shrink: 0;
+    background: rgba(255,255,255,0.1);
+  }
+  .brand-icon img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .brand-name { font-size: 18px; font-weight: 800; color: #fff; letter-spacing: -0.4px; }
+  .brand-sub  { font-size: 11px; color: rgba(255,255,255,0.45); margin-top: 1px; }
+
+  .date-badge {
+    font-family: 'JetBrains Mono', monospace;
+    background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 7px; padding: 5px 12px;
+    font-size: 11px; color: rgba(255,255,255,0.6);
+  }
+
+  /* category + title + summary trong header */
+  .hero { position: relative; z-index: 1; display: flex; gap: 20px; align-items: flex-start; }
+  .hero-text { flex: 1; min-width: 0; }
+
+  .category-row { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .category-icon { font-size: 20px; line-height: 1; }
+  .category-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 6px; padding: 3px 10px;
+    font-size: 11px; font-weight: 700; color: #93c5fd;
+    letter-spacing: 0.8px; text-transform: uppercase;
+  }
+
+  .hero-title {
+    font-size: 26px; font-weight: 900;
+    line-height: 1.2; letter-spacing: -0.5px;
+    color: #fff; margin-bottom: 10px;
+  }
+  .hero-summary { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.7; }
+
+  .hero-image-wrap {
+    flex-shrink: 0; width: 190px; height: 155px;
+    border-radius: 12px; overflow: hidden;
+    border: 2px solid rgba(255,255,255,0.15);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    align-self: center;
+  }
+  .hero-image-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* ══ BODY — sáng, clean ══ */
+  .body-block { background: #fff; padding: 24px 36px; }
+
+  /* COMPARISON */
+  .cmp-metric {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; font-weight: 700; color: #94a3b8;
+    letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 14px;
+  }
+  .cmp-row { display: flex; align-items: stretch; gap: 14px; }
+  .cmp-side {
+    flex: 1; background: #f8fafc; border: 1.5px solid #e2e8f0;
+    border-radius: 14px; padding: 18px 20px;
+  }
+  .cmp-side.highlight {
+    background: #eff6ff; border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  }
+  .cmp-label { font-size: 12px; color: #94a3b8; margin-bottom: 8px; font-weight: 500; }
+  .cmp-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 38px; font-weight: 700; letter-spacing: -1.5px; color: #1e293b; line-height: 1;
+  }
+  .cmp-side.highlight .cmp-value { color: #1d4ed8; }
+  .cmp-unit { font-size: 15px; font-weight: 600; color: #94a3b8; margin-left: 2px; }
+  .cmp-side.highlight .cmp-unit { color: #60a5fa; }
+  .cmp-bar-wrap { margin-top: 14px; background: #e2e8f0; border-radius: 4px; height: 5px; overflow: hidden; }
+  .cmp-bar { height: 100%; border-radius: 4px; background: #cbd5e1; }
+  .cmp-side.highlight .cmp-bar { background: linear-gradient(90deg, #2563eb, #7c3aed); }
+  .cmp-vs {
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; font-weight: 700; color: #cbd5e1; padding-top: 28px; flex-shrink: 0;
+  }
+
+  /* STAT */
+  .stat-main {
+    background: linear-gradient(135deg, #eff6ff, #f5f3ff);
+    border: 1.5px solid #bfdbfe; border-radius: 16px;
+    padding: 28px 32px; text-align: center; margin-bottom: 14px;
+  }
+  .stat-main-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 72px; font-weight: 700; letter-spacing: -3px; line-height: 1;
+    background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .stat-main-unit { font-size: 26px; font-weight: 600; }
+  .stat-main-label { font-size: 14px; color: #64748b; margin-top: 8px; }
+  .stat-subs { display: flex; gap: 12px; }
+  .stat-sub {
+    flex: 1; background: #f8fafc; border: 1.5px solid #e2e8f0;
+    border-radius: 12px; padding: 14px 16px;
+  }
+  .stat-sub-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px; font-weight: 700; color: #0f172a; letter-spacing: -0.5px;
+  }
+  .stat-sub-label { font-size: 11px; color: #94a3b8; margin-top: 4px; }
+
+  /* ANNOUNCEMENT */
+  .announce-wrap {
+    background: linear-gradient(135deg, #eff6ff, #f5f3ff);
+    border: 1.5px solid #c7d2fe; border-radius: 16px;
+    padding: 32px; text-align: center;
+  }
+  .announce-product {
+    font-size: 44px; font-weight: 900; letter-spacing: -2px; line-height: 1.1;
+    background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+  }
+  .announce-tagline { font-size: 15px; color: #64748b; line-height: 1.6; }
+  .announce-date {
+    display: inline-block; margin-top: 20px;
+    background: #fff; border: 1.5px solid #e0e7ff;
+    border-radius: 8px; padding: 8px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; color: #4f46e5; font-weight: 600;
+  }
+
+  /* DEAL */
+  .deal-wrap {
+    background: #f0fdf4; border: 1.5px solid #86efac;
+    border-radius: 16px; padding: 24px 28px;
+  }
+  .deal-product-name { font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px; }
+  .deal-original { font-size: 13px; color: #94a3b8; text-decoration: line-through; margin-bottom: 8px; }
+  .deal-prices { display: flex; align-items: baseline; gap: 14px; }
+  .deal-sale {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 48px; font-weight: 700; letter-spacing: -2px; color: #16a34a; line-height: 1;
+  }
+  .deal-badge {
+    background: #dcfce7; border: 1.5px solid #86efac;
+    border-radius: 8px; padding: 6px 12px;
+    font-size: 14px; font-weight: 700; color: #16a34a;
+  }
+
+  /* TIMELINE */
+  .timeline { display: flex; flex-direction: column; }
+  .tl-item { display: flex; align-items: flex-start; gap: 16px; }
+  .tl-line-wrap {
+    display: flex; flex-direction: column; align-items: center;
+    width: 28px; flex-shrink: 0;
+  }
+  .tl-dot {
+    width: 11px; height: 11px; border-radius: 50%;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    flex-shrink: 0; margin-top: 4px;
+    box-shadow: 0 0 0 3px #bfdbfe;
+  }
+  .tl-connector { width: 2px; flex: 1; background: #e2e8f0; margin: 5px 0; min-height: 24px; }
+  .tl-item:last-child .tl-connector { display: none; }
+  .tl-content { padding-bottom: 20px; flex: 1; }
+  .tl-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; font-weight: 700; color: #2563eb;
+    margin-bottom: 4px; letter-spacing: 0.5px;
+  }
+  .tl-label { font-size: 14px; color: #334155; line-height: 1.55; }
+
+  /* ══ KEY POINTS ══ */
+  .bullets-block {
+    background: #f8fafc; border-top: 1px solid #e2e8f0;
+    padding: 20px 36px 24px;
+  }
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; font-weight: 700; color: #94a3b8;
+    letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;
+  }
+  .bullet-item {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 10px 0; border-bottom: 1px solid #e2e8f0;
+  }
+  .bullet-item:last-child { border-bottom: none; }
+  .bullet-num {
+    width: 22px; height: 22px; flex-shrink: 0;
+    background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; color: #fff; margin-top: 1px;
+  }
+  .bullet-text { font-size: 13.5px; color: #475569; line-height: 1.55; flex: 1; }
+
+  /* ══ FOOTER ══ */
+  .footer-block {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    padding: 14px 36px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .footer-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: rgba(255,255,255,0.3);
+  }
+  .sources { display: flex; gap: 6px; }
+  .source-chip {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 5px; padding: 3px 8px;
+    font-size: 10px; color: rgba(255,255,255,0.35);
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER ĐẬM MÀU -->
+<div class="header-block">
+  <div class="header-top">
+    <div class="brand">
+      <div class="brand-icon"><img src="{{ logo_b64 }}" alt="Lucas"></div>
+      <div>
+        <div class="brand-name">Rumor</div>
+        <div class="brand-sub">Tin Apple nổi bật</div>
+      </div>
+    </div>
+    <div class="date-badge">{{ date }}</div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-text">
+      <div class="category-row">
+        <span class="category-icon">{{ category_icon }}</span>
+        <span class="category-tag">{{ category }}</span>
+      </div>
+      <div class="hero-title">{{ title }}</div>
+      <div class="hero-summary">{{ summary }}</div>
+    </div>
+    {% if image_b64 %}
+    <div class="hero-image-wrap">
+      <img src="{{ image_b64 }}" alt="">
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- BODY SÁNG -->
+<div class="body-block">
+  {% set vd = visual_data %}
+
+  {% if visual_type == "comparison" %}
+  <div class="cmp-metric">// {{ vd.metric }}</div>
+  <div class="cmp-row">
+    <div class="cmp-side">
+      <div class="cmp-label">{{ vd.left.label }}</div>
+      <div class="cmp-value">{{ vd.left.value }}<span class="cmp-unit">{{ vd.left.unit }}</span></div>
+      <div class="cmp-bar-wrap"><div class="cmp-bar" style="width:{{ (vd.left.value/vd.max*100)|int }}%"></div></div>
+    </div>
+    <div class="cmp-vs">VS</div>
+    <div class="cmp-side highlight">
+      <div class="cmp-label">{{ vd.right.label }}</div>
+      <div class="cmp-value">{{ vd.right.value }}<span class="cmp-unit">{{ vd.right.unit }}</span></div>
+      <div class="cmp-bar-wrap"><div class="cmp-bar" style="width:{{ (vd.right.value/vd.max*100)|int }}%"></div></div>
+    </div>
+  </div>
+
+  {% elif visual_type == "stat" %}
+  <div class="stat-main">
+    <div class="stat-main-value">{{ vd.main.value }}<span class="stat-main-unit">{{ vd.main.unit }}</span></div>
+    <div class="stat-main-label">{{ vd.main.label }}</div>
+  </div>
+  {% if vd.sub %}
+  <div class="stat-subs">
+    {% for s in vd.sub %}<div class="stat-sub"><div class="stat-sub-value">{{ s.value }}</div><div class="stat-sub-label">{{ s.label }}</div></div>{% endfor %}
+  </div>
+  {% endif %}
+
+  {% elif visual_type == "announcement" %}
+  <div class="announce-wrap">
+    <div class="announce-product">{{ vd.product }}</div>
+    <div class="announce-tagline">{{ vd.tagline }}</div>
+    {% if vd.date %}<div class="announce-date">📅 {{ vd.date }}</div>{% endif %}
+  </div>
+
+  {% elif visual_type == "deal" %}
+  <div class="deal-wrap">
+    <div class="deal-product-name">{{ vd.product }}</div>
+    <div class="deal-original">Giá gốc: {{ vd.original_price }}</div>
+    <div class="deal-prices">
+      <div class="deal-sale">{{ vd.sale_price }}</div>
+      <div class="deal-badge">-{{ vd.discount }}</div>
+    </div>
+  </div>
+
+  {% elif visual_type == "timeline" %}
+  <div class="timeline">
+    {% for ev in vd.events %}
+    <div class="tl-item">
+      <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-connector"></div></div>
+      <div class="tl-content">
+        <div class="tl-date">{{ ev.date }}</div>
+        <div class="tl-label">{{ ev.label }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+<!-- KEY POINTS -->
+<div class="bullets-block">
+  <div class="section-label">// key points</div>
+  {% for b in bullets %}
+  <div class="bullet-item">
+    <div class="bullet-num">{{ loop.index }}</div>
+    <div class="bullet-text">{{ b }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- FOOTER ĐẬM -->
+<div class="footer-block">
+  <div class="footer-meta">// tổng hợp bởi Lucas · {{ date }}</div>
+  <div class="sources">
+    {% for src in sources %}<span class="source-chip">{{ src }}</span>{% endfor %}
+  </div>
+</div>
+
+</body>
+</html>
