@@ -144,12 +144,104 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
     return data
 
 
-def run(client, limit_per_source=5):
+def pick_top3(client, articles: list[dict]) -> list[dict]:
+    """Chọn 3 tin nổi bật, đa dạng chủ đề, mỗi tin build infographic riêng."""
+    articles_text = "\n\n".join(
+        f"[{i+1}] {a['source']} — {a['title']}\n{a['summary'][:300]}"
+        for i, a in enumerate(articles)
+    )
+
+    prompt = f"""Bạn là biên tập viên công nghệ người Việt.
+
+Dưới đây là các tin Apple mới nhất:
+
+{articles_text}
+
+Chọn 3 tin nổi bật nhất, đa dạng chủ đề (không trùng nhau). Trả về JSON (chỉ JSON, không markdown):
+
+[
+  {{"selected_index": số thứ tự (1-based)}},
+  {{"selected_index": số thứ tự (1-based)}},
+  {{"selected_index": số thứ tự (1-based)}}
+]"""
+
+    msg = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=100,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    raw = msg.content[0].text.strip()
+    match = re.search(r"\[[\s\S]+\]", raw)
+    picks = json.loads(match.group() if match else raw)
+
+    results = []
+    for pick in picks[:3]:
+        idx = max(0, min(pick["selected_index"] - 1, len(articles) - 1))
+        data = pick_and_build(client, [articles[idx]])
+        data["article_link"] = articles[idx]["link"]
+        results.append(data)
+
+    return results
+
+
+def pick_digest(client, articles: list[dict]) -> dict:
+    """Chọn top 4 tin và tổng hợp thành digest."""
+    articles_text = "\n\n".join(
+        f"[{i+1}] {a['source']} — {a['title']}\n{a['summary'][:300]}"
+        for i, a in enumerate(articles)
+    )
+
+    prompt = f"""Bạn là biên tập viên công nghệ người Việt.
+
+Dưới đây là các tin Apple mới nhất:
+
+{articles_text}
+
+Chọn 4 tin đa dạng, nổi bật nhất (không trùng chủ đề) rồi trả về JSON (chỉ JSON, không markdown):
+
+{{
+  "intro": "1 câu mở đầu ngắn, tổng quan tin hôm nay, giọng thân thiện",
+  "stories": [
+    {{
+      "selected_index": số thứ tự bài (1-based),
+      "category": "iPhone | MacBook | Apple AI | Sự kiện | Tin nóng",
+      "category_icon": "emoji",
+      "title": "tiêu đề tiếng Việt súc tích, tối đa 10 từ",
+      "bullets": ["điểm nổi bật 1", "điểm nổi bật 2"]
+    }}
+  ]
+}}"""
+
+    msg = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=1200,
+        messages=[{"role": "user", "content": prompt}],
+    )
+
+    raw = msg.content[0].text.strip()
+    match = re.search(r"\{[\s\S]+\}", raw)
+    data = json.loads(match.group() if match else raw)
+
+    # gán link cho từng story
+    for story in data["stories"]:
+        idx = max(0, min(story.pop("selected_index", 1) - 1, len(articles) - 1))
+        story["article_link"] = articles[idx]["link"]
+        story["source"] = articles[idx]["source"]
+
+    return data
+
+
+def run(client, limit_per_source=5, mode="top3"):
     articles, seen_links = fetch_articles(limit_per_source)
     if not articles:
         return None, seen_links
 
-    infographic_data = pick_and_build(client, articles)
-    new_links = {a["link"] for a in articles}
+    if mode == "top3":
+        data = pick_top3(client, articles)
+    elif mode == "digest":
+        data = pick_digest(client, articles)
+    else:
+        data = pick_and_build(client, articles)
 
-    return infographic_data, seen_links | new_links
+    new_links = {a["link"] for a in articles}
+    return data, seen_links | new_links

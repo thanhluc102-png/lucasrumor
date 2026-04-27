@@ -35,6 +35,34 @@ def fetch_og_image_b64(url: str) -> str | None:
         return None
 
 
+def render_digest_png(data: dict, output_path: str = "digest.png"):
+    date_str = datetime.now().strftime("%d/%m/%Y")
+
+    # lấy ảnh cho từng story
+    for story in data["stories"]:
+        link = story.pop("article_link", None)
+        if link:
+            story["image_b64"] = fetch_og_image_b64(link)
+        else:
+            story["image_b64"] = None
+
+    env = Environment(loader=FileSystemLoader("."))
+    html = env.get_template("template_digest.html").render(
+        date=date_str, logo_b64=LOGO_B64, **data
+    )
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(viewport={"width": 800, "height": 1}, device_scale_factor=2)
+        page.set_content(html, wait_until="networkidle")
+        height = page.evaluate("document.body.scrollHeight")
+        page.set_viewport_size({"width": 800, "height": height})
+        page.screenshot(path=output_path, full_page=True)
+        browser.close()
+
+    return output_path
+
+
 def render_png(data: dict, output_path: str = "digest.png"):
     date_str = datetime.now().strftime("%d/%m/%Y")
 
@@ -104,19 +132,17 @@ def main():
         print(f"Chat ID: {tg_chat_id}")
 
     print("Đang lấy và tổng hợp tin...")
-    data, new_seen = rss_fetch.run(client, limit_per_source=5)
+    stories, new_seen = rss_fetch.run(client, limit_per_source=5, mode="top3")
 
-    if not data:
+    if not stories:
         print("Không có tin mới."); return
 
-    print(f"Tin nổi bật: {data['title']}")
-    print("Đang render PNG...")
-    img_path = render_png(data)
-    print(f"Render xong: {img_path}")
-
-    caption = f"🍎 {data['title']}\n\n{data['summary']}"
-    send_telegram(img_path, caption, tg_token, str(tg_chat_id))
-    print("Đã gửi Telegram!")
+    for i, data in enumerate(stories, 1):
+        print(f"\n[{i}/3] {data['title']}")
+        img_path = render_png(data, f"digest_{i}.png")
+        caption = f"🍎 {data['title']}\n\n{data['summary']}"
+        send_telegram(img_path, caption, tg_token, str(tg_chat_id))
+        print(f"  Đã gửi Telegram!")
 
     rss_fetch.save_seen(new_seen)
 
