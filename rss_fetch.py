@@ -25,20 +25,14 @@ REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
 
 # Chỉ lấy bài có engagement đủ lớn
 MIN_SCORE    = 80   # upvotes tối thiểu
-MIN_COMMENTS = 15   # comments tối thiểu
-
 KEYWORDS = ["macbook", "iphone", "apple", "mac", "ipad", "ios", "macos"]
 DEAL_KEYWORDS = ["save $", "save up to", " off on ", "deal:", "% off", "drops to $",
                  "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
                  "refurbished", "best place to buy", "skip apple's pricey",
                  "costco", " sale "]
-
-# Reddit post cá nhân / support → bỏ
-REDDIT_PERSONAL = ["birthday", "years old", "my phone", "my mac", "my iphone",
-                   "my watch", "my ipad", "totalled", "broke", "stolen",
-                   "help me", "rant:", "[rant]", "psa:"]
-SEEN_FILE = Path("seen_articles.json")
+SEEN_FILE  = Path("seen_articles.json")
 REDDIT_UA  = "AppleNewsBot/1.0 (by /u/lucasrumor)"
+MIN_SCORE  = 80  # upvotes tối thiểu cho Reddit link post
 
 
 def load_seen():
@@ -86,74 +80,65 @@ def fetch_articles(limit_per_source=5):
         feed = feedparser.parse(url)
         _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
 
-    # Reddit — dùng JSON API, lọc theo engagement
+    # Reddit — chỉ lấy LINK POST (bài dẫn nguồn báo ngoài), sort theo upvote
+    # Lý do: self/image post dù nhiều like thường là bài cá nhân, không phải tin tức
     reddit_pool = []
     for sub in REDDIT_SUBS:
         try:
-            url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit=10"
+            url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit=25"
             r = requests.get(url, headers={"User-Agent": REDDIT_UA}, timeout=8)
             posts = r.json()["data"]["children"]
             for post in posts:
                 p = post["data"]
-                title    = p.get("title", "")
-                score    = p.get("score", 0)
-                comments = p.get("num_comments", 0)
-                link     = f"https://www.reddit.com{p.get('permalink', '')}"
-                selftext = p.get("selftext", "")[:800]
 
-                if score < MIN_SCORE or comments < MIN_COMMENTS:
+                # chỉ lấy link post trỏ tới bài báo ngoài (không phải ảnh/video Reddit)
+                if p.get("is_self", True):
+                    continue
+                if p.get("post_hint", "") in ("image", "rich:video", "hosted:video"):
+                    continue
+                domain = p.get("domain", "")
+                if domain in ("reddit.com", "i.redd.it", "v.redd.it",
+                              "imgur.com", "i.imgur.com", "gallery.imgur.com"):
+                    continue
+
+                title  = p.get("title", "")
+                score  = p.get("score", 0)
+                link   = f"https://www.reddit.com{p.get('permalink', '')}"
+                domain = p.get("domain", "")
+
+                if score < MIN_SCORE:
                     continue
                 if any(skip in title.lower() for skip in REDDIT_SKIP):
                     continue
-
-                title_low = title.lower()
-                combined  = (title + " " + selftext).lower()
-
-                if any(kw in combined for kw in DEAL_KEYWORDS):
+                if any(kw in title.lower() for kw in DEAL_KEYWORDS):
                     continue
-                if any(kw in title_low for kw in REDDIT_PERSONAL):
-                    continue
-
-                is_self  = p.get("is_self", True)
-                is_image = p.get("post_hint", "") in ("image", "rich:video")
-
-                # bỏ image post thuần (không có bài báo đính kèm)
-                if is_image:
-                    continue
-                # self post cần có body text đủ dài
-                if is_self and len(selftext.split()) < 15:
-                    continue
-                # sub chung cần keyword Apple
+                # sub chung cần keyword Apple trong tiêu đề
                 if sub in ("mac", "MacOS", "macapps"):
-                    if not any(kw in combined for kw in KEYWORDS):
+                    if not any(kw in title.lower() for kw in KEYWORDS):
                         continue
 
-                engagement = score + comments * 3
                 reddit_pool.append({
                     "source": f"r/{sub}",
                     "title": title,
-                    "summary": selftext or title,
+                    "summary": f"Được cộng đồng r/{sub} chia sẻ từ {domain} với {score} upvotes.",
                     "link": link,
-                    "engagement": engagement,
+                    "score": score,
                 })
         except Exception as e:
             print(f"Reddit r/{sub} lỗi: {e}")
 
-    # sắp xếp theo engagement, lấy top đa dạng sub
-    reddit_pool.sort(key=lambda x: x["engagement"], reverse=True)
-    seen_subs = {}
+    # sort theo upvote, tối đa 2 bài/sub, bỏ trùng tiêu đề
+    reddit_pool.sort(key=lambda x: x["score"], reverse=True)
+    seen_subs: dict[str, int] = {}
     for post in reddit_pool:
         sub = post["source"]
-        if seen_subs.get(sub, 0) >= 2:  # tối đa 2 bài/sub
+        if seen_subs.get(sub, 0) >= 2:
             continue
-        combined = (post["title"] + " " + post["summary"]).lower()
-        if any(kw in combined for kw in DEAL_KEYWORDS):
-            continue
-        if link in seen_links:
+        if post["link"] in seen_links:
             continue
         if any(is_similar(post["title"], a["title"]) for a in articles):
             continue
-        articles.append({k: v for k, v in post.items() if k != "engagement"})
+        articles.append({k: v for k, v in post.items() if k != "score"})
         seen_subs[sub] = seen_subs.get(sub, 0) + 1
 
     return articles, seen_links
