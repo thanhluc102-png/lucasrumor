@@ -15,15 +15,17 @@ RSS_FEEDS = {
     "MacStories":   "https://www.macstories.net/feed/",
 }
 
-REDDIT_FEEDS = {
-    "r/apple":      "https://www.reddit.com/r/apple/hot/.rss",
-    "r/iphone":     "https://www.reddit.com/r/iphone/hot/.rss",
-    "r/MacRumors":  "https://www.reddit.com/r/macrumors/hot/.rss",
-}
+# Subreddit theo dõi — chọn lọc theo member count và chất lượng tin
+REDDIT_SUBS = ["apple", "iphone", "AppleWatch", "ios", "iPad", "MacBook"]
 
-# Reddit thread kiểu megathread / hỏi đáp → bỏ qua
+# Bỏ qua thread hỏi đáp / megathread
 REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
-               "advice thread", "order/shipping", "discussion thread"]
+               "advice thread", "order/shipping", "discussion thread",
+               "buying advice", "mod post", "pinned"]
+
+# Chỉ lấy bài có engagement đủ lớn
+MIN_SCORE    = 50   # upvotes tối thiểu
+MIN_COMMENTS = 10   # comments tối thiểu
 
 KEYWORDS = ["macbook", "iphone", "apple", "mac", "ipad", "ios", "macos"]
 DEAL_KEYWORDS = ["save $", "save up to", " off on ", "deal:", "% off", "drops to $",
@@ -78,23 +80,54 @@ def fetch_articles(limit_per_source=5):
         feed = feedparser.parse(url)
         _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
 
-    # Reddit — cần User-Agent riêng và lọc megathread
-    for source, url in REDDIT_FEEDS.items():
+    # Reddit — dùng JSON API, lọc theo engagement
+    reddit_pool = []
+    for sub in REDDIT_SUBS:
         try:
+            url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit=10"
             r = requests.get(url, headers={"User-Agent": REDDIT_UA}, timeout=8)
-            feed = feedparser.parse(r.text)
-            count = 0
-            for entry in feed.entries:
-                if count >= limit_per_source:
-                    break
-                title = entry.get("title", "")
+            posts = r.json()["data"]["children"]
+            for post in posts:
+                p = post["data"]
+                title    = p.get("title", "")
+                score    = p.get("score", 0)
+                comments = p.get("num_comments", 0)
+                link     = f"https://www.reddit.com{p.get('permalink', '')}"
+                selftext = p.get("selftext", "")[:800]
+
                 if any(skip in title.lower() for skip in REDDIT_SKIP):
                     continue
-                _add_entries([entry], source, seen_links, articles, 1)
-                if articles and articles[-1]["source"] == source:
-                    count += 1
+                if score < MIN_SCORE or comments < MIN_COMMENTS:
+                    continue
+
+                # engagement score để sort sau
+                engagement = score + comments * 3
+                reddit_pool.append({
+                    "source": f"r/{sub}",
+                    "title": title,
+                    "summary": selftext or title,
+                    "link": link,
+                    "engagement": engagement,
+                })
         except Exception as e:
-            print(f"Reddit {source} lỗi: {e}")
+            print(f"Reddit r/{sub} lỗi: {e}")
+
+    # sắp xếp theo engagement, lấy top đa dạng sub
+    reddit_pool.sort(key=lambda x: x["engagement"], reverse=True)
+    seen_subs = {}
+    for post in reddit_pool:
+        sub = post["source"]
+        if seen_subs.get(sub, 0) >= 2:  # tối đa 2 bài/sub
+            continue
+        combined = (post["title"] + " " + post["summary"]).lower()
+        if any(kw in combined for kw in DEAL_KEYWORDS):
+            continue
+        if link in seen_links:
+            continue
+        if any(is_similar(post["title"], a["title"]) for a in articles):
+            continue
+        articles.append({k: v for k, v in post.items() if k != "engagement"})
+        seen_subs[sub] = seen_subs.get(sub, 0) + 1
 
     return articles, seen_links
 
