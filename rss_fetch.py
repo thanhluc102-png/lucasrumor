@@ -101,10 +101,11 @@ def fetch_articles(limit_per_source=5):
                               "imgur.com", "i.imgur.com", "gallery.imgur.com"):
                     continue
 
-                title  = p.get("title", "")
-                score  = p.get("score", 0)
-                link   = f"https://www.reddit.com{p.get('permalink', '')}"
-                domain = p.get("domain", "")
+                title       = p.get("title", "")
+                score       = p.get("score", 0)
+                article_url = p.get("url", "")          # link bài báo gốc
+                reddit_link = f"https://www.reddit.com{p.get('permalink', '')}"
+                domain      = p.get("domain", "")
 
                 if score < MIN_SCORE:
                     continue
@@ -121,7 +122,8 @@ def fetch_articles(limit_per_source=5):
                     "source": f"r/{sub}",
                     "title": title,
                     "summary": f"Được cộng đồng r/{sub} chia sẻ từ {domain} với {score} upvotes.",
-                    "link": link,
+                    "link": article_url,    # dùng để fetch og:image và seen tracking
+                    "reddit_link": reddit_link,
                     "score": score,
                 })
         except Exception as e:
@@ -134,7 +136,7 @@ def fetch_articles(limit_per_source=5):
         sub = post["source"]
         if seen_subs.get(sub, 0) >= 2:
             continue
-        if post["link"] in seen_links:
+        if post["link"] in seen_links or post.get("reddit_link","") in seen_links:
             continue
         if any(is_similar(post["title"], a["title"]) for a in articles):
             continue
