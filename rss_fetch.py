@@ -1,6 +1,7 @@
 import feedparser
 import json
 import re
+import requests
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -14,11 +15,22 @@ RSS_FEEDS = {
     "MacStories":   "https://www.macstories.net/feed/",
 }
 
+REDDIT_FEEDS = {
+    "r/apple":      "https://www.reddit.com/r/apple/hot/.rss",
+    "r/iphone":     "https://www.reddit.com/r/iphone/hot/.rss",
+    "r/MacRumors":  "https://www.reddit.com/r/macrumors/hot/.rss",
+}
+
+# Reddit thread kiểu megathread / hỏi đáp → bỏ qua
+REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
+               "advice thread", "order/shipping", "discussion thread"]
+
 KEYWORDS = ["macbook", "iphone", "apple", "mac", "ipad", "ios", "macos"]
 DEAL_KEYWORDS = ["save $", "save up to", " off on ", "deal:", "% off", "drops to $",
                  "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
                  "refurbished", "best place to buy", "skip apple's pricey"]
 SEEN_FILE = Path("seen_articles.json")
+REDDIT_UA  = "AppleNewsBot/1.0 (by /u/lucasrumor)"
 
 
 def load_seen():
@@ -35,35 +47,54 @@ def is_similar(a: str, b: str, threshold=0.6) -> bool:
     return SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
 
 
+def _add_entries(feed_entries, source, seen_links, articles, limit):
+    count = 0
+    for entry in feed_entries:
+        if count >= limit:
+            break
+        link  = entry.get("link", "")
+        title = entry.get("title", "")
+        if link in seen_links:
+            continue
+        summary  = entry.get("summary", entry.get("description", ""))
+        combined = (title + " " + summary).lower()
+        if any(kw in combined for kw in DEAL_KEYWORDS):
+            continue
+        if not any(kw in combined for kw in KEYWORDS):
+            continue
+        if any(is_similar(title, a["title"]) for a in articles):
+            continue
+        articles.append({"source": source, "title": title,
+                          "summary": summary[:1000], "link": link})
+        count += 1
+
+
 def fetch_articles(limit_per_source=5):
     seen_links = load_seen()
     articles = []
 
+    # nguồn báo thông thường
     for source, url in RSS_FEEDS.items():
         feed = feedparser.parse(url)
-        count = 0
-        for entry in feed.entries:
-            if count >= limit_per_source:
-                break
-            link = entry.get("link", "")
-            title = entry.get("title", "")
-            if link in seen_links:
-                continue
-            summary = entry.get("summary", entry.get("description", ""))
-            combined_lower = (title + " " + summary).lower()
-            if not any(kw in combined_lower for kw in KEYWORDS):
-                continue
-            if any(kw in combined_lower for kw in DEAL_KEYWORDS):
-                continue
-            if any(is_similar(title, a["title"]) for a in articles):
-                continue
-            articles.append({
-                "source": source,
-                "title": title,
-                "summary": summary[:1000],
-                "link": link,
-            })
-            count += 1
+        _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
+
+    # Reddit — cần User-Agent riêng và lọc megathread
+    for source, url in REDDIT_FEEDS.items():
+        try:
+            r = requests.get(url, headers={"User-Agent": REDDIT_UA}, timeout=8)
+            feed = feedparser.parse(r.text)
+            count = 0
+            for entry in feed.entries:
+                if count >= limit_per_source:
+                    break
+                title = entry.get("title", "")
+                if any(skip in title.lower() for skip in REDDIT_SKIP):
+                    continue
+                _add_entries([entry], source, seen_links, articles, 1)
+                if articles and articles[-1]["source"] == source:
+                    count += 1
+        except Exception as e:
+            print(f"Reddit {source} lỗi: {e}")
 
     return articles, seen_links
 
