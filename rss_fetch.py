@@ -15,8 +15,8 @@ RSS_FEEDS = {
     "MacStories":   "https://www.macstories.net/feed/",
 }
 
-# Subreddit theo dõi — chọn lọc theo member count và chất lượng tin
-REDDIT_SUBS = ["apple", "iphone", "AppleWatch", "ios", "iPad", "MacBook"]
+# Subreddit theo dõi — xếp theo engagement thực tế (đã khảo sát)
+REDDIT_SUBS = ["mac", "iphone", "AppleWatch", "apple", "MacOS", "macapps", "airpods", "VisionPro"]
 
 # Bỏ qua thread hỏi đáp / megathread
 REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
@@ -24,13 +24,19 @@ REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
                "buying advice", "mod post", "pinned"]
 
 # Chỉ lấy bài có engagement đủ lớn
-MIN_SCORE    = 50   # upvotes tối thiểu
-MIN_COMMENTS = 10   # comments tối thiểu
+MIN_SCORE    = 80   # upvotes tối thiểu
+MIN_COMMENTS = 15   # comments tối thiểu
 
 KEYWORDS = ["macbook", "iphone", "apple", "mac", "ipad", "ios", "macos"]
 DEAL_KEYWORDS = ["save $", "save up to", " off on ", "deal:", "% off", "drops to $",
                  "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
-                 "refurbished", "best place to buy", "skip apple's pricey"]
+                 "refurbished", "best place to buy", "skip apple's pricey",
+                 "costco", " sale "]
+
+# Reddit post cá nhân / support → bỏ
+REDDIT_PERSONAL = ["birthday", "years old", "my phone", "my mac", "my iphone",
+                   "my watch", "my ipad", "totalled", "broke", "stolen",
+                   "help me", "rant:", "[rant]", "psa:"]
 SEEN_FILE = Path("seen_articles.json")
 REDDIT_UA  = "AppleNewsBot/1.0 (by /u/lucasrumor)"
 
@@ -95,12 +101,33 @@ def fetch_articles(limit_per_source=5):
                 link     = f"https://www.reddit.com{p.get('permalink', '')}"
                 selftext = p.get("selftext", "")[:800]
 
-                if any(skip in title.lower() for skip in REDDIT_SKIP):
-                    continue
                 if score < MIN_SCORE or comments < MIN_COMMENTS:
                     continue
+                if any(skip in title.lower() for skip in REDDIT_SKIP):
+                    continue
 
-                # engagement score để sort sau
+                title_low = title.lower()
+                combined  = (title + " " + selftext).lower()
+
+                if any(kw in combined for kw in DEAL_KEYWORDS):
+                    continue
+                if any(kw in title_low for kw in REDDIT_PERSONAL):
+                    continue
+
+                is_self  = p.get("is_self", True)
+                is_image = p.get("post_hint", "") in ("image", "rich:video")
+
+                # bỏ image post thuần (không có bài báo đính kèm)
+                if is_image:
+                    continue
+                # self post cần có body text đủ dài
+                if is_self and len(selftext.split()) < 15:
+                    continue
+                # sub chung cần keyword Apple
+                if sub in ("mac", "MacOS", "macapps"):
+                    if not any(kw in combined for kw in KEYWORDS):
+                        continue
+
                 engagement = score + comments * 3
                 reddit_pool.append({
                     "source": f"r/{sub}",
