@@ -144,7 +144,7 @@ def fetch_articles(limit_per_source=5):
             continue
         if any(is_similar(post["title"], a["title"]) for a in articles):
             continue
-        articles.append({k: v for k, v in post.items() if k not in ("score","rank")})
+        articles.append({k: v for k, v in post.items() if k != "rank"})
         seen_subs[sub] = seen_subs.get(sub, 0) + 1
 
     return articles, seen_links
@@ -276,11 +276,24 @@ def pick_top3(client, articles: list[dict]) -> dict:
             data["article_link"] = art["link"]
             if art.get("image_url"):
                 data["image_url"] = art["image_url"]
+            # Patch số liệu thật cho community post (Claude có thể điền sai/None)
+            if art["source"].startswith("r/") and data.get("visual_type") == "community":
+                vd = data.setdefault("visual_data", {})
+                vd["upvotes"]  = art.get("score", 0)
+                vd["comments"] = art.get("comments", 0)
+                vd.setdefault("subreddit", art["source"].replace("r/", ""))
             results.append(data)
         return results
 
-    news_results   = build_results(news, 3, "Chọn 3 tin tức Apple nổi bật nhất, đa dạng chủ đề.")
-    reddit_results = build_results(reddit, 3, "Chọn 3 bài cộng đồng thú vị nhất, ưu tiên bài có hình ảnh và nhiều bình luận.")
+    news_results = build_results(news, 3, "Chọn 3 tin tức Apple nổi bật nhất, đa dạng chủ đề.")
+
+    # Lọc reddit pool: bỏ bài trùng chủ đề với news đã chọn
+    chosen_news_titles = [d["title"] for d in news_results]
+    reddit_filtered = [
+        a for a in reddit
+        if not any(is_similar(a["title"], t) for t in chosen_news_titles)
+    ]
+    reddit_results = build_results(reddit_filtered, 3, "Chọn 3 bài cộng đồng thú vị nhất, ưu tiên bài có hình ảnh và nhiều bình luận.")
 
     return {"news": news_results, "reddit": reddit_results}
 

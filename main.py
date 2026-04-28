@@ -79,23 +79,24 @@ def fetch_image_b64(url: str) -> str | None:
         return None
 
 
-def render_png(data: dict, output_path: str = "digest.png"):
-    date_str = datetime.now().strftime("%d/%m/%Y")
-
-    image_b64 = None
+def fetch_article_image(data: dict) -> str | None:
+    """Fetch ảnh cho bài (Reddit direct URL hoặc og:image từ báo). Trả về base64."""
     image_url = data.get("image_url")
     article_link = data.get("article_link")
-
     if image_url:
-        # Reddit post with direct image URL
         print(f"  Đang lấy ảnh Reddit...")
-        image_b64 = fetch_image_b64(image_url)
-        print(f"  {'Có ảnh' if image_b64 else 'Không có ảnh'}")
+        img = fetch_image_b64(image_url)
     elif article_link:
         print(f"  Đang lấy ảnh từ {article_link.split('/')[2]}...")
-        image_b64 = fetch_og_image_b64(article_link)
-        print(f"  {'Có ảnh' if image_b64 else 'Không có ảnh'}")
+        img = fetch_og_image_b64(article_link)
+    else:
+        img = None
+    print(f"  {'Có ảnh' if img else 'Không có ảnh'}")
+    return img
 
+
+def render_png(data: dict, output_path: str = "digest.png", image_b64: str | None = None):
+    date_str = datetime.now().strftime("%d/%m/%Y")
     env = Environment(loader=FileSystemLoader("."))
     html = env.get_template("template.html").render(
         date=date_str,
@@ -103,19 +104,36 @@ def render_png(data: dict, output_path: str = "digest.png"):
         logo_b64=LOGO_B64,
         **{k: v for k, v in data.items() if k not in ("article_link", "image_url")},
     )
-
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page(
-            viewport={"width": 800, "height": 1},
-            device_scale_factor=2,  # render 2x → ảnh nét gấp đôi
-        )
+        page = browser.new_page(viewport={"width": 800, "height": 1}, device_scale_factor=2)
         page.set_content(html, wait_until="networkidle")
         height = page.evaluate("document.body.scrollHeight")
         page.set_viewport_size({"width": 800, "height": height})
         page.screenshot(path=output_path, full_page=True)
         browser.close()
+    return output_path
 
+
+def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> str:
+    """Render ảnh dọc 9:16 (1080×1920) cho TikTok — dùng lại image_b64 đã fetch."""
+    date_str = datetime.now().strftime("%d/%m/%Y")
+    env = Environment(loader=FileSystemLoader("."))
+    html = env.get_template("template_tiktok.html").render(
+        date=date_str,
+        image_b64=image_b64,
+        logo_b64=LOGO_B64,
+        **{k: v for k, v in data.items() if k not in ("article_link", "image_url")},
+    )
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(
+            viewport={"width": 540, "height": 960},
+            device_scale_factor=2,   # 2x → 1080×1920
+        )
+        page.set_content(html, wait_until="networkidle")
+        page.screenshot(path=output_path)
+        browser.close()
     return output_path
 
 
@@ -167,19 +185,25 @@ def main():
     print(f"\n📰 Tin báo ({len(news_stories)} bài):")
     for i, data in enumerate(news_stories, 1):
         print(f"\n[{i}/{total}] {data['title']}")
-        img_path = render_png(data, f"digest_{i}.png")
+        img = fetch_article_image(data)
+        render_png(data, f"digest_{i}.png", img)
+        render_tiktok_png(data, img, f"tiktok_{i}.png")
         caption = f"🍎 {data['title']}\n\n{data['summary']}"
-        send_telegram(img_path, caption, tg_token, str(tg_chat_id))
-        print(f"  Đã gửi Telegram!")
+        send_telegram(f"digest_{i}.png", caption, tg_token, str(tg_chat_id))
+        send_telegram(f"tiktok_{i}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
+        print(f"  Đã gửi Telegram + TikTok!")
 
     print(f"\n🔴 Reddit community ({len(reddit_stories)} bài):")
     for i, data in enumerate(reddit_stories, 1):
         idx = len(news_stories) + i
         print(f"\n[{idx}/{total}] {data['title']}")
-        img_path = render_png(data, f"digest_{idx}.png")
+        img = fetch_article_image(data)
+        render_png(data, f"digest_{idx}.png", img)
+        render_tiktok_png(data, img, f"tiktok_{idx}.png")
         caption = f"🔥 {data['title']}\n\n{data['summary']}"
-        send_telegram(img_path, caption, tg_token, str(tg_chat_id))
-        print(f"  Đã gửi Telegram!")
+        send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
+        send_telegram(f"tiktok_{idx}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
+        print(f"  Đã gửi Telegram + TikTok!")
 
     rss_fetch.save_seen(new_seen)
 

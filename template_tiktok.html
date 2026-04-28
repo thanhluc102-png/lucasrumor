@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 540px; height: 960px;
+  overflow: hidden;
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: #fff;
+  background: #050510;
+  position: relative;
+}
+
+/* ── AURORA BACKGROUND ── */
+.aurora { position: absolute; border-radius: 50%; filter: blur(90px); z-index: 0; }
+.a1 { width: 420px; height: 420px; background: rgba(29,78,216,0.35); top: -80px; left: -60px; }
+.a2 { width: 340px; height: 340px; background: rgba(124,58,237,0.2); bottom: -60px; right: -60px; }
+.a3 { width: 200px; height: 200px; background: rgba(96,165,250,0.15); top: 45%; left: 55%; }
+
+/* dot grid overlay */
+.dots {
+  position: absolute; inset: 0; z-index: 1;
+  background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── PAGE LAYOUT ── */
+.page {
+  position: relative; z-index: 2;
+  height: 960px;
+  display: flex; flex-direction: column;
+}
+
+/* ── HEADER ── */
+.hd {
+  padding: 36px 36px 28px;
+  flex-shrink: 0;
+}
+.hd-top {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 24px;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-icon {
+  width: 38px; height: 38px; border-radius: 10px;
+  overflow: hidden; background: rgba(255,255,255,0.08);
+  flex-shrink: 0;
+}
+.brand-icon img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.brand-name { font-size: 16px; font-weight: 800; color: #fff; letter-spacing: -0.3px; }
+.brand-sub  { font-size: 10px; color: rgba(255,255,255,0.35); margin-top: 1px; }
+.date-pill {
+  font-family: 'JetBrains Mono', monospace;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px; padding: 5px 14px;
+  font-size: 10px; color: rgba(255,255,255,0.45);
+}
+
+/* VIRAL / CATEGORY BADGE */
+.viral-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: linear-gradient(135deg, #dc2626, #ea580c);
+  border-radius: 7px; padding: 5px 14px;
+  font-size: 11px; font-weight: 800; color: #fff;
+  letter-spacing: 0.8px; text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.viral-dot { width: 7px; height: 7px; border-radius: 50%; background: #fff; opacity: 0.85; }
+.cat-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 7px; padding: 5px 14px;
+  font-size: 11px; font-weight: 700; color: #93c5fd;
+  letter-spacing: 0.6px; text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.hd-title {
+  font-size: 30px; font-weight: 900; line-height: 1.15;
+  letter-spacing: -0.8px; color: #fff;
+  margin-bottom: 12px;
+}
+.hd-summary { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.65; }
+
+/* community meta under title */
+.community-meta {
+  display: flex; align-items: center; gap: 14px; margin-top: 10px;
+}
+.community-sub { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: rgba(255,255,255,0.4); }
+.community-count { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: rgba(255,255,255,0.4); }
+
+/* ── BODY ── */
+.body {
+  flex: 1; min-height: 0;
+  background: #fff;
+  border-radius: 28px 28px 0 0;
+  padding: 28px 30px 20px;
+  display: flex; flex-direction: column;
+  overflow: hidden;
+}
+
+/* COMMUNITY image block */
+.comm-img-wrap {
+  width: 100%; border-radius: 16px; overflow: hidden;
+  max-height: 220px; flex-shrink: 0;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+.comm-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.comm-post-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; font-weight: 700; color: #94a3b8;
+  letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;
+}
+.comm-post-text {
+  font-size: 13.5px; color: #334155; line-height: 1.7;
+  background: #f8fafc; border: 1.5px solid #e2e8f0;
+  border-radius: 12px; padding: 14px 16px; flex-shrink: 0;
+}
+
+/* hero image (news) */
+.hero-img-wrap {
+  width: 100%; border-radius: 16px; overflow: hidden;
+  height: 200px; flex-shrink: 0;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* COMPARISON */
+.cmp-metric {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; font-weight: 700; color: #94a3b8;
+  letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;
+}
+.cmp-row { display: flex; align-items: stretch; gap: 12px; margin-bottom: 16px; }
+.cmp-side {
+  flex: 1; background: #f8fafc; border: 1.5px solid #e2e8f0;
+  border-radius: 14px; padding: 16px;
+}
+.cmp-side.highlight { background: #eff6ff; border-color: #3b82f6; }
+.cmp-label { font-size: 11px; color: #94a3b8; margin-bottom: 6px; font-weight: 500; }
+.cmp-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 34px; font-weight: 700; color: #1e293b; line-height: 1; letter-spacing: -1px;
+}
+.cmp-side.highlight .cmp-value { color: #1d4ed8; }
+.cmp-unit { font-size: 13px; font-weight: 600; color: #94a3b8; }
+.cmp-side.highlight .cmp-unit { color: #60a5fa; }
+.cmp-bar-wrap { margin-top: 10px; background: #e2e8f0; border-radius: 3px; height: 4px; }
+.cmp-bar { height: 100%; border-radius: 3px; background: #cbd5e1; }
+.cmp-side.highlight .cmp-bar { background: linear-gradient(90deg,#2563eb,#7c3aed); }
+.cmp-vs {
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; font-weight: 700; color: #cbd5e1;
+  padding-top: 24px; flex-shrink: 0;
+}
+
+/* STAT */
+.stat-main {
+  background: linear-gradient(135deg,#eff6ff,#f5f3ff);
+  border: 1.5px solid #bfdbfe; border-radius: 16px;
+  padding: 24px; text-align: center; margin-bottom: 12px;
+}
+.stat-main-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 64px; font-weight: 700; letter-spacing: -3px; line-height: 1;
+  background: linear-gradient(135deg,#1d4ed8,#7c3aed);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.stat-main-unit { font-size: 22px; font-weight: 600; }
+.stat-main-label { font-size: 13px; color: #64748b; margin-top: 6px; }
+.stat-subs { display: flex; gap: 10px; }
+.stat-sub {
+  flex: 1; background: #f8fafc; border: 1.5px solid #e2e8f0;
+  border-radius: 12px; padding: 12px 14px;
+}
+.stat-sub-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 18px; font-weight: 700; color: #0f172a; letter-spacing: -0.3px;
+}
+.stat-sub-label { font-size: 10px; color: #94a3b8; margin-top: 3px; }
+
+/* ANNOUNCEMENT */
+.announce-wrap {
+  background: linear-gradient(135deg,#eff6ff,#f5f3ff);
+  border: 1.5px solid #c7d2fe; border-radius: 16px;
+  padding: 28px; text-align: center;
+}
+.announce-product {
+  font-size: 38px; font-weight: 900; letter-spacing: -1.5px; line-height: 1.1;
+  background: linear-gradient(135deg,#1d4ed8,#7c3aed);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;
+}
+.announce-tagline { font-size: 14px; color: #64748b; line-height: 1.6; }
+.announce-date {
+  display: inline-block; margin-top: 16px;
+  background: #fff; border: 1.5px solid #e0e7ff;
+  border-radius: 8px; padding: 7px 18px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: #4f46e5; font-weight: 600;
+}
+
+/* DEAL */
+.deal-wrap {
+  background: #f0fdf4; border: 1.5px solid #86efac;
+  border-radius: 16px; padding: 20px 22px;
+}
+.deal-product-name { font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 8px; }
+.deal-original { font-size: 12px; color: #94a3b8; text-decoration: line-through; margin-bottom: 6px; }
+.deal-prices { display: flex; align-items: baseline; gap: 12px; }
+.deal-sale {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 42px; font-weight: 700; color: #16a34a; line-height: 1; letter-spacing: -1.5px;
+}
+.deal-badge {
+  background: #dcfce7; border: 1.5px solid #86efac;
+  border-radius: 7px; padding: 5px 10px;
+  font-size: 13px; font-weight: 700; color: #16a34a;
+}
+
+/* TIMELINE */
+.timeline { display: flex; flex-direction: column; }
+.tl-item { display: flex; align-items: flex-start; gap: 14px; }
+.tl-line-wrap { display: flex; flex-direction: column; align-items: center; width: 24px; flex-shrink: 0; }
+.tl-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: linear-gradient(135deg,#2563eb,#7c3aed); flex-shrink: 0; margin-top: 4px;
+  box-shadow: 0 0 0 3px #bfdbfe;
+}
+.tl-connector { width: 2px; flex: 1; background: #e2e8f0; margin: 4px 0; min-height: 20px; }
+.tl-item:last-child .tl-connector { display: none; }
+.tl-content { padding-bottom: 16px; flex: 1; }
+.tl-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; font-weight: 700; color: #2563eb; margin-bottom: 3px;
+}
+.tl-label { font-size: 13px; color: #334155; line-height: 1.5; }
+
+/* COMMUNITY visual body */
+.comm-stats { display: flex; gap: 10px; margin-bottom: 14px; }
+.comm-stat {
+  flex: 1; display: flex; align-items: center; gap: 8px;
+  background: #f8fafc; border: 1.5px solid #e2e8f0;
+  border-radius: 10px; padding: 10px 14px;
+}
+.comm-stat-val {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px; font-weight: 700; color: #0f172a; letter-spacing: -0.5px;
+}
+.comm-stat-lbl { font-size: 9px; color: #94a3b8; margin-top: 1px; }
+
+/* ── KEY POINTS ── */
+.kp { margin-top: auto; padding-top: 14px; }
+.kp-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; font-weight: 700; color: #94a3b8;
+  letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;
+}
+.kp-list { display: flex; flex-direction: column; gap: 6px; }
+.kp-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 8px 10px;
+  background: #f8fafc; border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+.kp-num {
+  width: 18px; height: 18px; flex-shrink: 0;
+  background: linear-gradient(135deg,#1d4ed8,#7c3aed);
+  border-radius: 5px; display: flex; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 700; color: #fff;
+}
+.kp-text { font-size: 12px; color: #475569; line-height: 1.45; flex: 1; }
+
+/* ── FOOTER ── */
+.ft {
+  background: linear-gradient(135deg,#0f172a,#1e3a8a);
+  padding: 14px 30px;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-shrink: 0;
+}
+.ft-meta { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: rgba(255,255,255,0.3); }
+.ft-src {
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 5px; padding: 3px 8px;
+  font-size: 9px; color: rgba(255,255,255,0.35);
+}
+</style>
+</head>
+<body>
+  <div class="aurora a1"></div>
+  <div class="aurora a2"></div>
+  <div class="aurora a3"></div>
+  <div class="dots"></div>
+
+  <div class="page">
+    <!-- HEADER -->
+    <div class="hd">
+      <div class="hd-top">
+        <div class="brand">
+          <div class="brand-icon"><img src="{{ logo_b64 }}" alt="Rumor"></div>
+          <div>
+            <div class="brand-name">Rumor</div>
+            <div class="brand-sub">Tin Apple nổi bật</div>
+          </div>
+        </div>
+        <div class="date-pill">{{ date }}</div>
+      </div>
+
+      {% if visual_type == "community" %}
+        <div class="viral-badge"><span class="viral-dot"></span>Đang Viral</div>
+      {% else %}
+        <div class="cat-badge">{{ category_icon }} {{ category }}</div>
+      {% endif %}
+
+      <div class="hd-title">{{ title }}</div>
+      <div class="hd-summary">{{ summary }}</div>
+
+      {% if visual_type == "community" %}
+      <div class="community-meta">
+        <span class="community-sub">r/{{ visual_data.subreddit }}</span>
+        <span class="community-count">▲ {{ visual_data.upvotes }}</span>
+        <span class="community-count">💬 {{ visual_data.comments }}</span>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- BODY (white card) -->
+    <div class="body">
+      {% set vd = visual_data %}
+
+      {% if visual_type == "community" %}
+        {% if image_b64 %}
+        <div class="comm-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
+        <div class="comm-post-label">// nội dung bài đăng</div>
+        <div class="comm-post-text">{{ vd.translated_post }}</div>
+
+      {% elif visual_type == "comparison" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
+        <div class="cmp-metric">// {{ vd.metric }}</div>
+        <div class="cmp-row">
+          <div class="cmp-side">
+            <div class="cmp-label">{{ vd.left.label }}</div>
+            <div class="cmp-value">{{ vd.left.value }}<span class="cmp-unit">{{ vd.left.unit }}</span></div>
+            <div class="cmp-bar-wrap"><div class="cmp-bar" style="width:{{ (vd.left.value/vd.max*100)|int }}%"></div></div>
+          </div>
+          <div class="cmp-vs">VS</div>
+          <div class="cmp-side highlight">
+            <div class="cmp-label">{{ vd.right.label }}</div>
+            <div class="cmp-value">{{ vd.right.value }}<span class="cmp-unit">{{ vd.right.unit }}</span></div>
+            <div class="cmp-bar-wrap"><div class="cmp-bar" style="width:{{ (vd.right.value/vd.max*100)|int }}%"></div></div>
+          </div>
+        </div>
+
+      {% elif visual_type == "stat" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
+        <div class="stat-main">
+          <div class="stat-main-value">{{ vd.main.value }}<span class="stat-main-unit">{{ vd.main.unit }}</span></div>
+          <div class="stat-main-label">{{ vd.main.label }}</div>
+        </div>
+        {% if vd.sub %}
+        <div class="stat-subs">
+          {% for s in vd.sub %}<div class="stat-sub"><div class="stat-sub-value">{{ s.value }}</div><div class="stat-sub-label">{{ s.label }}</div></div>{% endfor %}
+        </div>
+        {% endif %}
+
+      {% elif visual_type == "announcement" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
+        <div class="announce-wrap">
+          <div class="announce-product">{{ vd.product }}</div>
+          <div class="announce-tagline">{{ vd.tagline }}</div>
+          {% if vd.date %}<div class="announce-date">📅 {{ vd.date }}</div>{% endif %}
+        </div>
+
+      {% elif visual_type == "deal" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
+        <div class="deal-wrap">
+          <div class="deal-product-name">{{ vd.product }}</div>
+          <div class="deal-original">Giá gốc: {{ vd.original_price }}</div>
+          <div class="deal-prices">
+            <div class="deal-sale">{{ vd.sale_price }}</div>
+            <div class="deal-badge">-{{ vd.discount }}</div>
+          </div>
+        </div>
+
+      {% elif visual_type == "timeline" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
+        <div class="timeline">
+          {% for ev in vd.events %}
+          <div class="tl-item">
+            <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-connector"></div></div>
+            <div class="tl-content">
+              <div class="tl-date">{{ ev.date }}</div>
+              <div class="tl-label">{{ ev.label }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <!-- KEY POINTS -->
+      <div class="kp">
+        <div class="kp-label">// key points</div>
+        <div class="kp-list">
+          {% for b in bullets %}
+          <div class="kp-item">
+            <div class="kp-num">{{ loop.index }}</div>
+            <div class="kp-text">{{ b }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="ft">
+      <span class="ft-meta">// Rumor · {{ date }}</span>
+      {% for src in sources %}<span class="ft-src">{{ src }}</span>{% endfor %}
+    </div>
+  </div>
+</body>
+</html>
