@@ -191,6 +191,56 @@
     font-size: 14px; font-weight: 700; color: #16a34a;
   }
 
+  /* COMMUNITY */
+  .viral-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: linear-gradient(135deg, #dc2626, #ea580c);
+    border-radius: 7px; padding: 4px 12px;
+    font-size: 11px; font-weight: 800; color: #fff;
+    letter-spacing: 0.8px; text-transform: uppercase;
+  }
+  .viral-dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: #fff; opacity: 0.85;
+    animation: none;
+  }
+  .community-meta {
+    display: flex; align-items: center; gap: 10px; margin-top: 10px;
+    position: relative; z-index: 1;
+  }
+  .community-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: rgba(255,255,255,0.5);
+  }
+  .community-counts {
+    display: flex; align-items: center; gap: 12px; margin-left: auto;
+  }
+  .community-count {
+    display: flex; align-items: center; gap: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: rgba(255,255,255,0.5);
+  }
+
+  .community-wrap { display: flex; flex-direction: column; gap: 16px; }
+  .community-image-wrap {
+    width: 100%; border-radius: 14px; overflow: hidden;
+    max-height: 320px;
+    border: 1.5px solid #e2e8f0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  }
+  .community-image-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .community-post-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; font-weight: 700; color: #94a3b8;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .community-post-text {
+    font-size: 14px; color: #334155; line-height: 1.75;
+    background: #f8fafc; border: 1.5px solid #e2e8f0;
+    border-radius: 12px; padding: 16px 18px;
+  }
+
   /* TIMELINE */
   .timeline { display: flex; flex-direction: column; }
   .tl-item { display: flex; align-items: flex-start; gap: 16px; }
@@ -274,13 +324,26 @@
   <div class="hero">
     <div class="hero-text">
       <div class="category-row">
+        {% if visual_type == "community" %}
+        <span class="viral-badge"><span class="viral-dot"></span>Đang Viral</span>
+        {% else %}
         <span class="category-icon">{{ category_icon }}</span>
         <span class="category-tag">{{ category }}</span>
+        {% endif %}
       </div>
       <div class="hero-title">{{ title }}</div>
       <div class="hero-summary">{{ summary }}</div>
+      {% if visual_type == "community" %}
+      <div class="community-meta">
+        <span class="community-sub">r/{{ visual_data.subreddit }}</span>
+        <div class="community-counts">
+          <span class="community-count">▲ {{ visual_data.upvotes }}</span>
+          <span class="community-count">💬 {{ visual_data.comments }}</span>
+        </div>
+      </div>
+      {% endif %}
     </div>
-    {% if image_b64 %}
+    {% if image_b64 and visual_type != "community" %}
     <div class="hero-image-wrap">
       <img src="{{ image_b64 }}" alt="">
     </div>
@@ -333,6 +396,19 @@
     <div class="deal-prices">
       <div class="deal-sale">{{ vd.sale_price }}</div>
       <div class="deal-badge">-{{ vd.discount }}</div>
+    </div>
+  </div>
+
+  {% elif visual_type == "community" %}
+  <div class="community-wrap">
+    {% if image_b64 %}
+    <div class="community-image-wrap">
+      <img src="{{ image_b64 }}" alt="">
+    </div>
+    {% endif %}
+    <div>
+      <div class="community-post-label">// nội dung bài đăng</div>
+      <div class="community-post-text">{{ vd.translated_post }}</div>
     </div>
   </div>
 

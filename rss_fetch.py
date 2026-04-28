@@ -80,8 +80,7 @@ def fetch_articles(limit_per_source=5):
         feed = feedparser.parse(url)
         _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
 
-    # Reddit — chỉ lấy LINK POST (bài dẫn nguồn báo ngoài), sort theo upvote
-    # Lý do: self/image post dù nhiều like thường là bài cá nhân, không phải tin tức
+    # Reddit — lấy câu chuyện cộng đồng: image post + self post nhiều comment
     reddit_pool = []
     for sub in REDDIT_SUBS:
         try:
@@ -89,58 +88,63 @@ def fetch_articles(limit_per_source=5):
             r = requests.get(url, headers={"User-Agent": REDDIT_UA}, timeout=8)
             posts = r.json()["data"]["children"]
             for post in posts:
-                p = post["data"]
+                p        = post["data"]
+                title    = p.get("title", "")
+                score    = p.get("score", 0)
+                comments = p.get("num_comments", 0)
+                link     = f"https://www.reddit.com{p.get('permalink', '')}"
+                hint     = p.get("post_hint", "")
+                selftext = p.get("selftext", "")
 
-                # chỉ lấy link post trỏ tới bài báo ngoài (không phải ảnh/video Reddit)
-                if p.get("is_self", True):
-                    continue
-                if p.get("post_hint", "") in ("image", "rich:video", "hosted:video"):
-                    continue
-                domain = p.get("domain", "")
-                if domain in ("reddit.com", "i.redd.it", "v.redd.it",
-                              "imgur.com", "i.imgur.com", "gallery.imgur.com"):
-                    continue
-
-                title       = p.get("title", "")
-                score       = p.get("score", 0)
-                article_url = p.get("url", "")          # link bài báo gốc
-                reddit_link = f"https://www.reddit.com{p.get('permalink', '')}"
-                domain      = p.get("domain", "")
-
-                if score < MIN_SCORE:
+                # lọc cơ bản
+                if score < MIN_SCORE or comments < 20:
                     continue
                 if any(skip in title.lower() for skip in REDDIT_SKIP):
                     continue
                 if any(kw in title.lower() for kw in DEAL_KEYWORDS):
                     continue
-                # sub chung cần keyword Apple trong tiêu đề
-                if sub in ("mac", "MacOS", "macapps"):
-                    if not any(kw in title.lower() for kw in KEYWORDS):
-                        continue
+                if link in seen_links:
+                    continue
+                # chỉ lấy image post, gallery, hoặc self post — bỏ link bài báo ngoài
+                is_self = p.get("is_self", False)
+                if hint == "link" and not is_self:
+                    continue
+
+                # lấy ảnh đính kèm nếu có
+                image_url = None
+                if hint == "image":
+                    image_url = p.get("url", "")
+                elif p.get("gallery_data"):
+                    # gallery — lấy ảnh đầu tiên
+                    media = p.get("media_metadata", {})
+                    first_id = p["gallery_data"]["items"][0]["media_id"]
+                    img_data = media.get(first_id, {})
+                    if img_data.get("s"):
+                        image_url = img_data["s"].get("u", "").replace("&amp;", "&")
 
                 reddit_pool.append({
-                    "source": f"r/{sub}",
-                    "title": title,
-                    "summary": f"Được cộng đồng r/{sub} chia sẻ từ {domain} với {score} upvotes.",
-                    "link": article_url,    # dùng để fetch og:image và seen tracking
-                    "reddit_link": reddit_link,
-                    "score": score,
+                    "source":    f"r/{sub}",
+                    "title":     title,
+                    "summary":   selftext[:600] if selftext else title,
+                    "link":      link,
+                    "image_url": image_url,
+                    "score":     score,
+                    "comments":  comments,
+                    # sort ưu tiên comment vì = đang được bàn luận nhiều
+                    "rank":      comments * 3 + score,
                 })
         except Exception as e:
             print(f"Reddit r/{sub} lỗi: {e}")
 
-    # sort theo upvote, tối đa 2 bài/sub, bỏ trùng tiêu đề
-    reddit_pool.sort(key=lambda x: x["score"], reverse=True)
+    reddit_pool.sort(key=lambda x: x["rank"], reverse=True)
     seen_subs: dict[str, int] = {}
     for post in reddit_pool:
         sub = post["source"]
         if seen_subs.get(sub, 0) >= 2:
             continue
-        if post["link"] in seen_links or post.get("reddit_link","") in seen_links:
-            continue
         if any(is_similar(post["title"], a["title"]) for a in articles):
             continue
-        articles.append({k: v for k, v in post.items() if k != "score"})
+        articles.append({k: v for k, v in post.items() if k not in ("score","rank")})
         seen_subs[sub] = seen_subs.get(sub, 0) + 1
 
     return articles, seen_links
@@ -167,13 +171,14 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
   "title": "tiêu đề tiếng Việt mạnh, tối đa 10 từ",
   "summary": "2-3 câu tóm tắt tự nhiên",
 
-  "visual_type": "comparison | stat | announcement | deal | timeline",
+  "visual_type": "comparison | stat | announcement | deal | timeline | community",
   // Chọn loại visual phù hợp nhất với nội dung:
   // - comparison: khi tin so sánh 2 thứ (đời cũ vs mới, trước vs sau)
   // - stat: khi tin xoay quanh 1-2 con số nổi bật (RAM, giá, %)
   // - announcement: khi tin là thông báo ra mắt / sự kiện
   // - deal: khi tin về giá khuyến mãi, sale
   // - timeline: khi tin về lịch trình, ngày tháng
+  // - community: BẮT BUỘC dùng khi nguồn bắt đầu bằng "r/" (bài từ Reddit)
 
   "visual_data": {{
     // Nếu visual_type = "comparison":
@@ -199,6 +204,12 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
 
     // Nếu visual_type = "timeline":
     // "events": [{{"date": "...", "label": "..."}}]  // tối đa 3 mốc
+
+    // Nếu visual_type = "community":
+    // "subreddit": "tên subreddit",
+    // "upvotes": số upvotes,
+    // "comments": số comments,
+    // "translated_post": "dịch toàn bộ nội dung bài đăng sang tiếng Việt tự nhiên, 2-4 câu, giữ nguyên giọng của người dùng"
   }},
 
   "bullets": ["điểm 1", "điểm 2", "điểm 3"],
@@ -222,26 +233,21 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
     return data
 
 
-def pick_top3(client, articles: list[dict]) -> list[dict]:
-    """Chọn 3 tin nổi bật, đa dạng chủ đề, mỗi tin build infographic riêng."""
+def _pick_best(client, pool: list[dict], n: int, context: str = "") -> list[int]:
+    """Dùng Claude chọn n bài tốt nhất từ pool, trả về list index (0-based) trong pool."""
     articles_text = "\n\n".join(
         f"[{i+1}] {a['source']} — {a['title']}\n{a['summary'][:300]}"
-        for i, a in enumerate(articles)
+        for i, a in enumerate(pool)
     )
+    prompt = f"""Bạn là biên tập viên công nghệ người Việt.{(' ' + context) if context else ''}
 
-    prompt = f"""Bạn là biên tập viên công nghệ người Việt.
-
-Dưới đây là các tin Apple mới nhất:
+Dưới đây là các bài:
 
 {articles_text}
 
-Chọn 3 tin nổi bật nhất, đa dạng chủ đề (không trùng nhau). Trả về JSON (chỉ JSON, không markdown):
+Chọn {n} bài nổi bật nhất, đa dạng chủ đề (không trùng nhau). Trả về JSON (chỉ JSON, không markdown):
 
-[
-  {{"selected_index": số thứ tự (1-based)}},
-  {{"selected_index": số thứ tự (1-based)}},
-  {{"selected_index": số thứ tự (1-based)}}
-]"""
+[{", ".join(['{{"selected_index": số thứ tự (1-based)}}'] * n)}]"""
 
     msg = client.messages.create(
         model="claude-sonnet-4-6",
@@ -251,15 +257,32 @@ Chọn 3 tin nổi bật nhất, đa dạng chủ đề (không trùng nhau). Tr
     raw = msg.content[0].text.strip()
     match = re.search(r"\[[\s\S]+\]", raw)
     picks = json.loads(match.group() if match else raw)
+    return [max(0, min(p["selected_index"] - 1, len(pool) - 1)) for p in picks[:n]]
 
-    results = []
-    for pick in picks[:3]:
-        idx = max(0, min(pick["selected_index"] - 1, len(articles) - 1))
-        data = pick_and_build(client, [articles[idx]])
-        data["article_link"] = articles[idx]["link"]
-        results.append(data)
 
-    return results
+def pick_top3(client, articles: list[dict]) -> dict:
+    """Trả về {"news": [...], "reddit": [...]} — 3 tin báo + 3 bài Reddit."""
+    news   = [a for a in articles if not a["source"].startswith("r/")]
+    reddit = [a for a in articles if a["source"].startswith("r/")]
+
+    def build_results(pool, n, context=""):
+        if not pool:
+            return []
+        idxs = _pick_best(client, pool, min(n, len(pool)), context)
+        results = []
+        for i in idxs:
+            art  = pool[i]
+            data = pick_and_build(client, [art])
+            data["article_link"] = art["link"]
+            if art.get("image_url"):
+                data["image_url"] = art["image_url"]
+            results.append(data)
+        return results
+
+    news_results   = build_results(news, 3, "Chọn 3 tin tức Apple nổi bật nhất, đa dạng chủ đề.")
+    reddit_results = build_results(reddit, 3, "Chọn 3 bài cộng đồng thú vị nhất, ưu tiên bài có hình ảnh và nhiều bình luận.")
+
+    return {"news": news_results, "reddit": reddit_results}
 
 
 def pick_digest(client, articles: list[dict]) -> dict:

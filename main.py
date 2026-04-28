@@ -1,5 +1,10 @@
 import os
 import base64
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -63,12 +68,30 @@ def render_digest_png(data: dict, output_path: str = "digest.png"):
     return output_path
 
 
+def fetch_image_b64(url: str) -> str | None:
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=10)
+        r.raise_for_status()
+        mime = r.headers.get("Content-Type", "image/jpeg").split(";")[0]
+        return f"data:{mime};base64,{base64.b64encode(r.content).decode()}"
+    except Exception as e:
+        print(f"  Không lấy được ảnh: {e}")
+        return None
+
+
 def render_png(data: dict, output_path: str = "digest.png"):
     date_str = datetime.now().strftime("%d/%m/%Y")
 
-    article_link = data.get("article_link")
     image_b64 = None
-    if article_link:
+    image_url = data.get("image_url")
+    article_link = data.get("article_link")
+
+    if image_url:
+        # Reddit post with direct image URL
+        print(f"  Đang lấy ảnh Reddit...")
+        image_b64 = fetch_image_b64(image_url)
+        print(f"  {'Có ảnh' if image_b64 else 'Không có ảnh'}")
+    elif article_link:
         print(f"  Đang lấy ảnh từ {article_link.split('/')[2]}...")
         image_b64 = fetch_og_image_b64(article_link)
         print(f"  {'Có ảnh' if image_b64 else 'Không có ảnh'}")
@@ -78,7 +101,7 @@ def render_png(data: dict, output_path: str = "digest.png"):
         date=date_str,
         image_b64=image_b64,
         logo_b64=LOGO_B64,
-        **{k: v for k, v in data.items() if k != "article_link"},
+        **{k: v for k, v in data.items() if k not in ("article_link", "image_url")},
     )
 
     with sync_playwright() as p:
@@ -132,15 +155,29 @@ def main():
         print(f"Chat ID: {tg_chat_id}")
 
     print("Đang lấy và tổng hợp tin...")
-    stories, new_seen = rss_fetch.run(client, limit_per_source=5, mode="top3")
+    result, new_seen = rss_fetch.run(client, limit_per_source=5, mode="top3")
 
-    if not stories:
+    if not result:
         print("Không có tin mới."); return
 
-    for i, data in enumerate(stories, 1):
-        print(f"\n[{i}/3] {data['title']}")
+    news_stories   = result.get("news", [])
+    reddit_stories = result.get("reddit", [])
+    total = len(news_stories) + len(reddit_stories)
+
+    print(f"\n📰 Tin báo ({len(news_stories)} bài):")
+    for i, data in enumerate(news_stories, 1):
+        print(f"\n[{i}/{total}] {data['title']}")
         img_path = render_png(data, f"digest_{i}.png")
         caption = f"🍎 {data['title']}\n\n{data['summary']}"
+        send_telegram(img_path, caption, tg_token, str(tg_chat_id))
+        print(f"  Đã gửi Telegram!")
+
+    print(f"\n🔴 Reddit community ({len(reddit_stories)} bài):")
+    for i, data in enumerate(reddit_stories, 1):
+        idx = len(news_stories) + i
+        print(f"\n[{idx}/{total}] {data['title']}")
+        img_path = render_png(data, f"digest_{idx}.png")
+        caption = f"🔥 {data['title']}\n\n{data['summary']}"
         send_telegram(img_path, caption, tg_token, str(tg_chat_id))
         print(f"  Đã gửi Telegram!")
 
