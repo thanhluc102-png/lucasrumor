@@ -71,6 +71,58 @@ def _add_entries(feed_entries, source, seen_links, articles, limit):
         count += 1
 
 
+_REDDIT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Referer": "https://www.reddit.com/",
+    "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124"',
+    "sec-ch-ua-platform": '"macOS"',
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+}
+
+
+def _fetch_reddit_posts(sub: str) -> list[dict]:
+    """Try JSON API with browser headers, fall back to RSS if blocked."""
+    for base in ("https://www.reddit.com", "https://old.reddit.com"):
+        try:
+            url = f"{base}/r/{sub}/top.json?t=day&limit=25"
+            r = requests.get(url, headers=_REDDIT_HEADERS, timeout=10)
+            if r.status_code == 200 and r.text.strip().startswith("{"):
+                posts = r.json()["data"]["children"]
+                print(f"Reddit r/{sub}: {len(posts)} bài (JSON từ {base.split('//')[1]})")
+                return [p["data"] for p in posts]
+        except Exception as e:
+            print(f"Reddit r/{sub} JSON lỗi ({base}): {e}")
+
+    # Fallback: RSS feed — mất scores/images nhưng qua được firewall
+    try:
+        feed = feedparser.parse(f"https://www.reddit.com/r/{sub}/top.rss?t=day&limit=25")
+        posts = []
+        for entry in feed.entries[:25]:
+            full_link = entry.get("link", "")
+            title = entry.get("title", "")
+            # Lưu full link vào _rss_link để dùng trực tiếp thay vì ghép permalink
+            posts.append({
+                "title":        title,
+                "permalink":    "",          # sẽ bị bỏ qua, dùng _rss_link
+                "_rss_link":    full_link,
+                "score":        MIN_SCORE,   # giả sử đủ điểm
+                "num_comments": 25,          # giả sử đủ comment
+                "is_self":      True,        # RSS không phân biệt — giả sử self
+                "post_hint":    "",
+                "selftext":     entry.get("summary", ""),
+            })
+        print(f"Reddit r/{sub}: {len(posts)} bài (RSS fallback)")
+        return posts
+    except Exception as e:
+        print(f"Reddit r/{sub} RSS lỗi: {e}")
+        return []
+
+
 def fetch_articles(limit_per_source=5):
     seen_links = load_seen()
     articles = []
@@ -83,58 +135,48 @@ def fetch_articles(limit_per_source=5):
     # Reddit — lấy câu chuyện cộng đồng: image post + self post nhiều comment
     reddit_pool = []
     for sub in REDDIT_SUBS:
-        try:
-            url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit=25"
-            r = requests.get(url, headers={"User-Agent": REDDIT_UA}, timeout=8)
-            posts = r.json()["data"]["children"]
-            for post in posts:
-                p        = post["data"]
-                title    = p.get("title", "")
-                score    = p.get("score", 0)
-                comments = p.get("num_comments", 0)
-                link     = f"https://www.reddit.com{p.get('permalink', '')}"
-                hint     = p.get("post_hint", "")
-                selftext = p.get("selftext", "")
+        posts = _fetch_reddit_posts(sub)
+        for p in posts:
+            title    = p.get("title", "")
+            score    = p.get("score", 0)
+            comments = p.get("num_comments", 0)
+            permalink = p.get("permalink", "")
+            link = p.get("_rss_link") or f"https://www.reddit.com{permalink}"
+            hint     = p.get("post_hint", "")
+            selftext = p.get("selftext", "")
 
-                # lọc cơ bản
-                if score < MIN_SCORE or comments < 20:
-                    continue
-                if any(skip in title.lower() for skip in REDDIT_SKIP):
-                    continue
-                if any(kw in title.lower() for kw in DEAL_KEYWORDS):
-                    continue
-                if link in seen_links:
-                    continue
-                # chỉ lấy image post, gallery, hoặc self post — bỏ link bài báo ngoài
-                is_self = p.get("is_self", False)
-                if hint == "link" and not is_self:
-                    continue
+            if score < MIN_SCORE or comments < 20:
+                continue
+            if any(skip in title.lower() for skip in REDDIT_SKIP):
+                continue
+            if any(kw in title.lower() for kw in DEAL_KEYWORDS):
+                continue
+            if link in seen_links:
+                continue
+            is_self = p.get("is_self", False)
+            if hint == "link" and not is_self:
+                continue
 
-                # lấy ảnh đính kèm nếu có
-                image_url = None
-                if hint == "image":
-                    image_url = p.get("url", "")
-                elif p.get("gallery_data"):
-                    # gallery — lấy ảnh đầu tiên
-                    media = p.get("media_metadata", {})
-                    first_id = p["gallery_data"]["items"][0]["media_id"]
-                    img_data = media.get(first_id, {})
-                    if img_data.get("s"):
-                        image_url = img_data["s"].get("u", "").replace("&amp;", "&")
+            image_url = None
+            if hint == "image":
+                image_url = p.get("url", "")
+            elif p.get("gallery_data"):
+                media = p.get("media_metadata", {})
+                first_id = p["gallery_data"]["items"][0]["media_id"]
+                img_data = media.get(first_id, {})
+                if img_data.get("s"):
+                    image_url = img_data["s"].get("u", "").replace("&amp;", "&")
 
-                reddit_pool.append({
-                    "source":    f"r/{sub}",
-                    "title":     title,
-                    "summary":   selftext[:600] if selftext else title,
-                    "link":      link,
-                    "image_url": image_url,
-                    "score":     score,
-                    "comments":  comments,
-                    # sort ưu tiên comment vì = đang được bàn luận nhiều
-                    "rank":      comments * 3 + score,
-                })
-        except Exception as e:
-            print(f"Reddit r/{sub} lỗi: {e}")
+            reddit_pool.append({
+                "source":    f"r/{sub}",
+                "title":     title,
+                "summary":   selftext[:600] if selftext else title,
+                "link":      link,
+                "image_url": image_url,
+                "score":     score,
+                "comments":  comments,
+                "rank":      comments * 3 + score,
+            })
 
     reddit_pool.sort(key=lambda x: x["rank"], reverse=True)
     seen_subs: dict[str, int] = {}
