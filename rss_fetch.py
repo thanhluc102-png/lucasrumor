@@ -257,6 +257,9 @@ Chọn {n} bài nổi bật nhất, đa dạng chủ đề (không trùng nhau).
     raw = msg.content[0].text.strip()
     match = re.search(r"\[[\s\S]+\]", raw)
     picks = json.loads(match.group() if match else raw)
+    # Claude đôi khi trả dict thay vì list khi n=1
+    if isinstance(picks, dict):
+        picks = [picks]
     return [max(0, min(p["selected_index"] - 1, len(pool) - 1)) for p in picks[:n]]
 
 

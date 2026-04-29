@@ -182,28 +182,28 @@ def main():
     reddit_stories = result.get("reddit", [])
     total = len(news_stories) + len(reddit_stories)
 
+    def send_story(data, idx, emoji):
+        try:
+            img = fetch_article_image(data)
+            render_png(data, f"digest_{idx}.png", img)
+            render_tiktok_png(data, img, f"tiktok_{idx}.png")
+            caption = f"{emoji} {data['title']}\n\n{data['summary']}"
+            send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
+            send_telegram(f"tiktok_{idx}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
+            print(f"  Đã gửi Telegram + TikTok!")
+        except Exception as e:
+            print(f"  Lỗi bài {idx}: {e}")
+
     print(f"\n📰 Tin báo ({len(news_stories)} bài):")
     for i, data in enumerate(news_stories, 1):
         print(f"\n[{i}/{total}] {data['title']}")
-        img = fetch_article_image(data)
-        render_png(data, f"digest_{i}.png", img)
-        render_tiktok_png(data, img, f"tiktok_{i}.png")
-        caption = f"🍎 {data['title']}\n\n{data['summary']}"
-        send_telegram(f"digest_{i}.png", caption, tg_token, str(tg_chat_id))
-        send_telegram(f"tiktok_{i}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
-        print(f"  Đã gửi Telegram + TikTok!")
+        send_story(data, i, "🍎")
 
     print(f"\n🔴 Reddit community ({len(reddit_stories)} bài):")
     for i, data in enumerate(reddit_stories, 1):
         idx = len(news_stories) + i
         print(f"\n[{idx}/{total}] {data['title']}")
-        img = fetch_article_image(data)
-        render_png(data, f"digest_{idx}.png", img)
-        render_tiktok_png(data, img, f"tiktok_{idx}.png")
-        caption = f"🔥 {data['title']}\n\n{data['summary']}"
-        send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
-        send_telegram(f"tiktok_{idx}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
-        print(f"  Đã gửi Telegram + TikTok!")
+        send_story(data, idx, "🔥")
 
     rss_fetch.save_seen(new_seen)
 
