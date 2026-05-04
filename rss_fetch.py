@@ -402,5 +402,6 @@ def run(client, limit_per_source=5, mode="top3"):
     else:
         data = pick_and_build(client, articles)
 
-    new_links = {a["link"] for a in articles}
+    # Chỉ lưu link báo — Reddit posts thay đổi theo ngày, không cần dedup
+    new_links = {a["link"] for a in articles if not a.get("source", "").startswith("r/")}
     return data, seen_links | new_links
