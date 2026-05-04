@@ -108,14 +108,22 @@ def _fetch_reddit_posts(sub: str) -> list[dict]:
         for entry in feed.entries[:25]:
             full_link = entry.get("link", "")
             title = entry.get("title", "")
+            # Lấy thumbnail từ <media:thumbnail> trong RSS
+            thumbs = entry.get("media_thumbnail") or entry.get("media_content") or []
+            image_url = thumbs[0].get("url", "") if thumbs else None
+            # Chỉ giữ ảnh thật từ preview.redd.it hoặc external-preview.redd.it
+            if image_url and "redd.it" not in image_url:
+                image_url = None
+            hint = "image" if image_url else ""
             posts.append({
                 "title":        title,
                 "permalink":    "",
                 "_rss_link":    full_link,
                 "score":        MIN_SCORE,
                 "num_comments": 25,
-                "is_self":      True,
-                "post_hint":    "",
+                "is_self":      not image_url,
+                "post_hint":    hint,
+                "url":          image_url or "",
                 "selftext":     entry.get("summary", ""),
             })
         print(f"Reddit r/{sub}: {len(posts)} bài (RSS fallback)")
