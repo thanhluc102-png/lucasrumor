@@ -116,7 +116,7 @@ def render_png(data: dict, output_path: str = "digest.png", image_b64: str | Non
 
 
 def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> str:
-    """Render ảnh dọc 9:16 (1080×1920) cho TikTok — dùng lại image_b64 đã fetch."""
+    """Render ảnh 4:5 (1080×1350) — dùng cho Telegram, TikTok và Facebook."""
     date_str = datetime.now().strftime("%d/%m/%Y")
     env = Environment(loader=FileSystemLoader("."))
     html = env.get_template("template_tiktok.html").render(
@@ -128,8 +128,8 @@ def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> st
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(
-            viewport={"width": 540, "height": 960},
-            device_scale_factor=2,   # 2x → 1080×1920
+            viewport={"width": 540, "height": 675},
+            device_scale_factor=2,   # 2x → 1080×1350 (4:5)
         )
         page.set_content(html, wait_until="networkidle")
         page.screenshot(path=output_path)
@@ -185,12 +185,11 @@ def main():
     def send_story(data, idx, emoji):
         try:
             img = fetch_article_image(data)
-            render_png(data, f"digest_{idx}.png", img)
-            render_tiktok_png(data, img, f"tiktok_{idx}.png")
+            out = f"story_{idx}.png"
+            render_tiktok_png(data, img, out)
             caption = f"{emoji} {data['title']}\n\n{data['summary']}"
-            send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
-            send_telegram(f"tiktok_{idx}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
-            print(f"  Đã gửi Telegram + TikTok!")
+            send_telegram(out, caption, tg_token, str(tg_chat_id))
+            print(f"  Đã gửi!")
         except Exception as e:
             print(f"  Lỗi bài {idx}: {e}")
 
