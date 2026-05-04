@@ -98,21 +98,23 @@ def _fetch_reddit_posts(sub: str) -> list[dict]:
         except Exception as e:
             print(f"Reddit r/{sub} JSON lỗi ({base}): {e}")
 
-    # Fallback: RSS feed — mất scores/images nhưng qua được firewall
+    # Fallback: fetch RSS thủ công với browser headers rồi parse
     try:
-        feed = feedparser.parse(f"https://www.reddit.com/r/{sub}/top.rss?t=day&limit=25")
+        import io
+        rss_url = f"https://www.reddit.com/r/{sub}/top.rss?t=day&limit=25"
+        r = requests.get(rss_url, headers=_REDDIT_HEADERS, timeout=12)
+        feed = feedparser.parse(io.BytesIO(r.content))
         posts = []
         for entry in feed.entries[:25]:
             full_link = entry.get("link", "")
             title = entry.get("title", "")
-            # Lưu full link vào _rss_link để dùng trực tiếp thay vì ghép permalink
             posts.append({
                 "title":        title,
-                "permalink":    "",          # sẽ bị bỏ qua, dùng _rss_link
+                "permalink":    "",
                 "_rss_link":    full_link,
-                "score":        MIN_SCORE,   # giả sử đủ điểm
-                "num_comments": 25,          # giả sử đủ comment
-                "is_self":      True,        # RSS không phân biệt — giả sử self
+                "score":        MIN_SCORE,
+                "num_comments": 25,
+                "is_self":      True,
                 "post_hint":    "",
                 "selftext":     entry.get("summary", ""),
             })
