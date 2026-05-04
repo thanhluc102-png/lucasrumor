@@ -2,7 +2,7 @@ name: Daily Apple Digest
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 6:00 sáng giờ Việt Nam (UTC+7), chừa buffer delay GitHub
+    - cron: '0 17 * * *'  # Target 8AM giờ Việt Nam — bù delay ~8h của GitHub free tier
   workflow_dispatch:        # cho phép chạy thủ công trên GitHub
 
 jobs:
