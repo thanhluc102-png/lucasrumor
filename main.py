@@ -128,8 +128,8 @@ def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> st
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(
-            viewport={"width": 540, "height": 675},
-            device_scale_factor=2,   # 2x → 1080×1350 (4:5)
+            viewport={"width": 540, "height": 540},
+            device_scale_factor=2,   # 2x → 1080×1080 (1:1)
         )
         page.set_content(html, wait_until="networkidle")
         page.screenshot(path=output_path)
