@@ -11,6 +11,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
+from PIL import Image
 import anthropic
 import rss_fetch
 
@@ -116,24 +117,28 @@ def render_png(data: dict, output_path: str = "digest.png", image_b64: str | Non
 
 
 def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> str:
-    """Render ảnh 4:5 (1080×1350) — dùng cho Telegram, TikTok và Facebook."""
-    date_str = datetime.now().strftime("%d/%m/%Y")
-    env = Environment(loader=FileSystemLoader("."))
-    html = env.get_template("template_tiktok.html").render(
-        date=date_str,
-        image_b64=image_b64,
-        logo_b64=LOGO_B64,
-        **{k: v for k, v in data.items() if k not in ("article_link", "image_url")},
-    )
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(
-            viewport={"width": 540, "height": 540},
-            device_scale_factor=2,   # 2x → 1080×1080 (1:1)
-        )
-        page.set_content(html, wait_until="networkidle")
-        page.screenshot(path=output_path)
-        browser.close()
+    """Render template.html (auto height) rồi fit vào canvas vuông 1080×1080."""
+    tmp = output_path + ".tmp.png"
+    render_png(data, tmp, image_b64)
+
+    img = Image.open(tmp)
+    w, h = img.size
+    new_h = int(h * 1080 / w)
+    img = img.resize((1080, new_h), Image.LANCZOS)
+
+    # Canvas vuông: nếu ảnh cao hơn 1080 thì scale xuống vừa 1080 chiều cao
+    if new_h <= 1080:
+        canvas = Image.new("RGB", (1080, 1080), "#f0f4ff")
+        canvas.paste(img, (0, 0))
+    else:
+        new_w = int(w * 1080 / h)
+        img = img.resize((new_w, 1080), Image.LANCZOS)
+        canvas = Image.new("RGB", (1080, 1080), "#f0f4ff")
+        x = (1080 - new_w) // 2
+        canvas.paste(img, (x, 0))
+
+    canvas.save(output_path)
+    Path(tmp).unlink(missing_ok=True)
     return output_path
 
 
@@ -185,11 +190,12 @@ def main():
     def send_story(data, idx, emoji):
         try:
             img = fetch_article_image(data)
-            out = f"story_{idx}.png"
-            render_tiktok_png(data, img, out)
+            render_png(data, f"digest_{idx}.png", img)
+            render_tiktok_png(data, img, f"tiktok_{idx}.png")
             caption = f"{emoji} {data['title']}\n\n{data['summary']}"
-            send_telegram(out, caption, tg_token, str(tg_chat_id))
-            print(f"  Đã gửi!")
+            send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
+            send_telegram(f"tiktok_{idx}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
+            print(f"  Đã gửi Telegram + TikTok!")
         except Exception as e:
             print(f"  Lỗi bài {idx}: {e}")
 
