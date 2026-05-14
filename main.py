@@ -150,13 +150,19 @@ def send_telegram(image_path: str, caption: str, token: str, chat_id: str):
     return resp.json()
 
 
-def send_facebook(image_path: str, caption: str, page_token: str, page_id: str):
+def send_facebook(image_path: str, caption: str, page_token: str, page_id: str, delay_hours: int = 0):
     """Đăng ảnh + caption lên Facebook Page qua Graph API v25.0."""
     url = f"https://graph.facebook.com/v25.0/{page_id}/photos"
+    
+    payload = {"caption": caption, "access_token": page_token}
+    if delay_hours > 0:
+        payload["published"] = "false"
+        payload["scheduled_publish_time"] = str(int(datetime.now().timestamp()) + delay_hours * 3600)
+
     with open(image_path, "rb") as f:
         resp = requests.post(
             url,
-            data={"caption": caption, "access_token": page_token},
+            data=payload,
             files={"source": f},
         )
     if resp.status_code != 200:
@@ -164,7 +170,11 @@ def send_facebook(image_path: str, caption: str, page_token: str, page_id: str):
     resp.raise_for_status()
     result = resp.json()
     post_id = result.get("post_id", result.get("id", "?"))
-    print(f"  ✅ Đã đăng Facebook! (post_id: {post_id})")
+    
+    if delay_hours > 0:
+        print(f"  ✅ Đã lên lịch Facebook sau {delay_hours}h (post_id: {post_id})")
+    else:
+        print(f"  ✅ Đã đăng ngay lên Facebook! (post_id: {post_id})")
     return result
 
 
@@ -235,7 +245,9 @@ def main():
                     if sources:
                         fb_caption += f"📎 Nguồn: {', '.join(sources)}\n\n"
                     fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
-                    send_facebook(f"digest_{idx}.png", fb_caption, fb_token, fb_page_id)
+                    
+                    delay_hours = (idx - 1) * 4
+                    send_facebook(f"digest_{idx}.png", fb_caption, fb_token, fb_page_id, delay_hours)
                 except Exception as fb_err:
                     print(f"  ⚠️ Lỗi đăng Facebook bài {idx}: {fb_err}")
 
