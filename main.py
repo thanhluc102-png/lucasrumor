@@ -128,12 +128,12 @@ def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> st
 
     # Canvas vuông: nếu ảnh cao hơn 1080 thì scale xuống vừa 1080 chiều cao
     if new_h <= 1080:
-        canvas = Image.new("RGB", (1080, 1080), "#f0f4ff")
+        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
         canvas.paste(img, (0, 0))
     else:
         new_w = int(w * 1080 / h)
         img = img.resize((new_w, 1080), Image.LANCZOS)
-        canvas = Image.new("RGB", (1080, 1080), "#f0f4ff")
+        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
         x = (1080 - new_w) // 2
         canvas.paste(img, (x, 0))
 
@@ -150,6 +150,24 @@ def send_telegram(image_path: str, caption: str, token: str, chat_id: str):
     return resp.json()
 
 
+def send_facebook(image_path: str, caption: str, page_token: str, page_id: str):
+    """Đăng ảnh + caption lên Facebook Page qua Graph API v25.0."""
+    url = f"https://graph.facebook.com/v25.0/{page_id}/photos"
+    with open(image_path, "rb") as f:
+        resp = requests.post(
+            url,
+            data={"caption": caption, "access_token": page_token},
+            files={"source": f},
+        )
+    if resp.status_code != 200:
+        print(f"  ⚠️ Chi tiết lỗi Facebook: {resp.text}")
+    resp.raise_for_status()
+    result = resp.json()
+    post_id = result.get("post_id", result.get("id", "?"))
+    print(f"  ✅ Đã đăng Facebook! (post_id: {post_id})")
+    return result
+
+
 def get_chat_id(token: str):
     resp = requests.get(f"https://api.telegram.org/bot{token}/getUpdates")
     updates = resp.json().get("result", [])
@@ -159,14 +177,22 @@ def get_chat_id(token: str):
 
 
 def main():
-    api_key   = os.environ.get("ANTHROPIC_API_KEY")
-    tg_token  = os.environ.get("TELEGRAM_TOKEN")
+    api_key    = os.environ.get("ANTHROPIC_API_KEY")
+    tg_token   = os.environ.get("TELEGRAM_TOKEN")
     tg_chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    fb_token   = os.environ.get("FB_PAGE_TOKEN")
+    fb_page_id = os.environ.get("FB_PAGE_ID")
 
     if not api_key:
         print("Thiếu ANTHROPIC_API_KEY"); return
     if not tg_token:
         print("Thiếu TELEGRAM_TOKEN"); return
+
+    fb_enabled = bool(fb_token and fb_page_id)
+    if fb_enabled:
+        print("📘 Facebook đăng fanpage: BẬT")
+    else:
+        print("📘 Facebook: TẮT (thiếu FB_PAGE_TOKEN hoặc FB_PAGE_ID)")
 
     client = anthropic.Anthropic(api_key=api_key)
 
@@ -196,6 +222,23 @@ def main():
             send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
             send_telegram(f"tiktok_{idx}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
             print(f"  Đã gửi Telegram + TikTok!")
+
+            # --- Đăng lên Facebook Fanpage ---
+            if fb_enabled:
+                try:
+                    bullets = data.get("bullets", [])
+                    sources = data.get("sources", [])
+                    fb_caption = f"{emoji} {data['title']}\n\n"
+                    fb_caption += f"{data['summary']}\n\n"
+                    if bullets:
+                        fb_caption += "\n".join(f"• {b}" for b in bullets) + "\n\n"
+                    if sources:
+                        fb_caption += f"📎 Nguồn: {', '.join(sources)}\n\n"
+                    fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
+                    send_facebook(f"digest_{idx}.png", fb_caption, fb_token, fb_page_id)
+                except Exception as fb_err:
+                    print(f"  ⚠️ Lỗi đăng Facebook bài {idx}: {fb_err}")
+
         except Exception as e:
             print(f"  Lỗi bài {idx}: {e}")
 

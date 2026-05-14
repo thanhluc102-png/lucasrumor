@@ -7,7 +7,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  width: 540px; height: 540px;
+  width: 540px; height: 960px;
   overflow: hidden;
   font-family: 'Inter', -apple-system, sans-serif;
   color: #fff;
@@ -31,13 +31,13 @@ body {
 /* ── PAGE LAYOUT ── */
 .page {
   position: relative; z-index: 2;
-  height: 540px;
+  height: 960px;
   display: flex; flex-direction: column;
 }
 
 /* ── HEADER ── */
 .hd {
-  padding: 16px 24px 12px;
+  padding: 36px 36px 28px;
   flex-shrink: 0;
 }
 .hd-top {
@@ -80,15 +80,11 @@ body {
 }
 
 .hd-title {
-  font-size: 21px; font-weight: 900; line-height: 1.2;
-  letter-spacing: -0.5px; color: #fff;
-  margin-bottom: 6px;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  font-size: 30px; font-weight: 900; line-height: 1.15;
+  letter-spacing: -0.8px; color: #fff;
+  margin-bottom: 12px;
 }
-.hd-summary {
-  font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.55;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-}
+.hd-summary { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.65; }
 
 /* community meta under title */
 .community-meta {
@@ -101,17 +97,17 @@ body {
 .body {
   flex: 1; min-height: 0;
   background: #fff;
-  border-radius: 18px 18px 0 0;
-  padding: 14px 18px 10px;
+  border-radius: 28px 28px 0 0;
+  padding: 28px 30px 20px;
   display: flex; flex-direction: column;
   overflow: hidden;
 }
 
 /* COMMUNITY image block */
 .comm-img-wrap {
-  width: 100%; border-radius: 12px; overflow: hidden;
-  max-height: 100px; flex-shrink: 0;
-  margin-bottom: 10px;
+  width: 100%; border-radius: 16px; overflow: hidden;
+  max-height: 220px; flex-shrink: 0;
+  margin-bottom: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.12);
 }
 .comm-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -128,9 +124,9 @@ body {
 
 /* hero image (news) */
 .hero-img-wrap {
-  width: 100%; border-radius: 12px; overflow: hidden;
-  height: 100px; flex-shrink: 0;
-  margin-bottom: 10px;
+  width: 100%; border-radius: 16px; overflow: hidden;
+  height: 200px; flex-shrink: 0;
+  margin-bottom: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 .hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -168,17 +164,17 @@ body {
 /* STAT */
 .stat-main {
   background: linear-gradient(135deg,#eff6ff,#f5f3ff);
-  border: 1.5px solid #bfdbfe; border-radius: 14px;
-  padding: 14px; text-align: center; margin-bottom: 8px;
+  border: 1.5px solid #bfdbfe; border-radius: 16px;
+  padding: 24px; text-align: center; margin-bottom: 12px;
 }
 .stat-main-value {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 48px; font-weight: 700; letter-spacing: -2px; line-height: 1;
+  font-size: 64px; font-weight: 700; letter-spacing: -3px; line-height: 1;
   background: linear-gradient(135deg,#1d4ed8,#7c3aed);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
 }
-.stat-main-unit { font-size: 18px; font-weight: 600; }
-.stat-main-label { font-size: 12px; color: #64748b; margin-top: 4px; }
+.stat-main-unit { font-size: 22px; font-weight: 600; }
+.stat-main-label { font-size: 13px; color: #64748b; margin-top: 6px; }
 .stat-subs { display: flex; gap: 10px; }
 .stat-sub {
   flex: 1; background: #f8fafc; border: 1.5px solid #e2e8f0;
@@ -193,21 +189,21 @@ body {
 /* ANNOUNCEMENT */
 .announce-wrap {
   background: linear-gradient(135deg,#eff6ff,#f5f3ff);
-  border: 1.5px solid #c7d2fe; border-radius: 14px;
-  padding: 16px; text-align: center;
+  border: 1.5px solid #c7d2fe; border-radius: 16px;
+  padding: 28px; text-align: center;
 }
 .announce-product {
-  font-size: 28px; font-weight: 900; letter-spacing: -1px; line-height: 1.15;
+  font-size: 38px; font-weight: 900; letter-spacing: -1.5px; line-height: 1.1;
   background: linear-gradient(135deg,#1d4ed8,#7c3aed);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 6px;
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px;
 }
-.announce-tagline { font-size: 12px; color: #64748b; line-height: 1.5; }
+.announce-tagline { font-size: 14px; color: #64748b; line-height: 1.6; }
 .announce-date {
-  display: inline-block; margin-top: 10px;
+  display: inline-block; margin-top: 16px;
   background: #fff; border: 1.5px solid #e0e7ff;
-  border-radius: 7px; padding: 5px 14px;
+  border-radius: 8px; padding: 7px 18px;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 10px; color: #4f46e5; font-weight: 600;
+  font-size: 11px; color: #4f46e5; font-weight: 600;
 }
 
 /* DEAL */
@@ -260,7 +256,7 @@ body {
 .comm-stat-lbl { font-size: 9px; color: #94a3b8; margin-top: 1px; }
 
 /* ── KEY POINTS ── */
-.kp { margin-top: 10px; padding-top: 10px; border-top: 1px solid #e2e8f0; }
+.kp { margin-top: auto; padding-top: 14px; }
 .kp-label {
   font-family: 'JetBrains Mono', monospace;
   font-size: 9px; font-weight: 700; color: #94a3b8;
@@ -339,10 +335,16 @@ body {
       {% set vd = visual_data %}
 
       {% if visual_type == "community" %}
+        {% if image_b64 %}
+        <div class="comm-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
         <div class="comm-post-label">// nội dung bài đăng</div>
         <div class="comm-post-text">{{ vd.translated_post }}</div>
 
       {% elif visual_type == "comparison" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
         <div class="cmp-metric">// {{ vd.metric }}</div>
         <div class="cmp-row">
           <div class="cmp-side">
@@ -359,6 +361,9 @@ body {
         </div>
 
       {% elif visual_type == "stat" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
         <div class="stat-main">
           <div class="stat-main-value">{{ vd.main.value }}<span class="stat-main-unit">{{ vd.main.unit }}</span></div>
           <div class="stat-main-label">{{ vd.main.label }}</div>
@@ -370,6 +375,9 @@ body {
         {% endif %}
 
       {% elif visual_type == "announcement" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
         <div class="announce-wrap">
           <div class="announce-product">{{ vd.product }}</div>
           <div class="announce-tagline">{{ vd.tagline }}</div>
@@ -377,6 +385,9 @@ body {
         </div>
 
       {% elif visual_type == "deal" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
         <div class="deal-wrap">
           <div class="deal-product-name">{{ vd.product }}</div>
           <div class="deal-original">Giá gốc: {{ vd.original_price }}</div>
@@ -387,6 +398,9 @@ body {
         </div>
 
       {% elif visual_type == "timeline" %}
+        {% if image_b64 %}
+        <div class="hero-img-wrap"><img src="{{ image_b64 }}" alt=""></div>
+        {% endif %}
         <div class="timeline">
           {% for ev in vd.events %}
           <div class="tl-item">
@@ -404,7 +418,7 @@ body {
       <div class="kp">
         <div class="kp-label">// key points</div>
         <div class="kp-list">
-          {% for b in bullets[:2] %}
+          {% for b in bullets %}
           <div class="kp-item">
             <div class="kp-num">{{ loop.index }}</div>
             <div class="kp-text">{{ b }}</div>
