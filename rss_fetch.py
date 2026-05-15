@@ -16,7 +16,7 @@ RSS_FEEDS = {
 }
 
 # Subreddit theo dõi — xếp theo engagement thực tế (đã khảo sát)
-REDDIT_SUBS = ["mac", "iphone", "AppleWatch", "apple", "MacOS", "macapps", "airpods", "VisionPro"]
+REDDIT_SUBS = ["MacOS"]
 
 # Bỏ qua thread hỏi đáp / megathread
 REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
