@@ -1,0 +1,40 @@
+name: Auto Bump Old Posts
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # 13:00 UTC = 20:00 (8 PM) Vietnam Time
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  auto-bump:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests anthropic python-dotenv
+
+      - name: Run Auto Bump
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+        run: python auto_bump.py
+
+      - name: Commit bumped_posts.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bumped_posts.json
+          git commit -m "Auto-update bumped_posts.json" || exit 0
+          git push
