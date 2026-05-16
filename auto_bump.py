@@ -34,7 +34,7 @@ def get_recent_posts():
     params = {
         "access_token": FB_PAGE_TOKEN,
         "limit": 50,
-        "fields": "id,message,created_time"
+        "fields": "id,message,created_time,comments.summary(true)"
     }
     resp = requests.get(url, params=params)
     resp.raise_for_status()
@@ -95,6 +95,14 @@ def main():
             continue
         
         try:
+            # Chỉ bump bài có >= 50 comment
+            comments_data = p.get("comments", {})
+            summary = comments_data.get("summary", {})
+            total_comments = summary.get("total_count", 0)
+            
+            if total_comments < 50:
+                continue
+
             # Graph API datetime format: "2025-05-13T10:00:00+0000"
             # Some python versions don't like +0000 in strptime %z if it's strictly formatted
             time_str = p["created_time"].replace("+0000", "")
