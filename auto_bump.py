@@ -30,15 +30,29 @@ def save_bumped_post(post_id):
             json.dump(posts, f, indent=2)
 
 def get_recent_posts():
+    all_posts = []
     url = f"https://graph.facebook.com/v25.0/{FB_PAGE_ID}/feed"
     params = {
         "access_token": FB_PAGE_TOKEN,
-        "limit": 50,
+        "limit": 100,
         "fields": "id,message,created_time,comments.summary(true)"
     }
-    resp = requests.get(url, params=params)
-    resp.raise_for_status()
-    return resp.json().get("data", [])
+    
+    # Quét tối đa 20 trang (khoảng 2000 bài viết)
+    for _ in range(20):
+        resp = requests.get(url, params=params if not all_posts else None)
+        resp.raise_for_status()
+        data = resp.json()
+        posts = data.get("data", [])
+        if not posts:
+            break
+        all_posts.extend(posts)
+        
+        url = data.get("paging", {}).get("next")
+        if not url:
+            break
+            
+    return all_posts
 
 def generate_comment(post_message):
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
