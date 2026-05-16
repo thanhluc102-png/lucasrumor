@@ -69,7 +69,7 @@ Yêu cầu:
 - Chỉ in ra nội dung bình luận, tuyệt đối không có phần mở đầu hay kết thúc dư thừa.
 """
     response = client.messages.create(
-        model="claude-3-haiku-20240307",
+        model="claude-sonnet-4-6",
         max_tokens=150,
         messages=[{"role": "user", "content": prompt}]
     )
