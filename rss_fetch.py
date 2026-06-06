@@ -269,7 +269,7 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
 }}"""
 
     msg = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-3-5-sonnet-20241022",
         max_tokens=900,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -302,7 +302,7 @@ Chọn {n} bài nổi bật nhất, đa dạng chủ đề (không trùng nhau).
 [{", ".join(['{{"selected_index": số thứ tự (1-based)}}'] * n)}]"""
 
     msg = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-3-5-sonnet-20241022",
         max_tokens=100,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -382,7 +382,7 @@ Chọn 4 tin đa dạng, nổi bật nhất (không trùng chủ đề) rồi tr
 }}"""
 
     msg = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-3-5-sonnet-20241022",
         max_tokens=1200,
         messages=[{"role": "user", "content": prompt}],
     )
