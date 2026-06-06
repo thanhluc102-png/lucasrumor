@@ -247,7 +247,7 @@ def main():
                     fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
                     
                     delay_hours = (idx - 1) * 4
-                    send_facebook(f"digest_{idx}.png", fb_caption, fb_token, fb_page_id, delay_hours)
+                    send_facebook(f"tiktok_{idx}.png", fb_caption, fb_token, fb_page_id, delay_hours)
                 except Exception as fb_err:
                     print(f"  ⚠️ Lỗi đăng Facebook bài {idx}: {fb_err}")
 

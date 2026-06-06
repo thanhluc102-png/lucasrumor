@@ -177,6 +177,9 @@ def fetch_articles(limit_per_source=5):
                 if img_data.get("s"):
                     image_url = img_data["s"].get("u", "").replace("&amp;", "&")
 
+            if not image_url:
+                continue
+
             reddit_pool.append({
                 "source":    f"r/{sub}",
                 "title":     title,
