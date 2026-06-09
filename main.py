@@ -107,39 +107,13 @@ def render_png(data: dict, output_path: str = "digest.png", image_b64: str | Non
     )
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page(viewport={"width": 800, "height": 1}, device_scale_factor=2)
+        page = browser.new_page(viewport={"width": 1080, "height": 1080}, device_scale_factor=2)
         page.set_content(html, wait_until="networkidle")
-        height = page.evaluate("document.body.scrollHeight")
-        page.set_viewport_size({"width": 800, "height": height})
-        page.screenshot(path=output_path, full_page=True)
+        page.screenshot(path=output_path, full_page=False, clip={"x": 0, "y": 0, "width": 1080, "height": 1080})
         browser.close()
     return output_path
 
 
-def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> str:
-    """Render template.html (auto height) rồi fit vào canvas vuông 1080×1080."""
-    tmp = output_path + ".tmp.png"
-    render_png(data, tmp, image_b64)
-
-    img = Image.open(tmp)
-    w, h = img.size
-    new_h = int(h * 1080 / w)
-    img = img.resize((1080, new_h), Image.LANCZOS)
-
-    # Canvas vuông: nếu ảnh cao hơn 1080 thì scale xuống vừa 1080 chiều cao
-    if new_h <= 1080:
-        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
-        canvas.paste(img, (0, 0))
-    else:
-        new_w = int(w * 1080 / h)
-        img = img.resize((new_w, 1080), Image.LANCZOS)
-        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
-        x = (1080 - new_w) // 2
-        canvas.paste(img, (x, 0))
-
-    canvas.save(output_path)
-    Path(tmp).unlink(missing_ok=True)
-    return output_path
 
 
 def send_telegram(image_path: str, caption: str, token: str, chat_id: str):
@@ -227,11 +201,9 @@ def main():
         try:
             img = fetch_article_image(data)
             render_png(data, f"digest_{idx}.png", img)
-            render_tiktok_png(data, img, f"tiktok_{idx}.png")
             caption = f"{emoji} {data['title']}\n\n{data['summary']}"
             send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
-            send_telegram(f"tiktok_{idx}.png", "📱 TikTok version", tg_token, str(tg_chat_id))
-            print(f"  Đã gửi Telegram + TikTok!")
+            print(f"  Đã gửi Telegram!")
 
             # --- Đăng lên Facebook Fanpage ---
             if fb_enabled:
@@ -247,7 +219,7 @@ def main():
                     fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
                     
                     delay_hours = (idx - 1) * 4
-                    send_facebook(f"tiktok_{idx}.png", fb_caption, fb_token, fb_page_id, delay_hours)
+                    send_facebook(f"digest_{idx}.png", fb_caption, fb_token, fb_page_id, delay_hours)
                 except Exception as fb_err:
                     print(f"  ⚠️ Lỗi đăng Facebook bài {idx}: {fb_err}")
 
