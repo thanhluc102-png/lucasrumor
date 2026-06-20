@@ -116,32 +116,6 @@ def render_png(data: dict, output_path: str = "digest.png", image_b64: str | Non
     return output_path
 
 
-def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> str:
-    """Render template.html (auto height) rồi fit vào canvas vuông 1080×1080."""
-    tmp = output_path + ".tmp.png"
-    render_png(data, tmp, image_b64)
-
-    img = Image.open(tmp)
-    w, h = img.size
-    new_h = int(h * 1080 / w)
-    img = img.resize((1080, new_h), Image.LANCZOS)
-
-    # Canvas vuông: nếu ảnh cao hơn 1080 thì scale xuống vừa 1080 chiều cao
-    if new_h <= 1080:
-        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
-        canvas.paste(img, (0, 0))
-    else:
-        new_w = int(w * 1080 / h)
-        img = img.resize((new_w, 1080), Image.LANCZOS)
-        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
-        x = (1080 - new_w) // 2
-        canvas.paste(img, (x, 0))
-
-    canvas.save(output_path)
-    Path(tmp).unlink(missing_ok=True)
-    return output_path
-
-
 def send_telegram(image_path: str, caption: str, token: str, chat_id: str):
     url = f"https://api.telegram.org/bot{token}/sendPhoto"
     with open(image_path, "rb") as f:
@@ -237,11 +211,9 @@ def main():
         try:
             img = fetch_article_image(data)
             render_png(data, "digest_1.png", img)
-            render_tiktok_png(data, img, "tiktok_1.png")
             caption = f"{emoji} {data['title']}\n\n{data['summary']}"
             send_telegram("digest_1.png", caption, tg_token, str(tg_chat_id))
-            send_telegram("tiktok_1.png", "📱 TikTok version", tg_token, str(tg_chat_id))
-            print(f"  Đã gửi Telegram + TikTok!")
+            print(f"  Đã gửi Telegram!")
 
             # --- Đăng lên Facebook Fanpage ---
             if fb_enabled:
