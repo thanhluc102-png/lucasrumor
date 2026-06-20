@@ -177,9 +177,6 @@ def fetch_articles(limit_per_source=5):
                 if img_data.get("s"):
                     image_url = img_data["s"].get("u", "").replace("&amp;", "&")
 
-            if not image_url:
-                continue
-
             reddit_pool.append({
                 "source":    f"r/{sub}",
                 "title":     title,
@@ -285,6 +282,9 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
 
     idx = max(0, min(data.pop("selected_index", 1) - 1, len(articles) - 1))
     data["article_link"] = articles[idx]["link"]
+    data["source"] = articles[idx]["source"]
+    if articles[idx].get("image_url"):
+        data["image_url"] = articles[idx]["image_url"]
     return data
 
 
@@ -415,6 +415,12 @@ def run(client, limit_per_source=5, mode="top3"):
     else:
         data = pick_and_build(client, articles)
 
-    # Chỉ lưu link báo — Reddit posts thay đổi theo ngày, không cần dedup
-    new_links = {a["link"] for a in articles if not a.get("source", "").startswith("r/")}
+    if mode == "single":
+        # Chế độ single: Chỉ đánh dấu bài viết đã được chọn là "đã xem"
+        chosen_link = data.get("article_link")
+        new_links = {chosen_link} if chosen_link and not data.get("source", "").startswith("r/") else set()
+    else:
+        # Chỉ lưu link báo — Reddit posts thay đổi theo ngày, không cần dedup
+        new_links = {a["link"] for a in articles if not a.get("source", "").startswith("r/")}
+        
     return data, seen_links | new_links

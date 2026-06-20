@@ -107,13 +107,39 @@ def render_png(data: dict, output_path: str = "digest.png", image_b64: str | Non
     )
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page(viewport={"width": 1080, "height": 1080}, device_scale_factor=2)
+        page = browser.new_page(viewport={"width": 800, "height": 1}, device_scale_factor=2)
         page.set_content(html, wait_until="networkidle")
-        page.screenshot(path=output_path, full_page=False, clip={"x": 0, "y": 0, "width": 1080, "height": 1080})
+        height = page.evaluate("document.body.scrollHeight")
+        page.set_viewport_size({"width": 800, "height": height})
+        page.screenshot(path=output_path, full_page=True)
         browser.close()
     return output_path
 
 
+def render_tiktok_png(data: dict, image_b64: str | None, output_path: str) -> str:
+    """Render template.html (auto height) rồi fit vào canvas vuông 1080×1080."""
+    tmp = output_path + ".tmp.png"
+    render_png(data, tmp, image_b64)
+
+    img = Image.open(tmp)
+    w, h = img.size
+    new_h = int(h * 1080 / w)
+    img = img.resize((1080, new_h), Image.LANCZOS)
+
+    # Canvas vuông: nếu ảnh cao hơn 1080 thì scale xuống vừa 1080 chiều cao
+    if new_h <= 1080:
+        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
+        canvas.paste(img, (0, 0))
+    else:
+        new_w = int(w * 1080 / h)
+        img = img.resize((new_w, 1080), Image.LANCZOS)
+        canvas = Image.new("RGB", (1080, 1080), "#0f172a")
+        x = (1080 - new_w) // 2
+        canvas.paste(img, (x, 0))
+
+    canvas.save(output_path)
+    Path(tmp).unlink(missing_ok=True)
+    return output_path
 
 
 def send_telegram(image_path: str, caption: str, token: str, chat_id: str):
@@ -152,6 +178,19 @@ def send_facebook(image_path: str, caption: str, page_token: str, page_id: str, 
     return result
 
 
+def comment_on_facebook_post(post_id: str, message: str, page_token: str):
+    """Bình luận tự động vào bài viết Facebook vừa đăng."""
+    if not post_id or post_id == "?":
+        return
+    url = f"https://graph.facebook.com/v25.0/{post_id}/comments"
+    payload = {"message": message, "access_token": page_token}
+    resp = requests.post(url, data=payload)
+    if resp.status_code == 200:
+        print(f"  💬 Đã comment thành công: {message[:30]}...")
+    else:
+        print(f"  ⚠️ Lỗi comment ({message[:10]}...): {resp.text}")
+
+
 def get_chat_id(token: str):
     resp = requests.get(f"https://api.telegram.org/bot{token}/getUpdates")
     updates = resp.json().get("result", [])
@@ -188,22 +227,21 @@ def main():
         print(f"Chat ID: {tg_chat_id}")
 
     print("Đang lấy và tổng hợp tin...")
-    result, new_seen = rss_fetch.run(client, limit_per_source=5, mode="top3")
+    # Chạy chế độ single để chọn đúng 1 bài hot nhất
+    result, new_seen = rss_fetch.run(client, limit_per_source=5, mode="single")
 
     if not result:
         print("Không có tin mới."); return
 
-    news_stories   = result.get("news", [])
-    reddit_stories = result.get("reddit", [])
-    total = len(news_stories) + len(reddit_stories)
-
-    def send_story(data, idx, emoji):
+    def send_story(data, emoji):
         try:
             img = fetch_article_image(data)
-            render_png(data, f"digest_{idx}.png", img)
+            render_png(data, "digest_1.png", img)
+            render_tiktok_png(data, img, "tiktok_1.png")
             caption = f"{emoji} {data['title']}\n\n{data['summary']}"
-            send_telegram(f"digest_{idx}.png", caption, tg_token, str(tg_chat_id))
-            print(f"  Đã gửi Telegram!")
+            send_telegram("digest_1.png", caption, tg_token, str(tg_chat_id))
+            send_telegram("tiktok_1.png", "📱 TikTok version", tg_token, str(tg_chat_id))
+            print(f"  Đã gửi Telegram + TikTok!")
 
             # --- Đăng lên Facebook Fanpage ---
             if fb_enabled:
@@ -218,24 +256,32 @@ def main():
                         fb_caption += f"📎 Nguồn: {', '.join(sources)}\n\n"
                     fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
                     
-                    delay_hours = (idx - 1) * 4
-                    send_facebook(f"digest_{idx}.png", fb_caption, fb_token, fb_page_id, delay_hours)
+                    # Đăng LIVE trực tiếp (delay_hours = 0)
+                    fb_result = send_facebook("digest_1.png", fb_caption, fb_token, fb_page_id, delay_hours=0)
+                    
+                    # Tự động comment sau khi đăng
+                    post_id = fb_result.get("post_id", fb_result.get("id"))
+                    if post_id:
+                        # Comment 1: Nguồn bài gốc
+                        article_link = data.get("article_link")
+                        if article_link:
+                            comment_on_facebook_post(post_id, f"📌 Nguồn chi tiết bài viết:\n{article_link}", fb_token)
+                        
+                        # Comment 2: Link khuyến mãi
+                        comment_on_facebook_post(post_id, "🛍️ Săn ngay các sản phẩm Apple phụ kiện siêu HOT đang SALE tại Lucas:\n👉 https://lucas.vn/khuyen-mai", fb_token)
+                        
                 except Exception as fb_err:
-                    print(f"  ⚠️ Lỗi đăng Facebook bài {idx}: {fb_err}")
+                    print(f"  ⚠️ Lỗi đăng Facebook: {fb_err}")
 
         except Exception as e:
-            print(f"  Lỗi bài {idx}: {e}")
+            print(f"  Lỗi xử lý bài: {e}")
 
-    print(f"\n📰 Tin báo ({len(news_stories)} bài):")
-    for i, data in enumerate(news_stories, 1):
-        print(f"\n[{i}/{total}] {data['title']}")
-        send_story(data, i, "🍎")
-
-    print(f"\n🔴 Reddit community ({len(reddit_stories)} bài):")
-    for i, data in enumerate(reddit_stories, 1):
-        idx = len(news_stories) + i
-        print(f"\n[{idx}/{total}] {data['title']}")
-        send_story(data, idx, "🔥")
+    source = result.get("source", "")
+    is_reddit = source.startswith("r/")
+    emoji = "🔥" if is_reddit else "🍎"
+    
+    print(f"\n🗞️ Đã chọn bài: {result['title']} (từ {source})")
+    send_story(result, emoji)
 
     rss_fetch.save_seen(new_seen)
 

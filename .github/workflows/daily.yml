@@ -1,8 +1,8 @@
-name: Daily Apple Digest
+name: Auto Post (Every 4 Hours)
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # Target 8AM giờ Việt Nam — bù delay ~8h của GitHub free tier
+    - cron: '0 */4 * * *'  # Chạy mỗi 4 tiếng
   workflow_dispatch:        # cho phép chạy thủ công trên GitHub
 
 jobs:
