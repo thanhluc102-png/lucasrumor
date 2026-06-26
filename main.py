@@ -116,13 +116,6 @@ def render_png(data: dict, output_path: str = "digest.png", image_b64: str | Non
     return output_path
 
 
-def send_telegram(image_path: str, caption: str, token: str, chat_id: str):
-    url = f"https://api.telegram.org/bot{token}/sendPhoto"
-    with open(image_path, "rb") as f:
-        resp = requests.post(url, data={"chat_id": chat_id, "caption": caption}, files={"photo": f})
-    resp.raise_for_status()
-    return resp.json()
-
 
 def send_facebook(image_path: str, caption: str, page_token: str, page_id: str, delay_hours: int = 0):
     """Đăng ảnh + caption lên Facebook Page qua Graph API v25.0."""
@@ -165,25 +158,14 @@ def comment_on_facebook_post(post_id: str, message: str, page_token: str):
         print(f"  ⚠️ Lỗi comment ({message[:10]}...): {resp.text}")
 
 
-def get_chat_id(token: str):
-    resp = requests.get(f"https://api.telegram.org/bot{token}/getUpdates")
-    updates = resp.json().get("result", [])
-    if not updates:
-        return None
-    return updates[-1]["message"]["chat"]["id"]
-
 
 def main():
     api_key    = os.environ.get("ANTHROPIC_API_KEY")
-    tg_token   = os.environ.get("TELEGRAM_TOKEN")
-    tg_chat_id = os.environ.get("TELEGRAM_CHAT_ID")
     fb_token   = os.environ.get("FB_PAGE_TOKEN")
     fb_page_id = os.environ.get("FB_PAGE_ID")
 
     if not api_key:
         print("Thiếu ANTHROPIC_API_KEY"); return
-    if not tg_token:
-        print("Thiếu TELEGRAM_TOKEN"); return
 
     fb_enabled = bool(fb_token and fb_page_id)
     if fb_enabled:
@@ -192,14 +174,6 @@ def main():
         print("📘 Facebook: TẮT (thiếu FB_PAGE_TOKEN hoặc FB_PAGE_ID)")
 
     client = anthropic.Anthropic(api_key=api_key)
-
-    if not tg_chat_id:
-        print("Đang lấy Telegram chat_id...")
-        tg_chat_id = get_chat_id(tg_token)
-        if not tg_chat_id:
-            print("Chưa tìm thấy chat_id. Gửi 1 tin cho bot rồi chạy lại."); return
-        print(f"Chat ID: {tg_chat_id}")
-
     print("Đang lấy và tổng hợp tin...")
     # Chạy chế độ single để chọn đúng 1 bài hot nhất
     result, new_seen = rss_fetch.run(client, limit_per_source=5, mode="single")
@@ -211,10 +185,6 @@ def main():
         try:
             img = fetch_article_image(data)
             render_png(data, "digest_1.png", img)
-            caption = f"{emoji} {data['title']}\n\n{data['summary']}"
-            send_telegram("digest_1.png", caption, tg_token, str(tg_chat_id))
-            print(f"  Đã gửi Telegram!")
-
             # --- Đăng lên Facebook Fanpage ---
             if fb_enabled:
                 try:
