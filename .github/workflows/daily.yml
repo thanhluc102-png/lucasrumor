@@ -1,6 +1,8 @@
 name: Auto Post (Every 4 Hours)
 
 on:
+  push:
+    branches: [ "main" ]
   schedule:
     - cron: '0 */4 * * *'  # Chạy mỗi 4 tiếng
   workflow_dispatch:        # cho phép chạy thủ công trên GitHub
