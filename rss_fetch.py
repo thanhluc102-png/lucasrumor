@@ -412,6 +412,17 @@ def run(client, limit_per_source=5, mode="top3"):
         data = pick_top3(client, articles)
     elif mode == "digest":
         data = pick_digest(client, articles)
+    elif mode == "single":
+        import random
+        news = [a for a in articles if not a["source"].startswith("r/")]
+        reddit = [a for a in articles if a["source"].startswith("r/")]
+        if news and reddit:
+            chosen_pool = reddit if random.random() < 0.5 else news
+        elif reddit:
+            chosen_pool = reddit
+        else:
+            chosen_pool = news
+        data = pick_and_build(client, chosen_pool)
     else:
         data = pick_and_build(client, articles)
 
