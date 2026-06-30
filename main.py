@@ -194,8 +194,6 @@ def main():
                     fb_caption += f"{data['summary']}\n\n"
                     if bullets:
                         fb_caption += "\n".join(f"• {b}" for b in bullets) + "\n\n"
-                    if sources:
-                        fb_caption += f"📎 Nguồn: {', '.join(sources)}\n\n"
                     fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
                     
                     # Đăng LIVE trực tiếp (delay_hours = 0)
