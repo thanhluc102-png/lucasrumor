@@ -2,7 +2,7 @@ name: Auto Post (Every 4 Hours)
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Chạy mỗi 4 tiếng
+    - cron: '17 */4 * * *'  # Chạy mỗi 4 tiếng (lệch giờ chẵn để đỡ kẹt hàng đợi)
   workflow_dispatch:        # cho phép chạy thủ công trên GitHub
 
 jobs:
