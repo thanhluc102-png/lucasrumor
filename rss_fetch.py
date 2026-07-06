@@ -445,59 +445,27 @@ def run(client, limit_per_source=5, mode="top3"):
         import datetime
         # Lấy giờ UTC hiện tại chia 4 để ra index từ 0 đến 5
         idx = datetime.datetime.utcnow().hour // 4
-        idx = idx % len(REDDIT_SUBS)
-        target_sub = REDDIT_SUBS[idx]
         
-        valid_posts = []
-        posts = _fetch_reddit_posts(target_sub)
-        for p in posts:
-            title = p.get("title", "")
-            score = p.get("score", 0)
-            comments = p.get("num_comments", 0)
-            permalink = p.get("permalink", "")
-            link = p.get("_rss_link") or f"https://www.reddit.com{permalink}"
-
-            if score < MIN_SCORE or comments < 20: continue
-            if any(skip in title.lower() for skip in REDDIT_SKIP): continue
-            if any(kw in title.lower() for kw in DEAL_KEYWORDS): continue
-            if link in seen_links: continue
-
-            hint = p.get("post_hint", "")
-            image_url = None
-            if hint == "image":
-                image_url = p.get("url", "")
-            elif p.get("gallery_data"):
-                media = p.get("media_metadata", {})
-                first_id = p["gallery_data"]["items"][0]["media_id"]
-                img_data = media.get(first_id, {})
-                if img_data.get("s"):
-                    image_url = img_data["s"].get("u", "").replace("&amp;", "&")
-
-            if not image_url: continue
-
-            valid_posts.append({
-                "source": f"r/{target_sub}",
-                "title": title,
-                "summary": p.get("selftext", "")[:600] or title,
-                "link": link,
-                "image_url": image_url,
-                "score": score,
-                "comments": comments,
-                "rank": comments * 3 + score,
-            })
+        # Thử lần lượt các sub bắt đầu từ idx, nếu sub này trống thì qua sub tiếp theo
+        for offset in range(len(REDDIT_SUBS)):
+            target_idx = (idx + offset) % len(REDDIT_SUBS)
+            target_sub = REDDIT_SUBS[target_idx]
             
-        valid_posts.sort(key=lambda x: x["rank"], reverse=True)
-        if valid_posts:
-            top_post = valid_posts[0]
-            try:
-                data = pick_and_build(client, [top_post])
-                data["article_link"] = top_post["link"]
-                if top_post.get("image_url"):
-                    data["image_url"] = top_post["image_url"]
-                return data, seen_links | {top_post["link"]}
-            except Exception as e:
-                print(f"Lỗi AI cho {target_sub}: {e}")
-                
+            # Lọc ra các bài của target_sub từ danh sách articles đã được cào và xếp hạng
+            sub_articles = [a for a in articles if a["source"] == f"r/{target_sub}"]
+            
+            if sub_articles:
+                top_post = sub_articles[0]
+                try:
+                    data = pick_and_build(client, [top_post])
+                    data["article_link"] = top_post["link"]
+                    if top_post.get("image_url"):
+                        data["image_url"] = top_post["image_url"]
+                    return data, seen_links | {top_post["link"]}
+                except Exception as e:
+                    print(f"Lỗi AI cho {target_sub}: {e}")
+                    # Nếu AI lỗi thì thử sub tiếp theo
+                    
         return None, seen_links
 
     else:
