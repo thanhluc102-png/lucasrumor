@@ -103,7 +103,7 @@ def render_png(data: dict, output_path: str = "digest.png", image_b64: str | Non
         date=date_str,
         image_b64=image_b64,
         logo_b64=LOGO_B64,
-        **{k: v for k, v in data.items() if k not in ("article_link", "image_url")},
+        **{k: v for k, v in data.items() if k not in ("article_link", "image_url", "source")},
     )
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -174,22 +174,22 @@ def main():
         print("📘 Facebook: TẮT (thiếu FB_PAGE_TOKEN hoặc FB_PAGE_ID)")
 
     client = anthropic.Anthropic(api_key=api_key)
-    print("Đang lấy và tổng hợp tin...")
-    # Chạy chế độ single để chọn đúng 1 bài hot nhất
-    result, new_seen = rss_fetch.run(client, limit_per_source=5, mode="single")
+    print("Đang tìm bài viral nhất theo khung giờ của sub...")
+    # Chạy chế độ single_sub (luân phiên 6 sub theo từng khung giờ)
+    result, new_seen = rss_fetch.run(client, limit_per_source=5, mode="single_sub")
 
     if not result:
-        print("Không có tin mới."); return
+        print("Không có bài mới thoả mãn (có ảnh)."); return
 
     def send_story(data, emoji):
         try:
             img = fetch_article_image(data)
-            render_png(data, "digest_1.png", img)
+            output_png = "digest_1.png"
+            render_png(data, output_png, img)
             # --- Đăng lên Facebook Fanpage ---
             if fb_enabled:
                 try:
                     bullets = data.get("bullets", [])
-                    sources = data.get("sources", [])
                     fb_caption = f"{emoji} {data['title']}\n\n"
                     fb_caption += f"{data['summary']}\n\n"
                     if bullets:
@@ -197,17 +197,12 @@ def main():
                     fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
                     
                     # Đăng LIVE trực tiếp (delay_hours = 0)
-                    fb_result = send_facebook("digest_1.png", fb_caption, fb_token, fb_page_id, delay_hours=0)
+                    fb_result = send_facebook(output_png, fb_caption, fb_token, fb_page_id, delay_hours=0)
                     
                     # Tự động comment sau khi đăng
                     post_id = fb_result.get("post_id", fb_result.get("id"))
                     if post_id:
-                        # Comment 1: Nguồn bài gốc
-                        article_link = data.get("article_link")
-                        if article_link:
-                            comment_on_facebook_post(post_id, f"📌 Nguồn chi tiết bài viết:\n{article_link}", fb_token)
-                        
-                        # Comment 2: Link khuyến mãi
+                        # Comment khuyến mãi (Đã cho phép đăng lại bình thường)
                         comment_on_facebook_post(post_id, "🛍️ Săn ngay các sản phẩm Apple phụ kiện siêu HOT đang SALE tại Lucas:\n👉 https://lucas.vn/khuyen-mai", fb_token)
                         
                 except Exception as fb_err:
@@ -220,7 +215,7 @@ def main():
     is_reddit = source.startswith("r/")
     emoji = "🔥" if is_reddit else "🍎"
     
-    print(f"\n🗞️ Đã chọn bài: {result['title']} (từ {source})")
+    print(f"\n🗞️ Đã chọn bài: {result['title']} (từ {source}) - Đăng LIVE")
     send_story(result, emoji)
 
     rss_fetch.save_seen(new_seen)

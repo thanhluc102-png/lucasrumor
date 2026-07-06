@@ -137,10 +137,10 @@ def fetch_articles(limit_per_source=5):
     seen_links = load_seen()
     articles = []
 
-    # nguồn báo thông thường
-    for source, url in RSS_FEEDS.items():
-        feed = feedparser.parse(url)
-        _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
+    # Bỏ lấy tin từ nguồn báo chí (chỉ lấy thảo luận/rumor từ Reddit)
+    # for source, url in RSS_FEEDS.items():
+    #     feed = feedparser.parse(url)
+    #     _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
 
     # Reddit — lấy câu chuyện cộng đồng: image post + self post nhiều comment
     reddit_pool = []
@@ -177,6 +177,9 @@ def fetch_articles(limit_per_source=5):
                 if img_data.get("s"):
                     image_url = img_data["s"].get("u", "").replace("&amp;", "&")
 
+            if not image_url:
+                continue
+
             reddit_pool.append({
                 "source":    f"r/{sub}",
                 "title":     title,
@@ -209,6 +212,7 @@ def pick_and_build(client, articles: list[dict]) -> dict:
     )
 
     prompt = f"""Bạn là biên tập viên công nghệ người Việt kiêm nhà thiết kế infographic.
+Tuyệt đối KHÔNG sử dụng các từ "News", "Tin tức" trong tiêu đề, tóm tắt hay bất kỳ đâu trong nội dung sinh ra. Thay vào đó hãy ưu tiên dùng các từ như "Tin đồn", "Thảo luận", "Cộng đồng", "Leak".
 
 Dưới đây là các tin Apple mới nhất:
 
@@ -283,6 +287,15 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
     idx = max(0, min(data.pop("selected_index", 1) - 1, len(articles) - 1))
     data["article_link"] = articles[idx]["link"]
     data["source"] = articles[idx]["source"]
+    # Bắt buộc điền đúng visual_type cho r/
+    if data["source"].startswith("r/") and data.get("visual_type") != "community":
+        data["visual_type"] = "community"
+        if "visual_data" not in data:
+            data["visual_data"] = {}
+        data["visual_data"]["subreddit"] = data["source"].replace("r/", "")
+        data["visual_data"]["upvotes"] = articles[idx].get("score", 0)
+        data["visual_data"]["comments"] = articles[idx].get("comments", 0)
+
     if articles[idx].get("image_url"):
         data["image_url"] = articles[idx]["image_url"]
     return data
@@ -364,6 +377,7 @@ def pick_digest(client, articles: list[dict]) -> dict:
     )
 
     prompt = f"""Bạn là biên tập viên công nghệ người Việt.
+Tuyệt đối KHÔNG sử dụng các từ "News", "Tin tức" trong kết quả. Thay bằng "Tin đồn", "Góc cộng đồng".
 
 Dưới đây là các tin Apple mới nhất:
 
@@ -412,7 +426,7 @@ def run(client, limit_per_source=5, mode="top3"):
         data = pick_top3(client, articles)
     elif mode == "digest":
         data = pick_digest(client, articles)
-    elif mode == "single":
+    if mode == "single":
         import random
         news = [a for a in articles if not a["source"].startswith("r/")]
         reddit = [a for a in articles if a["source"].startswith("r/")]
@@ -423,15 +437,70 @@ def run(client, limit_per_source=5, mode="top3"):
         else:
             chosen_pool = news
         data = pick_and_build(client, chosen_pool)
+        chosen_link = data.get("article_link")
+        new_links = {chosen_link} if chosen_link else set()
+        return data, seen_links | new_links
+
+    elif mode == "single_sub":
+        import datetime
+        # Lấy giờ UTC hiện tại chia 4 để ra index từ 0 đến 5
+        idx = datetime.datetime.utcnow().hour // 4
+        idx = idx % len(REDDIT_SUBS)
+        target_sub = REDDIT_SUBS[idx]
+        
+        valid_posts = []
+        posts = _fetch_reddit_posts(target_sub)
+        for p in posts:
+            title = p.get("title", "")
+            score = p.get("score", 0)
+            comments = p.get("num_comments", 0)
+            permalink = p.get("permalink", "")
+            link = p.get("_rss_link") or f"https://www.reddit.com{permalink}"
+
+            if score < MIN_SCORE or comments < 20: continue
+            if any(skip in title.lower() for skip in REDDIT_SKIP): continue
+            if any(kw in title.lower() for kw in DEAL_KEYWORDS): continue
+            if link in seen_links: continue
+
+            hint = p.get("post_hint", "")
+            image_url = None
+            if hint == "image":
+                image_url = p.get("url", "")
+            elif p.get("gallery_data"):
+                media = p.get("media_metadata", {})
+                first_id = p["gallery_data"]["items"][0]["media_id"]
+                img_data = media.get(first_id, {})
+                if img_data.get("s"):
+                    image_url = img_data["s"].get("u", "").replace("&amp;", "&")
+
+            if not image_url: continue
+
+            valid_posts.append({
+                "source": f"r/{target_sub}",
+                "title": title,
+                "summary": p.get("selftext", "")[:600] or title,
+                "link": link,
+                "image_url": image_url,
+                "score": score,
+                "comments": comments,
+                "rank": comments * 3 + score,
+            })
+            
+        valid_posts.sort(key=lambda x: x["rank"], reverse=True)
+        if valid_posts:
+            top_post = valid_posts[0]
+            try:
+                data = pick_and_build(client, [top_post])
+                data["article_link"] = top_post["link"]
+                if top_post.get("image_url"):
+                    data["image_url"] = top_post["image_url"]
+                return data, seen_links | {top_post["link"]}
+            except Exception as e:
+                print(f"Lỗi AI cho {target_sub}: {e}")
+                
+        return None, seen_links
+
     else:
         data = pick_and_build(client, articles)
-
-    if mode == "single":
-        # Chế độ single: Chỉ đánh dấu bài viết đã được chọn là "đã xem"
-        chosen_link = data.get("article_link")
-        new_links = {chosen_link} if chosen_link and not data.get("source", "").startswith("r/") else set()
-    else:
-        # Chỉ lưu link báo — Reddit posts thay đổi theo ngày, không cần dedup
         new_links = {a["link"] for a in articles if not a.get("source", "").startswith("r/")}
-        
-    return data, seen_links | new_links
+        return data, seen_links | new_links
