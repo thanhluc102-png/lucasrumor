@@ -1,0 +1,34 @@
+name: Auto Post Product (Reels)
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Chạy mỗi 6 tiếng
+  workflow_dispatch:        # cho phép chạy thủ công
+
+jobs:
+  send-product-video:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          cd lucas-video-bot
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Run product video bot
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+        run: |
+          cd lucas-video-bot
+          python main_product.py
