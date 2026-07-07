@@ -225,7 +225,7 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
   "category": "iPhone | MacBook | Apple AI | Tin nóng | Deal | Sự kiện",
   "category_icon": "emoji phù hợp với category",
   "title": "tiêu đề tiếng Việt mạnh, tối đa 10 từ",
-  "summary": "2-3 câu tóm tắt tự nhiên",
+  "summary": "Tóm tắt cực kỳ ngắn gọn, TỐI ĐA 25 TỪ, đi thẳng vào trọng tâm",
 
   "visual_type": "comparison | stat | announcement | deal | timeline | community",
   // Chọn loại visual phù hợp nhất với nội dung:
