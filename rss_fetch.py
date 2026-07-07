@@ -447,7 +447,7 @@ def run(client, limit_per_source=5, mode="top3"):
     elif mode == "single_sub":
         import datetime
         # Lấy giờ UTC hiện tại chia 4 để ra index
-        idx = 6 # Force MacRumors
+        idx = datetime.datetime.utcnow().hour // 4
         
         # Kết hợp cả nguồn Reddit và Báo chí
         ALL_SOURCES = REDDIT_SUBS + list(RSS_FEEDS.keys())
