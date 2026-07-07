@@ -137,10 +137,13 @@ def fetch_articles(limit_per_source=5):
     seen_links = load_seen()
     articles = []
 
-    # Bỏ lấy tin từ nguồn báo chí (chỉ lấy thảo luận/rumor từ Reddit)
-    # for source, url in RSS_FEEDS.items():
-    #     feed = feedparser.parse(url)
-    #     _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
+    # Lấy tin từ nguồn báo chí
+    for source, url in RSS_FEEDS.items():
+        try:
+            feed = feedparser.parse(url)
+            _add_entries(feed.entries, source, seen_links, articles, limit_per_source)
+        except Exception as e:
+            print(f"Lỗi lấy RSS {url}: {e}")
 
     # Reddit — lấy câu chuyện cộng đồng: image post + self post nhiều comment
     reddit_pool = []
@@ -443,16 +446,21 @@ def run(client, limit_per_source=5, mode="top3"):
 
     elif mode == "single_sub":
         import datetime
-        # Lấy giờ UTC hiện tại chia 4 để ra index từ 0 đến 5
+        # Lấy giờ UTC hiện tại chia 4 để ra index
         idx = datetime.datetime.utcnow().hour // 4
         
-        # Thử lần lượt các sub bắt đầu từ idx, nếu sub này trống thì qua sub tiếp theo
-        for offset in range(len(REDDIT_SUBS)):
-            target_idx = (idx + offset) % len(REDDIT_SUBS)
-            target_sub = REDDIT_SUBS[target_idx]
+        # Kết hợp cả nguồn Reddit và Báo chí
+        ALL_SOURCES = REDDIT_SUBS + list(RSS_FEEDS.keys())
+        
+        # Thử lần lượt các nguồn bắt đầu từ idx
+        for offset in range(len(ALL_SOURCES)):
+            target_idx = (idx + offset) % len(ALL_SOURCES)
+            target_source = ALL_SOURCES[target_idx]
             
-            # Lọc ra các bài của target_sub từ danh sách articles đã được cào và xếp hạng
-            sub_articles = [a for a in articles if a["source"] == f"r/{target_sub}"]
+            source_key = f"r/{target_source}" if target_source in REDDIT_SUBS else target_source
+            
+            # Lọc ra các bài của target_source từ danh sách articles
+            sub_articles = [a for a in articles if a["source"] == source_key]
             
             if sub_articles:
                 top_post = sub_articles[0]
@@ -463,8 +471,8 @@ def run(client, limit_per_source=5, mode="top3"):
                         data["image_url"] = top_post["image_url"]
                     return data, seen_links | {top_post["link"]}
                 except Exception as e:
-                    print(f"Lỗi AI cho {target_sub}: {e}")
-                    # Nếu AI lỗi thì thử sub tiếp theo
+                    print(f"Lỗi AI cho {target_source}: {e}")
+                    # Nếu AI lỗi thì thử nguồn tiếp theo
                     
         return None, seen_links
 
