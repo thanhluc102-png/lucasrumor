@@ -1,0 +1,7 @@
+feedparser
+anthropic
+requests
+jinja2
+playwright
+beautifulsoup4
+Pillow
