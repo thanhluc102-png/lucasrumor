@@ -446,17 +446,28 @@ def run(client, limit_per_source=5, mode="top3"):
 
     elif mode == "single_sub":
         import datetime
-        # Lấy giờ UTC hiện tại chia 4 để ra index
-        idx = datetime.datetime.utcnow().hour // 4
+        hour = datetime.datetime.utcnow().hour
         
-        # Kết hợp cả nguồn Reddit và Báo chí
-        ALL_SOURCES = REDDIT_SUBS + list(RSS_FEEDS.keys())
+        # Xen kẽ 1 Reddit, 1 Báo:
+        # Giờ chia 2 chẵn (0, 4, 8...) -> Reddit
+        # Giờ chia 2 lẻ (2, 6, 10...) -> Báo
+        is_reddit_turn = (hour // 2) % 2 == 0
         
-        # Thử lần lượt các nguồn bắt đầu từ idx
-        for offset in range(len(ALL_SOURCES)):
-            target_idx = (idx + offset) % len(ALL_SOURCES)
-            target_source = ALL_SOURCES[target_idx]
+        # Chỉ mục xoay vòng (mỗi 4 tiếng tăng 1)
+        cycle_idx = hour // 4
+        
+        if is_reddit_turn:
+            primary_list = REDDIT_SUBS
+            secondary_list = list(RSS_FEEDS.keys())
+        else:
+            primary_list = list(RSS_FEEDS.keys())
+            secondary_list = REDDIT_SUBS
             
+        start_idx = cycle_idx % len(primary_list)
+        ordered_sources = primary_list[start_idx:] + primary_list[:start_idx] + secondary_list
+        
+        # Thử lần lượt các nguồn ưu tiên
+        for target_source in ordered_sources:
             source_key = f"r/{target_source}" if target_source in REDDIT_SUBS else target_source
             
             # Lọc ra các bài của target_source từ danh sách articles
