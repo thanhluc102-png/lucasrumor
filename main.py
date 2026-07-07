@@ -194,7 +194,7 @@ def main():
                     fb_caption += f"{data['summary']}\n\n"
                     if bullets:
                         fb_caption += "\n".join(f"• {b}" for b in bullets) + "\n\n"
-                    fb_caption += "#LucasCombo #Apple #TinCongNghe #iPhone #MacBook #AppleNews"
+                    fb_caption += "#LucasCombo #Apple #iPhone #MacBook"
                     
                     # Đăng LIVE trực tiếp (delay_hours = 0)
                     fb_result = send_facebook(output_png, fb_caption, fb_token, fb_page_id, delay_hours=0)
