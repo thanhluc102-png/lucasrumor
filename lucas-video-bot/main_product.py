@@ -44,44 +44,18 @@ def render_story_png(data: dict, output_path: str = "mock_story.png", image_b64:
         browser.close()
     return output_path
 
-def generate_video(image_path: str, output_mp4: str, duration: int = 15):
-    bgm_path = "bgm.mp3"
-    if not os.path.exists(bgm_path):
-        subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anoisesrc=c=pink:r=44100:a=0.1,lowpass=f=200", "-t", "15", bgm_path], stderr=subprocess.DEVNULL)
-        
-    frames = duration * 30
-    cmd = [
-        "ffmpeg", "-y",
-        "-loop", "1", "-i", image_path,
-        "-stream_loop", "-1", "-i", bgm_path,
-        "-vf", f"zoompan=z='min(zoom+0.001,1.15)':d={frames}:s=1080x1920:fps=30",
-        "-c:v", "libx264",
-        "-t", str(duration),
-        "-pix_fmt", "yuv420p",
-        "-c:a", "aac",
-        "-b:a", "192k",
-        "-shortest",
-        output_mp4
-    ]
-    try:
-        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        return output_mp4
-    except subprocess.CalledProcessError as e:
-        print(f"Lỗi render FFmpeg: {e}")
-        return None
-
-def send_facebook_video(video_path: str, description: str, page_token: str, page_id: str):
-    url = f"https://graph.facebook.com/v25.0/{page_id}/videos"
-    payload = {"description": description, "access_token": page_token}
-    print("Đang tải Reel lên Facebook...")
-    with open(video_path, "rb") as f:
+def send_facebook_photo(image_path: str, caption: str, page_token: str, page_id: str):
+    url = f"https://graph.facebook.com/v25.0/{page_id}/photos"
+    payload = {"caption": caption, "access_token": page_token}
+    print("Đang tải Ảnh (Story Layout) lên Facebook...")
+    with open(image_path, "rb") as f:
         resp = requests.post(url, data=payload, files={"source": f})
     if resp.status_code != 200:
-        print(f"Lỗi Facebook Video: {resp.text}")
+        print(f"Lỗi Facebook Photo: {resp.text}")
     resp.raise_for_status()
     result = resp.json()
     post_id = result.get("post_id", result.get("id", "?"))
-    print(f"✅ Đã đăng Reel sản phẩm thành công! (post_id: {post_id})")
+    print(f"✅ Đã đăng Ảnh sản phẩm thành công! (post_id: {post_id})")
     return result
 
 def comment_on_facebook_post(post_id: str, message: str, page_token: str):
@@ -104,27 +78,23 @@ def main():
     frame_path = "frame_product.png"
     render_story_png(product, frame_path, img_b64)
     
-    video_path = "reel_product.mp4"
-    generated_video = generate_video(frame_path, video_path, duration=15)
+    fb_token = os.environ.get("FB_PAGE_TOKEN")
+    fb_page_id = os.environ.get("FB_PAGE_ID")
     
-    if generated_video:
-        fb_token = os.environ.get("FB_PAGE_TOKEN")
-        fb_page_id = os.environ.get("FB_PAGE_ID")
+    if fb_token and fb_page_id:
+        fb_caption = f"🔥 {product['title']}\n\n"
+        if product.get('regular_price'):
+            fb_caption += f"💰 Giá SALE: {product['price']} (Gốc: {product['regular_price']})\n\n"
+        else:
+            fb_caption += f"💰 Giá: {product['price']}\n\n"
+        fb_caption += "👇 BẤM VÀO LINK Ở PHẦN BÌNH LUẬN ĐỂ MUA NGAY!\n\n"
+        fb_caption += "#LucasCombo #PhuKienApple #KhuyenMai"
         
-        if fb_token and fb_page_id:
-            fb_desc = f"🔥 {product['title']}\n\n"
-            if product.get('regular_price'):
-                fb_desc += f"💰 Giá SALE: {product['price']} (Gốc: {product['regular_price']})\n\n"
-            else:
-                fb_desc += f"💰 Giá: {product['price']}\n\n"
-            fb_desc += "👇 BẤM VÀO LINK Ở PHẦN BÌNH LUẬN ĐỂ MUA NGAY!\n\n"
-            fb_desc += "#LucasCombo #PhuKienApple #KhuyenMai"
-            
-            fb_result = send_facebook_video(generated_video, fb_desc, fb_token, fb_page_id)
-            post_id = fb_result.get("post_id", fb_result.get("id"))
-            if post_id:
-                comment_msg = f"🛒 Mua ngay tại đây: {product['link']}"
-                comment_on_facebook_post(post_id, comment_msg, fb_token)
+        fb_result = send_facebook_photo(frame_path, fb_caption, fb_token, fb_page_id)
+        post_id = fb_result.get("post_id", fb_result.get("id"))
+        if post_id:
+            comment_msg = f"🛒 Mua ngay tại đây: {product['link']}"
+            comment_on_facebook_post(post_id, comment_msg, fb_token)
 
 if __name__ == "__main__":
     main()
