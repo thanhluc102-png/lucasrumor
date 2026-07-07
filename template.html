@@ -110,7 +110,7 @@
     font-size: 34px; color: rgba(255,255,255,0.88); line-height: 1.5;
     margin-bottom: 18px; position: relative; z-index: 1;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -162,7 +162,7 @@
   <div class="footer-row">
     <div class="footer-meta">Lucas Rumor &bull; Chi tiết ở comment 👇</div>
     <div class="sources">
-      {% for src in sources %}<span class="source-chip">{{ src }}</span>{% endfor %}
+      <!-- Đã ẩn nguồn theo yêu cầu: {% for src in sources %}<span class="source-chip">{{ src }}</span>{% endfor %} -->
     </div>
   </div>
 
