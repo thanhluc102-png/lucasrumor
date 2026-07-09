@@ -25,7 +25,7 @@ REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
 
 # Chỉ lấy bài có engagement đủ lớn
 MIN_SCORE    = 80   # upvotes tối thiểu
-KEYWORDS = ["macbook", "iphone", "apple", "mac", "ipad", "ios", "macos"]
+KEYWORDS = ["iphone", "macbook", "mac mini", "mac studio", "imac", "mac pro", "ios", "macos", "apple watch", "ipad", "ipados", "airpods"]
 DEAL_KEYWORDS = ["save $", "save up to", " off on ", "deal:", "% off", "drops to $",
                  "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
                  "refurbished", "best place to buy", "skip apple's pricey",
@@ -163,6 +163,8 @@ def fetch_articles(limit_per_source=5):
             if any(skip in title.lower() for skip in REDDIT_SKIP):
                 continue
             if any(kw in title.lower() for kw in DEAL_KEYWORDS):
+                continue
+            if not any(kw in (title + " " + selftext).lower() for kw in KEYWORDS):
                 continue
             if link in seen_links:
                 continue
