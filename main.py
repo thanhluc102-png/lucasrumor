@@ -199,11 +199,12 @@ def main():
                     # Đăng LIVE trực tiếp (delay_hours = 0)
                     fb_result = send_facebook(output_png, fb_caption, fb_token, fb_page_id, delay_hours=0)
                     
-                    # Tự động comment sau khi đăng
+                    # Tự động comment chi tiết bài báo/Reddit (Việt hoá)
                     post_id = fb_result.get("post_id", fb_result.get("id"))
                     if post_id:
-                        # Comment khuyến mãi (Đã cho phép đăng lại bình thường)
-                        comment_on_facebook_post(post_id, "🛍️ Săn ngay các sản phẩm Apple phụ kiện siêu HOT đang SALE tại Lucas:\n👉 https://lucas.vn/khuyen-mai", fb_token)
+                        full_content = data.get("full_translated_content")
+                        if full_content:
+                            comment_on_facebook_post(post_id, full_content, fb_token)
                         
                 except Exception as fb_err:
                     print(f"  ⚠️ Lỗi đăng Facebook: {fb_err}")

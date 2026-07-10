@@ -231,6 +231,7 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
   "category_icon": "emoji phù hợp với category",
   "title": "tiêu đề tiếng Việt mạnh, tối đa 10 từ",
   "summary": "Tóm tắt cực kỳ ngắn gọn, TỐI ĐA 25 TỪ, đi thẳng vào trọng tâm",
+  "full_translated_content": "Viết lại toàn bộ nội dung chi tiết của bản tin sang tiếng Việt một cách mượt mà, đầy đủ thông tin nhất có thể (dựa trên dữ liệu gốc được cung cấp). Trình bày rõ ràng, thân thiện, dễ đọc, độ dài từ 3-6 câu.",
 
   "visual_type": "comparison | stat | announcement | deal | timeline | community",
   // Chọn loại visual phù hợp nhất với nội dung:
@@ -279,7 +280,7 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
 
     msg = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=900,
+        max_tokens=1500,
         messages=[{"role": "user", "content": prompt}],
     )
 
