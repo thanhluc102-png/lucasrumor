@@ -45,6 +45,21 @@ def save_seen(seen: set):
     SEEN_FILE.write_text(json.dumps(list(seen)))
 
 
+def check_has_image(article: dict) -> bool:
+    if article.get("image_url"):
+        return True
+    if article["source"].startswith("r/"):
+        return False
+    # Check og:image for RSS links
+    try:
+        from bs4 import BeautifulSoup
+        r = requests.get(article["link"], headers={"User-Agent": "Mozilla/5.0"}, timeout=5)
+        soup = BeautifulSoup(r.text, "html.parser")
+        return bool(soup.find("meta", property="og:image"))
+    except:
+        return False
+
+
 def is_similar(a: str, b: str, threshold=0.6) -> bool:
     return SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
 
@@ -476,8 +491,9 @@ def run(client, limit_per_source=5, mode="top3"):
             # Lọc ra các bài của target_source từ danh sách articles
             sub_articles = [a for a in articles if a["source"] == source_key]
             
-            if sub_articles:
-                top_post = sub_articles[0]
+            for top_post in sub_articles:
+                if not check_has_image(top_post):
+                    continue
                 try:
                     data = pick_and_build(client, [top_post])
                     data["article_link"] = top_post["link"]
@@ -486,7 +502,7 @@ def run(client, limit_per_source=5, mode="top3"):
                     return data, seen_links | {top_post["link"]}
                 except Exception as e:
                     print(f"Lỗi AI cho {target_source}: {e}")
-                    # Nếu AI lỗi thì thử nguồn tiếp theo
+                    # Nếu AI lỗi thì thử post tiếp theo của sub_articles
                     
         return None, seen_links
 
