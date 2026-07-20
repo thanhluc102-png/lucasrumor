@@ -14,10 +14,10 @@
     ],
     "publish_time": "2026-07-20T08:20:25.023841",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -34,6 +34,27 @@
       "💬 Bạn nghĩ sao — Apple đang thực sự dẫn đầu AI hay chỉ đang 'kể chuyện' giỏi hơn?"
     ],
     "publish_time": "2026-07-20T12:01:09.445915",
+    "performance": {
+      "reactions": 0,
+      "comments": 2,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1501345725366088",
+    "title": "HomeSnap: Theo Dõi Nhà HomeKit Riêng Tư Không Cần Tài Khoản?",
+    "summary": "HomeSnap lưu toàn bộ lịch sử HomeKit, hiển thị trạng thái nhà theo thời gian thực, không cần tài khoản hay máy chủ bên thứ ba.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/sponsored/homesnap-a-private-read-only-window-into-your-homekit-home-sponsor/",
+    "bullets": [
+      "📖 Lưu toàn bộ lịch sử hoạt động HomeKit — không chỉ trạng thái tức thời như app Home mặc định",
+      "🔒 Không tài khoản, không máy chủ bên thứ ba — dữ liệu ở lại 100% trên thiết bị của bạn",
+      "📱 Hỗ trợ iPhone, iPad và Mac — cảnh báo ngay khi có thiết bị cần chú ý"
+    ],
+    "publish_time": "2026-07-20T15:24:47.799196",
     "performance": null
   }
 ]
