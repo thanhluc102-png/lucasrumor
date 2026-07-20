@@ -25,11 +25,16 @@ REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
 
 # Chỉ lấy bài có engagement đủ lớn
 MIN_SCORE    = 80   # upvotes tối thiểu
-KEYWORDS = ["iphone", "macbook", "mac mini", "mac studio", "imac", "mac pro", "ios", "macos", "apple watch", "ipad", "ipados", "airpods"]
-DEAL_KEYWORDS = ["save $", "save up to", " off on ", "deal:", "% off", "drops to $",
-                 "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
-                 "refurbished", "best place to buy", "skip apple's pricey",
-                 "costco", " sale "]
+KEYWORDS = ["iphone", "macbook", "ipad", "ios", "macos", "ipados"]
+DEAL_KEYWORDS = [
+    "save $", "save up to", " off on ", "deal:", "% off", "drops to $",
+    "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
+    "refurbished", "best place to buy", "skip apple's pricey", "costco", " sale ",
+    "giveaway", "promo", "sponsored", "advertisement", "discount", "deal", "deals",
+    "unboxing", "review", "hands-on", "hands on", "first look", "best deals",
+    "buy now", "shop", "gift card", "gift cards", "sweepstakes", "free shipping",
+    "pre-order", "preorder"
+]
 SEEN_FILE  = Path("seen_articles.json")
 REDDIT_UA  = "AppleNewsBot/1.0 (by /u/lucasrumor)"
 MIN_SCORE  = 80  # upvotes tối thiểu cho Reddit link post
@@ -467,9 +472,8 @@ def run(client, limit_per_source=5, mode="top3"):
         hour = datetime.datetime.utcnow().hour
         
         # Xen kẽ 1 Reddit, 1 Báo:
-        # Giờ chia 2 chẵn (0, 4, 8...) -> Reddit
-        # Giờ chia 2 lẻ (2, 6, 10...) -> Báo
-        is_reddit_turn = (hour // 2) % 2 == 0
+        # Chạy mỗi 4 tiếng: chẵn (0-3h, 8-11h...) -> Reddit, lẻ (4-7h, 12-15h...) -> Báo
+        is_reddit_turn = (hour // 4) % 2 == 0
         
         # Chỉ mục xoay vòng (mỗi 4 tiếng tăng 1)
         cycle_idx = hour // 4
