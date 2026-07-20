@@ -1,2 +1,6 @@
-- Ưu tiên viết ngắn gọn, giật tít tập trung vào dòng sản phẩm iPhone, MacBook, iPad.
-- Tránh nội dung mang tính chất quảng cáo lộ liễu, tăng tính thảo luận cộng đồng.
+• Dữ liệu hiện chỉ có **1 bài duy nhất** (Score=5, rất thấp) — chưa đủ cơ sở để xác định chủ đề hay góc tiếp cận nào vượt trội; cần tối thiểu 5–10 bài đa dạng để so sánh có ý nghĩa.
+• **Tránh dạng tin "Apple thử nghiệm nội bộ"** mang tính kỹ thuật/hạ tầng doanh nghiệp (Genius Bar AI, back-end tool) — ít liên quan trực tiếp đến trải nghiệm người dùng cuối, dẫn đến phản ứng thấp (Reactions=2, Shares=0).
+• **Tránh hook dạng mô tả thuần túy** ("AI tự động phiên âm cuộc trò chuyện…") — không tạo câu hỏi mở, không kích thích tranh luận hay chia sẻ; cần thêm yếu tố gây tranh cãi, liên quan cá nhân hoặc kêu gọi ý kiến.
+• **Ưu tiên chủ đề ảnh hưởng trực tiếp đến người dùng/người mua** (tính năng mới trên thiết bị, thay đổi giá, rò rỉ sản phẩm sắp ra) thay vì tin vận hành nội bộ Apple.
+• **Bổ sung câu hỏi kết thúc hook** ("Bạn thấy thế nào?", "Nên hay không nên?") để chủ động kéo Comments — hiện tại bài thiếu hoàn toàn yếu tố này.
+• ⚠️ **Lưu ý quan trọng:** Bộ hướng dẫn này cần được cập nhật lại ngay khi có thêm dữ liệu từ ≥5 bài — kết luận hiện tại chỉ mang tính tạm thời, độ tin cậy thấp.
