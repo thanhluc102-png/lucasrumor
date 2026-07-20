@@ -1,5 +1,6 @@
 import os
 import base64
+import json
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -16,6 +17,29 @@ import anthropic
 import rss_fetch
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+
+def save_post_to_history(post_id, data):
+    history_file = Path("post_history.json")
+    history = []
+    if history_file.exists():
+        try:
+            history = json.loads(history_file.read_text(encoding="utf-8"))
+        except Exception:
+            history = []
+    new_entry = {
+        "post_id": post_id,
+        "title": data.get("title"),
+        "summary": data.get("summary"),
+        "category": data.get("category"),
+        "visual_type": data.get("visual_type"),
+        "source": data.get("source"),
+        "article_link": data.get("article_link"),
+        "bullets": data.get("bullets", []),
+        "publish_time": datetime.now().isoformat(),
+        "performance": None
+    }
+    history.append(new_entry)
+    history_file.write_text(json.dumps(history, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def _load_logo_b64() -> str:
     path = Path(__file__).parent / "logo.png"
@@ -202,6 +226,7 @@ def main():
                     # Tự động comment chi tiết bài báo/Reddit (Việt hoá)
                     post_id = fb_result.get("post_id", fb_result.get("id"))
                     if post_id:
+                        save_post_to_history(post_id, data)
                         full_content = data.get("full_translated_content")
                         if full_content:
                             comment_on_facebook_post(post_id, full_content, fb_token)
