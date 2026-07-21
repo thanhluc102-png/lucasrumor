@@ -1,6 +1,7 @@
-• Ưu tiên chủ đề **Apple AI** (đặc biệt góc "Apple đang thay đổi/dẫn đầu theo cách bất ngờ") — nhóm này tạo reactions và comments cao nhất.
-• Dùng cấu trúc tiêu đề **đặt câu hỏi hoặc tạo tension** ("Apple đang chiến thắng?", "Liệu Apple có đang...?") để kích thích bình luận tranh luận.
-• Hook hiệu quả cần có **yếu tố bất ngờ/đảo chiều kỳ vọng** ("bất ngờ được đánh giá", "sau nhiều hoài nghi") — tránh mô tả tính năng thuần túy, trung tính.
-• Tránh các bài thiên về **ứng dụng/tiện ích thị trường ngách** (HomeKit, smart home app) — tương tác cực thấp, không phù hợp với tệp độc giả fanpage phụ kiện Apple phổ thông.
-• Ưu tiên nguồn **MacRumors, MacWorld** hơn MacStories cho nhóm bài infographic tin đồn/thảo luận — độ phủ chủ đề rộng hơn, dễ tạo tranh luận.
-• Mọi hook nên kết thúc bằng **một chi tiết cụ thể gây tò mò** (tên tính năng, con số, hành động lạ) thay vì mô tả chung chung để tăng shares.
+• Ưu tiên chủ đề **Apple AI** và **tính năng iOS/phần mềm cụ thể** — đây là hai nhóm tạo tương tác cao nhất (Score 10 và 9); tránh chủ đề ứng dụng bên thứ ba/HomeKit thiếu liên quan trực tiếp đến người dùng phổ thông (Score 3).
+• Tiêu đề hiệu quả nhất dùng **câu hỏi tu từ hoặc mệnh đề gợi tò mò có dấu "?"** kết hợp tên tính năng cụ thể (ví dụ: "iOS 27 Beta 4: Tính năng mới trên Apple TV?") — kích thích click và bình luận hỏi thêm.
+• Hook nên **nêu thẳng lợi ích/tác động với người dùng** trong câu đầu tiên (ví dụ: "tiện lợi hơn bao giờ hết", "tự động phiên âm") thay vì mô tả kỹ thuật trừu tượng.
+• Ưu tiên góc **"Apple đang thay đổi cuộc chơi"** hoặc **"tính năng bí mật/thử nghiệm nội bộ"** — tạo cảm giác độc quyền, thúc đẩy chia sẻ và tranh luận.
+• Tránh hook quá trung tính, liệt kê tính năng đơn thuần mà **không có quan điểm hoặc yếu tố bất ngờ** — dạng này thấp cả Reactions lẫn Shares.
+• Bài có **Shares > 0 đều có hook gắn với lợi ích cá nhân rõ ràng hoặc thông tin beta/mới nhất** — luôn nhấn vào yếu tố "mới, độc quyền, ảnh hưởng trực tiếp đến mình".
+• Nguồn uy tín (9to5Mac, MacRumors) nên được **hiển thị rõ trong bài** để tăng độ tin cậy, hỗ trợ chia sẻ.
