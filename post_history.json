@@ -77,10 +77,10 @@
     ],
     "publish_time": "2026-07-21T04:35:54.891019",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 1,
       "shares": 1,
-      "score": 9
+      "score": 11
     }
   },
   {
@@ -97,6 +97,27 @@
       "🤖 Cộng đồng suy đoán nâng cấp liên quan đến AI và hiệu năng xử lý thế hệ mới"
     ],
     "publish_time": "2026-07-21T07:44:57.103942",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1502035925297068",
+    "title": "iOS 27 Beta 4: Có Gì Mới Đáng Chú Ý?",
+    "summary": "Beta 4 của iOS 27 vừa ra mắt, cộng đồng Reddit đang soi từng tính năng mới chi tiết nhất.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1v1tme1/heres_whats_new_with_ios_27_beta_4/",
+    "bullets": [
+      "🔄 Beta 4 là bản cập nhật thứ tư — thường mang nhiều tinh chỉnh UI và tính năng mới được kích hoạt",
+      "🔍 Cộng đồng r/apple đang tích cực 'đào' các thay đổi ẩn chưa được Apple công bố chính thức",
+      "📅 iOS 27 dự kiến ra mắt chính thức cùng iPhone 17 vào mùa thu 2025 — người dùng sẽ sớm trải nghiệm trực tiếp"
+    ],
+    "publish_time": "2026-07-21T11:21:12.668894",
     "performance": null
   }
 ]

@@ -1,7 +1,7 @@
-• Ưu tiên chủ đề **Apple AI** và **tính năng iOS/phần mềm cụ thể** — đây là hai nhóm tạo tương tác cao nhất (Score 10 và 9); tránh chủ đề ứng dụng bên thứ ba/HomeKit thiếu liên quan trực tiếp đến người dùng phổ thông (Score 3).
-• Tiêu đề hiệu quả nhất dùng **câu hỏi tu từ hoặc mệnh đề gợi tò mò có dấu "?"** kết hợp tên tính năng cụ thể (ví dụ: "iOS 27 Beta 4: Tính năng mới trên Apple TV?") — kích thích click và bình luận hỏi thêm.
-• Hook nên **nêu thẳng lợi ích/tác động với người dùng** trong câu đầu tiên (ví dụ: "tiện lợi hơn bao giờ hết", "tự động phiên âm") thay vì mô tả kỹ thuật trừu tượng.
-• Ưu tiên góc **"Apple đang thay đổi cuộc chơi"** hoặc **"tính năng bí mật/thử nghiệm nội bộ"** — tạo cảm giác độc quyền, thúc đẩy chia sẻ và tranh luận.
-• Tránh hook quá trung tính, liệt kê tính năng đơn thuần mà **không có quan điểm hoặc yếu tố bất ngờ** — dạng này thấp cả Reactions lẫn Shares.
-• Bài có **Shares > 0 đều có hook gắn với lợi ích cá nhân rõ ràng hoặc thông tin beta/mới nhất** — luôn nhấn vào yếu tố "mới, độc quyền, ảnh hưởng trực tiếp đến mình".
-• Nguồn uy tín (9to5Mac, MacRumors) nên được **hiển thị rõ trong bài** để tăng độ tin cậy, hỗ trợ chia sẻ.
+• Ưu tiên chủ đề **iOS/iPhone cụ thể** (tính năng beta, chip mới) và **Apple AI thực tế** — đây là hai nhóm có Score cao nhất (11 và 10), nên tập trung khai thác góc "tin đồn có chi tiết kỹ thuật rõ ràng".
+• Cấu trúc tiêu đề hiệu quả: dùng **dấu hỏi hoặc con số cụ thể** ("Hai nâng cấp lớn", "Beta 4") kết hợp tên sản phẩm quen thuộc (iPhone, iOS) — tạo tò mò và dễ share.
+• Hook mạnh cần có **chi tiết độc lạ, hơi gây ngạc nhiên** (ví dụ: "AI tự động phiên âm tại Genius Bar") hoặc **lợi ích người dùng rõ ràng** ("tiện lợi hơn bao giờ hết") — tránh hook chung chung kiểu "thay đổi cuộc chơi" vì Score thấp.
+• Tránh các bài **nhận định/đánh giá mang tính ý kiến** ("Apple đang dẫn dắt AI theo cách riêng") — dạng này thiếu móc tranh luận cụ thể, Score thấp nhất nhóm AI (7).
+• Loại bỏ hoặc hạn chế bài về **ứng dụng/dịch vụ bên thứ ba ít người biết** (HomeSnap, HomeKit niche) — Score thấp nhất toàn bộ (3), không phù hợp với tệp độc giả phụ kiện Apple đại chúng.
+• Bài có **Shares > 0** đều gắn với tính năng người dùng trực tiếp hưởng lợi (Auto Download, beta update) → luôn thêm yếu tố "bạn sẽ dùng được ngay" vào hook để kích thích chia sẻ.
+• Nguồn **9to5Mac** cho kết quả tốt nhất — ưu tiên khai thác và gắn nguồn uy tín cụ thể trong bài để tăng độ tin cậy và khuyến khích bình luận thảo luận.
