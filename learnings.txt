@@ -1,7 +1,7 @@
-• Ưu tiên chủ đề **iOS/iPhone cụ thể** (tính năng beta, chip mới) và **Apple AI thực tế** — đây là hai nhóm có Score cao nhất (11 và 10), nên tập trung khai thác góc "tin đồn có chi tiết kỹ thuật rõ ràng".
-• Cấu trúc tiêu đề hiệu quả: dùng **dấu hỏi hoặc con số cụ thể** ("Hai nâng cấp lớn", "Beta 4") kết hợp tên sản phẩm quen thuộc (iPhone, iOS) — tạo tò mò và dễ share.
-• Hook mạnh cần có **chi tiết độc lạ, hơi gây ngạc nhiên** (ví dụ: "AI tự động phiên âm tại Genius Bar") hoặc **lợi ích người dùng rõ ràng** ("tiện lợi hơn bao giờ hết") — tránh hook chung chung kiểu "thay đổi cuộc chơi" vì Score thấp.
-• Tránh các bài **nhận định/đánh giá mang tính ý kiến** ("Apple đang dẫn dắt AI theo cách riêng") — dạng này thiếu móc tranh luận cụ thể, Score thấp nhất nhóm AI (7).
-• Loại bỏ hoặc hạn chế bài về **ứng dụng/dịch vụ bên thứ ba ít người biết** (HomeSnap, HomeKit niche) — Score thấp nhất toàn bộ (3), không phù hợp với tệp độc giả phụ kiện Apple đại chúng.
-• Bài có **Shares > 0** đều gắn với tính năng người dùng trực tiếp hưởng lợi (Auto Download, beta update) → luôn thêm yếu tố "bạn sẽ dùng được ngay" vào hook để kích thích chia sẻ.
-• Nguồn **9to5Mac** cho kết quả tốt nhất — ưu tiên khai thác và gắn nguồn uy tín cụ thể trong bài để tăng độ tin cậy và khuyến khích bình luận thảo luận.
+• Ưu tiên chủ đề **iPhone + tính năng cụ thể trong bản beta/update** (iOS 27 Beta 4 dạng "có gì mới" hoặc gắn tên chip/model cụ thể như A20 Pro) — nhóm này dẫn đầu về Score.
+• Cấu trúc tiêu đề hiệu quả nhất: **"[Sản phẩm/Tính năng]: [Lợi ích hoặc câu hỏi gây tò mò]?"** — dấu hỏi cuối tiêu đề kích thích comment hơn câu khẳng định.
+• Hook hiệu quả: **nêu tính năng cụ thể + lợi ích trực tiếp với người dùng** (ví dụ: "tự động tải xuống", "không cần tài khoản") — tránh hook mơ hồ kiểu "thay đổi cuộc chơi" hay "theo cách riêng".
+• Chủ đề **Apple AI dạng tổng quan/đánh giá chung** (ai đang dẫn đầu, Apple có thắng không…) cho Score thấp — hạn chế, hoặc phải gắn vào tính năng/sản phẩm cụ thể thay vì nhận định vĩ mô.
+• Tránh chủ đề **ứng dụng bên thứ ba / HomeKit ecosystem** (HomeSnap) — gần như không tạo tương tác với tệp audience phụ kiện Apple.
+• Bài dạng **community/Reddit roundup** ("cộng đồng đang soi…") không hiệu quả — bỏ hoặc chuyển thành bài tổng hợp tính năng trực tiếp thay vì dẫn nguồn thảo luận.
+• Nguồn **9to5Mac gắn với nội dung beta/leak** cho hiệu quả tốt nhất — ưu tiên khai thác góc này; nguồn MacWorld/MacRumors dạng phân tích xu hướng AI cho kết quả kém hơn.

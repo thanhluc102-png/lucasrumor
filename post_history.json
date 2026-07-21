@@ -118,6 +118,27 @@
       "📅 iOS 27 dự kiến ra mắt chính thức cùng iPhone 17 vào mùa thu 2025 — người dùng sẽ sớm trải nghiệm trực tiếp"
     ],
     "publish_time": "2026-07-21T11:21:12.668894",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1502205511946776",
+    "title": "iOS 27 Beta 4 hé lộ iPhone màn hình gập pin đôi?",
+    "summary": "Code ẩn trong iOS 27 Beta 4 xác nhận iPhone gập sẽ dùng hệ thống hai pin riêng biệt.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3195170/ios-27-beta-code-reveals-apple-is-preparing-a-dual-battery-iphone.html",
+    "bullets": [
+      "🔋 Code trong iOS 27 Beta 4 xác nhận cấu hình dual-battery cho iPhone gập",
+      "📂 Macworld đào sâu mã nguồn — đây là bằng chứng phần mềm rõ ràng nhất từ trước đến nay",
+      "🤔 Pin đôi giúp phân bổ năng lượng cho hai nửa thiết bị, tối ưu hiệu suất khi gập/mở"
+    ],
+    "publish_time": "2026-07-21T15:20:15.320114",
     "performance": null
   }
 ]
