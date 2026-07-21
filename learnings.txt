@@ -1,7 +1,6 @@
-• Cả hai bài đều có Score thấp (=6), chưa có bài nào vượt trội — chưa đủ dữ liệu để xác định chủ đề hay góc tiếp cận "hiệu quả cao"; cần thận trọng khi rút kết luận.
-• Bài có Comments cao hơn (2 comments, 0 reactions) cho thấy góc tiếp cận dạng **đánh giá/nhận định gây tranh luận** ("Apple đang dẫn dắt cuộc chơi AI") kích thích phản hồi hơn là góc tiếp cận **tường thuật tính năng cụ thể** ("AI phiên âm tại Genius Bar").
-• Ưu tiên headline dạng **câu hỏi mở hoặc luận điểm gây tranh cãi** (VD: "Apple đang thắng trong cuộc đua AI?") thay vì mô tả tính năng trung tính — dạng này dễ kéo comment hơn.
-• Cả hai bài đều có **Shares = 0** — hook hiện tại chưa tạo được giá trị chia sẻ; cần thêm yếu tố **"thông tin độc đáo/gây bất ngờ"** hoặc **lợi ích thiết thực với người dùng** để thúc đẩy share.
-• Tránh hook chỉ mô tả tính năng nội bộ của Apple (Genius Bar, Live Notes) mà không liên kết rõ ràng đến **trải nghiệm hoặc lợi ích của người dùng phổ thông**.
-• Thể loại "Apple AI (announcement)" hiện cho tương tác thấp — thử kết hợp góc **so sánh với đối thủ** (Google, Samsung, OpenAI) hoặc **tác động thực tế đến người dùng Việt** để tăng tính liên quan.
-• Cần thu thập thêm dữ liệu (tối thiểu 10–15 bài) trước khi cố định style guide — hiện tại áp dụng các hướng trên ở mức **thử nghiệm A/B**, không nên cố định hoàn toàn.
+• Ưu tiên chủ đề **Apple AI** (đặc biệt góc "Apple đang thay đổi/dẫn đầu theo cách bất ngờ") — nhóm này tạo reactions và comments cao nhất.
+• Dùng cấu trúc tiêu đề **đặt câu hỏi hoặc tạo tension** ("Apple đang chiến thắng?", "Liệu Apple có đang...?") để kích thích bình luận tranh luận.
+• Hook hiệu quả cần có **yếu tố bất ngờ/đảo chiều kỳ vọng** ("bất ngờ được đánh giá", "sau nhiều hoài nghi") — tránh mô tả tính năng thuần túy, trung tính.
+• Tránh các bài thiên về **ứng dụng/tiện ích thị trường ngách** (HomeKit, smart home app) — tương tác cực thấp, không phù hợp với tệp độc giả fanpage phụ kiện Apple phổ thông.
+• Ưu tiên nguồn **MacRumors, MacWorld** hơn MacStories cho nhóm bài infographic tin đồn/thảo luận — độ phủ chủ đề rộng hơn, dễ tạo tranh luận.
+• Mọi hook nên kết thúc bằng **một chi tiết cụ thể gây tò mò** (tên tính năng, con số, hành động lạ) thay vì mô tả chung chung để tăng shares.
