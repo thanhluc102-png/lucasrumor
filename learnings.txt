@@ -1,7 +1,7 @@
-• Ưu tiên chủ đề **iPhone + tính năng cụ thể trong bản beta/update** (iOS 27 Beta 4 dạng "có gì mới" hoặc gắn tên chip/model cụ thể như A20 Pro) — nhóm này dẫn đầu về Score.
-• Cấu trúc tiêu đề hiệu quả nhất: **"[Sản phẩm/Tính năng]: [Lợi ích hoặc câu hỏi gây tò mò]?"** — dấu hỏi cuối tiêu đề kích thích comment hơn câu khẳng định.
-• Hook hiệu quả: **nêu tính năng cụ thể + lợi ích trực tiếp với người dùng** (ví dụ: "tự động tải xuống", "không cần tài khoản") — tránh hook mơ hồ kiểu "thay đổi cuộc chơi" hay "theo cách riêng".
-• Chủ đề **Apple AI dạng tổng quan/đánh giá chung** (ai đang dẫn đầu, Apple có thắng không…) cho Score thấp — hạn chế, hoặc phải gắn vào tính năng/sản phẩm cụ thể thay vì nhận định vĩ mô.
-• Tránh chủ đề **ứng dụng bên thứ ba / HomeKit ecosystem** (HomeSnap) — gần như không tạo tương tác với tệp audience phụ kiện Apple.
-• Bài dạng **community/Reddit roundup** ("cộng đồng đang soi…") không hiệu quả — bỏ hoặc chuyển thành bài tổng hợp tính năng trực tiếp thay vì dẫn nguồn thảo luận.
-• Nguồn **9to5Mac gắn với nội dung beta/leak** cho hiệu quả tốt nhất — ưu tiên khai thác góc này; nguồn MacWorld/MacRumors dạng phân tích xu hướng AI cho kết quả kém hơn.
+• **Chủ đề hiệu quả nhất:** Apple AI (đặc biệt ứng dụng thực tế như Live Notes tại Genius Bar) và tin tức iOS beta — ưu tiên hai hướng này, tránh các chủ đề hẹp như HomeKit app của bên thứ ba (Score thấp nhất: 3).
+• **Góc tiếp cận tốt nhất:** Tin đồn/rò rỉ kỹ thuật (chip, code ẩn, pin gập) + tính năng beta mới nổi bật — kích thích phản ứng tốt hơn các bài thuần thông báo sản phẩm thông thường.
+• **Cấu trúc tiêu đề hiệu quả:** Dùng định dạng "[Sản phẩm/Tính năng cụ thể]: [Lợi ích/Bí ẩn ngắn gọn]?" — câu hỏi hoặc dấu chấm hỏi ở cuối kích thích bình luận hơn câu khẳng định.
+• **Hook hiệu quả:** Mở bằng chi tiết kỹ thuật cụ thể + từ gây tò mò ("code ẩn", "thử nghiệm", "tin đồn", "hé lộ") — tránh hook chung chung kiểu "tiện lợi hơn bao giờ hết" hoặc nhận định mơ hồ như "đang dẫn dắt cuộc chơi".
+• **Yếu tố thúc đẩy Share (quan trọng nhất):** Chỉ bài iOS 27 beta 4 có Share — nội dung mang tính "hữu ích/cần biết ngay" hoặc tính năng thực dụng (Auto Download) dễ được chia sẻ hơn bài phân tích/ý kiến.
+• **Cần tránh:** Bài thuần thông báo app bên thứ ba không liên quan trực tiếp Apple core (iPhone/Mac/AI); hook dạng đánh giá chủ quan ("bất ngờ được đánh giá…") — tương tác thấp, không tạo tranh luận.
+• **Nguồn ưu tiên:** 9to5Mac và MacRumors cho tin beta/rò rỉ — có xu hướng tương tác ổn định hơn MacWorld hoặc MacStories với cùng thể loại nội dung.

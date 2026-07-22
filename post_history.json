@@ -14,10 +14,10 @@
     ],
     "publish_time": "2026-07-20T08:20:25.023841",
     "performance": {
-      "reactions": 7,
+      "reactions": 10,
       "comments": 1,
       "shares": 0,
-      "score": 10
+      "score": 13
     }
   },
   {
@@ -77,10 +77,10 @@
     ],
     "publish_time": "2026-07-21T04:35:54.891019",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 1,
       "shares": 1,
-      "score": 11
+      "score": 12
     }
   },
   {
@@ -119,10 +119,10 @@
     ],
     "publish_time": "2026-07-21T11:21:12.668894",
     "performance": {
-      "reactions": 0,
+      "reactions": 3,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 6
     }
   },
   {
@@ -139,6 +139,27 @@
       "🤔 Pin đôi giúp phân bổ năng lượng cho hai nửa thiết bị, tối ưu hiệu suất khi gập/mở"
     ],
     "publish_time": "2026-07-21T15:20:15.320114",
+    "performance": {
+      "reactions": 4,
+      "comments": 1,
+      "shares": 0,
+      "score": 7
+    }
+  },
+  {
+    "post_id": "1920842954802282_1502662738567720",
+    "title": "Claude Code: Test app iOS ngay trên Mac?",
+    "summary": "Claude Code cho Mac tích hợp simulator iOS, lập trình viên chạy thử app trực tiếp không cần rời môi trường code.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/21/claude-code-brings-live-ios-app-testing-into-its-mac-app/",
+    "bullets": [
+      "🖥️ Simulator iOS chạy trực tiếp trong khung giao diện Claude Code trên Mac",
+      "⚙️ Yêu cầu Xcode đã cài nền tảng iOS — không cần công cụ bên thứ ba",
+      "⚡ Rút ngắn vòng lặp code → test → debug ngay trong một môi trường duy nhất"
+    ],
+    "publish_time": "2026-07-22T04:37:53.023436",
     "performance": null
   }
 ]
