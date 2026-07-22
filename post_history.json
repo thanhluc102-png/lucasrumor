@@ -119,10 +119,10 @@
     ],
     "publish_time": "2026-07-21T11:21:12.668894",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -202,6 +202,27 @@
       "💬 Cộng đồng tranh luận: liệu có đủ lý do để nâng cấp từ iPhone 16 Pro?"
     ],
     "publish_time": "2026-07-22T11:23:03.127992",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1503058618528132",
+    "title": "Trễ trả góp iPhone: Apple phạt nặng đến mức nào?",
+    "summary": "Code iOS 27 tiết lộ Apple sắp áp dụng hình phạt nghiêm khắc nếu người dùng trễ hạn thanh toán thuê/trả góp thiết bị.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3196806/ios-27-code-hints-at-strict-penalties-for-missed-apple-lease-payments.html",
+    "bullets": [
+      "💻 Code iOS 27 chứa điều khoản phạt rõ ràng khi trễ hạn trả góp Apple",
+      "📰 Mark Gurman (Bloomberg) xác nhận Apple sắp đổi mô hình mua sản phẩm",
+      "⚠️ Người dùng Apple Upgrade Program cần đọc kỹ điều khoản mới trước khi đăng ký"
+    ],
+    "publish_time": "2026-07-22T15:19:29.137604",
     "performance": null
   }
 ]

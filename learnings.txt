@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề Apple AI thực tế + tính năng iOS cụ thể** — hai nhóm này chiếm score cao nhất (16, 12); đặc biệt các tin AI gắn với trải nghiệm người dùng thực (Genius Bar, simulator) hơn là nhận định chung chung.
-• **Tiêu đề dạng câu hỏi hoặc tiết lộ bất ngờ** ("Theo Dõi Nhà Riêng Tư Không Cần Tài Khoản?", "hé lộ pin đôi?") kích thích comments hơn; nên kết hợp dấu hỏi hoặc từ gợi tò mò: *hé lộ, bất ngờ, ẩn, xác nhận*.
-• **Hook phải nêu lợi ích/tác động cụ thể ngay câu đầu** — bài score cao nhất (16) hook mô tả rõ cơ chế ("AI tự động phiên âm… giữa nhân viên và khách"); tránh hook mơ hồ kiểu "thay đổi cuộc chơi" hay "tiện lợi hơn bao giờ hết".
-• **Tránh góc tiếp cận nhận định/đánh giá tổng quan** ("Apple đang dần chiến thắng", "Những Nâng Cấp Đáng Kể") — score thấp (4–7), không tạo được tranh luận hay chia sẻ.
-• **Ưu tiên nguồn MacRumors/9to5Mac với tin có chi tiết kỹ thuật hoặc code leak** — các bài có yếu tố "phát hiện trong code/beta" thu hút tương tác tốt hơn bài chỉ tổng hợp nhận xét.
-• **Nội dung app/phần mềm bên thứ ba ít liên quan trực tiếp đến Apple** (HomeSnap, Claude Code) cho score thấp nhất — hạn chế hoặc chỉ đăng khi có góc kết nối rõ ràng với hệ sinh thái Apple core.
-• **Mỗi bài nên có một "điểm gây tranh cãi" hoặc câu hỏi mở ở hook** để kéo comments — ví dụ: đặt vấn đề người dùng có thực sự cần tính năng này không, hoặc so sánh ngầm với đối thủ.
+- **Ưu tiên chủ đề Apple AI thực tế/ứng dụng cụ thể** (ví dụ: AI ghi chú tại Genius Bar — Score 16, cao nhất tuần); tránh AI chung chung thiếu use-case rõ ràng (Score 7 hoặc thấp hơn).
+- **Ưu tiên tin tức iOS/iPhone có yếu tố "lần đầu tiên" hoặc tính năng hữu ích trực tiếp** (iOS 27 Beta 4 + Apple TV — Score 12); tránh dạng tổng hợp "X tính năng mới" chung chung (Score 4).
+- **Hook hiệu quả = mô tả cơ chế hoạt động cụ thể + lợi ích rõ ràng** (ví dụ: "AI tự động phiên âm cuộc trò chuyện", "không cần tài khoản hay máy chủ"); tránh hook dùng mỹ từ mơ hồ như "đột phá", "thay đổi cuộc chơi", "đáng chú ý".
+- **Tiêu đề có dấu hỏi kết hợp chi tiết kỹ thuật** kích thích comment hơn tiêu đề khẳng định; ưu tiên đặt câu hỏi mở để người đọc tranh luận.
+- **Tránh đăng nhiều bài cùng chủ đề trong một tuần** (iOS 27 Beta 4 xuất hiện 3 lần — điểm bị chia nhỏ, không bài nào vượt Score 12); mỗi góc độ chỉ khai thác một bài duy nhất.
+- **Nội dung community (r/apple) không tạo lợi thế** so với nguồn tin chính thống (MacRumors, 9to5Mac) — hạn chế dạng "cộng đồng đang thảo luận" nếu thiếu insight độc đáo.
+- **Shares gần như bằng 0 toàn bộ** → cần thêm yếu tố "chia sẻ để bạn bè biết" vào hook: thông tin bất ngờ, số liệu cụ thể, hoặc tin ảnh hưởng trực tiếp đến người dùng phổ thông (không chỉ tech enthusiast).
