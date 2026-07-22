@@ -14,10 +14,10 @@
     ],
     "publish_time": "2026-07-20T08:20:25.023841",
     "performance": {
-      "reactions": 10,
+      "reactions": 13,
       "comments": 1,
       "shares": 0,
-      "score": 13
+      "score": 16
     }
   },
   {
@@ -160,6 +160,27 @@
       "⚡ Rút ngắn vòng lặp code → test → debug ngay trong một môi trường duy nhất"
     ],
     "publish_time": "2026-07-22T04:37:53.023436",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1502763991890928",
+    "title": "iPhone Air 2 Lộ Diện: Những Nâng Cấp Đáng Kể Đang Đến",
+    "summary": "Apple đang phát triển iPhone Air thế hệ 2, khắc phục nhiều điểm yếu của phiên bản hiện tại.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/21/iphone-air-2-is-coming-heres-everything-we-know-so-far/",
+    "bullets": [
+      "🔋 Tin đồn cho thấy pin sẽ được nâng cấp đáng kể so với Air thế hệ 1",
+      "⚙️ Nhiều hạn chế của phiên bản hiện tại được xác nhận sẽ được khắc phục",
+      "📅 Ngày ra mắt và toàn bộ thông số kỹ thuật vẫn chưa được Apple xác nhận chính thức"
+    ],
+    "publish_time": "2026-07-22T07:45:23.639417",
     "performance": null
   }
 ]
