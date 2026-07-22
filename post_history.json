@@ -161,10 +161,10 @@
     ],
     "publish_time": "2026-07-22T04:37:53.023436",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -181,6 +181,27 @@
       "📅 Ngày ra mắt và toàn bộ thông số kỹ thuật vẫn chưa được Apple xác nhận chính thức"
     ],
     "publish_time": "2026-07-22T07:45:23.639417",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1502899135210747",
+    "title": "iPhone 18 Pro: 12 Tính Năng Mới Hé Lộ?",
+    "summary": "iPhone 18 Pro ra mắt trong 2 tháng tới với 12 tính năng mới được tiết lộ chi tiết.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1v2qljj/iphone_18_pro_launching_in_two_months_with_these/",
+    "bullets": [
+      "📅 Ra mắt trong ~2 tháng — nhiều khả năng sự kiện tháng 9 như thường lệ",
+      "🔍 12 tính năng mới được tổng hợp từ leak & tin đồn trước ra mắt",
+      "💬 Cộng đồng tranh luận: liệu có đủ lý do để nâng cấp từ iPhone 16 Pro?"
+    ],
+    "publish_time": "2026-07-22T11:23:03.127992",
     "performance": null
   }
 ]

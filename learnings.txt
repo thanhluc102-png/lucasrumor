@@ -1,7 +1,7 @@
-• Ưu tiên chủ đề **Apple AI thực tế/đời thường** (ví dụ: AI tại Genius Bar) và **tin đồn phần cứng iPhone** (chip, màn hình gập) — đây là hai nhóm có Score cao nhất (16 và 7).
-• Tiêu đề hiệu quả nhất dùng cấu trúc **"Tên tính năng cụ thể + dấu hai chấm + hệ quả/tác động trực tiếp"**, tránh tiêu đề chỉ liệt kê sự kiện trung tính.
-• Hook mạnh cần có **một chi tiết gây bất ngờ hoặc phản trực giác** ngay câu đầu (ví dụ: "không cần tài khoản", "code ẩn xác nhận", "theo cách riêng") để kéo comment tranh luận.
-• Góc **community/Reddit** (soi tính năng cùng cộng đồng) và tin đồn **phần cứng chưa xác nhận** có tiềm năng kéo share — cần đẩy mạnh yếu tố "chưa ai biết/mới lộ".
-• **Tránh** các bài thuần thông báo tính năng nhỏ lẻ không gắn với người dùng phổ thông (ví dụ: Claude Code cho dev, HomeKit không tài khoản) — Score thấp nhất (3), thiếu động lực bình luận hay chia sẻ.
-• Mỗi hook cần kết thúc bằng **hàm ý mở** (câu hỏi ngầm hoặc tuyên bố chưa hoàn chỉnh) thay vì kết luận đóng, nhằm kích thích người đọc comment để phản biện hoặc bổ sung.
-• Nguồn **9to5Mac và MacRumors** cho nội dung iPhone/AI thực tế — ưu tiên hơn MacStories/MacWorld cho các bài cần tương tác cao.
+• **Ưu tiên chủ đề Apple AI thực tế + tính năng iOS cụ thể** — hai nhóm này chiếm score cao nhất (16, 12); đặc biệt các tin AI gắn với trải nghiệm người dùng thực (Genius Bar, simulator) hơn là nhận định chung chung.
+• **Tiêu đề dạng câu hỏi hoặc tiết lộ bất ngờ** ("Theo Dõi Nhà Riêng Tư Không Cần Tài Khoản?", "hé lộ pin đôi?") kích thích comments hơn; nên kết hợp dấu hỏi hoặc từ gợi tò mò: *hé lộ, bất ngờ, ẩn, xác nhận*.
+• **Hook phải nêu lợi ích/tác động cụ thể ngay câu đầu** — bài score cao nhất (16) hook mô tả rõ cơ chế ("AI tự động phiên âm… giữa nhân viên và khách"); tránh hook mơ hồ kiểu "thay đổi cuộc chơi" hay "tiện lợi hơn bao giờ hết".
+• **Tránh góc tiếp cận nhận định/đánh giá tổng quan** ("Apple đang dần chiến thắng", "Những Nâng Cấp Đáng Kể") — score thấp (4–7), không tạo được tranh luận hay chia sẻ.
+• **Ưu tiên nguồn MacRumors/9to5Mac với tin có chi tiết kỹ thuật hoặc code leak** — các bài có yếu tố "phát hiện trong code/beta" thu hút tương tác tốt hơn bài chỉ tổng hợp nhận xét.
+• **Nội dung app/phần mềm bên thứ ba ít liên quan trực tiếp đến Apple** (HomeSnap, Claude Code) cho score thấp nhất — hạn chế hoặc chỉ đăng khi có góc kết nối rõ ràng với hệ sinh thái Apple core.
+• **Mỗi bài nên có một "điểm gây tranh cãi" hoặc câu hỏi mở ở hook** để kéo comments — ví dụ: đặt vấn đề người dùng có thực sự cần tính năng này không, hoặc so sánh ngầm với đối thủ.
