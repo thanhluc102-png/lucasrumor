@@ -224,10 +224,10 @@
     ],
     "publish_time": "2026-07-22T15:19:29.137604",
     "performance": {
-      "reactions": 9,
+      "reactions": 11,
       "comments": 1,
       "shares": 1,
-      "score": 17
+      "score": 19
     }
   },
   {
@@ -286,6 +286,27 @@
       "❓ Tên 'MacBook Neo' chưa chính thức, thông tin vẫn ở mức leak/đồn đoán"
     ],
     "publish_time": "2026-07-23T11:23:11.099485",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1503913931775934",
+    "title": "WhatsApp iPad không cần iPhone để thiết lập nữa",
+    "summary": "Sau 15 năm chờ đợi, WhatsApp iPad chính thức hoạt động độc lập, không cần iPhone đi kèm.",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3197776/whatsapp-for-ipad-no-longer-requires-an-iphone-for-setup.html",
+    "bullets": [
+      "15 năm sau khi WhatsApp ra mắt, iPad mới có app chính thức hoạt động độc lập",
+      "Người dùng không có iPhone vẫn có thể thiết lập và dùng WhatsApp trên iPad",
+      "Xóa bỏ rào cản lớn nhất còn sót lại của WhatsApp trên nền tảng iPadOS"
+    ],
+    "publish_time": "2026-07-23T15:28:28.007865",
     "performance": null
   }
 ]

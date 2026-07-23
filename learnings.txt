@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề "tác động thực tế đến người dùng"** (phạt trễ trả góp, quyền riêng tư, chính sách tài chính) — đây là nhóm tạo Reactions và Shares cao nhất; tránh bài thuần kỹ thuật/developer không liên quan trực tiếp đến trải nghiệm người dùng phổ thông.
-• **Hook dạng cảnh báo/hệ quả cụ thể** ("Apple sắp phạt nặng nếu…", "Code xác nhận…") kéo Reactions mạnh hơn hook dạng câu hỏi trung tính hoặc mô tả tính năng đơn thuần.
-• **Chủ đề AI của Apple** hiệu quả khi gắn với hành động thực tế tại cửa hàng/cuộc sống (Live Notes tại Genius Bar) — tránh góc "Apple dẫn đầu AI" kiểu nhận định chung chung vì điểm thấp nhất nhóm AI (Score=7).
-• **Tin đồn iPhone thế hệ mới + phần cứng đột phá** (A20 Pro, iPhone gập, iPhone Air 2) chưa tạo tương tác vượt trội; cần thêm yếu tố so sánh hoặc câu hỏi kích tranh luận trong hook thay vì chỉ liệt kê tính năng.
-• **Tránh bài MacBook và macOS thuần kỹ thuật** (mã hóa APFS, MacBook Neo) — nhất quán Score thấp nhất (3); nếu vẫn làm, cần đẩy hook về lợi ích thời gian/tiền bạc người dùng tiết kiệm được.
-• **Bài community (r/apple)** không tạo Shares; chỉ dùng khi có góc tranh luận rõ ràng trong hook, không dùng kiểu "cộng đồng đang thảo luận" chung chung.
-• **Ưu tiên nguồn MacRumors/MacWorld với chủ đề chính sách và tin đồn phần cứng lớn**; 9to5Mac phù hợp tính năng beta nhưng cần hook nhấn mạnh ảnh hưởng ngay lập tức, không chỉ mô tả changelog.
+• **Ưu tiên chủ đề tác động trực tiếp đến người dùng** (tài chính, quyền lợi, rủi ro cá nhân) — bài "Trễ trả góp iPhone" đạt score cao nhất (19) nhờ chạm vào nỗi lo thực tế, tiếp theo là chủ đề AI ứng dụng thực tế tại cửa hàng/trải nghiệm trực tiếp.
+• **Câu hook hiệu quả = nêu hệ quả cụ thể + tạo cảm giác cấp bách hoặc bất ngờ**, ví dụ: "Apple sắp áp dụng hình phạt nghiêm khắc…" hoặc "AI tự động phiên âm cuộc trò chuyện…" — tránh hook mơ hồ kiểu "hứa hẹn thay đổi cuộc chơi".
+• **Tiêu đề dạng câu hỏi gây tranh luận hoặc đặt thế lưỡng nan** ("Đáng mua hay chờ thêm?", "Apple đang thắng?") **không kéo được tương tác** nếu hook không đi kèm thông tin gây sốc hoặc số liệu cụ thể.
+• **Tránh bài thuần kỹ thuật/spec không có yếu tố cộng đồng** (chip, RAM, tính năng beta đơn thuần) — nhóm MacBook và iOS beta không có góc "ảnh hưởng cá nhân" đều dưới score 7.
+• **Bài nguồn r/apple (community) không tạo lợi thế** so với nguồn báo chính thống nếu hook không mạnh — cần tăng yếu tố tranh luận hoặc thông tin độc quyền trong hook thay vì chỉ dẫn nguồn cộng đồng.
+• **Ưu tiên góc "Apple làm điều bất ngờ/gây tranh cãi"** hơn góc "tính năng mới tiện lợi hơn" — sự bất ngờ và xung đột kéo reaction + comment mạnh hơn thông báo tính năng thông thường.
+• **Giữ hook dưới 2 câu, câu đầu phải chứa thông tin gây sốc hoặc con số cụ thể**, câu hai giải thích ngắn — các hook dài hoặc không có dữ kiện nổi bật đều cho score thấp (3–4).
