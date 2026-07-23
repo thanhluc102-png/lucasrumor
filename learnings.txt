@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tác động trực tiếp đến người dùng** (tiền bạc, quyền lợi, rủi ro cá nhân): bài "Trễ trả góp iPhone" (Score=15) và "Apple AI ghi chú Genius Bar" (Score=16) dẫn đầu — góc "Apple ảnh hưởng đến tôi thế nào?" luôn thắng góc "tính năng mới thuần túy".
-• **Hook phải chứa yếu tố gây bất ngờ hoặc căng thẳng**: dùng từ như *phạt nặng, xác nhận, bất ngờ, tiết lộ chi tiết* — tránh mô tả trung tính kiểu "bổ sung", "cải tiến", "tiện lợi hơn".
-• **Tiêu đề dạng câu hỏi có hệ quả rõ ràng** ("Apple phạt nặng đến mức nào?", "Hai nâng cấp lớn?") hiệu quả hơn tiêu đề liệt kê ("Có Gì Mới Đáng Chú Ý?" — Score chỉ 7).
-• **Tránh nội dung quá kỹ thuật hoặc chỉ dành cho developer** (Claude Code/iOS simulator, HomeKit không tài khoản): tệp khách hàng phụ kiện Apple không đủ gắn kết — Score thấp nhất (3–4).
-• **Hạn chế bài iOS beta thuần changelog**: ba bài iOS 27 Beta 4 đều Score thấp (7–12), trừ khi gắn với "hé lộ phần cứng bí ẩn" (iPhone gập/pin đôi) — khai thác góc rò rỉ phần cứng thay vì tính năng phần mềm.
-• **Nguồn MacRumors/MacWorld kết hợp góc "rò rỉ nội bộ Apple"** cho điểm cao hơn nguồn r/apple dạng tổng hợp cộng đồng — ưu tiên frame "Apple đang làm điều này trong bí mật" hơn "cộng đồng đang thảo luận điều này".
-• **Mỗi hook cần kết thúc bằng hệ quả cụ thể hoặc câu hỏi mở kích bình luận**: ví dụ "Bạn sẽ tiếp tục trả góp qua Apple hay chuyển sang cách khác?" — đây là đòn bẩy tăng Comments (hệ số ×3).
+• **Ưu tiên chủ đề tác động trực tiếp đến túi tiền/quyền lợi người dùng** (ví dụ: phạt trễ trả góp, chính sách thanh toán) — nhóm này đạt score cao nhất (17), kích thích reaction và share mạnh vì chạm cảm xúc thực tế.
+• **Ưu tiên thứ hai: tin đồn/leak nội bộ từ code ẩn hoặc thử nghiệm bí mật** (Genius Bar AI, pin đôi iPhone gập) — tạo cảm giác "insider info", thúc đẩy reaction tốt (score 16–7).
+• **Cấu trúc tiêu đề hiệu quả**: Dùng dấu "?" kết hợp với con số cụ thể hoặc chi tiết bất ngờ ("12 tính năng", "hai pin riêng biệt", "phạt nặng đến mức nào?") — tạo tò mò, kéo click và comment.
+• **Hook hiệu quả**: Mở đầu bằng hệ quả/kết quả gây sốc trước, giải thích sau — tránh mô tả tính năng theo kiểu liệt kê trung tính; cần có yếu tố đối lập hoặc rủi ro ("bất ngờ", "bí mật", "phạt nghiêm khắc").
+• **Tránh**: Bài thuần thông báo tính năng nhỏ lẻ, không có góc xung đột hoặc lợi ích cá nhân rõ ràng (HomeSnap, MacBook Neo 2, Claude Code — score 3–4); dù nguồn uy tín vẫn không tạo tương tác.
+• **Tránh**: Chủ đề AI chung chung hoặc dành cho lập trình viên (Claude Code, "Apple dẫn dắt AI") — quá kỹ thuật hoặc quá vĩ mô, không kéo được phản ứng từ người dùng phổ thông mua phụ kiện Apple.
+• **Nguồn không quyết định hiệu suất** — cùng nguồn 9to5Mac/MacWorld có thể cho score 3 hoặc 17 tùy góc khai thác; ưu tiên góc "ảnh hưởng đến tôi" hơn góc "tính năng mới".
