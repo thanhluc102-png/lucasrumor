@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề Apple AI thực tế/ứng dụng cụ thể** (ví dụ: AI ghi chú tại Genius Bar — Score 16, cao nhất tuần); tránh AI chung chung thiếu use-case rõ ràng (Score 7 hoặc thấp hơn).
-- **Ưu tiên tin tức iOS/iPhone có yếu tố "lần đầu tiên" hoặc tính năng hữu ích trực tiếp** (iOS 27 Beta 4 + Apple TV — Score 12); tránh dạng tổng hợp "X tính năng mới" chung chung (Score 4).
-- **Hook hiệu quả = mô tả cơ chế hoạt động cụ thể + lợi ích rõ ràng** (ví dụ: "AI tự động phiên âm cuộc trò chuyện", "không cần tài khoản hay máy chủ"); tránh hook dùng mỹ từ mơ hồ như "đột phá", "thay đổi cuộc chơi", "đáng chú ý".
-- **Tiêu đề có dấu hỏi kết hợp chi tiết kỹ thuật** kích thích comment hơn tiêu đề khẳng định; ưu tiên đặt câu hỏi mở để người đọc tranh luận.
-- **Tránh đăng nhiều bài cùng chủ đề trong một tuần** (iOS 27 Beta 4 xuất hiện 3 lần — điểm bị chia nhỏ, không bài nào vượt Score 12); mỗi góc độ chỉ khai thác một bài duy nhất.
-- **Nội dung community (r/apple) không tạo lợi thế** so với nguồn tin chính thống (MacRumors, 9to5Mac) — hạn chế dạng "cộng đồng đang thảo luận" nếu thiếu insight độc đáo.
-- **Shares gần như bằng 0 toàn bộ** → cần thêm yếu tố "chia sẻ để bạn bè biết" vào hook: thông tin bất ngờ, số liệu cụ thể, hoặc tin ảnh hưởng trực tiếp đến người dùng phổ thông (không chỉ tech enthusiast).
+• **Ưu tiên chủ đề tác động trực tiếp đến người dùng** (tiền bạc, quyền lợi, rủi ro cá nhân): bài "Trễ trả góp iPhone" (Score=15) và "Apple AI ghi chú Genius Bar" (Score=16) dẫn đầu — góc "Apple ảnh hưởng đến tôi thế nào?" luôn thắng góc "tính năng mới thuần túy".
+• **Hook phải chứa yếu tố gây bất ngờ hoặc căng thẳng**: dùng từ như *phạt nặng, xác nhận, bất ngờ, tiết lộ chi tiết* — tránh mô tả trung tính kiểu "bổ sung", "cải tiến", "tiện lợi hơn".
+• **Tiêu đề dạng câu hỏi có hệ quả rõ ràng** ("Apple phạt nặng đến mức nào?", "Hai nâng cấp lớn?") hiệu quả hơn tiêu đề liệt kê ("Có Gì Mới Đáng Chú Ý?" — Score chỉ 7).
+• **Tránh nội dung quá kỹ thuật hoặc chỉ dành cho developer** (Claude Code/iOS simulator, HomeKit không tài khoản): tệp khách hàng phụ kiện Apple không đủ gắn kết — Score thấp nhất (3–4).
+• **Hạn chế bài iOS beta thuần changelog**: ba bài iOS 27 Beta 4 đều Score thấp (7–12), trừ khi gắn với "hé lộ phần cứng bí ẩn" (iPhone gập/pin đôi) — khai thác góc rò rỉ phần cứng thay vì tính năng phần mềm.
+• **Nguồn MacRumors/MacWorld kết hợp góc "rò rỉ nội bộ Apple"** cho điểm cao hơn nguồn r/apple dạng tổng hợp cộng đồng — ưu tiên frame "Apple đang làm điều này trong bí mật" hơn "cộng đồng đang thảo luận điều này".
+• **Mỗi hook cần kết thúc bằng hệ quả cụ thể hoặc câu hỏi mở kích bình luận**: ví dụ "Bạn sẽ tiếp tục trả góp qua Apple hay chuyển sang cách khác?" — đây là đòn bẩy tăng Comments (hệ số ×3).
