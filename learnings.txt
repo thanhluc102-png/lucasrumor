@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tác động trực tiếp đến túi tiền/quyền lợi người dùng** (ví dụ: phạt trễ trả góp, chính sách thanh toán) — nhóm này đạt score cao nhất (17), kích thích reaction và share mạnh vì chạm cảm xúc thực tế.
-• **Ưu tiên thứ hai: tin đồn/leak nội bộ từ code ẩn hoặc thử nghiệm bí mật** (Genius Bar AI, pin đôi iPhone gập) — tạo cảm giác "insider info", thúc đẩy reaction tốt (score 16–7).
-• **Cấu trúc tiêu đề hiệu quả**: Dùng dấu "?" kết hợp với con số cụ thể hoặc chi tiết bất ngờ ("12 tính năng", "hai pin riêng biệt", "phạt nặng đến mức nào?") — tạo tò mò, kéo click và comment.
-• **Hook hiệu quả**: Mở đầu bằng hệ quả/kết quả gây sốc trước, giải thích sau — tránh mô tả tính năng theo kiểu liệt kê trung tính; cần có yếu tố đối lập hoặc rủi ro ("bất ngờ", "bí mật", "phạt nghiêm khắc").
-• **Tránh**: Bài thuần thông báo tính năng nhỏ lẻ, không có góc xung đột hoặc lợi ích cá nhân rõ ràng (HomeSnap, MacBook Neo 2, Claude Code — score 3–4); dù nguồn uy tín vẫn không tạo tương tác.
-• **Tránh**: Chủ đề AI chung chung hoặc dành cho lập trình viên (Claude Code, "Apple dẫn dắt AI") — quá kỹ thuật hoặc quá vĩ mô, không kéo được phản ứng từ người dùng phổ thông mua phụ kiện Apple.
-• **Nguồn không quyết định hiệu suất** — cùng nguồn 9to5Mac/MacWorld có thể cho score 3 hoặc 17 tùy góc khai thác; ưu tiên góc "ảnh hưởng đến tôi" hơn góc "tính năng mới".
+• **Ưu tiên chủ đề "tác động thực tế đến người dùng"** (phạt trễ trả góp, quyền riêng tư, chính sách tài chính) — đây là nhóm tạo Reactions và Shares cao nhất; tránh bài thuần kỹ thuật/developer không liên quan trực tiếp đến trải nghiệm người dùng phổ thông.
+• **Hook dạng cảnh báo/hệ quả cụ thể** ("Apple sắp phạt nặng nếu…", "Code xác nhận…") kéo Reactions mạnh hơn hook dạng câu hỏi trung tính hoặc mô tả tính năng đơn thuần.
+• **Chủ đề AI của Apple** hiệu quả khi gắn với hành động thực tế tại cửa hàng/cuộc sống (Live Notes tại Genius Bar) — tránh góc "Apple dẫn đầu AI" kiểu nhận định chung chung vì điểm thấp nhất nhóm AI (Score=7).
+• **Tin đồn iPhone thế hệ mới + phần cứng đột phá** (A20 Pro, iPhone gập, iPhone Air 2) chưa tạo tương tác vượt trội; cần thêm yếu tố so sánh hoặc câu hỏi kích tranh luận trong hook thay vì chỉ liệt kê tính năng.
+• **Tránh bài MacBook và macOS thuần kỹ thuật** (mã hóa APFS, MacBook Neo) — nhất quán Score thấp nhất (3); nếu vẫn làm, cần đẩy hook về lợi ích thời gian/tiền bạc người dùng tiết kiệm được.
+• **Bài community (r/apple)** không tạo Shares; chỉ dùng khi có góc tranh luận rõ ràng trong hook, không dùng kiểu "cộng đồng đang thảo luận" chung chung.
+• **Ưu tiên nguồn MacRumors/MacWorld với chủ đề chính sách và tin đồn phần cứng lớn**; 9to5Mac phù hợp tính năng beta nhưng cần hook nhấn mạnh ảnh hưởng ngay lập tức, không chỉ mô tả changelog.
