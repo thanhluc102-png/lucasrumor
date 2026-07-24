@@ -14,10 +14,10 @@
     ],
     "publish_time": "2026-07-20T08:20:25.023841",
     "performance": {
-      "reactions": 13,
+      "reactions": 12,
       "comments": 1,
       "shares": 0,
-      "score": 16
+      "score": 15
     }
   },
   {
@@ -224,10 +224,10 @@
     ],
     "publish_time": "2026-07-22T15:19:29.137604",
     "performance": {
-      "reactions": 11,
-      "comments": 1,
-      "shares": 1,
-      "score": 19
+      "reactions": 14,
+      "comments": 2,
+      "shares": 2,
+      "score": 30
     }
   },
   {
@@ -307,6 +307,27 @@
       "Xóa bỏ rào cản lớn nhất còn sót lại của WhatsApp trên nền tảng iPadOS"
     ],
     "publish_time": "2026-07-23T15:28:28.007865",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 1,
+      "score": 9
+    }
+  },
+  {
+    "post_id": "1920842954802282_1504388478395146",
+    "title": "iOS 27 nâng cấp Messages: Những thay đổi bạn cần biết",
+    "summary": "iOS 27 mang loạt tính năng mới cho Messages, cải thiện trải nghiệm nhắn tin hàng ngày của người dùng iPhone.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/23/heres-everything-new-for-messages-in-ios-27/",
+    "bullets": [
+      "iOS 27 bổ sung nhiều tính năng mới đáng kể cho ứng dụng Messages",
+      "Nâng cấp đồng bộ với các app hệ thống khác như Wallet trong cùng bản cập nhật",
+      "Cộng đồng đang tranh luận: liệu Messages có đủ sức cạnh tranh WhatsApp, Telegram?"
+    ],
+    "publish_time": "2026-07-24T04:36:49.047661",
     "performance": null
   }
 ]

@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tác động trực tiếp đến người dùng** (tài chính, quyền lợi, rủi ro cá nhân) — bài "Trễ trả góp iPhone" đạt score cao nhất (19) nhờ chạm vào nỗi lo thực tế, tiếp theo là chủ đề AI ứng dụng thực tế tại cửa hàng/trải nghiệm trực tiếp.
-• **Câu hook hiệu quả = nêu hệ quả cụ thể + tạo cảm giác cấp bách hoặc bất ngờ**, ví dụ: "Apple sắp áp dụng hình phạt nghiêm khắc…" hoặc "AI tự động phiên âm cuộc trò chuyện…" — tránh hook mơ hồ kiểu "hứa hẹn thay đổi cuộc chơi".
-• **Tiêu đề dạng câu hỏi gây tranh luận hoặc đặt thế lưỡng nan** ("Đáng mua hay chờ thêm?", "Apple đang thắng?") **không kéo được tương tác** nếu hook không đi kèm thông tin gây sốc hoặc số liệu cụ thể.
-• **Tránh bài thuần kỹ thuật/spec không có yếu tố cộng đồng** (chip, RAM, tính năng beta đơn thuần) — nhóm MacBook và iOS beta không có góc "ảnh hưởng cá nhân" đều dưới score 7.
-• **Bài nguồn r/apple (community) không tạo lợi thế** so với nguồn báo chính thống nếu hook không mạnh — cần tăng yếu tố tranh luận hoặc thông tin độc quyền trong hook thay vì chỉ dẫn nguồn cộng đồng.
-• **Ưu tiên góc "Apple làm điều bất ngờ/gây tranh cãi"** hơn góc "tính năng mới tiện lợi hơn" — sự bất ngờ và xung đột kéo reaction + comment mạnh hơn thông báo tính năng thông thường.
-• **Giữ hook dưới 2 câu, câu đầu phải chứa thông tin gây sốc hoặc con số cụ thể**, câu hai giải thích ngắn — các hook dài hoặc không có dữ kiện nổi bật đều cho score thấp (3–4).
+• **Ưu tiên chủ đề tác động trực tiếp đến túi tiền/quyền lợi người dùng** (phạt trễ trả góp, chính sách thanh toán) — Score cao nhất (30), kích thích bình luận và chia sẻ mạnh nhất.
+• **Ưu tiên tin AI của Apple** khi có góc "bất ngờ/đảo chiều kỳ vọng" (Apple dẫn đầu AI dù bị hoài nghi) hoặc ứng dụng thực tế rõ ràng (ghi âm Genius Bar) — nhóm AI nhìn chung giữ tương tác ổn định hơn các nhóm khác.
+• **Cấu trúc hook hiệu quả:** Nêu xung đột hoặc hệ quả cụ thể ngay câu đầu ("Apple sắp phạt nặng nếu…", "Sau 15 năm chờ đợi…") thay vì chỉ mô tả tính năng — tạo cảm giác cấp bách, kéo bình luận và chia sẻ.
+• **Tiêu đề dạng câu hỏi hoặc "hé lộ số lượng"** (12 tính năng, 2 nâng cấp lớn) không tạo khác biệt tương tác — tránh dùng như công thức mặc định vì thực tế cho Score thấp (4).
+• **Tránh các bài thuần kỹ thuật/hạ tầng** không gắn với trải nghiệm người dùng cuối (chuyển đổi định dạng ổ mã hóa, simulator iOS cho lập trình viên, HomeKit không tài khoản) — nhóm này liên tục đạt Score thấp nhất (3–4).
+• **Giảm tần suất bài iOS beta / leak chip** nếu không có góc tranh luận rõ ràng — dữ liệu cho thấy nhóm iPhone announcement/community đang bão hòa, Score trung bình chỉ 4–7.
+• **Bổ sung yếu tố cộng đồng tranh luận vào hook** ("cộng đồng đang chia rẽ", "bạn sẽ chọn bên nào?") để kéo Comments — hiện Comments gần như bằng 1 ở hầu hết bài, đây là điểm yếu lớn nhất cần cải thiện.
