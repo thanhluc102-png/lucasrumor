@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tác động tài chính/pháp lý trực tiếp đến người dùng** (phạt trễ trả góp, chính sách giá, quyền lợi cá nhân) — đây là nhóm duy nhất đạt Score cao vượt trội (30), kích thích cả reaction lẫn share.
-• **Dùng hook kiểu "tiết lộ hậu quả / cảnh báo"** — cấu trúc "X sắp áp dụng Y nghiêm khắc" hoặc "bạn sẽ bị ảnh hưởng nếu..." tạo cảm giác cấp bách, thúc đẩy chia sẻ để cảnh báo người thân.
-• **Ưu tiên tin nóng có yếu tố bất ngờ hoặc mâu thuẫn kỳ vọng** (iOS 27 Beta hé lộ iPhone gập pin đôi, WhatsApp iPad độc lập sau 15 năm) — dạng này đạt Score trung bình khá (7–12), tốt hơn hẳn tin announcement thông thường.
-• **Tránh bài thuần kỹ thuật/tính năng nhỏ lẻ không có góc tranh luận** (macOS 28 chuyển ổ mã hóa, Claude Code simulator, HomeSnap) — Score thấp nhất (3–4), không kích thích comment hay share.
-• **Tránh lạm dụng dạng "X tính năng mới"** hoặc "Những thay đổi bạn cần biết" — hook liệt kê chung chung không tạo được cảm xúc rõ ràng, dẫn đến tương tác cận đáy (Score 4).
-• **Ưu tiên hook có xung đột hoặc câu hỏi nhị phân** ("Đáng mua hay chờ thêm?", "Apple đang dẫn dắt hay tụt hậu?") để kéo comment tranh luận — dù chưa bùng nổ tuần này, đây là cấu trúc có tiềm năng hơn dạng thông báo một chiều.
-• **Nguồn MacWorld + chủ đề Tin nóng là combo hiệu quả nhất** — tập trung khai thác góc chính sách, quyền lợi người dùng từ nguồn này thay vì dùng cho tin tính năng thông thường.
+• **Ưu tiên chủ đề tài chính/rủi ro cá nhân** (phạt trả góp, chi phí, chính sách Apple ảnh hưởng trực tiếp túi tiền) — đây là nhóm duy nhất đạt Score cao vượt trội (30), kích thích bình luận và chia sẻ mạnh nhất.
+• **Hook hiệu quả nhất**: đặt câu hỏi hoặc nêu hậu quả cụ thể ngay câu đầu ("Apple phạt nặng đến mức nào?", "tiết kiệm hàng giờ chờ đợi") — tạo cảm giác cấp bách, người đọc muốn comment hỏi thêm hoặc share để cảnh báo bạn bè.
+• **Tin nóng có yếu tố bất ngờ/đột phá** (WhatsApp iPad độc lập sau 15 năm, iPhone gập pin đôi) đạt tương tác khá (7–10) — ưu tiên framing "lần đầu tiên", "sau X năm", "cuối cùng cũng…" để tạo cảm xúc.
+• **Tránh các bài beta/announcement thuần kỹ thuật không có góc người dùng** (iOS 27 beta tính năng mới, macOS chuyển ổ mã hóa, Claude Code simulator) — Score thấp (3–4), không tạo động lực comment hay share.
+• **Tránh tiêu đề dạng liệt kê chung chung** ("12 tính năng mới", "những thay đổi bạn cần biết", "có gì mới đáng chú ý") — quá trung tính, không tạo ma sát cảm xúc, người đọc không có lý do để phản hồi.
+• **Ưu tiên góc tranh luận hoặc so sánh có lập trường rõ** ("đáng mua hay chờ thêm?", "3 lý do nên/không nên") thay vì chỉ thông báo — kéo comment từ hai phía ủng hộ và phản đối.
+• **Nguồn MacWorld + chủ đề Tin nóng** cho tương tác tốt hơn so với 9to5Mac + announcement thuần túy — khi chọn bài, ưu tiên góc "ảnh hưởng đến người dùng phổ thông" hơn góc "dành cho dev/người dùng kỹ thuật".
