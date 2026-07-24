@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tài chính/rủi ro cá nhân** (phạt trả góp, chi phí, chính sách Apple ảnh hưởng trực tiếp túi tiền) — đây là nhóm duy nhất đạt Score cao vượt trội (30), kích thích bình luận và chia sẻ mạnh nhất.
-• **Hook hiệu quả nhất**: đặt câu hỏi hoặc nêu hậu quả cụ thể ngay câu đầu ("Apple phạt nặng đến mức nào?", "tiết kiệm hàng giờ chờ đợi") — tạo cảm giác cấp bách, người đọc muốn comment hỏi thêm hoặc share để cảnh báo bạn bè.
-• **Tin nóng có yếu tố bất ngờ/đột phá** (WhatsApp iPad độc lập sau 15 năm, iPhone gập pin đôi) đạt tương tác khá (7–10) — ưu tiên framing "lần đầu tiên", "sau X năm", "cuối cùng cũng…" để tạo cảm xúc.
-• **Tránh các bài beta/announcement thuần kỹ thuật không có góc người dùng** (iOS 27 beta tính năng mới, macOS chuyển ổ mã hóa, Claude Code simulator) — Score thấp (3–4), không tạo động lực comment hay share.
-• **Tránh tiêu đề dạng liệt kê chung chung** ("12 tính năng mới", "những thay đổi bạn cần biết", "có gì mới đáng chú ý") — quá trung tính, không tạo ma sát cảm xúc, người đọc không có lý do để phản hồi.
-• **Ưu tiên góc tranh luận hoặc so sánh có lập trường rõ** ("đáng mua hay chờ thêm?", "3 lý do nên/không nên") thay vì chỉ thông báo — kéo comment từ hai phía ủng hộ và phản đối.
-• **Nguồn MacWorld + chủ đề Tin nóng** cho tương tác tốt hơn so với 9to5Mac + announcement thuần túy — khi chọn bài, ưu tiên góc "ảnh hưởng đến người dùng phổ thông" hơn góc "dành cho dev/người dùng kỹ thuật".
+• **Ưu tiên chủ đề "Tin nóng" có tác động trực tiếp đến túi tiền/quyền lợi người dùng** (ví dụ: phạt trễ trả góp, chính sách mới) — Score cao nhất (30), kéo Reactions lẫn Shares đồng thời.
+• **Dùng hook kiểu "tiết lộ hậu quả/rủi ro cụ thể"**: nêu con số, hành động của Apple ảnh hưởng trực tiếp đến người dùng → kích thích comment hỏi han và share cảnh báo bạn bè.
+• **Ưu tiên góc "So sánh / Có nên mua không?"** hơn thuần announcement — bài so sánh (iPhone 18 Pro: 3 lý do nâng cấp) giữ được tương tác tốt hơn các bài chỉ đưa tin đơn thuần.
+• **Tránh bài announcement thuần túy về tính năng kỹ thuật nhỏ lẻ** (iOS beta, macOS nội bộ, chip spec) nếu không gắn được lợi ích/ảnh hưởng rõ ràng với người dùng phổ thông — nhóm này Score đều chỉ 3–4.
+• **Tránh chủ đề quá niche hoặc mang tính hoài niệm/nội bộ cộng đồng** (Lil' Finder Guy, Art Director chia sẻ phác thảo) — Score thấp nhất, không tạo được động lực share.
+• **Cấu trúc tiêu đề hiệu quả**: [Đối tượng/Sản phẩm] + [Động từ hành động mạnh] + [Hệ quả cụ thể với người dùng] — ví dụ: *"Trễ trả góp iPhone: Apple phạt nặng đến mức nào?"* rõ đối tượng, rõ rủi ro, kích thích click.
+• **Bài từ nguồn MacWorld về chính sách/tin nóng** outperform bài từ r/apple hoặc 9to5Mac về tính năng — ưu tiên angle "chính sách, thay đổi hệ sinh thái" hơn "feature update".

@@ -370,6 +370,27 @@
       "❤️ Cộng đồng Mac cổ điển phản ứng mạnh, dậy sóng làn sóng hoài niệm thời macOS đầu"
     ],
     "publish_time": "2026-07-24T11:25:51.159806",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1504776925022968",
+    "title": "Geekbench 7 ra mắt: Benchmark CPU thay đổi thế nào?",
+    "summary": "Geekbench 7 chính thức ra mắt với bài kiểm tra đa nhân mới, phản ánh thực tế hiệu năng CPU hiện đại hơn.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3198338/geekbench-7-is-out-now-with-new-modern-workloads-and-better-multi-core-tests.html",
+    "bullets": [
+      "🆕 Bài kiểm tra đa nhân (multi-core) được làm mới hoàn toàn, sát thực tế hơn",
+      "🔀 Hỗ trợ so sánh đa kiến trúc: Apple Silicon, x86, ARM trên nhiều hệ điều hành",
+      "📊 Là thước đo quan trọng khi cân nhắc nâng cấp Mac hoặc PC mới"
+    ],
+    "publish_time": "2026-07-24T15:10:43.478849",
     "performance": null
   }
 ]
