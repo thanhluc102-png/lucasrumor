@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tác động trực tiếp đến túi tiền/quyền lợi người dùng** (phạt trễ trả góp, chính sách thanh toán) — Score cao nhất (30), kích thích bình luận và chia sẻ mạnh nhất.
-• **Ưu tiên tin AI của Apple** khi có góc "bất ngờ/đảo chiều kỳ vọng" (Apple dẫn đầu AI dù bị hoài nghi) hoặc ứng dụng thực tế rõ ràng (ghi âm Genius Bar) — nhóm AI nhìn chung giữ tương tác ổn định hơn các nhóm khác.
-• **Cấu trúc hook hiệu quả:** Nêu xung đột hoặc hệ quả cụ thể ngay câu đầu ("Apple sắp phạt nặng nếu…", "Sau 15 năm chờ đợi…") thay vì chỉ mô tả tính năng — tạo cảm giác cấp bách, kéo bình luận và chia sẻ.
-• **Tiêu đề dạng câu hỏi hoặc "hé lộ số lượng"** (12 tính năng, 2 nâng cấp lớn) không tạo khác biệt tương tác — tránh dùng như công thức mặc định vì thực tế cho Score thấp (4).
-• **Tránh các bài thuần kỹ thuật/hạ tầng** không gắn với trải nghiệm người dùng cuối (chuyển đổi định dạng ổ mã hóa, simulator iOS cho lập trình viên, HomeKit không tài khoản) — nhóm này liên tục đạt Score thấp nhất (3–4).
-• **Giảm tần suất bài iOS beta / leak chip** nếu không có góc tranh luận rõ ràng — dữ liệu cho thấy nhóm iPhone announcement/community đang bão hòa, Score trung bình chỉ 4–7.
-• **Bổ sung yếu tố cộng đồng tranh luận vào hook** ("cộng đồng đang chia rẽ", "bạn sẽ chọn bên nào?") để kéo Comments — hiện Comments gần như bằng 1 ở hầu hết bài, đây là điểm yếu lớn nhất cần cải thiện.
+• **Ưu tiên chủ đề tác động tài chính/pháp lý trực tiếp đến người dùng** (phạt trễ trả góp, chính sách giá, quyền lợi cá nhân) — đây là nhóm duy nhất đạt Score cao vượt trội (30), kích thích cả reaction lẫn share.
+• **Dùng hook kiểu "tiết lộ hậu quả / cảnh báo"** — cấu trúc "X sắp áp dụng Y nghiêm khắc" hoặc "bạn sẽ bị ảnh hưởng nếu..." tạo cảm giác cấp bách, thúc đẩy chia sẻ để cảnh báo người thân.
+• **Ưu tiên tin nóng có yếu tố bất ngờ hoặc mâu thuẫn kỳ vọng** (iOS 27 Beta hé lộ iPhone gập pin đôi, WhatsApp iPad độc lập sau 15 năm) — dạng này đạt Score trung bình khá (7–12), tốt hơn hẳn tin announcement thông thường.
+• **Tránh bài thuần kỹ thuật/tính năng nhỏ lẻ không có góc tranh luận** (macOS 28 chuyển ổ mã hóa, Claude Code simulator, HomeSnap) — Score thấp nhất (3–4), không kích thích comment hay share.
+• **Tránh lạm dụng dạng "X tính năng mới"** hoặc "Những thay đổi bạn cần biết" — hook liệt kê chung chung không tạo được cảm xúc rõ ràng, dẫn đến tương tác cận đáy (Score 4).
+• **Ưu tiên hook có xung đột hoặc câu hỏi nhị phân** ("Đáng mua hay chờ thêm?", "Apple đang dẫn dắt hay tụt hậu?") để kéo comment tranh luận — dù chưa bùng nổ tuần này, đây là cấu trúc có tiềm năng hơn dạng thông báo một chiều.
+• **Nguồn MacWorld + chủ đề Tin nóng là combo hiệu quả nhất** — tập trung khai thác góc chính sách, quyền lợi người dùng từ nguồn này thay vì dùng cho tin tính năng thông thường.

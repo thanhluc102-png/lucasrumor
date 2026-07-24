@@ -287,10 +287,10 @@
     ],
     "publish_time": "2026-07-23T11:23:11.099485",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -308,10 +308,10 @@
     ],
     "publish_time": "2026-07-23T15:28:28.007865",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 1,
-      "score": 9
+      "score": 10
     }
   },
   {
@@ -328,6 +328,27 @@
       "Cộng đồng đang tranh luận: liệu Messages có đủ sức cạnh tranh WhatsApp, Telegram?"
     ],
     "publish_time": "2026-07-24T04:36:49.047661",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1504488098385184",
+    "title": "iPhone 18 Pro: 3 lý do nâng cấp từ 17 Pro",
+    "summary": "iPhone 18 Pro sắp ra mắt — đây là 3 lý do người dùng 17 Pro nên cân nhắc xuống tiền.",
+    "category": "iPhone",
+    "visual_type": "comparison",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/23/iphone-18-pro-three-reasons-you-might-want-to-upgrade-from-iphone-17-pro/",
+    "bullets": [
+      "📸 Camera được nâng cấp đáng kể so với thế hệ 17 Pro",
+      "⚡ Chip mới mạnh hơn, hiệu năng AI cải thiện rõ rệt",
+      "🔧 Cải tiến phần cứng tạo ra bước nhảy vọt hiếm thấy trong chu kỳ 1 năm"
+    ],
+    "publish_time": "2026-07-24T07:44:21.649315",
     "performance": null
   }
 ]
