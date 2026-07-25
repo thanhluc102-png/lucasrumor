@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề tài chính/quyền lợi người dùng** (phạt trễ trả góp, chính sách Apple): tạo phản ứng cảm xúc mạnh, kéo reactions và shares cao nhất (Score 31).
-- **Ưu tiên tin "hot đã xác nhận" hoặc ảnh hưởng trực tiếp đến ví tiền/thói quen dùng hàng ngày** (WhatsApp iPad độc lập, phạt tài chính): shares và comments tốt hơn hẳn tin đồn thuần túy về spec máy.
-- **Cấu trúc tiêu đề hiệu quả:** Dùng dấu hai chấm + vế gây tò mò hoặc lo ngại ("Apple phạt nặng đến mức nào?", "Không cần iPhone nữa") — tránh tiêu đề liệt kê số lượng tính năng chung chung ("12 tính năng", "6 tính năng đỉnh cao").
-- **Hook hiệu quả:** Nêu ngay hệ quả cụ thể với người dùng (tiết kiệm tiền, tiết kiệm thời gian, tránh bị phạt) thay vì mô tả tính năng kỹ thuật trừu tượng.
-- **Tránh:** Bài về MacBook Neo/macOS kỹ thuật hẹp, bài cộng đồng nostalgia (Lil' Finder Guy), bài benchmark công cụ — nhóm này liên tục Score ≤ 3, không kéo được tương tác.
-- **Tránh:** Góc "cộng đồng đang tranh luận/thảo luận trên Reddit" nếu chủ đề là spec/chip — người dùng Fanpage không hưởng ứng dạng này (Score 4-7).
-- **Ưu tiên nguồn MacWorld cho chủ đề tài chính/chính sách**, 9to5Mac cho tính năng đã xác nhận; hạn chế dùng r/apple làm nguồn chính vì hiệu quả thấp nhất trong tập dữ liệu này.
+• **Ưu tiên chủ đề tài chính/rủi ro cá nhân** (phạt trễ trả góp, chi phí, thiệt hại thực tế): đây là góc duy nhất đạt Score cao vượt trội (31), kích thích cả reaction lẫn share vì chạm trực tiếp túi tiền người dùng.
+• **Ưu tiên tin nóng có yếu tố "ngay lập tức ảnh hưởng đến mình"** (WhatsApp iPad độc lập – Score 10): tin giải quyết bất tiện lâu năm hoặc thay đổi thói quen hàng ngày tạo share tốt hơn tin leak phần cứng thuần túy.
+• **Cấu trúc hook hiệu quả**: nêu hệ quả/cái giá phải trả trước ("Apple phạt nặng đến mức nào?", "Sau 15 năm chờ đợi") thay vì liệt kê tính năng — câu hỏi bỏ ngỏ + con số cụ thể + cảm giác cấp bách thúc đẩy comment hơn mô tả trung tính.
+• **Tránh dạng bài "X tính năng mới / nâng cấp đáng kể"** thuần túy (iPhone Air 2, iOS 27 Messages, iPhone 18 Pro 12 tính năng): Score thấp (4–6), không tạo được tranh luận hay động lực chia sẻ dù hook nghe có vẻ hấp dẫn.
+• **Tránh chủ đề kỹ thuật hẹp hoặc lịch sử thương hiệu** (macOS mã hóa APFS, Lil' Finder Guy, Geekbench 7): Score chạm đáy (3), không phù hợp với tệp khán giả mua phụ kiện Apple đại chúng.
+• **Nguồn r/apple (community) không tạo lợi thế rõ ràng** so với MacWorld/9to5Mac; yếu tố quyết định tương tác là góc khai thác, không phải nguồn — ưu tiên góc "ảnh hưởng tới ví tiền / quyết định mua" bất kể nguồn nào.
+• **iPhone là thể loại có tiềm năng cao nhất** nhưng chỉ khi gắn với quyết định tài chính hoặc so sánh nâng cấp thực tế; MacBook liên tục Score thấp (3–5) — giảm tần suất hoặc chuyển góc sang "đáng mua không / chờ có lợi hơn không?" để kích tranh luận.
