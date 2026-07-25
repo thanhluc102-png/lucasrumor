@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tác động trực tiếp đến túi tiền/quyền lợi người dùng** (phạt trễ trả góp, chính sách tài chính) — đây là góc duy nhất đạt Score cao vượt trội (31), kích thích phản ứng cảm xúc mạnh và chia sẻ tự nhiên.
-• **Tin nóng có yếu tố "lần đầu tiên / sau X năm chờ đợi"** (WhatsApp iPad độc lập) tạo động lực chia sẻ tốt (Score=10) — luôn nhấn mạnh tính lịch sử hoặc sự thay đổi đột ngột trong hook.
-• **Cấu trúc hook hiệu quả:** Nêu thẳng hệ quả cụ thể với người dùng ("bạn sẽ bị phạt / bạn tiết kiệm được / bạn không cần X nữa") thay vì mô tả tính năng chung chung — tránh hook kiểu "hứa hẹn thay đổi cuộc chơi" hoặc liệt kê số lượng tính năng.
-• **Tránh các chủ đề chip/spec kỹ thuật thuần túy** (A20 Pro, A19 Pro, Geekbench, macOS APFS) và tin cộng đồng Reddit không có góc độ tranh cãi rõ ràng — nhóm này đồng loạt Score thấp (3–7), không tạo được comment hay share.
-• **Tránh format "X tính năng mới / Y lý do nâng cấp"** dù có số cụ thể — thực tế cho thấy cấu trúc listicle này không kéo được tương tác (Score=4–6) trên fanpage phụ kiện.
-• **Ưu tiên nguồn MacWorld cho chủ đề tin nóng/chính sách**, 9to5Mac phù hợp thông tin sản phẩm nhưng cần hook gắn với lợi ích người dùng cụ thể; tránh dùng r/apple làm nguồn chính vì không tạo được độ tin cậy kích thích chia sẻ.
-• **Thể loại "Tin nóng" với góc tiêu cực hoặc gây lo ngại** (phạt, mất quyền lợi, thay đổi bất lợi) outperform mọi thể loại khác — cân nhắc khai thác góc "người dùng cần biết để tránh thiệt" trong các bài tiếp theo.
+- **Ưu tiên chủ đề tài chính/quyền lợi người dùng** (phạt trễ trả góp, chính sách Apple): tạo phản ứng cảm xúc mạnh, kéo reactions và shares cao nhất (Score 31).
+- **Ưu tiên tin "hot đã xác nhận" hoặc ảnh hưởng trực tiếp đến ví tiền/thói quen dùng hàng ngày** (WhatsApp iPad độc lập, phạt tài chính): shares và comments tốt hơn hẳn tin đồn thuần túy về spec máy.
+- **Cấu trúc tiêu đề hiệu quả:** Dùng dấu hai chấm + vế gây tò mò hoặc lo ngại ("Apple phạt nặng đến mức nào?", "Không cần iPhone nữa") — tránh tiêu đề liệt kê số lượng tính năng chung chung ("12 tính năng", "6 tính năng đỉnh cao").
+- **Hook hiệu quả:** Nêu ngay hệ quả cụ thể với người dùng (tiết kiệm tiền, tiết kiệm thời gian, tránh bị phạt) thay vì mô tả tính năng kỹ thuật trừu tượng.
+- **Tránh:** Bài về MacBook Neo/macOS kỹ thuật hẹp, bài cộng đồng nostalgia (Lil' Finder Guy), bài benchmark công cụ — nhóm này liên tục Score ≤ 3, không kéo được tương tác.
+- **Tránh:** Góc "cộng đồng đang tranh luận/thảo luận trên Reddit" nếu chủ đề là spec/chip — người dùng Fanpage không hưởng ứng dạng này (Score 4-7).
+- **Ưu tiên nguồn MacWorld cho chủ đề tài chính/chính sách**, 9to5Mac cho tính năng đã xác nhận; hạn chế dùng r/apple làm nguồn chính vì hiệu quả thấp nhất trong tập dữ liệu này.

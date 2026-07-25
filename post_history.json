@@ -203,10 +203,10 @@
     ],
     "publish_time": "2026-07-22T11:23:03.127992",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -412,6 +412,27 @@
       "📅 Lịch phát hành đã được Mark Gurman xác nhận — không còn là tin đồn"
     ],
     "publish_time": "2026-07-25T04:32:35.790490",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1505336611633666",
+    "title": "Apple tung RC lần 7: macOS Sonoma & Sequoia sắp chốt",
+    "summary": "Apple phát hành RC thứ 7 cho macOS Sonoma 14.8.8 và Sequoia 15.7.8, kéo dài giai đoạn thử nghiệm bất thường.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/24/apple-releases-seventh-rcs-for-macos-sonoma-14-8-8-and-macos-sequoia-15-7-8/",
+    "bullets": [
+      "RC thứ 7 được phát hành cho cả macOS Sonoma 14.8.8 lẫn Sequoia 15.7.8",
+      "Số lần RC nhiều bất thường — hiếm gặp trong lịch sử cập nhật của Apple",
+      "Người dùng Mac nên sẵn sàng cập nhật khi bản chính thức xuất hiện"
+    ],
+    "publish_time": "2026-07-25T07:30:57.362114",
     "performance": null
   }
 ]
