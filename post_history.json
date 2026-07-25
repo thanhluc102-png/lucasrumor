@@ -224,10 +224,10 @@
     ],
     "publish_time": "2026-07-22T15:19:29.137604",
     "performance": {
-      "reactions": 15,
+      "reactions": 17,
       "comments": 2,
       "shares": 2,
-      "score": 31
+      "score": 33
     }
   },
   {
@@ -454,6 +454,27 @@
       "⏳ Nếu bạn đang định mua MacBook Pro, đây là lý do nên cân nhắc chờ thêm"
     ],
     "publish_time": "2026-07-25T10:47:40.462460",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1505606868273307",
+    "title": "Mac có thực sự khó bị tấn công không?",
+    "summary": "Lỗ hổng macOS mới bị thổi phồng — thực tế hacker cần vượt qua hàng rào bảo mật cực kỳ phức tạp.",
+    "category": "MacBook",
+    "visual_type": "stat",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3199023/latest-macos-vulnerability-shows-just-how-hard-it-is-to-attack-a-mac.html",
+    "bullets": [
+      "🔍 Lỗ hổng cho phép ghi đè file thực thi app — nghe đáng sợ nhưng cực kỳ khó khai thác trong thực tế",
+      "🔒 Kẻ tấn công cần đã có quyền truy cập sâu vào hệ thống trước — tức là Mac đã bị kiểm soát từ trước đó rồi",
+      "✅ Người dùng Mac thông thường: không cần hoảng loạn, chỉ cần cập nhật macOS và cẩn thận nguồn cài app"
+    ],
+    "publish_time": "2026-07-25T14:44:07.710008",
     "performance": null
   }
 ]
