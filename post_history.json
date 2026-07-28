@@ -224,10 +224,10 @@
     ],
     "publish_time": "2026-07-22T15:19:29.137604",
     "performance": {
-      "reactions": 20,
+      "reactions": 21,
       "comments": 2,
       "shares": 2,
-      "score": 36
+      "score": 37
     }
   },
   {
@@ -559,6 +559,27 @@
       "Đây sẽ là thay đổi lớn nhất về giao diện tương tác trên Mac kể từ khi Touch Bar biến mất"
     ],
     "publish_time": "2026-07-28T11:31:25.041631",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1508306891336638",
+    "title": "iOS 26.6 ra mắt: iPhone chuẩn bị cho tương lai",
+    "summary": "Apple phát hành iOS 26.6 toàn cầu, bản cập nhật quan trọng âm thầm chuẩn bị nền tảng cho các tính năng sắp tới.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3200156/ios-26-6-is-out-now-and-its-quietly-preparing-your-iphone-for-the-future.html",
+    "bullets": [
+      "📦 iOS 26.6 là bản phát hành chính thức toàn cầu, có thể là bản lớn cuối trong dòng iOS 26",
+      "🔧 Ẩn chứa các thay đổi nền tảng kỹ thuật quan trọng, chuẩn bị cho tính năng tương lai",
+      "⚡ Người dùng nên cập nhật ngay để đảm bảo thiết bị sẵn sàng cho các cải tiến sắp tới"
+    ],
+    "publish_time": "2026-07-28T15:38:03.975265",
     "performance": null
   }
 ]
