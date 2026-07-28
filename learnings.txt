@@ -1,7 +1,6 @@
-• **Ưu tiên chủ đề tác động trực tiếp đến túi tiền/quyền lợi người dùng** (phạt trễ trả góp, chính sách thanh toán) — đây là nhóm đạt Score cao nhất (36), kích thích phản ứng cảm xúc mạnh và chia sẻ cảnh báo.
-• **Ưu tiên tin nóng có tính thời sự thực tế** (sự cố mạng, tính năng vừa ra mắt độc lập như WhatsApp iPad) — tạo nhu cầu chia sẻ ngay vì tính hữu dụng tức thời (Score 10).
-• **Cấu trúc tiêu đề hiệu quả**: dùng dấu hai chấm hoặc câu hỏi trực tiếp gắn với lợi ích/rủi ro rõ ràng ("Apple phạt nặng đến mức nào?", "Đáng mua hay chờ thêm?") — tạo tò mò buộc người đọc vào comment để hỏi/tranh luận.
-• **Hook mạnh cần có con số cụ thể hoặc yếu tố đối lập/tranh luận** ("cộng đồng tranh luận gay gắt", "sau 15 năm chờ đợi") — tránh hook mô tả trung tính, liệt kê tính năng thuần túy.
-• **Tránh các bài thuần kỹ thuật/hạ tầng không gắn người dùng phổ thông** (macOS chuyển đổi ổ mã hóa, RC build, Geekbench benchmark) — nhóm này nhất quán Score thấp (3), không tạo được phản ứng hay chia sẻ.
-• **Tránh bài "hé lộ lịch sử/văn hóa nội bộ Apple"** (phác thảo Lil' Finder Guy) và bài AI chung chung không gắn use-case cụ thể — tương tác gần như bằng 0.
-• **Góc so sánh hoặc cộng đồng (community/comparison) chỉ hiệu quả khi gắn quyết định mua hàng thực tế** ("nên mua ngay hay chờ") — tuyệt đối không dùng góc này cho chủ đề quá kỹ thuật hoặc thiếu tính cấp bách.
+• **Ưu tiên "Tin nóng" có tác động thực tế ngay lập tức** (sự cố mạng, cập nhật bảo mật khẩn cấp, tính năng mới chính thức ra mắt) — đây là nhóm duy nhất đạt Score cao nhất (10), kéo cả Reactions lẫn Shares.
+• **Hook cần nêu hậu quả/lợi ích cụ thể với người dùng** ("không cần iPhone đi kèm", "tự động kích hoạt SOS", "vá 75+ lỗ hổng — cập nhật ngay") thay vì mô tả tính năng chung chung; sự cụ thể tạo động lực share.
+• **Tiêu đề dạng câu hỏi hoặc đặt thế lưỡng nan** ("Đáng mua hay chờ thêm?", "Có đáng chờ không?", "3 lý do nâng cấp") kích thích comment hơn tiêu đề khẳng định thuần túy.
+• **Tránh bài thuần kỹ thuật/nội bộ thiếu liên quan trực tiếp đến người dùng phổ thông** (Geekbench benchmark, phác thảo nhân vật lịch sử, chi tiết RC build số lẻ) — nhóm này đồng loạt dừng ở Score 3, không tạo share.
+• **Chủ đề iPhone > MacBook về tương tác**; trong MacBook nên ưu tiên góc "community" (tranh luận cộng đồng, mua hay chờ) thay vì góc "stat" hay "comparison" kỹ thuật thuần túy.
+• **Mỗi hook phải chứa ít nhất một con số cụ thể hoặc một chi tiết gây ngạc nhiên** (15 năm chờ đợi, 75+ lỗ hổng, RC lần thứ 7) để tăng độ dừng lại và tỉ lệ share.
