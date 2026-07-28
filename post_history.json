@@ -517,6 +517,27 @@
       "⚠️ Dấy lên lo ngại về mức độ phụ thuộc của Apple vào AI bên thứ ba trong bảo mật"
     ],
     "publish_time": "2026-07-28T04:32:14.110472",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1507974021369925",
+    "title": "Cập nhật ngay: Apple vá hơn 75 lỗ hổng bảo mật!",
+    "summary": "iOS 26.6 vá 75+ lỗ hổng bảo mật, macOS vá 150+ — người dùng cần cập nhật ngay lập tức.",
+    "category": "Tin nóng",
+    "visual_type": "comparison",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/27/ios-26-6-fixes-over-75-security-issues-with-your-iphone-update-now/",
+    "bullets": [
+      "🔴 iPhone nhận bản vá cho hơn 75 lỗ hổng bảo mật nghiêm trọng",
+      "💻 Mac được vá hơn 150 vấn đề — mức kỷ lục trong một đợt cập nhật",
+      "⚠️ Apple khuyến cáo cập nhật NGAY, không nên trì hoãn để tránh bị tấn công"
+    ],
+    "publish_time": "2026-07-28T07:50:14.237446",
     "performance": null
   }
 ]

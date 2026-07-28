@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề "Tin nóng" có tác động trực tiếp đến người dùng** (phạt trễ trả góp, mất sóng, tính năng mới hoạt động thực tế): đây là nhóm đạt Score cao nhất (10–36), đặc biệt khi nội dung gây lo ngại hoặc giải quyết vấn đề thực tế hàng ngày.
-- **Ưu tiên nguồn MacWorld cho dạng announcement**: bài từ MacWorld có Score vượt trội so với 9to5Mac và r/apple ở cùng thể loại — nên dùng MacWorld làm nguồn chính cho các bài công bố quan trọng.
-- **Hook hiệu quả = nêu thẳng hệ quả/lợi ích cụ thể, có con số hoặc mốc thời gian rõ ràng** (ví dụ: "phạt nghiêm khắc nếu trễ hạn", "sau 15 năm chờ đợi", "tiết kiệm hàng giờ chờ đợi") — tránh hook chỉ hứa hẹn mơ hồ kiểu "hé lộ những gì?".
-- **Tránh dạng bài đầu cơ tính năng tương lai xa (leak/rumor thuần túy) mà thiếu góc tranh luận hoặc quyết định hành động**: các bài iPhone 18 Pro, MacBook Neo, iPhone Ultra đều có Score thấp (3–6) dù tiêu đề bắt mắt.
-- **Bài dạng "so sánh/có nên mua không" cần gắn với sự kiện thực tế đang xảy ra**, không đứng độc lập — hiện tại nhóm comparison và community đều cho Score thấp (3–5).
-- **Hạn chế bài kỹ thuật hẹp hoặc sự kiện ngành không ảnh hưởng trực tiếp đến người dùng phổ thông** (Geekbench 7, macOS APFS, RC lần 7, bảo mật Mac): Score đồng loạt ở mức sàn (3), không tạo được chia sẻ hay bình luận.
-- **Để kích thích Comments và Shares, hook cần đặt người đọc vào tình huống phải quyết định hoặc lo ngại ngay lập tức** — dạng "bạn có bị ảnh hưởng không?", "nên làm gì ngay bây giờ?" hoặc nêu rõ mâu thuẫn cộng đồng đang tranh cãi.
+• **Ưu tiên chủ đề tác động trực tiếp đến túi tiền/quyền lợi người dùng** (phạt trễ trả góp, chính sách thanh toán) — đây là nhóm đạt Score cao nhất (36), kích thích phản ứng cảm xúc mạnh và chia sẻ cảnh báo.
+• **Ưu tiên tin nóng có tính thời sự thực tế** (sự cố mạng, tính năng vừa ra mắt độc lập như WhatsApp iPad) — tạo nhu cầu chia sẻ ngay vì tính hữu dụng tức thời (Score 10).
+• **Cấu trúc tiêu đề hiệu quả**: dùng dấu hai chấm hoặc câu hỏi trực tiếp gắn với lợi ích/rủi ro rõ ràng ("Apple phạt nặng đến mức nào?", "Đáng mua hay chờ thêm?") — tạo tò mò buộc người đọc vào comment để hỏi/tranh luận.
+• **Hook mạnh cần có con số cụ thể hoặc yếu tố đối lập/tranh luận** ("cộng đồng tranh luận gay gắt", "sau 15 năm chờ đợi") — tránh hook mô tả trung tính, liệt kê tính năng thuần túy.
+• **Tránh các bài thuần kỹ thuật/hạ tầng không gắn người dùng phổ thông** (macOS chuyển đổi ổ mã hóa, RC build, Geekbench benchmark) — nhóm này nhất quán Score thấp (3), không tạo được phản ứng hay chia sẻ.
+• **Tránh bài "hé lộ lịch sử/văn hóa nội bộ Apple"** (phác thảo Lil' Finder Guy) và bài AI chung chung không gắn use-case cụ thể — tương tác gần như bằng 0.
+• **Góc so sánh hoặc cộng đồng (community/comparison) chỉ hiệu quả khi gắn quyết định mua hàng thực tế** ("nên mua ngay hay chờ") — tuyệt đối không dùng góc này cho chủ đề quá kỹ thuật hoặc thiếu tính cấp bách.
