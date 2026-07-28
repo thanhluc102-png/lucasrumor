@@ -224,10 +224,10 @@
     ],
     "publish_time": "2026-07-22T15:19:29.137604",
     "performance": {
-      "reactions": 19,
+      "reactions": 20,
       "comments": 2,
       "shares": 2,
-      "score": 35
+      "score": 36
     }
   },
   {
@@ -496,6 +496,27 @@
       "💡 Mẹo tạm thời: Bật Wi-Fi Calling hoặc dùng eSIM mạng dự phòng để liên lạc bình thường"
     ],
     "publish_time": "2026-07-28T04:13:30.079310",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 1,
+      "score": 10
+    }
+  },
+  {
+    "post_id": "1920842954802282_1507859148048079",
+    "title": "AI giúp Apple vá lỗ hổng bảo mật nhanh chưa từng thấy",
+    "summary": "Claude, Codex và nhiều AI khác được ghi nhận đóng góp vào các bản vá bảo mật mới nhất của Apple.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/27/claude-codex-and-other-ai-tools-credited-in-todays-apple-security-releases/",
+    "bullets": [
+      "🧠 Claude & Codex được Apple chính thức ghi nhận đóng góp trong bản vá bảo mật",
+      "⚡ AI đang rút ngắn đáng kể thời gian phát hiện lỗ hổng so với phương pháp truyền thống",
+      "⚠️ Dấy lên lo ngại về mức độ phụ thuộc của Apple vào AI bên thứ ba trong bảo mật"
+    ],
+    "publish_time": "2026-07-28T04:32:14.110472",
     "performance": null
   }
 ]

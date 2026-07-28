@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề "Tin nóng" có tác động tài chính/thực tế trực tiếp đến người dùng** (phạt trễ trả góp, chính sách thanh toán…) — đây là nhóm duy nhất đạt Score cao vượt trội (35), kéo cả Reactions lẫn Shares.
-• **Đặt câu hook theo công thức: Hành động cụ thể của Apple + Hệ quả trực tiếp với người dùng** ("Apple sắp áp dụng hình phạt… nếu bạn trễ hạn") — tạo cảm giác cấp bách, thúc đẩy bình luận và chia sẻ cảnh báo.
-• **Ưu tiên định dạng "timeline" hoặc "announcement" cho tin nóng có yếu tố cộng đồng rộng** (WhatsApp iPad Score=10 nhờ tính phổ quát cao) — tránh đi sâu vào thông số kỹ thuật thuần túy.
-• **Hạn chế bài dạng leak/rumor thuần về chip, RAM, số tính năng** (iPhone 18 Pro 12 tính năng, MacBook Neo A19 Pro…) — nhóm này nhận tương tác rất thấp (Score 4–6), không kích thích chia sẻ.
-• **Tránh chủ đề hẹp, kỹ thuật cao hoặc thiếu liên quan đến người dùng phổ thông** (Geekbench 7, macOS mã hóa HFS+, lỗ hổng bảo mật lý thuyết) — hầu hết chỉ đạt Score=3, không có Shares.
-• **Không dùng hook mơ hồ kiểu "Những gì bạn cần biết" hay "Đang chuẩn bị gì?"** — các tiêu đề câu hỏi chung chung hoặc thiếu thông tin cụ thể trong hook đều thất bại về tương tác.
-• **Mỗi bài phải có một "stakes" rõ ràng ngay trong hook**: người dùng mất gì / được gì / cần làm gì — đây là yếu tố phân biệt bài Score cao vs. Score=3.
+- **Ưu tiên chủ đề "Tin nóng" có tác động trực tiếp đến người dùng** (phạt trễ trả góp, mất sóng, tính năng mới hoạt động thực tế): đây là nhóm đạt Score cao nhất (10–36), đặc biệt khi nội dung gây lo ngại hoặc giải quyết vấn đề thực tế hàng ngày.
+- **Ưu tiên nguồn MacWorld cho dạng announcement**: bài từ MacWorld có Score vượt trội so với 9to5Mac và r/apple ở cùng thể loại — nên dùng MacWorld làm nguồn chính cho các bài công bố quan trọng.
+- **Hook hiệu quả = nêu thẳng hệ quả/lợi ích cụ thể, có con số hoặc mốc thời gian rõ ràng** (ví dụ: "phạt nghiêm khắc nếu trễ hạn", "sau 15 năm chờ đợi", "tiết kiệm hàng giờ chờ đợi") — tránh hook chỉ hứa hẹn mơ hồ kiểu "hé lộ những gì?".
+- **Tránh dạng bài đầu cơ tính năng tương lai xa (leak/rumor thuần túy) mà thiếu góc tranh luận hoặc quyết định hành động**: các bài iPhone 18 Pro, MacBook Neo, iPhone Ultra đều có Score thấp (3–6) dù tiêu đề bắt mắt.
+- **Bài dạng "so sánh/có nên mua không" cần gắn với sự kiện thực tế đang xảy ra**, không đứng độc lập — hiện tại nhóm comparison và community đều cho Score thấp (3–5).
+- **Hạn chế bài kỹ thuật hẹp hoặc sự kiện ngành không ảnh hưởng trực tiếp đến người dùng phổ thông** (Geekbench 7, macOS APFS, RC lần 7, bảo mật Mac): Score đồng loạt ở mức sàn (3), không tạo được chia sẻ hay bình luận.
+- **Để kích thích Comments và Shares, hook cần đặt người đọc vào tình huống phải quyết định hoặc lo ngại ngay lập tức** — dạng "bạn có bị ảnh hưởng không?", "nên làm gì ngay bây giờ?" hoặc nêu rõ mâu thuẫn cộng đồng đang tranh cãi.
