@@ -224,10 +224,10 @@
     ],
     "publish_time": "2026-07-22T15:19:29.137604",
     "performance": {
-      "reactions": 17,
+      "reactions": 19,
       "comments": 2,
       "shares": 2,
-      "score": 33
+      "score": 35
     }
   },
   {
@@ -434,10 +434,10 @@
     ],
     "publish_time": "2026-07-25T07:30:57.362114",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -455,10 +455,10 @@
     ],
     "publish_time": "2026-07-25T10:47:40.462460",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -475,6 +475,27 @@
       "✅ Người dùng Mac thông thường: không cần hoảng loạn, chỉ cần cập nhật macOS và cẩn thận nguồn cài app"
     ],
     "publish_time": "2026-07-25T14:44:07.710008",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1507846428049351",
+    "title": "T-Mobile mất sóng, iPhone chuyển chế độ SOS",
+    "summary": "Mạng T-Mobile đang gặp sự cố diện rộng, iPhone người dùng tự động kích hoạt SOS khẩn cấp.",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/27/psa-t-mobile-is-down-iphones-forced-into-sos-mode/",
+    "bullets": [
+      "🔴 iPhone người dùng T-Mobile hiển thị 'SOS' — chỉ gọi được số khẩn cấp",
+      "📡 T-Mobile xác nhận sự cố và đang tích cực xử lý nhưng chưa có ETA",
+      "💡 Mẹo tạm thời: Bật Wi-Fi Calling hoặc dùng eSIM mạng dự phòng để liên lạc bình thường"
+    ],
+    "publish_time": "2026-07-28T04:13:30.079310",
     "performance": null
   }
 ]
