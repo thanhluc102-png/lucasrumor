@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề "Tin nóng" có tính khẩn cấp + ảnh hưởng trực tiếp** (sự cố mạng, cập nhật bảo mật, patch lỗ hổng): nhóm này đạt Score cao nhất (8–10), đặc biệt khi kết hợp yếu tố thời sự + hành động cụ thể người dùng cần làm ngay.
-- **Cấu trúc hook hiệu quả nhất: [Sự kiện thực tế xảy ra] + [Hệ quả/tác động rõ ràng với người dùng]** — ví dụ: "Mạng X gặp sự cố → iPhone tự kích hoạt SOS" hoặc "Apple vá 75+ lỗ hổng → cần cập nhật ngay". Tránh hook chỉ mô tả tính năng mà không nêu tác động.
-- **Tiêu đề có động từ hành động + con số cụ thể** ("vá hơn 75 lỗ hổng", "RC lần 7") kích thích tương tác tốt hơn tiêu đề dạng câu hỏi mở hoặc liệt kê lợi ích chung chung.
-- **Tránh chủ đề cộng đồng/lịch sử thương hiệu thuần túy** (Lil' Finder Guy, Art Director hé lộ phác thảo): Score thấp nhất (3), không tạo được động lực bình luận hay chia sẻ với tệp người dùng phụ kiện Apple.
-- **Hạn chế bài dạng "so sánh nâng cấp" hoặc "có đáng chờ không"** nếu sản phẩm chưa ra mắt thực tế — tạo ít tranh luận, score trung bình thấp (5–6).
-- **Để tăng Shares (hệ số x5), ưu tiên nội dung mang tính cảnh báo hoặc lợi ích thiết thực** (bảo mật, deal, sự cố ảnh hưởng nhiều người) thay vì tin đồn/leak phần cứng chưa xác nhận.
-- **Không đăng 2 bài cùng chủ đề trong một tuần** (iOS 26.6 xuất hiện 2 lần, tổng score chỉ 8+9=17, không cộng hưởng mà phân tán tương tác).
+- **Ưu tiên thể loại "Tin nóng"** (sự cố thực tế, cập nhật bảo mật khẩn cấp): đây là nhóm có điểm cao nhất (Score 8–10), đặc biệt khi gắn với hành động người dùng ngay lập tức ("cập nhật ngay", "SOS khẩn cấp").
+- **Cấu trúc hook hiệu quả nhất**: nêu sự kiện thực tế đang xảy ra + hệ quả trực tiếp với người dùng (ví dụ: "Mạng X sập → iPhone tự kích hoạt SOS"). Tránh hook chỉ liệt kê tính năng hoặc mô tả trung lập.
+- **Tiêu đề có số liệu cụ thể + động từ hành động** ("vá 75+ lỗ hổng", "cập nhật ngay") kéo được Reactions và Comments tốt hơn tiêu đề mô tả chung chung.
+- **Tránh thể loại cộng đồng (community) và thảo luận nội bộ** (Lil' Finder Guy, iPhone unlocked, MacBook Ultra OLED): điểm thấp nhất (Score 3–4), không tạo được urgency hay cảm xúc chia sẻ.
+- **Chủ đề so sánh/nâng cấp (comparison)** chưa hiệu quả trong tuần này (Score 4–6): nếu dùng, cần đẩy mạnh xung đột rõ ràng hơn ("nên mua ngay vs. chờ") thay vì chỉ liệt kê lý do.
+- **Ưu tiên nguồn 9to5Mac** cho tin nóng và announcement vì nhóm bài này đạt Score cao hơn so với MacWorld hoặc r/apple trong cùng thể loại.
+- **Shares chỉ xuất hiện khi nội dung có tính cảnh báo hoặc hữu ích thiết thực** (bảo mật, sự cố mạng, bản cập nhật quan trọng) — mọi bài viết nên có ít nhất một yếu tố "người khác cần biết điều này".
