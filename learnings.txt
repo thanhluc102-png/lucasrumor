@@ -1,7 +1,7 @@
-• **Ưu tiên "Tin nóng" có tính thực dụng tức thì** (cập nhật bảo mật, sự cố mạng, ứng dụng ra mắt độc lập): đây là nhóm đạt Score cao nhất (8–10), đặc biệt khi tác động trực tiếp đến thói quen dùng máy hàng ngày.
-• **Hook nên nêu con số cụ thể hoặc mốc thời gian ấn tượng** ("15 năm chờ đợi", "75+ lỗ hổng", "RC lần 7") — tạo cảm giác khẩn cấp hoặc bất ngờ, kéo Comment và Share tốt hơn hook mơ hồ.
-• **Tiêu đề dạng hành động hoặc câu hỏi kép hiệu quả hơn tiêu đề liệt kê** ("Cập nhật ngay", "Có đáng chờ không?", "Thay đổi thế nào?" > "6 tính năng đỉnh cao", "3 lý do").
-• **Tránh chủ đề cộng đồng/lịch sử thương hiệu thuần túy** (Lil' Finder Guy, phác thảo gốc) và bài kỹ thuật benchmark khô khan — nhóm này nhận 0 Reaction, Score chỉ 3, không kích thích Share hay Comment thực chất.
-• **Không đăng hai bài cùng chủ đề trong một tuần** (iOS 26.6 xuất hiện 2 lần, cả hai đều Score thấp hơn kỳ vọng và phân tán tương tác lẫn nhau).
-• **Góc "bảo mật + AI + hành động người dùng" là điểm ngọt** — kết hợp yếu tố AI thực dụng (AI vá lỗi, AI tăng tốc) với lời kêu gọi cụ thể để tối ưu cả Reaction lẫn Comment.
-• **Nguồn MacWorld và 9to5Mac không tạo ra chênh lệch Score đáng kể** — tập trung vào góc tiếp cận và hook, không phụ thuộc vào thương hiệu nguồn.
+- **Ưu tiên chủ đề "Tin nóng" có tính khẩn cấp + ảnh hưởng trực tiếp** (sự cố mạng, cập nhật bảo mật, patch lỗ hổng): nhóm này đạt Score cao nhất (8–10), đặc biệt khi kết hợp yếu tố thời sự + hành động cụ thể người dùng cần làm ngay.
+- **Cấu trúc hook hiệu quả nhất: [Sự kiện thực tế xảy ra] + [Hệ quả/tác động rõ ràng với người dùng]** — ví dụ: "Mạng X gặp sự cố → iPhone tự kích hoạt SOS" hoặc "Apple vá 75+ lỗ hổng → cần cập nhật ngay". Tránh hook chỉ mô tả tính năng mà không nêu tác động.
+- **Tiêu đề có động từ hành động + con số cụ thể** ("vá hơn 75 lỗ hổng", "RC lần 7") kích thích tương tác tốt hơn tiêu đề dạng câu hỏi mở hoặc liệt kê lợi ích chung chung.
+- **Tránh chủ đề cộng đồng/lịch sử thương hiệu thuần túy** (Lil' Finder Guy, Art Director hé lộ phác thảo): Score thấp nhất (3), không tạo được động lực bình luận hay chia sẻ với tệp người dùng phụ kiện Apple.
+- **Hạn chế bài dạng "so sánh nâng cấp" hoặc "có đáng chờ không"** nếu sản phẩm chưa ra mắt thực tế — tạo ít tranh luận, score trung bình thấp (5–6).
+- **Để tăng Shares (hệ số x5), ưu tiên nội dung mang tính cảnh báo hoặc lợi ích thiết thực** (bảo mật, deal, sự cố ảnh hưởng nhiều người) thay vì tin đồn/leak phần cứng chưa xác nhận.
+- **Không đăng 2 bài cùng chủ đề trong một tuần** (iOS 26.6 xuất hiện 2 lần, tổng score chỉ 8+9=17, không cộng hưởng mà phân tán tương tác).
