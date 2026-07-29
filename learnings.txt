@@ -1,7 +1,7 @@
-• **Ưu tiên "Tin nóng" có tác động thực tế ngay lập tức** (sự cố mạng, cập nhật bảo mật khẩn, tính năng mới chính thức ra mắt) — đây là nhóm duy nhất đạt Share, yếu tố đẩy Score cao nhất (×5).
-• **Cấu trúc hook hiệu quả nhất:** nêu sự kiện cụ thể + hệ quả trực tiếp với người dùng (VD: "Mạng T-Mobile sập → iPhone tự bật SOS"; "WhatsApp iPad hoạt động độc lập sau 15 năm") — tránh hook chỉ mô tả tính năng mà không rõ ảnh hưởng.
-• **Tiêu đề dạng số/danh sách ("3 lý do", "6 tính năng", "75 lỗ hổng")** giúp tăng Reactions nhưng không kéo được Share — chỉ dùng khi kết hợp với góc tin nóng hoặc so sánh có quyết định mua hàng rõ ràng.
-• **Tránh nội dung cộng đồng/lịch sử thương hiệu thuần túy** (phác thảo nhân vật, benchmark tool ra mắt) — Score thấp nhất (3), không tạo động lực chia sẻ hay tranh luận.
-• **Góc "nên mua ngay hay chờ?"** (MacBook Ultra, iPhone 18 Pro) có tiềm năng tranh luận nhưng hiện chưa kéo được Share — cần thêm mốc thời gian cụ thể hoặc so sánh giá/tính năng trực tiếp để thúc đẩy người dùng tag bạn bè.
-• **Nguồn MacWorld + chủ đề bảo mật/cập nhật hệ điều hành** cho tỉ lệ Share tốt hơn r/apple — ưu tiên frame tin theo góc "hành động người dùng cần làm ngay" thay vì góc "rò rỉ/tin đồn".
-• **Hạn chế bài thuần announcement kỹ thuật** (RC thứ 7, Geekbench 7) nếu không gắn được câu hỏi mở hoặc lợi ích người dùng cuối — dạng này chỉ thu hút comment từ nhóm rất nhỏ, Score thấp.
+• **Ưu tiên "Tin nóng" có tính thực dụng tức thì** (cập nhật bảo mật, sự cố mạng, ứng dụng ra mắt độc lập): đây là nhóm đạt Score cao nhất (8–10), đặc biệt khi tác động trực tiếp đến thói quen dùng máy hàng ngày.
+• **Hook nên nêu con số cụ thể hoặc mốc thời gian ấn tượng** ("15 năm chờ đợi", "75+ lỗ hổng", "RC lần 7") — tạo cảm giác khẩn cấp hoặc bất ngờ, kéo Comment và Share tốt hơn hook mơ hồ.
+• **Tiêu đề dạng hành động hoặc câu hỏi kép hiệu quả hơn tiêu đề liệt kê** ("Cập nhật ngay", "Có đáng chờ không?", "Thay đổi thế nào?" > "6 tính năng đỉnh cao", "3 lý do").
+• **Tránh chủ đề cộng đồng/lịch sử thương hiệu thuần túy** (Lil' Finder Guy, phác thảo gốc) và bài kỹ thuật benchmark khô khan — nhóm này nhận 0 Reaction, Score chỉ 3, không kích thích Share hay Comment thực chất.
+• **Không đăng hai bài cùng chủ đề trong một tuần** (iOS 26.6 xuất hiện 2 lần, cả hai đều Score thấp hơn kỳ vọng và phân tán tương tác lẫn nhau).
+• **Góc "bảo mật + AI + hành động người dùng" là điểm ngọt** — kết hợp yếu tố AI thực dụng (AI vá lỗi, AI tăng tốc) với lời kêu gọi cụ thể để tối ưu cả Reaction lẫn Comment.
+• **Nguồn MacWorld và 9to5Mac không tạo ra chênh lệch Score đáng kể** — tập trung vào góc tiếp cận và hook, không phụ thuộc vào thương hiệu nguồn.
