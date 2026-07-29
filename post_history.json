@@ -560,10 +560,10 @@
     ],
     "publish_time": "2026-07-28T11:31:25.041631",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -580,6 +580,27 @@
       "⚡ Người dùng nên cập nhật ngay để đảm bảo thiết bị sẵn sàng cho các cải tiến sắp tới"
     ],
     "publish_time": "2026-07-28T15:38:03.975265",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 1,
+      "score": 9
+    }
+  },
+  {
+    "post_id": "1920842954802282_1508788911288436",
+    "title": "iOS 26.6 ra mắt: Cập nhật ngay bây giờ!",
+    "summary": "iOS 26.6 chính thức phát hành, quan trọng hơn bạn nghĩ — người dùng iPhone cần cập nhật ngay.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/28/ios-26-6-new-features-release-date-more/",
+    "bullets": [
+      "✅ iOS 26.6 chính thức phát hành, có mặt ngay trên iPhone",
+      "🔒 Quan trọng hơn bạn nghĩ — khả năng chứa vá bảo mật khẩn cấp",
+      "📲 Cách cập nhật: Cài đặt → Cài đặt chung → Cập nhật phần mềm"
+    ],
+    "publish_time": "2026-07-29T04:34:37.126775",
     "performance": null
   }
 ]

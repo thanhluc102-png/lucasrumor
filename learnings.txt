@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề "Tin nóng" có tác động trực tiếp đến người dùng** (sự cố mạng, cập nhật bảo mật khẩn cấp, tính năng độc lập mới) — đây là nhóm duy nhất đạt Share > 0 và Score cao nhất (10 điểm).
-• **Hook hiệu quả = nêu ngay lợi ích/hệ quả cụ thể + tạo cảm giác cấp bách hoặc bất ngờ** (ví dụ: "sau 15 năm chờ đợi", "cần cập nhật ngay", "tự động kích hoạt SOS") — tránh hook mô tả chung chung, trung tính.
-• **Tiêu đề có con số hoặc hành động rõ ràng** ("75 lỗ hổng", "3 lý do", "6 tính năng") giúp tăng Reactions, nhưng chỉ đủ kéo Score trung bình (4–6) nếu thiếu yếu tố chia sẻ — cần kết hợp thêm góc "ảnh hưởng cộng đồng rộng".
-• **Tránh các bài thuần kỹ thuật/nội bộ Apple không liên quan trực tiếp đến trải nghiệm người dùng** (macOS RC thứ 7, Geekbench 7, phác thảo nhân vật lịch sử, OLED supplier) — nhóm này nhất quán ở mức Score thấp nhất (3 điểm, 0 Share, 0 Reaction).
-• **Góc "so sánh/quyết định mua"** (MacBook Ultra có đáng chờ?, iPhone 18 Pro vs 17 Pro) tạo tranh luận nhẹ nhưng chưa đủ kéo Share — cần thêm câu hỏi mở cuối hook để kích bình luận ("Bạn sẽ chờ hay mua ngay?").
-• **Nguồn r/apple (community) và MacWorld hiện cho Score thấp hơn 9to5Mac** — ưu tiên 9to5Mac cho tin nóng/announcement; chỉ dùng r/apple khi chủ đề thực sự gây tranh cãi trong cộng đồng.
-• **Định dạng "timeline" kết hợp sự kiện thực tế đang xảy ra** (T-Mobile mất sóng, WhatsApp iPad) là công thức tối ưu Share — nhân rộng dạng này cho các sự cố/ra mắt tính năng có tính lan truyền cao.
+• **Ưu tiên "Tin nóng" có tác động thực tế ngay lập tức** (sự cố mạng, cập nhật bảo mật khẩn, tính năng mới chính thức ra mắt) — đây là nhóm duy nhất đạt Share, yếu tố đẩy Score cao nhất (×5).
+• **Cấu trúc hook hiệu quả nhất:** nêu sự kiện cụ thể + hệ quả trực tiếp với người dùng (VD: "Mạng T-Mobile sập → iPhone tự bật SOS"; "WhatsApp iPad hoạt động độc lập sau 15 năm") — tránh hook chỉ mô tả tính năng mà không rõ ảnh hưởng.
+• **Tiêu đề dạng số/danh sách ("3 lý do", "6 tính năng", "75 lỗ hổng")** giúp tăng Reactions nhưng không kéo được Share — chỉ dùng khi kết hợp với góc tin nóng hoặc so sánh có quyết định mua hàng rõ ràng.
+• **Tránh nội dung cộng đồng/lịch sử thương hiệu thuần túy** (phác thảo nhân vật, benchmark tool ra mắt) — Score thấp nhất (3), không tạo động lực chia sẻ hay tranh luận.
+• **Góc "nên mua ngay hay chờ?"** (MacBook Ultra, iPhone 18 Pro) có tiềm năng tranh luận nhưng hiện chưa kéo được Share — cần thêm mốc thời gian cụ thể hoặc so sánh giá/tính năng trực tiếp để thúc đẩy người dùng tag bạn bè.
+• **Nguồn MacWorld + chủ đề bảo mật/cập nhật hệ điều hành** cho tỉ lệ Share tốt hơn r/apple — ưu tiên frame tin theo góc "hành động người dùng cần làm ngay" thay vì góc "rò rỉ/tin đồn".
+• **Hạn chế bài thuần announcement kỹ thuật** (RC thứ 7, Geekbench 7) nếu không gắn được câu hỏi mở hoặc lợi ích người dùng cuối — dạng này chỉ thu hút comment từ nhóm rất nhỏ, Score thấp.
