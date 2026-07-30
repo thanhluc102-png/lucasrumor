@@ -1,7 +1,7 @@
-- **Ưu tiên thể loại "Tin nóng"** (sự cố thực tế, cập nhật bảo mật khẩn cấp): đây là nhóm có điểm cao nhất (Score 8–10), đặc biệt khi gắn với hành động người dùng ngay lập tức ("cập nhật ngay", "SOS khẩn cấp").
-- **Cấu trúc hook hiệu quả nhất**: nêu sự kiện thực tế đang xảy ra + hệ quả trực tiếp với người dùng (ví dụ: "Mạng X sập → iPhone tự kích hoạt SOS"). Tránh hook chỉ liệt kê tính năng hoặc mô tả trung lập.
-- **Tiêu đề có số liệu cụ thể + động từ hành động** ("vá 75+ lỗ hổng", "cập nhật ngay") kéo được Reactions và Comments tốt hơn tiêu đề mô tả chung chung.
-- **Tránh thể loại cộng đồng (community) và thảo luận nội bộ** (Lil' Finder Guy, iPhone unlocked, MacBook Ultra OLED): điểm thấp nhất (Score 3–4), không tạo được urgency hay cảm xúc chia sẻ.
-- **Chủ đề so sánh/nâng cấp (comparison)** chưa hiệu quả trong tuần này (Score 4–6): nếu dùng, cần đẩy mạnh xung đột rõ ràng hơn ("nên mua ngay vs. chờ") thay vì chỉ liệt kê lý do.
-- **Ưu tiên nguồn 9to5Mac** cho tin nóng và announcement vì nhóm bài này đạt Score cao hơn so với MacWorld hoặc r/apple trong cùng thể loại.
-- **Shares chỉ xuất hiện khi nội dung có tính cảnh báo hoặc hữu ích thiết thực** (bảo mật, sự cố mạng, bản cập nhật quan trọng) — mọi bài viết nên có ít nhất một yếu tố "người khác cần biết điều này".
+• **Ưu tiên "Tin nóng" có tác động trực tiếp đến người dùng** (sự cố mạng, cập nhật bảo mật khẩn, lỗ hổng nguy hiểm) — nhóm này đạt score cao nhất (8–10), đặc biệt khi nội dung gây cảm giác cấp bách hoặc ảnh hưởng ngay lập tức.
+• **Tiêu đề dùng dấu hai chấm + hệ quả cụ thể** ("T-Mobile mất sóng, iPhone chuyển chế độ SOS") hoặc **kêu gọi hành động khẩn** ("Cập nhật ngay") kéo share và comment tốt hơn tiêu đề mô tả thuần túy.
+• **Hook nên nêu rõ tác động cá nhân hoặc mức độ bất thường** (số liệu cụ thể: "75+ lỗ hổng", sự kiện bất ngờ: "RC lần thứ 7") thay vì chỉ mô tả sự kiện chung chung — giúp người đọc có lý do để comment hoặc share.
+• **Tránh các góc tiếp cận thuần cộng đồng/lịch sử không có tính thời sự** (phác thảo nhân vật cũ, benchmark tool mới) — nhóm này nhận score thấp nhất (3), không kích thích thảo luận dù nguồn uy tín.
+• **Hạn chế đăng trùng chủ đề trong cùng tuần** (iOS 26.6 xuất hiện 2 bài riêng biệt, score đều trung bình) — nên gộp hoặc chọn góc độ khác biệt rõ ràng để tránh loãng tương tác.
+• **Bài dạng "có đáng chờ không?" hoặc đặt câu hỏi nhị phân** (mua ngay vs. đợi) có tiềm năng comment tốt — cần đẩy mạnh hơn ở phần hook thay vì chỉ liệt kê tính năng.
+• **Nguồn 9to5Mac kết hợp góc "Tin nóng" cho kết quả tốt nhất**; MacWorld thiên về announcement ít gây tương tác hơn — ưu tiên framing sự kiện theo hướng tác động người dùng thay vì thuần công bố.

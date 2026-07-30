@@ -644,10 +644,10 @@
     ],
     "publish_time": "2026-07-29T11:36:12.297732",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -664,6 +664,27 @@
       "⚔️ Cạnh tranh trực diện với Amazon Echo và Google Nest trên thị trường smart home"
     ],
     "publish_time": "2026-07-29T15:22:43.116157",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1509705137863480",
+    "title": "Apple bị Thượng viện Mỹ cảnh báo: Đừng mua chip Trung Quốc",
+    "summary": "Lưỡng đảng Mỹ gửi cảnh báo khẩn tới Apple về kế hoạch mua chip nhớ từ các hãng Trung Quốc.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/29/apple-faces-bipartisan-senate-pushback-over-plans-to-buy-chinese-memory-chips/",
+    "bullets": [
+      "🏛️ Thượng nghị sĩ lưỡng đảng gửi thư cảnh báo trực tiếp đến Apple",
+      "🇨🇳 Apple bị yêu cầu không mua chip nhớ từ các hãng Trung Quốc",
+      "⚠️ Lý do chính: lo ngại an ninh quốc gia và rủi ro chuỗi cung ứng"
+    ],
+    "publish_time": "2026-07-30T04:25:02.099837",
     "performance": null
   }
 ]
