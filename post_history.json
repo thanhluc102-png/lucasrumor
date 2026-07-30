@@ -727,6 +727,27 @@
       "⏳ Người dùng iPhone 15/16 nên cân nhắc: mua iPhone 17 ngay hay đợi bản Anniversary 2026?"
     ],
     "publish_time": "2026-07-30T11:23:36.745171",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1510145324486128",
+    "title": "iOS 27: Ẩn nút micro phiền phức trong Messages",
+    "summary": "iOS 27 cho phép ẩn nút Audio trong Messages, tránh gửi nhầm tin nhắn thoại ngoài ý muốn.",
+    "category": "iPhone",
+    "visual_type": "comparison",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3202129/ios-27-finally-lets-you-hide-the-audio-button-in-messages-heres-how.html",
+    "bullets": [
+      "iOS 27 bổ sung tùy chọn ẩn nút Audio (micro) trong thanh soạn thảo Messages",
+      "Vào Cài đặt > Ứng dụng > Tin nhắn để tắt nút này chỉ trong vài giây",
+      "Tính năng được yêu cầu từ lâu sau nhiều sự cố gửi nhầm voice message ngoài ý muốn"
+    ],
+    "publish_time": "2026-07-30T15:26:22.486129",
     "performance": null
   }
 ]

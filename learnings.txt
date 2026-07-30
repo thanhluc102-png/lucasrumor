@@ -1,7 +1,13 @@
-• **Ưu tiên chủ đề "Tin nóng" có tính khẩn cấp hoặc sự cố thực tế** (T-Mobile mất sóng, iOS 26.6 cập nhật ngay): đây là nhóm đạt score cao nhất (8–10), đặc biệt khi người dùng bị ảnh hưởng trực tiếp.
-• **Hook nên tạo cảm giác hành động ngay hoặc hệ quả rõ ràng**: cấu trúc hiệu quả là *"[Sự kiện xảy ra] → [Điều người dùng cần làm/chú ý ngay]"* — tránh hook chỉ mô tả thông tin trung lập.
-• **Tiêu đề có từ khóa kích thích chia sẻ**: dùng cụm như *"Cập nhật ngay", "Mất sóng", "Cảnh báo khẩn"* — các bài có Shares > 0 đều chứa yếu tố khẩn cấp hoặc tác động cộng đồng rộng.
-• **Góc "so sánh/quyết định mua"** (community) có tiềm năng bình luận: dạng *"Mua ngay hay đợi?"* kéo người dùng vào thảo luận, nên khai thác thêm với hook rõ lợi/hại hơn.
-• **Tránh bài thuần thống kê kỹ thuật hoặc timeline nội bộ Apple** (RC lần 7, lỗ hổng bảo mật học thuật): score thấp (3–6), ít liên quan trực tiếp đến trải nghiệm người dùng cuối.
-• **Tránh đăng 2 bài cùng chủ đề trong một tuần** (iOS 26.6 xuất hiện 2 lần): phân tán tương tác, không bài nào đạt đỉnh — mỗi chủ đề chỉ nên có 1 bài duy nhất với góc mạnh nhất.
-• **Nguồn r/apple (community) chỉ hiệu quả khi hook gắn với quyết định thực tế của người dùng Việt** (mua/không mua, giá, trả góp) — tránh dùng cho tin đồn phần cứng thiếu xác thực.
+• **Ưu tiên "Tin nóng" có tác động thực tế ngay lập tức** (sự cố mạng, bản vá bảo mật khẩn, tính năng vừa phát hành) — nhóm này chiếm các score cao nhất (10, 9, 8); tránh các bài mang tính kỹ thuật nội bộ hoặc cập nhật RC/beta thuần túy (score 3–6).
+
+• **Cấu trúc tiêu đề tối ưu: [Sự kiện cụ thể] + [Hành động/hệ quả rõ ràng với người dùng]** — ví dụ "T-Mobile mất sóng, iPhone chuyển chế độ SOS" hoặc "Cập nhật ngay: Apple vá hơn 75 lỗ hổng"; tránh tiêu đề chỉ thông báo sự kiện trung lập, thiếu động từ kêu gọi hoặc yếu tố gây lo ngại/tò mò.
+
+• **Hook phải chứa con số cụ thể hoặc mức độ ảnh hưởng đo được** (75+ lỗ hổng, 150+, 24–36 tháng, 10 tính năng) kết hợp lời kêu gọi hành động ("cập nhật ngay", "cần biết ngay") để kéo comment và share.
+
+• **Góc "quyết định mua hàng" và "so sánh/chờ hay mua ngay"** (community-style) có tiềm năng share nhưng cần hook mạnh hơn hiện tại; hiện đang lãng phí ở score thấp do hook còn chung chung — cần đẩy thêm yếu tố tranh luận hoặc câu hỏi mở trực tiếp vào hook.
+
+• **Tránh các bài thuần chuỗi cung ứng/chip/địa chính trị** (Qualcomm, chip Trung Quốc, Samsung OLED) nếu không gắn được lợi ích/rủi ro cụ thể cho người dùng Việt — nhóm này đồng loạt dừng ở score 4–6 dù nguồn uy tín.
+
+• **Nguồn r/apple (community) cho score thấp và ổn định** — chỉ dùng khi góc khai thác là "tranh luận cộng đồng" hoặc "poll chờ hay mua"; không dùng cho tin thông báo đơn thuần. Ưu tiên 9to5Mac/MacWorld cho tin nóng có hành động rõ ràng.
+
+• **Mỗi bài chỉ nên có một thông điệp hành động duy nhất** — tránh bài gộp nhiều sự kiện hoặc nhiều sản phẩm cùng lúc (iOS + macOS trong cùng một hook làm loãng tương tác).
