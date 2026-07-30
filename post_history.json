@@ -686,10 +686,10 @@
     ],
     "publish_time": "2026-07-30T04:25:02.099837",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -706,6 +706,27 @@
       "Apple C1 đã ra mắt — lộ trình thoát hoàn toàn khỏi Qualcomm đang tăng tốc"
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
+    "performance": {
+      "reactions": 3,
+      "comments": 1,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1509968874503773",
+    "title": "iPhone 20 năm: 10 tính năng siêu khủng sắp lộ diện",
+    "summary": "iPhone kỷ niệm 20 năm sẽ ra mắt 2026 với 10 tính năng đột phá chưa từng có.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vahssv/20th_anniversary_iphone_coming_next_year_with/",
+    "bullets": [
+      "🎂 Kỷ niệm 20 năm iPhone — Apple được kỳ vọng làm điều gì đó thực sự 'điên rồ'",
+      "🔟 10 tính năng mới được rò rỉ, bao gồm thiết kế, màn hình và AI thế hệ kế tiếp",
+      "⏳ Người dùng iPhone 15/16 nên cân nhắc: mua iPhone 17 ngay hay đợi bản Anniversary 2026?"
+    ],
+    "publish_time": "2026-07-30T11:23:36.745171",
     "performance": null
   }
 ]

@@ -1,7 +1,7 @@
-• **Ưu tiên "Tin nóng" có tính khẩn cấp & ảnh hưởng trực tiếp** (sự cố mạng, bản vá bảo mật, cập nhật iOS): đây là nhóm đạt score cao nhất (8–10), đặc biệt khi kết hợp được yếu tố "xảy ra ngay bây giờ" + hành động người dùng cần làm ngay.
-• **Hook phải gắn với trải nghiệm cá nhân hoặc quyết định cụ thể của người đọc** ("Cập nhật ngay", "iPhone tự kích hoạt SOS", "mua ngay hay đợi?"): kích thích comment và share hơn hook chỉ thông báo sự kiện trung tính.
-• **Tiêu đề dạng câu hỏi hoặc lưỡng nan** ("Có đáng chờ không?", "Mua ngay hay đợi?") giữ score trung bình ổn (5), nên dùng cho nội dung MacBook/iPhone chưa ra mắt để kéo thảo luận.
-• **Tránh tiêu đề/hook thuần kỹ thuật hoặc quá chuyên biệt** (Geekbench benchmark, lỗ hổng bảo mật macOS bị thổi phồng, chip Trung Quốc): score thấp nhất (3–4), không tạo được cảm xúc hay nhu cầu tương tác với tệp người dùng phổ thông.
-• **Không đăng 2 bài cùng chủ đề trong một tuần** (iOS 26.6 xuất hiện 2 lần, score bị chia nhỏ, không bài nào bứt phá); nếu cần, chỉ giữ 1 bài duy nhất với hook mạnh nhất.
-• **Ưu tiên nguồn 9to5Mac cho tin nóng, MacWorld cho bài phân tích/thống kê**; nội dung từ r/apple phù hợp góc community/deal nhưng cần hook kéo quyết định mua hàng thật rõ để tránh score thấp.
-• **Mỗi hook phải chứa ít nhất một trong ba yếu tố**: (1) con số cụ thể, (2) hành động người đọc cần làm, hoặc (3) xung đột/bất ngờ — bài thiếu cả ba thường dừng ở score 3–5.
+• **Ưu tiên chủ đề "Tin nóng" có tính khẩn cấp hoặc sự cố thực tế** (T-Mobile mất sóng, iOS 26.6 cập nhật ngay): đây là nhóm đạt score cao nhất (8–10), đặc biệt khi người dùng bị ảnh hưởng trực tiếp.
+• **Hook nên tạo cảm giác hành động ngay hoặc hệ quả rõ ràng**: cấu trúc hiệu quả là *"[Sự kiện xảy ra] → [Điều người dùng cần làm/chú ý ngay]"* — tránh hook chỉ mô tả thông tin trung lập.
+• **Tiêu đề có từ khóa kích thích chia sẻ**: dùng cụm như *"Cập nhật ngay", "Mất sóng", "Cảnh báo khẩn"* — các bài có Shares > 0 đều chứa yếu tố khẩn cấp hoặc tác động cộng đồng rộng.
+• **Góc "so sánh/quyết định mua"** (community) có tiềm năng bình luận: dạng *"Mua ngay hay đợi?"* kéo người dùng vào thảo luận, nên khai thác thêm với hook rõ lợi/hại hơn.
+• **Tránh bài thuần thống kê kỹ thuật hoặc timeline nội bộ Apple** (RC lần 7, lỗ hổng bảo mật học thuật): score thấp (3–6), ít liên quan trực tiếp đến trải nghiệm người dùng cuối.
+• **Tránh đăng 2 bài cùng chủ đề trong một tuần** (iOS 26.6 xuất hiện 2 lần): phân tán tương tác, không bài nào đạt đỉnh — mỗi chủ đề chỉ nên có 1 bài duy nhất với góc mạnh nhất.
+• **Nguồn r/apple (community) chỉ hiệu quả khi hook gắn với quyết định thực tế của người dùng Việt** (mua/không mua, giá, trả góp) — tránh dùng cho tin đồn phần cứng thiếu xác thực.
