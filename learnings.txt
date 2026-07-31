@@ -1,7 +1,7 @@
-• **Ưu tiên góc "công ty/ngành công nghiệp bị tác động tài chính rõ ràng"** — bài "Apple sắp chia tay Qualcomm" dẫn đầu tuyệt đối (Score=34) nhờ có số liệu cụ thể, bên thua-thắng rõ ràng, kích thích tranh luận.
-• **Dùng cấu trúc tiêu đề: [Thương hiệu lớn] + [hành động bất ngờ/mâu thuẫn] + [hệ quả trực tiếp]** — ví dụ: "Apple sắp chia tay Qualcomm sớm hơn dự kiến" hoặc "T-Mobile mất sóng, iPhone chuyển chế độ SOS" — tạo cảm giác khẩn, có kẻ được/mất.
-• **Hook phải nêu ngay con số hoặc tên bên liên quan** (Qualcomm, Samsung, Klarna, Thượng viện Mỹ…) — tránh hook trừu tượng chung chung; càng có "ai bị ảnh hưởng" càng kéo comment.
-• **Tin nóng dạng sự kiện đang xảy ra (timeline/stat) cho Shares cao hơn** — "T-Mobile mất sóng" và "iOS 26.6 ra mắt: iPhone chuẩn bị cho tương lai" là hai bài duy nhất có Share≥1; nên gắn yếu tố thời sự tức thì vào mọi bài.
-• **Tránh bài thuần bảo mật/vá lỗ hổng nếu không có góc drama** — các bài "vá 75 lỗ hổng", "Mac khó bị tấn công", "AI vá bảo mật" đều Score≤5 dù hook cố tạo sự khẩn cấp; người dùng phụ kiện Apple không bị kéo bởi nội dung kỹ thuật thuần túy.
-• **Chủ đề Apple AI chỉ hiệu quả khi gắn với tiền hoặc quyết định của CEO** — "Siri có thể tính phí thuê bao" Score=3 vì hook mơ hồ; cần cụ thể hóa: ai trả, bao nhiêu, khi nào.
-• **Không đăng hai bài cùng chủ đề trong một tuần** — "iOS 26.6" xuất hiện 2 lần, bài sau (Score=8) ăn mòn traffic bài trước (Score=9), tổng hiệu quả thấp hơn dồn một bài duy nhất tối ưu.
+• **Ưu tiên chủ đề tác động kinh doanh/chuỗi cung ứng Apple** (chip, đối tác, thay đổi nhà cung cấp): đây là góc duy nhất tạo Reactions đột biến (bài Qualcomm đạt Score=42, cao gấp 4–10 lần còn lại).
+• **Dùng hook nêu hệ quả tài chính/kinh doanh cụ thể** ("ảnh hưởng trực tiếp lợi nhuận", "xác nhận", số liệu thực từ công ty) thay vì chỉ mô tả tính năng — kích thích Reactions mạnh nhất.
+• **Ưu tiên bài có yếu tố khẩn cấp + hành động thực tế của người dùng** (SOS, mất sóng, cập nhật ngay): tạo Shares cao hơn (Score=9–10) so với bài thuần thông tin.
+• **Tránh các bài thuần announcement tính năng nhỏ hoặc cập nhật phần mềm thông thường** (iOS 26.6 vá lỗi, ẩn nút micro, hub nhà thông minh): Score thấp đồng đều 4–6, không tạo được cả Reactions lẫn Shares.
+• **Tránh lặp chủ đề trong cùng tuần** (2 bài iOS 26.6, 2 bài Apple AI thu phí): phân tán tương tác, không bài nào nổi bật.
+• **Ưu tiên nguồn 9to5Mac cho tin nóng kinh doanh/kỹ thuật**; MacRumors/MacWorld phù hợp tin tính năng nhưng hiệu quả thấp hơn với audience này.
+• **Tiêu đề hiệu quả = [Chủ thể] + [hành động gây hệ quả rõ ràng]** (ví dụ: "Apple sắp 'chia tay' Qualcomm sớm hơn dự kiến") — tránh dạng clickbait mơ hồ ("chuẩn bị cho tương lai", "siêu khủng sắp lộ diện") vì không tạo thêm tương tác thực.

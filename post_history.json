@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 25,
+      "reactions": 33,
       "comments": 3,
       "shares": 0,
-      "score": 34
+      "score": 42
     }
   },
   {
@@ -770,10 +770,10 @@
     ],
     "publish_time": "2026-07-31T04:46:40.852801",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -790,6 +790,27 @@
       "⚠️ Người dùng AI cường độ cao (chuyên nghiệp, doanh nghiệp) sẽ là nhóm bị tác động tài chính trực tiếp"
     ],
     "publish_time": "2026-07-31T08:12:06.303699",
+    "performance": {
+      "reactions": 3,
+      "comments": 1,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1510918651075462",
+    "title": "Thiết kế MacBook Ultra sắp lan rộng toàn dòng",
+    "summary": "Ngôn ngữ thiết kế mới của MacBook Ultra sẽ sớm xuất hiện trên các dòng Mac khác.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vbl9oy/macbook_ultras_new_design_wont_stay_exclusive_for/",
+    "bullets": [
+      "🔮 Thiết kế MacBook Ultra mới sẽ sớm xuất hiện trên các dòng Mac khác",
+      "📅 MacBook Pro và Air được dự đoán là những ứng viên tiếp theo",
+      "💬 Cộng đồng tranh luận: liệu thay đổi đến từ thế hệ M5 hay phải chờ M6?"
+    ],
+    "publish_time": "2026-07-31T11:37:19.682462",
     "performance": null
   }
 ]
