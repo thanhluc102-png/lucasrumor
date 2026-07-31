@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 3,
-      "comments": 1,
+      "reactions": 19,
+      "comments": 3,
       "shares": 0,
-      "score": 6
+      "score": 28
     }
   },
   {
@@ -728,10 +728,10 @@
     ],
     "publish_time": "2026-07-30T11:23:36.745171",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 6
     }
   },
   {
@@ -748,6 +748,27 @@
       "Tính năng được yêu cầu từ lâu sau nhiều sự cố gửi nhầm voice message ngoài ý muốn"
     ],
     "publish_time": "2026-07-30T15:26:22.486129",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1510657974434863",
+    "title": "Siri AI có thể tính phí thuê bao người dùng nặng",
+    "summary": "Apple cân nhắc thu phí Siri AI nâng cao, Tim Cook hé lộ trước khi từ chức CEO.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/30/siri-ai-may-require-a-paid-subscription-for-heavy-users/",
+    "bullets": [
+      "💰 Apple xem xét thu phí thuê bao Siri AI với người dùng sử dụng nhiều",
+      "🎤 Tim Cook tiết lộ tại buổi họp nhà đầu tư Q3/2026 — cuộc họp cuối trước khi từ chức",
+      "⚠️ Người dùng phổ thông có thể vẫn miễn phí, nhưng tính năng AI chuyên sâu sẽ nằm sau paywall"
+    ],
+    "publish_time": "2026-07-31T04:46:40.852801",
     "performance": null
   }
 ]

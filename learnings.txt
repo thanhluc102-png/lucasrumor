@@ -1,13 +1,7 @@
-• **Ưu tiên "Tin nóng" có tác động thực tế ngay lập tức** (sự cố mạng, bản vá bảo mật khẩn, tính năng vừa phát hành) — nhóm này chiếm các score cao nhất (10, 9, 8); tránh các bài mang tính kỹ thuật nội bộ hoặc cập nhật RC/beta thuần túy (score 3–6).
-
-• **Cấu trúc tiêu đề tối ưu: [Sự kiện cụ thể] + [Hành động/hệ quả rõ ràng với người dùng]** — ví dụ "T-Mobile mất sóng, iPhone chuyển chế độ SOS" hoặc "Cập nhật ngay: Apple vá hơn 75 lỗ hổng"; tránh tiêu đề chỉ thông báo sự kiện trung lập, thiếu động từ kêu gọi hoặc yếu tố gây lo ngại/tò mò.
-
-• **Hook phải chứa con số cụ thể hoặc mức độ ảnh hưởng đo được** (75+ lỗ hổng, 150+, 24–36 tháng, 10 tính năng) kết hợp lời kêu gọi hành động ("cập nhật ngay", "cần biết ngay") để kéo comment và share.
-
-• **Góc "quyết định mua hàng" và "so sánh/chờ hay mua ngay"** (community-style) có tiềm năng share nhưng cần hook mạnh hơn hiện tại; hiện đang lãng phí ở score thấp do hook còn chung chung — cần đẩy thêm yếu tố tranh luận hoặc câu hỏi mở trực tiếp vào hook.
-
-• **Tránh các bài thuần chuỗi cung ứng/chip/địa chính trị** (Qualcomm, chip Trung Quốc, Samsung OLED) nếu không gắn được lợi ích/rủi ro cụ thể cho người dùng Việt — nhóm này đồng loạt dừng ở score 4–6 dù nguồn uy tín.
-
-• **Nguồn r/apple (community) cho score thấp và ổn định** — chỉ dùng khi góc khai thác là "tranh luận cộng đồng" hoặc "poll chờ hay mua"; không dùng cho tin thông báo đơn thuần. Ưu tiên 9to5Mac/MacWorld cho tin nóng có hành động rõ ràng.
-
-• **Mỗi bài chỉ nên có một thông điệp hành động duy nhất** — tránh bài gộp nhiều sự kiện hoặc nhiều sản phẩm cùng lúc (iOS + macOS trong cùng một hook làm loãng tương tác).
+- **Ưu tiên chủ đề chip/phần cứng nội bộ Apple** (modem, chip, nhà cung cấp) với góc "xác nhận từ đối tác/đối thủ" — đây là nhóm duy nhất đạt Score cao vượt trội (Score=28 với bài Qualcomm).
+- **Tin nóng có yếu tố người dùng trực tiếp bị ảnh hưởng** (mất sóng, SOS, cập nhật khẩn) tạo Shares tốt hơn hẳn — ưu tiên hook nhấn mạnh hành động cần làm ngay hoặc rủi ro thực tế.
+- **Cấu trúc hook hiệu quả:** Mở bằng sự kiện/nguồn bên ngoài xác nhận (hãng X thừa nhận / Thượng viện cảnh báo / rò rỉ từ nhà cung cấp), sau đó nêu tác động cụ thể đến người dùng hoặc Apple — tránh hook chỉ mô tả tính năng đơn thuần.
+- **Tránh bài trùng chủ đề trong cùng tuần** (iOS 26.6 xuất hiện 3 lần, điểm thấp đều nhau) — mỗi sự kiện chỉ khai thác 1 góc duy nhất, góc còn lại bỏ qua.
+- **Bài MacBook/AI/Deal phản ứng yếu** (Score 3–5) trừ khi gắn với tranh cãi hoặc quyết định kinh doanh lớn — tránh dạng "tính năng tiện ích nhỏ" hay "chương trình hợp tác bình thường".
+- **Tuyệt đối không dùng hook dạng câu hỏi rhetorical** ("Có đáng chờ không?", "thực sự khó bị tấn công không?") — hiệu quả thấp nhất trong tập dữ liệu; thay bằng hook khẳng định gây bất ngờ hoặc mâu thuẫn rõ ràng.
+- **Nguồn r/apple = cộng đồng suy đoán → Score thấp và đồng đều**; ưu tiên bài có nguồn xác nhận từ công ty (Qualcomm, Samsung, Klarna tự công bố) để tăng độ tin cậy và kích thích tranh luận.
