@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 19,
+      "reactions": 25,
       "comments": 3,
       "shares": 0,
-      "score": 28
+      "score": 34
     }
   },
   {
@@ -769,6 +769,27 @@
       "⚠️ Người dùng phổ thông có thể vẫn miễn phí, nhưng tính năng AI chuyên sâu sẽ nằm sau paywall"
     ],
     "publish_time": "2026-07-31T04:46:40.852801",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1510784897755504",
+    "title": "Apple thu phí AI nặng: iCloud+ sắp có gói mới",
+    "summary": "Apple xác nhận người dùng AI nhiều sẽ phải trả thêm tiền qua iCloud+, công bố tại earnings call.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/07/30/apple-icloud-upgrade-ai/",
+    "bullets": [
+      "💰 Apple sẽ cho phép người dùng trả thêm tiền để tăng giới hạn AI qua iCloud+",
+      "📣 Thông tin được xác nhận chính thức trong buổi earnings call hôm nay — không còn là leak",
+      "⚠️ Người dùng AI cường độ cao (chuyên nghiệp, doanh nghiệp) sẽ là nhóm bị tác động tài chính trực tiếp"
+    ],
+    "publish_time": "2026-07-31T08:12:06.303699",
     "performance": null
   }
 ]

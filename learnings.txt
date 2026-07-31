@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề chip/phần cứng nội bộ Apple** (modem, chip, nhà cung cấp) với góc "xác nhận từ đối tác/đối thủ" — đây là nhóm duy nhất đạt Score cao vượt trội (Score=28 với bài Qualcomm).
-- **Tin nóng có yếu tố người dùng trực tiếp bị ảnh hưởng** (mất sóng, SOS, cập nhật khẩn) tạo Shares tốt hơn hẳn — ưu tiên hook nhấn mạnh hành động cần làm ngay hoặc rủi ro thực tế.
-- **Cấu trúc hook hiệu quả:** Mở bằng sự kiện/nguồn bên ngoài xác nhận (hãng X thừa nhận / Thượng viện cảnh báo / rò rỉ từ nhà cung cấp), sau đó nêu tác động cụ thể đến người dùng hoặc Apple — tránh hook chỉ mô tả tính năng đơn thuần.
-- **Tránh bài trùng chủ đề trong cùng tuần** (iOS 26.6 xuất hiện 3 lần, điểm thấp đều nhau) — mỗi sự kiện chỉ khai thác 1 góc duy nhất, góc còn lại bỏ qua.
-- **Bài MacBook/AI/Deal phản ứng yếu** (Score 3–5) trừ khi gắn với tranh cãi hoặc quyết định kinh doanh lớn — tránh dạng "tính năng tiện ích nhỏ" hay "chương trình hợp tác bình thường".
-- **Tuyệt đối không dùng hook dạng câu hỏi rhetorical** ("Có đáng chờ không?", "thực sự khó bị tấn công không?") — hiệu quả thấp nhất trong tập dữ liệu; thay bằng hook khẳng định gây bất ngờ hoặc mâu thuẫn rõ ràng.
-- **Nguồn r/apple = cộng đồng suy đoán → Score thấp và đồng đều**; ưu tiên bài có nguồn xác nhận từ công ty (Qualcomm, Samsung, Klarna tự công bố) để tăng độ tin cậy và kích thích tranh luận.
+• **Ưu tiên góc "công ty/ngành công nghiệp bị tác động tài chính rõ ràng"** — bài "Apple sắp chia tay Qualcomm" dẫn đầu tuyệt đối (Score=34) nhờ có số liệu cụ thể, bên thua-thắng rõ ràng, kích thích tranh luận.
+• **Dùng cấu trúc tiêu đề: [Thương hiệu lớn] + [hành động bất ngờ/mâu thuẫn] + [hệ quả trực tiếp]** — ví dụ: "Apple sắp chia tay Qualcomm sớm hơn dự kiến" hoặc "T-Mobile mất sóng, iPhone chuyển chế độ SOS" — tạo cảm giác khẩn, có kẻ được/mất.
+• **Hook phải nêu ngay con số hoặc tên bên liên quan** (Qualcomm, Samsung, Klarna, Thượng viện Mỹ…) — tránh hook trừu tượng chung chung; càng có "ai bị ảnh hưởng" càng kéo comment.
+• **Tin nóng dạng sự kiện đang xảy ra (timeline/stat) cho Shares cao hơn** — "T-Mobile mất sóng" và "iOS 26.6 ra mắt: iPhone chuẩn bị cho tương lai" là hai bài duy nhất có Share≥1; nên gắn yếu tố thời sự tức thì vào mọi bài.
+• **Tránh bài thuần bảo mật/vá lỗ hổng nếu không có góc drama** — các bài "vá 75 lỗ hổng", "Mac khó bị tấn công", "AI vá bảo mật" đều Score≤5 dù hook cố tạo sự khẩn cấp; người dùng phụ kiện Apple không bị kéo bởi nội dung kỹ thuật thuần túy.
+• **Chủ đề Apple AI chỉ hiệu quả khi gắn với tiền hoặc quyết định của CEO** — "Siri có thể tính phí thuê bao" Score=3 vì hook mơ hồ; cần cụ thể hóa: ai trả, bao nhiêu, khi nào.
+• **Không đăng hai bài cùng chủ đề trong một tuần** — "iOS 26.6" xuất hiện 2 lần, bài sau (Score=8) ăn mòn traffic bài trước (Score=9), tổng hiệu quả thấp hơn dồn một bài duy nhất tối ưu.
