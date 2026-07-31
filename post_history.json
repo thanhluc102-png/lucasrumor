@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 33,
+      "reactions": 37,
       "comments": 3,
       "shares": 0,
-      "score": 42
+      "score": 46
     }
   },
   {
@@ -811,6 +811,27 @@
       "💬 Cộng đồng tranh luận: liệu thay đổi đến từ thế hệ M5 hay phải chờ M6?"
     ],
     "publish_time": "2026-07-31T11:37:19.682462",
+    "performance": {
+      "reactions": 4,
+      "comments": 1,
+      "shares": 0,
+      "score": 7
+    }
+  },
+  {
+    "post_id": "1920842954802282_1511092031058124",
+    "title": "iPhone 17: Apple cảnh báo khan hàng nghiêm trọng mùa ra mắt",
+    "summary": "Apple dự báo nguồn cung iPhone 17 cực kỳ hạn chế ngay từ ngày mở bán — người dùng nên chuẩn bị sớm.",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3203632/apple-warns-it-may-be-really-hard-to-get-a-new-iphone-this-year.html",
+    "bullets": [
+      "Apple hiếm khi cảnh báo trước về khan hàng — đây là dấu hiệu áp lực chuỗi cung ứng cực lớn",
+      "Nhu cầu iPhone 17 dự báo vượt xa năng lực sản xuất ngay trong những tuần đầu",
+      "Người dùng nên đặt hàng sớm nhất có thể ngay khi mở đăng ký để tránh chờ đợi kéo dài"
+    ],
+    "publish_time": "2026-07-31T15:32:48.199899",
     "performance": null
   }
 ]
