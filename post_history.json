@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 49,
+      "reactions": 52,
       "comments": 4,
       "shares": 0,
-      "score": 61
+      "score": 64
     }
   },
   {
@@ -833,10 +833,10 @@
     ],
     "publish_time": "2026-07-31T15:32:48.199899",
     "performance": {
-      "reactions": 6,
+      "reactions": 7,
       "comments": 2,
       "shares": 0,
-      "score": 12
+      "score": 13
     }
   },
   {
@@ -874,6 +874,27 @@
       "😱 Chủ nhân thiết bị bày tỏ sự sốc hoàn toàn khi chiếc máy vẫn hoạt động bình thường"
     ],
     "publish_time": "2026-08-01T07:39:37.814270",
+    "performance": {
+      "reactions": 5,
+      "comments": 1,
+      "shares": 0,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1511819950985332",
+    "title": "iPad Air sắp được thiết kế lại hoàn toàn?",
+    "summary": "Tin đồn: iPad Air có thể nhận diện mạo mới vào năm tới, lần đầu sau nhiều năm giữ nguyên form factor.",
+    "category": "Sự kiện",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vchyyx/ipad_air_could_finally_be_redesigned_next_year/",
+    "bullets": [
+      "🔄 Thiết kế mới hoàn toàn cho iPad Air — lần đầu sau nhiều năm",
+      "📅 Dự kiến ra mắt vào năm 2026 theo các nguồn tin đồn",
+      "💡 Cộng đồng tranh luận: nâng cấp thực sự hay chỉ là 'refresh' nhỏ?"
+    ],
+    "publish_time": "2026-08-01T10:52:27.163661",
     "performance": null
   }
 ]
