@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 37,
-      "comments": 3,
+      "reactions": 46,
+      "comments": 4,
       "shares": 0,
-      "score": 46
+      "score": 58
     }
   },
   {
@@ -812,10 +812,10 @@
     ],
     "publish_time": "2026-07-31T11:37:19.682462",
     "performance": {
-      "reactions": 4,
+      "reactions": 8,
       "comments": 1,
       "shares": 0,
-      "score": 7
+      "score": 11
     }
   },
   {
@@ -832,6 +832,27 @@
       "Người dùng nên đặt hàng sớm nhất có thể ngay khi mở đăng ký để tránh chờ đợi kéo dài"
     ],
     "publish_time": "2026-07-31T15:32:48.199899",
+    "performance": {
+      "reactions": 5,
+      "comments": 1,
+      "shares": 0,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1511571944343466",
+    "title": "Apple chiếm gần nửa doanh thu smartphone toàn cầu",
+    "summary": "Apple đạt kỷ lục 49% thị phần doanh thu smartphone toàn cầu trong Q2/2026, bất chấp thị trường chung sụt giảm.",
+    "category": "Tin nóng",
+    "visual_type": "stat",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/31/report-apple-hit-a-record-49-share-of-global-smartphone-revenue-for-q2/",
+    "bullets": [
+      "Apple giành 49% doanh thu smartphone toàn cầu Q2/2026 — kỷ lục mọi thời đại theo Counterpoint Research",
+      "Thành tích đạt được trong bối cảnh thị trường chung suy giảm, khẳng định sức mạnh định giá vượt trội của iPhone",
+      "Dù xếp sau về sản lượng, Apple một mình 'gom' gần nửa tổng tiền cả ngành di động toàn cầu"
+    ],
+    "publish_time": "2026-08-01T04:40:12.934920",
     "performance": null
   }
 ]
