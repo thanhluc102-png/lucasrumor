@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 52,
+      "reactions": 53,
       "comments": 4,
       "shares": 0,
-      "score": 64
+      "score": 65
     }
   },
   {
@@ -895,6 +895,27 @@
       "💡 Cộng đồng tranh luận: nâng cấp thực sự hay chỉ là 'refresh' nhỏ?"
     ],
     "publish_time": "2026-08-01T10:52:27.163661",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 1,
+      "score": 9
+    }
+  },
+  {
+    "post_id": "1920842954802282_1511988807635113",
+    "title": "Apple Tăng Dung Lượng iCloud+ Cho Người Dùng AI",
+    "summary": "Apple úp mở gói iCloud+ dung lượng cao hơn, nhắm thẳng vào người dùng Apple Intelligence nặng.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3203878/apple-hints-at-higher-icloud-storage-tiers-for-ai-power-users.html",
+    "bullets": [
+      "Apple úp mở gói iCloud+ dung lượng cao hơn dành riêng cho người dùng Apple Intelligence",
+      "Thông tin được hé lộ bất thường trong buổi họp kết quả tài chính — không phải sự kiện sản phẩm",
+      "Chiến lược rõ ràng: gắn chặt dịch vụ đám mây trả phí với hạ tầng AI cá nhân hóa"
+    ],
+    "publish_time": "2026-08-01T14:42:57.119923",
     "performance": null
   }
 ]
