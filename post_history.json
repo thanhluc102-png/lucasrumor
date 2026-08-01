@@ -707,10 +707,10 @@
     ],
     "publish_time": "2026-07-30T07:44:45.481801",
     "performance": {
-      "reactions": 46,
+      "reactions": 49,
       "comments": 4,
       "shares": 0,
-      "score": 58
+      "score": 61
     }
   },
   {
@@ -833,10 +833,10 @@
     ],
     "publish_time": "2026-07-31T15:32:48.199899",
     "performance": {
-      "reactions": 5,
-      "comments": 1,
+      "reactions": 6,
+      "comments": 2,
       "shares": 0,
-      "score": 8
+      "score": 12
     }
   },
   {
@@ -853,6 +853,27 @@
       "Dù xếp sau về sản lượng, Apple một mình 'gom' gần nửa tổng tiền cả ngành di động toàn cầu"
     ],
     "publish_time": "2026-08-01T04:40:12.934920",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1511693207664673",
+    "title": "iPhone 17 Pro rơi từ máy bay vẫn nguyên vẹn",
+    "summary": "iPhone 17 Pro sống sót sau cú rơi từ máy bay, tìm thấy trong tình trạng hoàn hảo, không một vết xước.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/07/31/iphone-17-pro-found-pristine-after-surviving-fall-from-airplane/",
+    "bullets": [
+      "🛫 iPhone 17 Pro rơi từ độ cao máy bay bay, được tìm thấy không một vết xước",
+      "🛡️ Apple từng cam kết độ bền vượt trội khi ra mắt iPhone 17 Pro — thực tế vừa xác nhận điều đó",
+      "😱 Chủ nhân thiết bị bày tỏ sự sốc hoàn toàn khi chiếc máy vẫn hoạt động bình thường"
+    ],
+    "publish_time": "2026-08-01T07:39:37.814270",
     "performance": null
   }
 ]
