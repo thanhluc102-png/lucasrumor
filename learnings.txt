@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề tác động kinh doanh trực tiếp** (Apple chia tay Qualcomm, khan hàng iPhone 17) — đây là nhóm có Score cao nhất (65, 13), đặc biệt khi gắn với hệ quả tài chính/cung-cầu rõ ràng.
-• **Dùng cấu trúc tiêu đề dạng xung đột hoặc hành động bất ngờ**: "[Bên A] + động từ mạnh + [hệ quả bất ngờ]" (vd: "Apple sắp chia tay Qualcomm sớm hơn dự kiến", "iPhone 17 rơi từ máy bay vẫn nguyên vẹn") — kích thích tò mò và reaction tốt hơn tiêu đề trung lập.
-• **Hook phải nêu ngay hệ quả cụ thể trong câu đầu tiên** (ảnh hưởng lợi nhuận, ngày mở bán, con số thực): tránh hook mô tả chung chung hoặc chỉ tóm tắt sự kiện mà không có "tại sao người đọc phải quan tâm".
-• **Hạn chế các chủ đề tính năng nhỏ lẻ/UI** (ẩn nút micro trong Messages, tăng dung lượng iCloud+) và **tin cộng đồng thiếu nguồn uy tín** (r/apple đơn thuần) — nhóm này liên tục cho Score thấp (3–6).
-• **Ưu tiên nguồn 9to5Mac và MacRumors** kết hợp góc "stat" hoặc "announcement" có số liệu cụ thể; tránh dùng r/apple làm nguồn chính cho infographic vì độ tin cậy thấp khiến tương tác yếu.
-• **Chủ đề Apple AI chỉ hiệu quả khi gắn với tiền/chi phí người dùng** (thu phí Siri, iCloud+); các bài AI thuần công nghệ hoặc tính năng mới không tạo đủ cảm xúc để kéo reaction.
-• **Thiết kế/form factor mới** (MacBook Ultra lan rộng, iPad Air thiết kế lại) cho Score trung bình (9–11) — dùng như nội dung lấp lịch, không nên đặt làm hero post.
+• **Ưu tiên góc "ảnh hưởng kinh doanh/tài chính thực tế"**: Bài về Apple chia tay Qualcomm (Score=65) vượt trội tuyệt đối — tập trung vào tin tức có tác động chuỗi cung ứng, lợi nhuận, hoặc quyết định chiến lược doanh nghiệp rõ ràng.
+• **Hook nên nêu con số cụ thể hoặc tên thương hiệu đối lập**: "Qualcomm xác nhận… ảnh hưởng trực tiếp lợi nhuận" hiệu quả hơn nhiều so với mô tả tính năng chung chung — luôn gắn số liệu, tên đối thủ, hoặc hệ quả tài chính vào câu mở.
+• **Tiêu đề dạng "xung đột/đối đầu" hoặc "cảnh báo khẩn"** (ví dụ: "chia tay", "cảnh báo", "khan hàng nghiêm trọng") tạo phản ứng cao hơn tiêu đề mô tả tính năng trung lập.
+• **Tránh chủ đề AI/iCloud phí thuê bao nếu chỉ dừng ở mức thông báo chung**: Các bài Apple AI, iCloud+ đều Score thấp (3–6) — chỉ đăng khi có góc tranh cãi rõ ràng hoặc tác động trực tiếp đến túi tiền người dùng phổ thông.
+• **Tránh dạng "tính năng nhỏ lẻ" hoặc "tin đồn thiết kế không xác nhận"**: iOS 27 ẩn nút micro, iPad Air thiết kế lại, MacBook Neo — đây là nhóm Score thấp nhất (3–9), không kích thích thảo luận.
+• **Ưu tiên nguồn 9to5Mac với thể loại "stat" hoặc "announcement" có số liệu xác nhận** — tổ hợp này cho Score cao nhất; tránh phụ thuộc vào r/apple cho tin đồn chưa có số liệu nền.
+• **Giữ hook dưới 2 mệnh đề, mệnh đề thứ hai phải là hệ quả trực tiếp**: Cấu trúc "[Sự kiện] — [hậu quả cụ thể]" (như "Qualcomm xác nhận X — ảnh hưởng lợi nhuận quý tới") hiệu quả hơn kiểu liệt kê tính năng.
