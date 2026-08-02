@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề "Tin nóng thị trường/kinh doanh" và "iPhone thực tế"**: Bài về Apple chia tay Qualcomm (Score=65) và iPhone 17 khan hàng (Score=16) dẫn đầu — tập trung vào số liệu tài chính, chuỗi cung ứng, hoặc sự kiện có tác động trực tiếp đến túi tiền/quyết định mua của người dùng.
-• **Dùng con số cụ thể và tên thương hiệu đối lập trong tiêu đề**: "Apple chia tay Qualcomm", "49% thị phần", "rơi từ máy bay" — các tiêu đề có yếu tố định lượng hoặc đối đầu rõ ràng kích thích tò mò và phản ứng mạnh hơn tiêu đề mơ hồ.
-• **Hook nên nêu hệ quả/tác động trực tiếp đến người dùng hoặc thị trường ngay câu đầu**: Không dừng ở mô tả sự kiện — phải trả lời ngay "điều này ảnh hưởng gì đến tôi/Apple/đối thủ?".
-• **Tránh chủ đề AI/iCloud trừu tượng và tính năng nhỏ lẻ**: Các bài về Siri tính phí, iCloud+ AI, ẩn nút micro iOS đều dưới Score=6 — người dùng chưa quan tâm đến các thay đổi chưa xác nhận hoặc không gây tranh luận.
-• **Tránh góc "app indie" hoặc tin tức không liên quan trực tiếp đến phụ kiện/sản phẩm Apple chủ lực**: Overflight và các bài tương tự (Score=3) không phù hợp với định vị fanpage phụ kiện Apple.
-• **Ưu tiên thể loại "stat" và "announcement" có nguồn xác tín (9to5Mac, MacRumors)**: Các bài dạng số liệu thực tế hoặc xác nhận chính thức tạo độ tin cậy, dễ share hơn bài dạng "community/tin đồn" mơ hồ.
-• **Để kích thích comment: đặt câu hỏi mở hoặc tình huống gây tranh luận trong hook** — ví dụ so sánh Apple vs đối thủ, hoặc đặt vấn đề lựa chọn cho người dùng (mua sớm/chờ, trả phí/không).
+- **Ưu tiên chủ đề iPhone & tin nóng có số liệu cụ thể** (thị phần, doanh số, đơn hàng): nhóm này cho Score cao nhất (65, 16, 11) — đặc biệt khi gắn với tên hãng đối tác lớn như Qualcomm, TSMC.
+- **Dùng cấu trúc tiêu đề có xung đột hoặc hệ quả trực tiếp với người dùng**: "Apple sắp chia tay X", "khan hàng nghiêm trọng", "cảnh báo khẩn" — tạo cảm giác cấp bách, kéo reaction và comment tốt hơn tiêu đề trung tính.
+- **Hook phải nêu ngay tác động cụ thể** (ảnh hưởng lợi nhuận, ngày mở bán, giá tiền) thay vì chỉ mô tả sự kiện — câu hook có con số hoặc hậu quả rõ ràng cho engagement cao hơn hẳn.
+- **Tránh các bài mang tính "khám phá app" hoặc tip/trick nhỏ lẻ** (Overflight, mẹo chụp ảnh, ẩn nút micro): Score thấp nhất (3–8), không tạo được thảo luận thực chất trên fanpage phụ kiện Apple.
+- **Hạn chế các bài Apple AI thuần túy về iCloud/giá cước** nếu không gắn với tên sản phẩm cụ thể hoặc mức giá rõ ràng — nhóm này liên tục cho Score thấp (3–6) dù đăng nhiều góc khác nhau.
+- **Ưu tiên nguồn MacRumors/9to5Mac với thể loại "stat" hoặc "announcement" có dẫn chứng sự kiện thực** (earnings call, xác nhận từ hãng); tránh dùng nguồn r/apple cho các chủ đề thiếu yếu tố tranh luận rõ ràng.
+- **Để kích thích Shares, cần yếu tố "bất ngờ thị giác" hoặc "thách thức niềm tin phổ biến"** — hai bài có Share (iPad Air redesign, mẹo chụp ảnh) đều chứa yếu tố này; cần nhân rộng pattern này sang các chủ đề iPhone/MacBook.
