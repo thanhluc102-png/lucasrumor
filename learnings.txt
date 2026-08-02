@@ -1,7 +1,7 @@
-• **Ưu tiên góc "tác động kinh doanh/tài chính trực tiếp"**: Bài về Qualcomm (Score=65) vượt trội tuyệt đối — hãy khai thác các góc: Apple ảnh hưởng chuỗi cung ứng, đối tác bị thiệt hại, con số doanh thu/lợi nhuận cụ thể.
-• **Dùng số liệu thực và tên thương hiệu lớn trong tiêu đề**: "Qualcomm xác nhận", "49%", "24–36 tháng" — con số và tên riêng tạo độ tin cậy, kích thích phản ứng và bình luận tranh luận.
-• **Hook hiệu quả = hệ quả rõ ràng + bên thua cuộc cụ thể**: Mẫu hoạt động tốt nhất: *"[Bên A] xác nhận [hành động của Apple] → ảnh hưởng trực tiếp [hệ quả tài chính/thị trường]"* — tạo cảm giác drama có thật, không phải tin đồn mơ hồ.
-• **Tránh các bài chỉ mang tính thông báo thuần túy (pure announcement) không có xung đột hoặc hệ quả**: iOS 26.6, iCloud+, smart home hub — Score thấp (4–8) vì thiếu yếu tố tranh cãi hoặc lợi ích/thiệt hại rõ ràng với người dùng.
-• **Tránh lạm dụng dạng "tin đồn cộng đồng" (r/apple, community) không có nguồn chính thức**: Hầu hết bài nguồn r/apple đạt Score 4–6, nên chỉ dùng khi kèm góc bình luận kích thích tranh luận mạnh.
-• **Ưu tiên thể loại "Tin nóng (stat)" và "Tin nóng" có xung đột địa chính trị hoặc cạnh tranh thương mại**: Chip Trung Quốc, Qualcomm, thị phần — người dùng có xu hướng bình luận khi chủ đề chạm vào căng thẳng công nghệ-chính trị hoặc cạnh tranh hệ sinh thái.
-• **Câu hook nên có cấu trúc: [Sự kiện đã xảy ra] + [Hệ quả cụ thể, định lượng được] + [Ai bị ảnh hưởng]** — tránh hook dạng câu hỏi mơ hồ ("sắp có?", "có thể?") vì tương tác thấp hơn hook khẳng định chắc chắn.
+• **Ưu tiên chủ đề tác động kinh doanh trực tiếp** (Apple chia tay Qualcomm, khan hàng iPhone 17) — đây là nhóm có Score cao nhất (65, 13), đặc biệt khi gắn với hệ quả tài chính/cung-cầu rõ ràng.
+• **Dùng cấu trúc tiêu đề dạng xung đột hoặc hành động bất ngờ**: "[Bên A] + động từ mạnh + [hệ quả bất ngờ]" (vd: "Apple sắp chia tay Qualcomm sớm hơn dự kiến", "iPhone 17 rơi từ máy bay vẫn nguyên vẹn") — kích thích tò mò và reaction tốt hơn tiêu đề trung lập.
+• **Hook phải nêu ngay hệ quả cụ thể trong câu đầu tiên** (ảnh hưởng lợi nhuận, ngày mở bán, con số thực): tránh hook mô tả chung chung hoặc chỉ tóm tắt sự kiện mà không có "tại sao người đọc phải quan tâm".
+• **Hạn chế các chủ đề tính năng nhỏ lẻ/UI** (ẩn nút micro trong Messages, tăng dung lượng iCloud+) và **tin cộng đồng thiếu nguồn uy tín** (r/apple đơn thuần) — nhóm này liên tục cho Score thấp (3–6).
+• **Ưu tiên nguồn 9to5Mac và MacRumors** kết hợp góc "stat" hoặc "announcement" có số liệu cụ thể; tránh dùng r/apple làm nguồn chính cho infographic vì độ tin cậy thấp khiến tương tác yếu.
+• **Chủ đề Apple AI chỉ hiệu quả khi gắn với tiền/chi phí người dùng** (thu phí Siri, iCloud+); các bài AI thuần công nghệ hoặc tính năng mới không tạo đủ cảm xúc để kéo reaction.
+• **Thiết kế/form factor mới** (MacBook Ultra lan rộng, iPad Air thiết kế lại) cho Score trung bình (9–11) — dùng như nội dung lấp lịch, không nên đặt làm hero post.

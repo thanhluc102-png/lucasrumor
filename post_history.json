@@ -875,10 +875,10 @@
     ],
     "publish_time": "2026-08-01T07:39:37.814270",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -916,6 +916,27 @@
       "Chiến lược rõ ràng: gắn chặt dịch vụ đám mây trả phí với hạ tầng AI cá nhân hóa"
     ],
     "publish_time": "2026-08-01T14:42:57.119923",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1512500624250598",
+    "title": "MacBook Neo kéo học sinh rời Windows và Chromebook",
+    "summary": "Apple công bố MacBook Neo đang thuyết phục các trường học chuyển từ Windows và Chromebook sang hệ sinh thái Apple.",
+    "category": "MacBook",
+    "visual_type": "comparison",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/01/apple-says-macbook-neo-is-pulling-schools-away-from-windows-and-chromebooks/",
+    "bullets": [
+      "MacBook Neo đang thuyết phục nhiều trường học từ bỏ Windows và Chromebook",
+      "Chip Apple Silicon mang lại hiệu năng và pin vượt trội so với đối thủ tầm giá tương đương",
+      "Tích hợp sâu với nền tảng quản lý như Mosyle giúp IT trường học triển khai hàng loạt thiết bị dễ dàng"
+    ],
+    "publish_time": "2026-08-02T04:43:05.406666",
     "performance": null
   }
 ]
