@@ -980,10 +980,10 @@
     ],
     "publish_time": "2026-08-02T10:53:23.095888",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 3,
       "shares": 1,
-      "score": 16
+      "score": 17
     }
   },
   {
@@ -1021,6 +1021,27 @@
       "💸 Người dùng cần chuẩn bị: mức giá dự kiến sẽ cao hơn AirPods Pro thế hệ hiện tại"
     ],
     "publish_time": "2026-08-03T04:51:18.313621",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 1,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1513639444136716",
+    "title": "MacBook Air khan hàng nghiêm trọng, mua ngay kẻo hết",
+    "summary": "MacBook Air đang thiếu hàng nặng, Apple tái định vị thành nhà cung cấp subscription lớn nhất thế giới.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vdiwj2/power_on_apple_is_reinventing_itself_as_the/",
+    "bullets": [
+      "💻 MacBook Air khan hàng nặng — nên mua sớm nếu đang cần",
+      "📦 Apple đang chuyển mình thành 'đế chế subscription' toàn cầu",
+      "👓 Leak: Apple phát triển kính đeo theo dõi sức khỏe hoàn toàn mới"
+    ],
+    "publish_time": "2026-08-03T08:44:56.701178",
     "performance": null
   }
 ]
