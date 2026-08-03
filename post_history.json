@@ -1042,6 +1042,27 @@
       "👓 Leak: Apple phát triển kính đeo theo dõi sức khỏe hoàn toàn mới"
     ],
     "publish_time": "2026-08-03T08:44:56.701178",
+    "performance": {
+      "reactions": 4,
+      "comments": 1,
+      "shares": 0,
+      "score": 7
+    }
+  },
+  {
+    "post_id": "1920842954802282_1513802720787055",
+    "title": "Open Minis: Agent AI mạnh mẽ đổ bộ iPhone!",
+    "summary": "MacStories thảo luận về Open Minis — ứng dụng iOS mang agent AI cấp desktop lên iPhone và iPad.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/podcast-rewind-open-minis-the-rg-sp-announcement-too-much-wi-fi-and-the-messagepad-with-d-griffin-jones/",
+    "bullets": [
+      "Open Minis mang trải nghiệm agent AI desktop-class lên iOS, thách thức giới hạn phần mềm di động",
+      "Cộng đồng đang tranh luận về những thay đổi gây tranh cãi trên TestFlight và App Store thời AI",
+      "Podcast còn ôn lại lịch sử MessagePad — 'ông tổ' iPad của Apple từ những năm 90"
+    ],
+    "publish_time": "2026-08-03T12:38:46.055819",
     "performance": null
   }
 ]
