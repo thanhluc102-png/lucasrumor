@@ -980,10 +980,10 @@
     ],
     "publish_time": "2026-08-02T10:53:23.095888",
     "performance": {
-      "reactions": 0,
-      "comments": 1,
+      "reactions": 2,
+      "comments": 3,
       "shares": 1,
-      "score": 8
+      "score": 16
     }
   },
   {
@@ -1000,6 +1000,27 @@
       "🚨 Tim Cook thông báo rời vị trí CEO ngay trong buổi công bố kết quả tài chính"
     ],
     "publish_time": "2026-08-02T14:45:20.376108",
+    "performance": {
+      "reactions": 5,
+      "comments": 1,
+      "shares": 1,
+      "score": 13
+    }
+  },
+  {
+    "post_id": "1920842954802282_1513492977484696",
+    "title": "AirPods gắn camera có thể ra mắt tháng tới",
+    "summary": "Apple có thể trình làng AirPods tích hợp camera ngay tháng 6/2025, sớm hơn mọi dự đoán trước đó.",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/02/airpods-with-cameras-visual-intelligence-could-arrive-this-year/",
+    "bullets": [
+      "📷 AirPods camera có thể xuất hiện sớm nhất tháng 6/2025 — sớm hơn mọi dự báo trước đó",
+      "🔮 Camera phục vụ tính năng AR/không gian thực tế, không chỉ đơn thuần là chụp ảnh",
+      "💸 Người dùng cần chuẩn bị: mức giá dự kiến sẽ cao hơn AirPods Pro thế hệ hiện tại"
+    ],
+    "publish_time": "2026-08-03T04:51:18.313621",
     "performance": null
   }
 ]
