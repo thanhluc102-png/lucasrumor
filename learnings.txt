@@ -1,6 +1,7 @@
-- **Ưu tiên chủ đề iPhone (tips/community) và Tin nóng (announcement):** Các bài về mẹo chụp ảnh iPhone (Score 17), iPhone 17 khan hàng (Score 16), Tim Cook rời CEO (Score 13) đạt điểm cao nhất — tập trung vào nội dung gần gũi người dùng cuối hoặc sự kiện gây chấn động.
-- **Hook dạng cảnh báo/hành động ("nên chuẩn bị sớm", "mua ngay kẻo hết", "bạn đang bỏ qua") kích thích comment và share hơn hook thuần thông tin** — cấu trúc tạo cảm giác cấp bách hoặc FOMO hiệu quả hơn câu mô tả trung tính.
-- **Tiêu đề có con số cụ thể hoặc yếu tố bất ngờ/kỷ lục** (49% thị phần, rơi từ máy bay vẫn nguyên vẹn, kỷ lục quý 3) giúp tăng Reactions — nên tích hợp số liệu hoặc chi tiết gây sốc vào dòng tiêu đề.
-- **Nội dung dạng community/so sánh từ nguồn r/apple hoặc góc nhìn người dùng thực tế** (MacBook Ultra thiết kế, mẹo iPhone) tạo tương tác tốt hơn các announcement thuần kỹ thuật — ưu tiên framing "cộng đồng đang nói gì" thay vì chỉ đưa tin.
-- **Tránh bài Apple AI (iCloud+, Siri phí) và ứng dụng indie/niche:** Nhóm này liên tục đạt Score 3–4, không tạo được phản ứng — chỉ đăng nếu gắn trực tiếp với hành vi/chi phí người dùng phổ thông, kèm hook kích thích tranh luận rõ ràng.
-- **Tránh hook mô tả đơn thuần, thiếu động từ hành động hoặc yếu tố đối lập** (ví dụ: "Apple úp mở gói iCloud+…", "Ứng dụng indie cho phép xem…") — thay bằng cấu trúc có tension: "[Điều bất ngờ] + [Hệ quả với người dùng]".
+• **Ưu tiên chủ đề iPhone + community/thảo luận thực tế của người dùng** (ví dụ: mẹo chụp ảnh, trải nghiệm thực tế) — đây là nhóm đạt điểm cao nhất (Score 16–17), đặc biệt khi kết hợp góc "bạn đang bỏ lỡ điều gì đó".
+• **Hook dạng thách thức/phủ định cá nhân hóa** ("Bạn đang làm X tệ hơn mức có thể", "người dùng nên chuẩn bị sớm") kích thích comment và share mạnh hơn hook dạng thông báo trung lập.
+• **Tin về iPhone (supply, launch, survival story)** và **MacBook thiết kế/định hướng tương lai** giữ mức tương tác trung bình khá (Score 9–16) — tiếp tục khai thác nhưng cần thêm yếu tố gây tranh luận hoặc khan hiếm/urgency rõ ràng.
+• **Tránh các bài thuần thông báo tính năng AI/iCloud+ dạng "Apple xác nhận/úp mở"** — nhóm Apple AI announcement liên tục đạt Score thấp nhất (3–6), thiếu góc kích thích thảo luận.
+• **Tránh nội dung ứng dụng indie, sự kiện niche (Overflight, Open Minis)** và bài stat thị phần đơn thuần — không tạo được kết nối cá nhân, score chỉ đạt 3–4.
+• **Ưu tiên nguồn r/apple cho góc community** — các bài từ Reddit có xu hướng tạo share và comment tốt hơn so với bài từ MacWorld hay MacStories ở cùng chủ đề.
+• **Cấu trúc tiêu đề hiệu quả nhất**: \[Hành động người dùng\] + \[hậu quả/lý do bất ngờ\], hoặc \[Sản phẩm\] + \[tình huống cực đoan/khan hiếm\] + \[call-to-action ngầm\].
