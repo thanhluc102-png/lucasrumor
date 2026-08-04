@@ -980,10 +980,10 @@
     ],
     "publish_time": "2026-08-02T10:53:23.095888",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 3,
       "shares": 1,
-      "score": 17
+      "score": 18
     }
   },
   {
@@ -1085,10 +1085,10 @@
     ],
     "publish_time": "2026-08-03T16:08:06.111881",
     "performance": {
-      "reactions": 5,
+      "reactions": 7,
       "comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 10
     }
   },
   {
@@ -1105,6 +1105,27 @@
       "🤝 Microsoft là bên chủ động gửi yêu cầu tương tác này lên Apple qua cơ chế EU"
     ],
     "publish_time": "2026-08-04T04:34:18.470539",
+    "performance": {
+      "reactions": 3,
+      "comments": 1,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1514555097378484",
+    "title": "Apple đối mặt vụ kiện 30 tỷ USD vì nhận diện khuôn mặt",
+    "summary": "Tòa án cho phép kiện tập thể Apple vi phạm luật dữ liệu sinh trắc học Illinois, thiệt hại có thể vượt 30 tỷ USD.",
+    "category": "Tin nóng",
+    "visual_type": "stat",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/03/judge-greenlights-multi-billion-dollar-class-action-over-apple-photos-face-recognition/",
+    "bullets": [
+      "🔴 Thẩm phán chính thức cho phép vụ kiện tập thể tiến hành — Apple không thể chặn sớm",
+      "📸 Tính năng nhận diện & gom nhóm khuôn mặt trong Apple Photos là trọng tâm cáo buộc",
+      "⚠️ Người dùng iPhone tại Illinois từng dùng Photos có thể đủ điều kiện tham gia vụ kiện"
+    ],
+    "publish_time": "2026-08-04T07:50:35.285411",
     "performance": null
   }
 ]
