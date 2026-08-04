@@ -1,13 +1,13 @@
-• **Ưu tiên góc "mẹo/thủ thuật cộng đồng" (community tips):** Bài "Bạn đang chụp ảnh tệ hơn mức có thể!" đạt Score cao nhất (18) nhờ chạm đúng nhu cầu thực tế của người dùng — luôn ưu tiên góc "bạn đang bỏ lỡ điều này" thay vì chỉ đưa tin.
+• **Ưu tiên chủ đề cộng đồng/mẹo thực dụng (community tips)**: Bài "Bạn đang chụp ảnh tệ hơn mức có thể!" đạt score cao nhất (18) — góc "người dùng tự khám phá, chia sẻ kinh nghiệm" kích thích comment và share tốt hơn tin tức đơn thuần.
 
-• **iPhone + cộng đồng Reddit (r/apple) = combo tương tác tốt:** Các bài kết hợp chủ đề iPhone với nguồn community (r/apple) hoặc góc khan hàng/cảnh báo người dùng liên tục lọt top — ưu tiên hai yếu tố này khi chọn đề tài.
+• **Tiêu đề dạng cáo buộc/thách thức người đọc** ("Bạn đang…", "Tại sao bạn chưa…") hoặc **kết hợp sự kiện lớn + twist bất ngờ** ("Tim Cook rời ghế CEO — kỷ lục nhưng chi phí tăng vọt") tạo tò mò, thúc đẩy comment và share hiệu quả hơn tiêu đề thông báo thẳng.
 
-• **Hook hiệu quả nhất: câu mệnh lệnh ngầm hoặc cảnh báo cá nhân hóa** ("bạn nên…", "người dùng cần chuẩn bị…", "nhiều tính năng bị bỏ qua hoàn toàn") — tạo cảm giác đọc giả bị ảnh hưởng trực tiếp, kích thích comment hỏi thêm và share cảnh báo bạn bè.
+• **Ưu tiên chủ đề iPhone + khan hàng/cảnh báo sớm**: Hai bài iPhone có yếu tố khan hiếm/urgency (iPhone 17 khan hàng, MacBook Air thiếu hàng) đều score trên 10 — hook dạng "chuẩn bị ngay/mua ngay kẻo hết" kéo reaction tốt.
 
-• **Tiêu đề có xung đột/nghịch lý hoặc con số cụ thể** (VD: "rơi từ máy bay vẫn nguyên vẹn", "49% thị phần", "tháng tới") thu hút Reactions tốt hơn tiêu đề mô tả trung lập — luôn nhúng ít nhất một yếu tố gây bất ngờ hoặc số liệu vào tiêu đề.
+• **Tin nóng có con số thống kê lớn hoặc rủi ro pháp lý cao** (vụ kiện 30 tỷ USD, Apple chiếm 49% thị phần) tạo reaction ổn nhưng ít share — cần thêm câu hỏi mở cuối hook để kích comment ("Bạn nghĩ Apple có thoát được không?").
 
-• **Tránh bài thuần thông báo sản phẩm/tính năng mới không gắn lợi ích người dùng:** Các bài như "Apple Tăng Dung Lượng iCloud+", "MacBook Neo", "Overflight", "Open Minis" đều Score ≤5 — nếu viết dạng announcement, phải bổ sung góc "điều này thay đổi gì với bạn".
+• **Tránh bài thuần thông báo sản phẩm/app mới không có yếu tố cá nhân hóa**: Các bài như "Open Minis", "Overflight", "Apple Tăng Dung Lượng iCloud+", "MacBook Neo" đều score ≤5 — thiếu conflict, urgency hoặc liên quan trực tiếp đến người dùng Việt.
 
-• **Tránh chủ đề thị trường/tài chính vĩ mô thiếu móc cảm xúc cá nhân:** "Apple chiếm 49% doanh thu toàn cầu" Score thấp nhất (4) dù số liệu ấn tượng — số liệu macro cần được dịch sang ý nghĩa cụ thể với người dùng phổ thông mới tạo tương tác.
+• **Hook phải chứa ít nhất một trong ba yếu tố**: (1) urgency/khan hiếm, (2) twist/mâu thuẫn bất ngờ, (3) câu hỏi/thách thức trực tiếp đến người đọc — hook chỉ mô tả tính năng trung lập luôn cho kết quả thấp.
 
-• **Shares chỉ xuất hiện khi bài có giá trị "forward được":** Toàn bộ bài đạt Share > 0 đều thuộc dạng cảnh báo, mẹo hữu ích, hoặc tin gây sốc — mỗi bài cần tự hỏi "người đọc có lý do gì để tag bạn bè không?" trước khi chốt hook.
+• **Nguồn r/apple (community) kết hợp chủ đề MacBook/iPhone** cho tỷ lệ share tốt hơn các nguồn báo chính thống — ưu tiên góc "cộng đồng đang tranh luận điều này" thay vì "hãng vừa công bố".
