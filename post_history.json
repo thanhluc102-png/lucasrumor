@@ -1147,6 +1147,27 @@
       "🤔 Nguyên nhân đồn đoán: thuế quan + nâng cấp AI phần cứng thế hệ mới"
     ],
     "publish_time": "2026-08-04T11:37:09.728942",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1514909054009755",
+    "title": "Copy trên iPhone, dán thẳng vào Windows — cuối cùng!",
+    "summary": "Apple mở rộng Universal Clipboard sang PC Windows, xóa rào cản copy-paste lâu năm giữa hai hệ sinh thái.",
+    "category": "iPhone",
+    "visual_type": "comparison",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3205820/apple-is-finally-making-copy-paste-work-between-iphones-and-pcs.html",
+    "bullets": [
+      "📋 Universal Clipboard sắp hoạt động xuyên nền tảng iPhone ↔ Windows PC",
+      "⚡ Không cần AirDrop, không cần app thứ ba — copy xong dán luôn",
+      "🤔 Cộng đồng tranh luận: Apple đang 'mở cửa' hay chỉ câu người dùng Windows?"
+    ],
+    "publish_time": "2026-08-04T15:39:18.432875",
     "performance": null
   }
 ]

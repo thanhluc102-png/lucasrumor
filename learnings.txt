@@ -1,13 +1,7 @@
-• **Ưu tiên chủ đề cộng đồng/mẹo thực dụng (community tips)**: Bài "Bạn đang chụp ảnh tệ hơn mức có thể!" đạt score cao nhất (18) — góc "người dùng tự khám phá, chia sẻ kinh nghiệm" kích thích comment và share tốt hơn tin tức đơn thuần.
-
-• **Tiêu đề dạng cáo buộc/thách thức người đọc** ("Bạn đang…", "Tại sao bạn chưa…") hoặc **kết hợp sự kiện lớn + twist bất ngờ** ("Tim Cook rời ghế CEO — kỷ lục nhưng chi phí tăng vọt") tạo tò mò, thúc đẩy comment và share hiệu quả hơn tiêu đề thông báo thẳng.
-
-• **Ưu tiên chủ đề iPhone + khan hàng/cảnh báo sớm**: Hai bài iPhone có yếu tố khan hiếm/urgency (iPhone 17 khan hàng, MacBook Air thiếu hàng) đều score trên 10 — hook dạng "chuẩn bị ngay/mua ngay kẻo hết" kéo reaction tốt.
-
-• **Tin nóng có con số thống kê lớn hoặc rủi ro pháp lý cao** (vụ kiện 30 tỷ USD, Apple chiếm 49% thị phần) tạo reaction ổn nhưng ít share — cần thêm câu hỏi mở cuối hook để kích comment ("Bạn nghĩ Apple có thoát được không?").
-
-• **Tránh bài thuần thông báo sản phẩm/app mới không có yếu tố cá nhân hóa**: Các bài như "Open Minis", "Overflight", "Apple Tăng Dung Lượng iCloud+", "MacBook Neo" đều score ≤5 — thiếu conflict, urgency hoặc liên quan trực tiếp đến người dùng Việt.
-
-• **Hook phải chứa ít nhất một trong ba yếu tố**: (1) urgency/khan hiếm, (2) twist/mâu thuẫn bất ngờ, (3) câu hỏi/thách thức trực tiếp đến người đọc — hook chỉ mô tả tính năng trung lập luôn cho kết quả thấp.
-
-• **Nguồn r/apple (community) kết hợp chủ đề MacBook/iPhone** cho tỷ lệ share tốt hơn các nguồn báo chính thống — ưu tiên góc "cộng đồng đang tranh luận điều này" thay vì "hãng vừa công bố".
+• **Chủ đề hiệu quả nhất:** Mẹo/thủ thuật thực dụng cho người dùng (Score 18), tin nóng kết hợp drama cá nhân hóa cao (Tim Cook rời CEO, vụ kiện 30 tỷ USD — Score 13), và thông tin tác động trực tiếp đến túi tiền/quyết định mua (thiếu RAM, khan hàng MacBook — Score 10).
+• **Góc tiếp cận ăn điểm:** Đặt người đọc vào vị trí bị ảnh hưởng trực tiếp ("bạn đang làm sai", "bạn cần chuẩn bị ngay"), hoặc khai thác sự kiện gây tranh cãi/khó tin để kích thích phản bác trong comment.
+• **Cấu trúc tiêu đề tối ưu:** Dùng câu khẳng định gây bất ngờ + dấu chấm than hoặc dấu hỏi hoài nghi ("Khó tin?", "vẫn nguyên vẹn", "đang bị ảnh hưởng?") — tránh tiêu đề trung tính, mô tả thuần túy.
+• **Hook hiệu quả:** Mở bằng hành động cụ thể + kết quả bất ngờ hoặc con số gây sốc, sau đó ngầm đặt câu hỏi để người đọc tự tranh luận (không trả lời hết trong hook).
+• **Nguồn cộng đồng (r/apple) kết hợp góc "community" hoặc "comparison"** sinh tương tác ổn định hơn các bài announcement đơn thuần — ưu tiên framing dạng "cộng đồng đang nói gì" thay vì chỉ đưa tin.
+• **Cần tránh:** Bài announcement thuần túy không có yếu tố tranh cãi hoặc liên quan cá nhân (iCloud dung lượng, ứng dụng indie, MacBook Neo giáo dục — Score 3–5); hook mô tả tính năng mà không tạo tension hoặc câu hỏi mở sẽ không kéo được comment lẫn share.
+• **Ưu tiên thể loại:** iPhone (community/comparison) > Tin nóng có drama > MacBook (khan hàng/thiếu linh kiện) > Apple AI/sự kiện announcement thuần.
