@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề iPhone + community/thảo luận thực tế của người dùng** (ví dụ: mẹo chụp ảnh, trải nghiệm thực tế) — đây là nhóm đạt điểm cao nhất (Score 16–17), đặc biệt khi kết hợp góc "bạn đang bỏ lỡ điều gì đó".
-• **Hook dạng thách thức/phủ định cá nhân hóa** ("Bạn đang làm X tệ hơn mức có thể", "người dùng nên chuẩn bị sớm") kích thích comment và share mạnh hơn hook dạng thông báo trung lập.
-• **Tin về iPhone (supply, launch, survival story)** và **MacBook thiết kế/định hướng tương lai** giữ mức tương tác trung bình khá (Score 9–16) — tiếp tục khai thác nhưng cần thêm yếu tố gây tranh luận hoặc khan hiếm/urgency rõ ràng.
-• **Tránh các bài thuần thông báo tính năng AI/iCloud+ dạng "Apple xác nhận/úp mở"** — nhóm Apple AI announcement liên tục đạt Score thấp nhất (3–6), thiếu góc kích thích thảo luận.
-• **Tránh nội dung ứng dụng indie, sự kiện niche (Overflight, Open Minis)** và bài stat thị phần đơn thuần — không tạo được kết nối cá nhân, score chỉ đạt 3–4.
-• **Ưu tiên nguồn r/apple cho góc community** — các bài từ Reddit có xu hướng tạo share và comment tốt hơn so với bài từ MacWorld hay MacStories ở cùng chủ đề.
-• **Cấu trúc tiêu đề hiệu quả nhất**: \[Hành động người dùng\] + \[hậu quả/lý do bất ngờ\], hoặc \[Sản phẩm\] + \[tình huống cực đoan/khan hiếm\] + \[call-to-action ngầm\].
+• **Chủ đề hiệu quả nhất:** iPhone (đặc biệt tips cộng đồng, khan hàng, câu chuyện viral) và Tin nóng liên quan CEO/tài chính Apple — ưu tiên 2 nhóm này.
+• **Góc community/tips thực tế từ Reddit** (dạng "mẹo bị bỏ qua", "người dùng chia sẻ") tạo comments và shares cao nhất — đây là format cần nhân rộng.
+• **Cấu trúc tiêu đề hiệu quả:** Dùng đối lập hoặc tension ("kỷ lục nhưng…", "rơi từ máy bay vẫn…", "đang chụp tệ hơn mức có thể") — kích thích tò mò và bình luận hơn dạng thông báo thẳng.
+• **Hook mạnh cần có:** con số cụ thể, mốc thời gian rõ ("tháng tới", "ngay từ ngày mở bán"), hoặc yếu tố cá nhân hóa ("bạn nên chuẩn bị sớm") — tránh hook mô tả trung tính, thiếu urgency.
+• **Nội dung kém hiệu quả cần tránh:** Apple AI (iCloud+/dung lượng), ứng dụng indie không liên quan trực tiếp đến phụ kiện Apple, thống kê thị trường khô khan (dạng stat đơn thuần) — các dạng này nhất quán cho score thấp (3–6).
+• **Tránh tiêu đề dạng thông báo thuần túy** ("Apple tăng…", "Apple công bố…") không có yếu tố conflict hoặc lợi ích người dùng rõ ràng — ưu tiên đặt câu hỏi hoặc gắn hệ quả trực tiếp tới người đọc.
+• **Nguồn r/apple + góc community** liên tục cho shares — ưu tiên khai thác thảo luận Reddit hơn thông cáo chính thức khi cần tăng shares.

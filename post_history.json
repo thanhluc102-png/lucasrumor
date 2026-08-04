@@ -1022,10 +1022,10 @@
     ],
     "publish_time": "2026-08-03T04:51:18.313621",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 1,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -1064,10 +1064,10 @@
     ],
     "publish_time": "2026-08-03T12:38:46.055819",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -1084,6 +1084,27 @@
       "🛒 Cộng đồng thảo luận: nên xuống tiền ngay hay tiếp tục chờ đợi?"
     ],
     "publish_time": "2026-08-03T16:08:06.111881",
+    "performance": {
+      "reactions": 5,
+      "comments": 1,
+      "shares": 0,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1514425577391436",
+    "title": "iPhone sắp copy-paste được sang máy Windows!",
+    "summary": "Apple cho phép sao chép nội dung giữa iPhone và PC Windows theo yêu cầu từ EU và Microsoft.",
+    "category": "iPhone",
+    "visual_type": "comparison",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/03/apple-plans-to-open-iphone-clipboard-access-to-windows-pcs/",
+    "bullets": [
+      "📌 Clipboard iPhone sắp hoạt động trực tiếp với máy tính Windows — không cần Mac",
+      "🇪🇺 Tính năng ra đời do áp lực từ quy định tương tác mở của Liên minh Châu Âu",
+      "🤝 Microsoft là bên chủ động gửi yêu cầu tương tác này lên Apple qua cơ chế EU"
+    ],
+    "publish_time": "2026-08-04T04:34:18.470539",
     "performance": null
   }
 ]
