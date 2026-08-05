@@ -1,7 +1,7 @@
-• Ưu tiên chủ đề **cộng đồng thực tế** (mẹo dùng iPhone, khan hàng, giá tăng) và **tin nóng có con số cụ thể** (vụ kiện 30 tỷ USD, giá tăng $300) — đây là nhóm đạt Score cao nhất (12–18).
-• Tiêu đề hiệu quả nhất dùng **cấu trúc đối lập hoặc thách thức thói quen**: "Bạn đang chụp ảnh tệ hơn mức có thể!", "Khó tin?" — kích thích bình luận tranh luận.
-• Hook mạnh cần có **yếu tố khẩn cấp + ảnh hưởng trực tiếp đến người dùng**: khan hàng, tăng giá, mất tiền, thay đổi thói quen hằng ngày — tránh hook chỉ thông báo tính năng trung lập.
-• **Tránh hoàn toàn** dạng bài giới thiệu ứng dụng indie, tính năng AI mơ hồ, hoặc thông báo firmware/beta đơn thuần — nhóm này nhất quán Score thấp (3–9), không tạo được phản ứng.
-• Bài có **Shares cao** (×5 điểm) đều gắn với thông tin gây ngạc nhiên hoặc tác động tài chính rõ ràng (AirPods camera, iPhone 18 tăng giá, vụ kiện Apple) — luôn gắn số tiền, mốc thời gian, hoặc con số gây sốc vào hook.
-• Nguồn **r/apple (community)** và **MacWorld** cho kết quả tương tác ổn định hơn; bài từ MacStories hoặc góc "announcement" thuần túy thường underperform — ưu tiên góc *cộng đồng đang bàn luận gì* thay vì *hãng vừa thông báo gì*.
-• Giới hạn bài dạng **so sánh hệ sinh thái** (iPhone vs Windows, MacBook vs Chromebook) trừ khi hook có yếu tố tranh cãi rõ — hiện tại nhóm này Score thấp dù chủ đề hấp dẫn.
+• **Ưu tiên chủ đề cộng đồng (community)** — các bài từ r/apple hoặc góc "người dùng thực tế" (mẹo chụp ảnh, khan hàng, thiếu RAM) tạo tương tác cao hơn hẳn so với tin announcement thuần túy; độc giả thích nội dung gần gũi, có thể áp dụng ngay hoặc gây lo lắng cá nhân.
+• **Hook nên chứa yếu tố tự vấn hoặc cảnh báo trực tiếp đến người đọc** ("Bạn đang chụp ảnh tệ hơn mức có thể", "người dùng cần chuẩn bị sớm") — kích thích bình luận nhiều hơn hook chỉ đưa tin khách quan.
+• **Tiêu đề dạng số tiền lớn + hoài nghi** (kiện 30 tỷ USD, iPhone tăng $300) thu hút reactions và shares tốt — nên kết hợp con số cụ thể với từ ngữ gây ngạc nhiên hoặc nghi vấn.
+• **Tránh đăng hai bài cùng góc tiếp cận trong một tuần** (ví dụ: hai bài Universal Clipboard iPhone↔Windows gần nhau) — bài sau gần như mất toàn bộ tương tác do trùng lặp nội dung.
+• **Thể loại announcement thuần (timeline, sự kiện mới)** như AirPods firmware beta, ứng dụng indie, AI mới đổ bộ — tương tác thấp đều; chỉ đăng khi có thể gắn thêm góc "ảnh hưởng trực tiếp đến người dùng" hoặc yếu tố tranh luận.
+• **Nguồn MacStories và MacWorld** hiện cho kết quả tương tác yếu hơn r/apple và 9to5Mac — ưu tiên góc cộng đồng Reddit hoặc tin từ 9to5Mac có yếu tố gây tranh cãi.
+• **Shares cao nhất đến từ nội dung có tính "lan truyền cảnh báo"** (tăng giá, khan hàng, vụ kiện lớn) — muốn tăng shares, hook cần tạo cảm giác độc giả *cần chia sẻ để bạn bè biết*, không chỉ để đọc cho mình.

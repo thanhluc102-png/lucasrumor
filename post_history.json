@@ -1085,10 +1085,10 @@
     ],
     "publish_time": "2026-08-03T16:08:06.111881",
     "performance": {
-      "reactions": 7,
+      "reactions": 8,
       "comments": 1,
       "shares": 0,
-      "score": 10
+      "score": 11
     }
   },
   {
@@ -1231,6 +1231,27 @@
       "💥 Nếu chứng minh được, đây là một trong những vụ rò rỉ bí mật thương mại lớn nhất ngành tech"
     ],
     "publish_time": "2026-08-05T11:33:03.946996",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1515863070581020",
+    "title": "Apple huy động nhân viên bán lẻ cho sự kiện iPhone lớn",
+    "summary": "Apple kêu gọi nhân viên cửa hàng hỗ trợ sự kiện ra mắt iPhone được đồn là lớn nhất lịch sử.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3206299/apple-invites-retail-workers-to-pitch-in-with-iphone-event-support.html",
+    "bullets": [
+      "🏪 Apple mời nhân viên bán lẻ hỗ trợ trực tiếp cho sự kiện ra mắt iPhone sắp tới",
+      "📣 Sự kiện được đồn đại là một trong những lần ra mắt iPhone lớn nhất từ trước đến nay",
+      "⚠️ Quy mô chuẩn bị bất thường gợi ý iPhone mới có thể mang thay đổi cực kỳ đáng chú ý"
+    ],
+    "publish_time": "2026-08-05T15:32:08.711471",
     "performance": null
   }
 ]
