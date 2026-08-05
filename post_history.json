@@ -1127,10 +1127,10 @@
     ],
     "publish_time": "2026-08-04T07:50:35.285411",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 1,
       "shares": 1,
-      "score": 13
+      "score": 14
     }
   },
   {
@@ -1189,6 +1189,27 @@
       "💡 Mua ngay tháng này nếu đang phân vân — chờ thêm có thể phải trả giá cao hơn đáng kể"
     ],
     "publish_time": "2026-08-05T04:33:02.662725",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1515541483946512",
+    "title": "AirPods Pro 3 nhận firmware beta đầu tiên!",
+    "summary": "Apple phát hành firmware beta cho AirPods Pro 3, dự kiến ra mắt chính thức cùng iOS 27.",
+    "category": "Sự kiện",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/04/airpods-pro-3-just-got-new-firmware-release-in-beta-more-models-too/",
+    "bullets": [
+      "🔧 Apple phát hành firmware beta cho AirPods Pro 3 và nhiều dòng AirPods khác",
+      "📅 Bản chính thức dự kiến ra mắt cùng thời điểm iOS 27 — nhiều khả năng cuối năm 2026",
+      "👀 Sự xuất hiện sớm của firmware beta là dấu hiệu AirPods Pro 3 đang ở giai đoạn hoàn thiện"
+    ],
+    "publish_time": "2026-08-05T07:58:54.660437",
     "performance": null
   }
 ]

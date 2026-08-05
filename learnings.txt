@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề gần gũi/thực hành:** Mẹo dùng iPhone hàng ngày (community tips) và tin tức tác động trực tiếp đến túi tiền/quyết định mua (giá tăng, khan hàng, RAM thiếu) cho điểm cao nhất — tập trung khai thác góc "người dùng bị ảnh hưởng thế nào?"
-- **Hook dạng thách thức hoặc hoài nghi:** Câu mở kiểu "Bạn đang làm sai rồi", "Khó tin?", "Chuẩn bị sớm đi" kích thích comment nhiều hơn hook dạng thông báo trung tính.
-- **Tiêu đề kết hợp 2 thông tin đối lập/bất ngờ:** Cấu trúc "A nhưng B" hoặc "X — điều Y chưa ai ngờ" (ví dụ: "Kỷ lục doanh thu nhưng CEO rời đi", "Rơi từ máy bay vẫn nguyên vẹn") tạo tò mò và chia sẻ tốt hơn.
-- **Nguồn r/apple + thể loại community** nhất quán cho điểm tương tác ổn định; ưu tiên framing "cộng đồng đang nói gì" thay vì "hãng thông báo gì".
-- **Tránh bài thuần announcement một chiều** (Apple ra mắt X, Apple thêm tính năng Y) không có góc tranh luận — nhóm này liên tục cho điểm thấp (3 điểm), dù nguồn uy tín.
-- **Tránh trùng chủ đề trong cùng tuần:** Hai bài về Universal Clipboard/copy-paste iPhone↔Windows cùng lúc chia nhỏ tương tác, chọn một góc duy nhất sắc nhất thay vì đăng lại biến thể.
-- **Ưu tiên số liệu cụ thể trong tiêu đề** (30 tỷ USD, tăng $300, tháng 6/2025) — bài có con số rõ ràng nhận reactions và shares tốt hơn bài mô tả mơ hồ.
+• **Ưu tiên chủ đề gắn với trải nghiệm cá nhân & cộng đồng (community):** Bài về mẹo dùng iPhone thực tế (Score 18) và khan hàng/thiếu RAM tác động người dùng (Score 10, 7) vượt trội — tập trung góc "người dùng bị ảnh hưởng trực tiếp" thay vì chỉ đưa tin.
+• **Tin nóng có yếu tố gây sốc hoặc con số cụ thể:** Vụ kiện 30 tỷ USD (Score 14), Tim Cook rời ghế + kỷ lục doanh thu (Score 13), iPhone 18 Pro tăng $300 (Score 12) — luôn đính kèm con số/mốc thời gian rõ ràng trong hook để kích tò mò.
+• **Cấu trúc tiêu đề hiệu quả:** Dùng câu cảm thán hoặc câu hỏi phản biện ("Khó tin?", "Bạn đang chụp ảnh tệ hơn mức có thể!") kết hợp với động từ hành động mạnh — tránh tiêu đề trung tính, mô tả đơn thuần.
+• **Hook nên tạo mâu thuẫn hoặc đối lập rõ ràng:** Kỷ lục doanh thu >< chi phí tăng vọt; Apple mở cửa >< rào cản lâu năm — cấu trúc "A nhưng B" kích thích bình luận tranh luận tốt hơn hook một chiều.
+• **Tránh bài announcement thuần túy không có góc người dùng:** iCloud+ dung lượng cao (Score 3), Universal Clipboard MacWorld (Score 3), Overflight (Score 3) đều thất bại vì chỉ thông báo tính năng, không gợi cảm xúc hoặc hành động — phải luôn hỏi "điều này ảnh hưởng gì đến túi tiền/thói quen của người đọc?"
+• **Nguồn r/apple + góc community cho điểm tương tác ổn định hơn** so với bài thuần announcement từ MacWorld/9to5Mac — ưu tiên khai thác thảo luận cộng đồng, phản ứng người dùng thật làm trọng tâm nội dung.
+• **Tránh trùng lặp góc tiếp cận trong cùng tuần:** Hai bài copy-paste iPhone↔Windows (Score 6 và 3) cạnh tranh nhau, bài sau gần như mất hoàn toàn tương tác — mỗi góc độ chỉ khai thác một lần, nếu làm lại phải đổi framing hoàn toàn.
