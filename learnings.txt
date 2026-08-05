@@ -1,7 +1,7 @@
-• **Chủ đề hiệu quả nhất:** Mẹo/thủ thuật thực dụng cho người dùng (Score 18), tin nóng kết hợp drama cá nhân hóa cao (Tim Cook rời CEO, vụ kiện 30 tỷ USD — Score 13), và thông tin tác động trực tiếp đến túi tiền/quyết định mua (thiếu RAM, khan hàng MacBook — Score 10).
-• **Góc tiếp cận ăn điểm:** Đặt người đọc vào vị trí bị ảnh hưởng trực tiếp ("bạn đang làm sai", "bạn cần chuẩn bị ngay"), hoặc khai thác sự kiện gây tranh cãi/khó tin để kích thích phản bác trong comment.
-• **Cấu trúc tiêu đề tối ưu:** Dùng câu khẳng định gây bất ngờ + dấu chấm than hoặc dấu hỏi hoài nghi ("Khó tin?", "vẫn nguyên vẹn", "đang bị ảnh hưởng?") — tránh tiêu đề trung tính, mô tả thuần túy.
-• **Hook hiệu quả:** Mở bằng hành động cụ thể + kết quả bất ngờ hoặc con số gây sốc, sau đó ngầm đặt câu hỏi để người đọc tự tranh luận (không trả lời hết trong hook).
-• **Nguồn cộng đồng (r/apple) kết hợp góc "community" hoặc "comparison"** sinh tương tác ổn định hơn các bài announcement đơn thuần — ưu tiên framing dạng "cộng đồng đang nói gì" thay vì chỉ đưa tin.
-• **Cần tránh:** Bài announcement thuần túy không có yếu tố tranh cãi hoặc liên quan cá nhân (iCloud dung lượng, ứng dụng indie, MacBook Neo giáo dục — Score 3–5); hook mô tả tính năng mà không tạo tension hoặc câu hỏi mở sẽ không kéo được comment lẫn share.
-• **Ưu tiên thể loại:** iPhone (community/comparison) > Tin nóng có drama > MacBook (khan hàng/thiếu linh kiện) > Apple AI/sự kiện announcement thuần.
+- **Ưu tiên chủ đề gần gũi/thực hành:** Mẹo dùng iPhone hàng ngày (community tips) và tin tức tác động trực tiếp đến túi tiền/quyết định mua (giá tăng, khan hàng, RAM thiếu) cho điểm cao nhất — tập trung khai thác góc "người dùng bị ảnh hưởng thế nào?"
+- **Hook dạng thách thức hoặc hoài nghi:** Câu mở kiểu "Bạn đang làm sai rồi", "Khó tin?", "Chuẩn bị sớm đi" kích thích comment nhiều hơn hook dạng thông báo trung tính.
+- **Tiêu đề kết hợp 2 thông tin đối lập/bất ngờ:** Cấu trúc "A nhưng B" hoặc "X — điều Y chưa ai ngờ" (ví dụ: "Kỷ lục doanh thu nhưng CEO rời đi", "Rơi từ máy bay vẫn nguyên vẹn") tạo tò mò và chia sẻ tốt hơn.
+- **Nguồn r/apple + thể loại community** nhất quán cho điểm tương tác ổn định; ưu tiên framing "cộng đồng đang nói gì" thay vì "hãng thông báo gì".
+- **Tránh bài thuần announcement một chiều** (Apple ra mắt X, Apple thêm tính năng Y) không có góc tranh luận — nhóm này liên tục cho điểm thấp (3 điểm), dù nguồn uy tín.
+- **Tránh trùng chủ đề trong cùng tuần:** Hai bài về Universal Clipboard/copy-paste iPhone↔Windows cùng lúc chia nhỏ tương tác, chọn một góc duy nhất sắc nhất thay vì đăng lại biến thể.
+- **Ưu tiên số liệu cụ thể trong tiêu đề** (30 tỷ USD, tăng $300, tháng 6/2025) — bài có con số rõ ràng nhận reactions và shares tốt hơn bài mô tả mơ hồ.
