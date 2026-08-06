@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề tác động tài chính trực tiếp đến người dùng** (tăng giá, khan hàng, vụ kiện lớn) và **tin nóng có yếu tố gây tranh cãi/hoài nghi** — đây là nhóm tạo reactions + shares cao nhất (Score 11–18).
-- **Góc "community" từ r/apple luôn outperform** so với nguồn tin chính thống (9to5Mac, MacWorld) ở cùng thể loại — ưu tiên framing theo kiểu cộng đồng thảo luận, phản ứng thật, không chỉ đưa tin.
-- **Cấu trúc tiêu đề hiệu quả**: Dùng dấu gạch ngang hoặc dấu chấm than tạo tension ("X — nhưng Y bất ngờ"), đặt câu hỏi hoài nghi ("Khó tin?"), hoặc dùng từ cảnh báo hành động ("Mua ngay", "Chuẩn bị tiền") — kích thích phản ứng cảm xúc tức thì.
-- **Hook hiệu quả**: Nêu con số cụ thể hoặc mốc thời gian rõ ràng ("30 tỷ USD", "tháng 6/2025", "$300") + một chi tiết gây bất ngờ hoặc mâu thuẫn ngay trong câu đầu tiên.
-- **Tránh**: Bài thuần thông báo sự kiện/tính năng mới không có yếu tố tranh cãi hoặc lợi ích cá nhân rõ ràng (Overflight, Open Minis, firmware beta, nhân viên bán lẻ — Score ≤ 5); tránh hook chỉ mô tả tính năng mà không tạo urgency hoặc conflict.
-- **Tối ưu shares**: Bài cần có góc "người dùng bị ảnh hưởng trực tiếp" hoặc thông tin mà người đọc muốn tag/forward cho người khác — tránh bài chỉ mang tính quan sát hoặc niche kỹ thuật.
-- **Thể loại Tin nóng (stat) và (community) kết hợp** là công thức tốt nhất: số liệu gây sốc + phản ứng cộng đồng → kéo cả reactions lẫn comments.
+• **Ưu tiên chủ đề cộng đồng (community) gắn với hành động người dùng** — bài "Bạn đang chụp ảnh tệ hơn mức có thể!" (score 18) và tin nóng có con số gây sốc như vụ kiện 30 tỷ USD (score 14), Tim Cook rời ghế (score 13) dẫn đầu; tập trung vào mẹo thực dụng, scandal lớn, hoặc thay đổi lãnh đạo.
+• **Hook hiệu quả = cảm giác cấp bách + hoài nghi/bất ngờ**: dạng "nhiều người đang bỏ qua điều này", "khó tin?", "cuối cùng!" hoặc con số thiệt hại/tăng giá cụ thể kích thích comment nhiều hơn hook mô tả trung tính.
+• **Tiêu đề dạng câu hỏi phủ định hoặc thách thức nhận thức** ("Bạn đang làm điều này sai?", "Khó tin?") tạo phản xạ comment phản bác/đồng tình — ưu tiên hơn tiêu đề thông báo thẳng.
+• **Shares cao nhất khi bài có yếu tố "cảnh báo hành động"** (mua ngay, chuẩn bị tiền, thiếu hàng) hoặc tin rò rỉ timeline cụ thể — nhưng cần kết hợp với hook gây tò mò, không chỉ thông báo đơn thuần.
+• **Tránh bài thuần thông báo sự kiện/tính năng mới không có góc xung đột** — các bài như "Apple huy động nhân viên bán lẻ", "Open Minis đổ bộ iPhone", "AirPods Pro 3 nhận firmware beta" đều dưới score 9, thiếu yếu tố kéo comment.
+• **Nguồn r/apple (community) outperform nguồn tin tức thuần** ở dạng bài mẹo/thảo luận — ưu tiên góc "cộng đồng đang nói gì" thay vì chỉ dẫn nguồn báo chính thống.
+• **Không dùng hook liệt kê tính năng trung tính** ("3 tính năng mới", "firmware beta đầu tiên") — thay bằng hook gắn cảm xúc người dùng: tiết kiệm tiền, sợ mất cơ hội, hoặc phẫn nộ/ngạc nhiên.

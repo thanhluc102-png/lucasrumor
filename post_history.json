@@ -1232,10 +1232,10 @@
     ],
     "publish_time": "2026-08-05T11:33:03.946996",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -1273,6 +1273,27 @@
       "📸 Ảnh rò rỉ màu xanh lá (green) của Ultra 4 đã xuất hiện, cộng đồng tranh luận sôi nổi"
     ],
     "publish_time": "2026-08-06T07:58:17.580300",
+    "performance": {
+      "reactions": 3,
+      "comments": 1,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1516634887170505",
+    "title": "SpaceX sắp 'đá sân' Verizon, AT&T và T-Mobile?",
+    "summary": "SpaceX tiết lộ kế hoạch xây mạng di động mặt đất, dùng phổ tần EchoStar cạnh tranh trực tiếp các ông lớn viễn thông Mỹ.",
+    "category": "Tin nóng",
+    "visual_type": "comparison",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/08/05/starlink-mobile-service/",
+    "bullets": [
+      "🚀 SpaceX chính thức thông báo kế hoạch xây dựng mạng di động mặt đất cạnh tranh Verizon, AT&T, T-Mobile",
+      "📡 Sử dụng phổ tần thu mua từ EchoStar — lợi thế cơ sở hạ tầng sẵn có cực lớn",
+      "⚡ Thông báo ngay tại cuộc gọi thu nhập đầu tiên hậu IPO, gây chấn động giới phân tích viễn thông"
+    ],
+    "publish_time": "2026-08-06T11:36:00.291334",
     "performance": null
   }
 ]
