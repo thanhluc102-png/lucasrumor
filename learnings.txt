@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề iPhone (mẹo thực dụng, cộng đồng) và MacBook (khan hàng, khủng hoảng nguồn cung)** — nhóm này đạt score cao nhất (11–18), đặc biệt khi gắn với trải nghiệm người dùng trực tiếp.
-- **Góc "cộng đồng hoài nghi / phản ứng trái chiều" hoạt động tốt hơn góc thông báo thuần túy** — bài có yếu tố doubt, tranh luận (vd: "Khó tin?", "bị bỏ qua hoàn toàn") kéo comments và reactions tốt hơn.
-- **Tiêu đề hiệu quả = số liệu cụ thể + cảm xúc mạnh hoặc câu hỏi kích thích** — vd: "$300", "30 tỷ USD", "khan hàng nghiêm trọng"; tránh tiêu đề trung tính thiếu điểm nhấn cảm xúc.
-- **Hook phải nêu ngay lợi ích/rủi ro cá nhân cho người đọc** — các hook có "bạn", "người dùng cần", "túi tiền" tạo cảm giác liên quan trực tiếp, thúc đẩy tương tác cao hơn hook chỉ mô tả sự kiện khách quan.
-- **Tránh bài dạng announcement đơn thuần về sự kiện/sản phẩm nhỏ** (Overflight, Open Minis, AirPods firmware) — thiếu tính liên quan với độc giả phổ thông, score thấp nhất (3–5).
-- **Không đăng hai bài cùng góc tiếp cận trong một tuần** (vd: hai bài copy-paste iPhone↔Windows) — bài sau bị ăn mòn tương tác của bài trước, cả hai đều kém.
-- **Nguồn r/apple (community) kết hợp góc thực dụng hoặc lo ngại tài chính cho score ổn định nhất** — ưu tiên framing "điều này ảnh hưởng đến bạn thế nào" thay vì chỉ dẫn nguồn tin.
+- **Ưu tiên chủ đề tác động tài chính trực tiếp đến người dùng** (tăng giá, khan hàng, vụ kiện lớn) và **tin nóng có yếu tố gây tranh cãi/hoài nghi** — đây là nhóm tạo reactions + shares cao nhất (Score 11–18).
+- **Góc "community" từ r/apple luôn outperform** so với nguồn tin chính thống (9to5Mac, MacWorld) ở cùng thể loại — ưu tiên framing theo kiểu cộng đồng thảo luận, phản ứng thật, không chỉ đưa tin.
+- **Cấu trúc tiêu đề hiệu quả**: Dùng dấu gạch ngang hoặc dấu chấm than tạo tension ("X — nhưng Y bất ngờ"), đặt câu hỏi hoài nghi ("Khó tin?"), hoặc dùng từ cảnh báo hành động ("Mua ngay", "Chuẩn bị tiền") — kích thích phản ứng cảm xúc tức thì.
+- **Hook hiệu quả**: Nêu con số cụ thể hoặc mốc thời gian rõ ràng ("30 tỷ USD", "tháng 6/2025", "$300") + một chi tiết gây bất ngờ hoặc mâu thuẫn ngay trong câu đầu tiên.
+- **Tránh**: Bài thuần thông báo sự kiện/tính năng mới không có yếu tố tranh cãi hoặc lợi ích cá nhân rõ ràng (Overflight, Open Minis, firmware beta, nhân viên bán lẻ — Score ≤ 5); tránh hook chỉ mô tả tính năng mà không tạo urgency hoặc conflict.
+- **Tối ưu shares**: Bài cần có góc "người dùng bị ảnh hưởng trực tiếp" hoặc thông tin mà người đọc muốn tag/forward cho người khác — tránh bài chỉ mang tính quan sát hoặc niche kỹ thuật.
+- **Thể loại Tin nóng (stat) và (community) kết hợp** là công thức tốt nhất: số liệu gây sốc + phản ứng cộng đồng → kéo cả reactions lẫn comments.
