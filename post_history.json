@@ -1169,10 +1169,10 @@
     ],
     "publish_time": "2026-08-04T15:39:18.432875",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -1190,10 +1190,10 @@
     ],
     "publish_time": "2026-08-05T04:33:02.662725",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 6
     }
   },
   {
@@ -1232,10 +1232,10 @@
     ],
     "publish_time": "2026-08-05T11:33:03.946996",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -1252,6 +1252,11 @@
       "⚠️ Quy mô chuẩn bị bất thường gợi ý iPhone mới có thể mang thay đổi cực kỳ đáng chú ý"
     ],
     "publish_time": "2026-08-05T15:32:08.711471",
-    "performance": null
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
   }
 ]
