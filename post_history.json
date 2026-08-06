@@ -1106,10 +1106,10 @@
     ],
     "publish_time": "2026-08-04T04:34:18.470539",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -1294,6 +1294,27 @@
       "⚡ Thông báo ngay tại cuộc gọi thu nhập đầu tiên hậu IPO, gây chấn động giới phân tích viễn thông"
     ],
     "publish_time": "2026-08-06T11:36:00.291334",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1516823800484947",
+    "title": "Apple thu 109 tỷ USD, iPhone tăng kỷ lục 21,7%",
+    "summary": "Doanh thu Q3/2026 đạt 109,4 tỷ USD, tăng 16,4% — iPhone và Services đều phá kỷ lục.",
+    "category": "Tin nóng",
+    "visual_type": "stat",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/apple-reports-q3-2026-earnings/",
+    "bullets": [
+      "📈 Tổng doanh thu 109,4 tỷ USD — tăng 16,4% so với Q3 FY2025",
+      "📱 iPhone đạt 54,3 tỷ USD, mức tăng trưởng 21,7% gây bất ngờ toàn thị trường",
+      "☁️ Services vượt 30 tỷ USD, khẳng định chiến lược đa dạng hóa doanh thu của Apple"
+    ],
+    "publish_time": "2026-08-06T15:31:51.577537",
     "performance": null
   }
 ]
