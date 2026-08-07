@@ -1295,10 +1295,10 @@
     ],
     "publish_time": "2026-08-06T11:36:00.291334",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 6
     }
   },
   {
@@ -1315,6 +1315,27 @@
       "☁️ Services vượt 30 tỷ USD, khẳng định chiến lược đa dạng hóa doanh thu của Apple"
     ],
     "publish_time": "2026-08-06T15:31:51.577537",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1517323737101620",
+    "title": "Apple Health Mạnh Hơn Bạn Nghĩ: Mẹo Hay",
+    "summary": "Apple Health ẩn chứa nhiều tính năng hữu ích mà phần lớn người dùng iPhone chưa khai thác hết.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/06/apple-health-best-features/",
+    "bullets": [
+      "Đồng bộ dữ liệu Apple Watch và ứng dụng bên thứ ba vào một nơi duy nhất",
+      "Nhập trực tiếp hồ sơ y tế từ bác sĩ — tính năng ít người biết tới",
+      "Cộng đồng người dùng đang bỏ lỡ nhiều tính năng ẩn giá trị trong ứng dụng miễn phí này"
+    ],
+    "publish_time": "2026-08-07T04:05:36.444653",
     "performance": null
   }
 ]
