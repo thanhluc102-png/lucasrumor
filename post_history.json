@@ -1295,10 +1295,10 @@
     ],
     "publish_time": "2026-08-06T11:36:00.291334",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -1316,10 +1316,10 @@
     ],
     "publish_time": "2026-08-06T15:31:51.577537",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 1,
-      "shares": 0,
-      "score": 5
+      "shares": 1,
+      "score": 11
     }
   },
   {
@@ -1357,6 +1357,27 @@
       "📅 Dự kiến ra mắt chính thức trong khoảng 1 tháng tới — thời điểm để quyết định mua 17 Pro hay chờ"
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1517558803744780",
+    "title": "Apple tăng giá thu đổi iPhone, Mac, Watch!",
+    "summary": "Apple vừa nâng giá đổi máy cũ lấy mới — cơ hội vàng để nâng cấp thiết bị với chi phí thấp hơn.",
+    "category": "Deal",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vh4hdd/apple_raises_tradein_values_for_most_iphone_ipad/",
+    "bullets": [
+      "📈 Giá thu đổi tăng trên hầu hết toàn bộ dòng sản phẩm Apple",
+      "🔄 Áp dụng cho iPhone, iPad, Mac và Apple Watch",
+      "⏰ Có thể là tín hiệu báo trước sự kiện ra mắt iPhone 17 sắp tới"
+    ],
+    "publish_time": "2026-08-07T10:14:37.111494",
     "performance": null
   }
 ]
