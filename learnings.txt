@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề pháp lý/tài chính gây sốc** (kiện tụng, thiệt hại khổng lồ) và **khủng hoảng nguồn cung** — đây là 2 góc có Score cao nhất (11–14), kích thích reaction và share mạnh nhất.
-• **Cấu trúc tiêu đề hiệu quả**: Dùng con số cụ thể + hệ quả trực tiếp với người dùng ("30 tỷ USD", "tăng giá $300", "khan hàng nghiêm trọng") — tạo cảm giác cấp bách hoặc mất mát cá nhân để thúc đẩy share.
-• **Hook nên nhấn vào tác động người dùng ngay câu đầu** — không dừng ở việc mô tả sự kiện, phải nói rõ "bạn bị ảnh hưởng thế nào / cần làm gì ngay" để tăng comment và share.
-• **Tránh đăng 2 bài cùng góc tiếp cận trong 1 tuần** (ví dụ: 2 bài copy-paste iPhone↔Windows — bài sau chỉ đạt Score 4 so với bài trước Score 7), nội dung trùng lặp làm giảm tương tác rõ rệt.
-• **Bài thuần thông báo/sự kiện không có yếu tố tranh cãi hoặc kêu gọi hành động** (ra mắt firmware, huy động nhân viên) luôn có Score thấp nhất (4–6) — cần thêm góc "cộng đồng nên lo ngại / kỳ vọng điều gì" vào hook.
-• **Nguồn r/apple kết hợp góc "community"** (dư luận hoài nghi, tranh cãi) cho tương tác ổn định hơn bài thuần tin tức — nên khai thác phản ứng cộng đồng làm trọng tâm hook thay vì chỉ dẫn nguồn.
-• **Ưu tiên thể loại Tin nóng (stat) và MacBook/iPhone (community)** cho tuần tới; hạn chế bài "sự kiện announcement" thuần túy nếu không gắn được yếu tố gây tranh cãi hoặc lo ngại rõ ràng.
+• **Ưu tiên chủ đề pháp lý/tài chính gây sốc** (kiện tụng, thiệt hại khổng lồ) và **tin đồn giá/khan hàng** — đây là nhóm đạt Score cao nhất (11–14), kích thích share và comment tốt nhất.
+• **Cấu trúc tiêu đề hiệu quả**: dùng con số cụ thể + cảm xúc mạnh ("30 tỷ USD", "tăng $300", "khan hàng nghiêm trọng") hoặc câu hỏi hoài nghi ("Khó tin?", "đang bị ảnh hưởng?") — tạo phản xạ bình luận tranh luận.
+• **Hook cần có yếu tố kêu gọi hành động hoặc cảnh báo cá nhân** ("người dùng cần chuẩn bị sớm", "túi tiền bị ảnh hưởng") thay vì chỉ mô tả sự kiện trung lập — yếu tố "liên quan đến tôi" đẩy share.
+• **Tránh các bài thuần thông báo sự kiện/tính năng mới** không có góc tranh luận (AirPods firmware, Apple Health tips, huy động nhân viên) — nhóm này Score thấp nhất (4–6), không kích thích tương tác.
+• **Tránh đăng 2 bài cùng góc tiếp cận gần nhau** (Universal Clipboard xuất hiện 2 lần với Score 7 và 4) — bài sau luôn tụt tương tác mạnh do trùng lặp nội dung.
+• **Ưu tiên nguồn r/apple cho chủ đề cộng đồng/tin đồn** (MacBook khan hàng, RAM shortage đạt Score 7–11); dùng 9to5Mac cho tin pháp lý/tài chính — hai nguồn này tạo độ tin cậy phù hợp từng thể loại.
+• **Thể loại "Tin nóng" kết hợp stat hoặc con số thiệt hại** là format tối ưu nhất; thể loại "Sự kiện/announcement" thuần túy liên tục underperform — cần gắn thêm góc tranh cãi hoặc so sánh mới đăng.
