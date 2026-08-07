@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề pháp lý/tài chính gây sốc** (vụ kiện 30 tỷ USD, tăng giá) và **tin rò rỉ giá/spec iPhone** — đây là nhóm kéo nhiều Shares nhất, đẩy Score lên cao nhờ hệ số nhân x5.
-- **Dùng con số cụ thể, lớn trong tiêu đề** ("30 tỷ USD", "tăng $300", "109 tỷ USD") — tạo phản ứng hoài nghi hoặc bất ngờ, kích thích bình luận tranh luận tự nhiên.
-- **Câu hook nên đặt rõ tác động trực tiếp đến người dùng** ("túi tiền bị ảnh hưởng", "cần chuẩn bị sớm") — tăng Reactions và Comments vì chạm vào lợi ích cá nhân.
-- **Tiêu đề dạng đối lập/hoài nghi** ("Khó tin?", "sắp copy-paste được", "cuối cùng!") kích thích click và bình luận tốt hơn tiêu đề trung tính tường thuật thuần túy.
-- **Tránh bài thuần tính năng/hướng dẫn sử dụng** (Apple Health, Universal Clipboard giải thích đơn thuần) — Score thấp nhất (4), không tạo được động lực chia sẻ hay tranh luận.
-- **Hạn chế bài "sự kiện announcement" thiếu yếu tố gây tranh cãi** (AirPods firmware, nhân viên bán lẻ, Open Minis) — nếu không có góc độ ảnh hưởng trực tiếp hoặc con số gây sốc thì Score rất thấp (4–9).
-- **Nguồn r/apple và góc "community" chỉ hiệu quả khi gắn với tin đồn giá hoặc scandal** — không nên dùng cho nội dung trung tính vì không tạo thêm độ tin cậy lẫn tranh luận.
+- **Chủ đề hiệu quả cao:** Tin tức tác động trực tiếp túi tiền (tăng giá, deal đổi máy), vụ kiện/scandal pháp lý, và tin rò rỉ thông số sản phẩm gây tranh cãi — đây là nhóm đạt Score ≥12 nhất quán.
+- **Góc tiếp cận tốt nhất:** Đặt vấn đề cá nhân hóa ("túi tiền bị ảnh hưởng?", "người dùng cần chuẩn bị sớm") hoặc gắn con số cụ thể, gây sốc ($300, 30 tỷ USD, 21,7%) — kích thích phản ứng cảm xúc mạnh và chia sẻ.
+- **Cấu trúc tiêu đề hiệu quả:** Dạng câu hỏi hoài nghi ("Khó tin?", "đang bị ảnh hưởng?") hoặc dạng tuyên bố mạnh + dấu chấm than kết hợp từ khóa hành động ("sắp", "cuối cùng!", "vừa nâng") — tạo urgency và tò mò.
+- **Hook hiệu quả:** Mở đầu bằng hệ quả trước ("thiệt hại có thể vượt 30 tỷ USD"), sau đó mới nêu nguyên nhân — duy trì thứ tự impact → context thay vì ngược lại.
+- **Nội dung kém hiệu quả cần tránh:** Bài mang tính thông báo thuần túy không có yếu tố tranh cãi hoặc lợi ích rõ ràng (firmware beta, huy động nhân viên, mẹo Apple Health) — Score thấp nhất (4–9), không kích thích share hay comment.
+- **Tránh trùng góc trong cùng tuần:** Hai bài về cùng chủ đề copy-paste iPhone↔Windows với hook gần giống nhau làm bài sau mất gần hết tương tác (Score 7 vs 4) — mỗi chủ đề chỉ khai thác một góc duy nhất, đủ khác biệt.
+- **Ưu tiên nguồn + thể loại:** Combo *9to5Mac/r/apple + stat hoặc community* cho kết quả ổn định nhất; tránh dùng thể loại *announcement* cho nội dung không gắn lợi ích người dùng trực tiếp.

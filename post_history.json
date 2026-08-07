@@ -1316,10 +1316,10 @@
     ],
     "publish_time": "2026-08-06T15:31:51.577537",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 1,
       "shares": 1,
-      "score": 11
+      "score": 12
     }
   },
   {
@@ -1358,10 +1358,10 @@
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
-      "reactions": 2,
+      "reactions": 6,
       "comments": 1,
-      "shares": 0,
-      "score": 5
+      "shares": 1,
+      "score": 14
     }
   },
   {
@@ -1378,6 +1378,27 @@
       "⏰ Có thể là tín hiệu báo trước sự kiện ra mắt iPhone 17 sắp tới"
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
+    "performance": {
+      "reactions": 8,
+      "comments": 2,
+      "shares": 0,
+      "score": 14
+    }
+  },
+  {
+    "post_id": "1920842954802282_1517749050392422",
+    "title": "macOS 26.6.1 vá lỗ hổng Screen Sharing nguy hiểm!",
+    "summary": "Apple phát hành macOS 26.6.1 khẩn cấp, chỉ để vá duy nhất một lỗ hổng bảo mật Screen Sharing nghiêm trọng.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3208191/apple-fixes-screen-sharing-vulnerability-with-macos-26-6-1-update.html",
+    "bullets": [
+      "🚨 Lỗ hổng nằm ở tính năng Screen Sharing — dùng để điều khiển Mac từ xa",
+      "⚡ Cực kỳ hiếm: Apple phát hành bản vá độc lập chỉ để xử lý đúng 1 lỗi duy nhất",
+      "✅ Người dùng macOS 26 cần cập nhật ngay để bảo vệ thiết bị khỏi nguy cơ bị xâm nhập"
+    ],
+    "publish_time": "2026-08-07T14:21:32.990016",
     "performance": null
   }
 ]
