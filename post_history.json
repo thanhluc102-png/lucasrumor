@@ -1211,10 +1211,10 @@
     ],
     "publish_time": "2026-08-05T07:58:54.660437",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 1,
-      "score": 9
+      "score": 10
     }
   },
   {
@@ -1358,10 +1358,10 @@
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
-      "reactions": 6,
+      "reactions": 131,
       "comments": 1,
-      "shares": 1,
-      "score": 14
+      "shares": 5,
+      "score": 159
     }
   },
   {
@@ -1379,10 +1379,10 @@
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
     "performance": {
-      "reactions": 8,
+      "reactions": 43,
       "comments": 2,
-      "shares": 0,
-      "score": 14
+      "shares": 1,
+      "score": 54
     }
   },
   {
@@ -1399,6 +1399,27 @@
       "✅ Người dùng macOS 26 cần cập nhật ngay để bảo vệ thiết bị khỏi nguy cơ bị xâm nhập"
     ],
     "publish_time": "2026-08-07T14:21:32.990016",
+    "performance": {
+      "reactions": 3,
+      "comments": 1,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1518242710343056",
+    "title": "MacBook Pro M5 Refurb Xuất Hiện — Cơ Hội Vàng!",
+    "summary": "Apple mở rộng kho hàng tân trang với MacBook Pro M5 hiếm và Apple TV 4K, giá rẻ hơn đáng kể.",
+    "category": "Deal",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vi4li4/apple_expands_refurb_store_with_rare_m5_macbook/",
+    "bullets": [
+      "🆕 MacBook Pro chip M5 lần đầu xuất hiện trên Refurb Store chính hãng Apple",
+      "📺 Apple TV 4K và nhiều thiết bị khác cũng được bổ sung vào kho tân trang",
+      "💰 Hàng refurb Apple giảm đến ~15% so với giá mới, vẫn có bảo hành 1 năm"
+    ],
+    "publish_time": "2026-08-08T03:02:24.935109",
     "performance": null
   }
 ]

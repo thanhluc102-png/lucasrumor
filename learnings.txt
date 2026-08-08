@@ -1,7 +1,7 @@
-- **Chủ đề hiệu quả cao:** Tin tức tác động trực tiếp túi tiền (tăng giá, deal đổi máy), vụ kiện/scandal pháp lý, và tin rò rỉ thông số sản phẩm gây tranh cãi — đây là nhóm đạt Score ≥12 nhất quán.
-- **Góc tiếp cận tốt nhất:** Đặt vấn đề cá nhân hóa ("túi tiền bị ảnh hưởng?", "người dùng cần chuẩn bị sớm") hoặc gắn con số cụ thể, gây sốc ($300, 30 tỷ USD, 21,7%) — kích thích phản ứng cảm xúc mạnh và chia sẻ.
-- **Cấu trúc tiêu đề hiệu quả:** Dạng câu hỏi hoài nghi ("Khó tin?", "đang bị ảnh hưởng?") hoặc dạng tuyên bố mạnh + dấu chấm than kết hợp từ khóa hành động ("sắp", "cuối cùng!", "vừa nâng") — tạo urgency và tò mò.
-- **Hook hiệu quả:** Mở đầu bằng hệ quả trước ("thiệt hại có thể vượt 30 tỷ USD"), sau đó mới nêu nguyên nhân — duy trì thứ tự impact → context thay vì ngược lại.
-- **Nội dung kém hiệu quả cần tránh:** Bài mang tính thông báo thuần túy không có yếu tố tranh cãi hoặc lợi ích rõ ràng (firmware beta, huy động nhân viên, mẹo Apple Health) — Score thấp nhất (4–9), không kích thích share hay comment.
-- **Tránh trùng góc trong cùng tuần:** Hai bài về cùng chủ đề copy-paste iPhone↔Windows với hook gần giống nhau làm bài sau mất gần hết tương tác (Score 7 vs 4) — mỗi chủ đề chỉ khai thác một góc duy nhất, đủ khác biệt.
-- **Ưu tiên nguồn + thể loại:** Combo *9to5Mac/r/apple + stat hoặc community* cho kết quả ổn định nhất; tránh dùng thể loại *announcement* cho nội dung không gắn lợi ích người dùng trực tiếp.
+- **Ưu tiên chủ đề giá cả/tăng giá iPhone/Apple**: Bài về giá đạt score cao nhất (159, 54) — đây là chủ đề cộng đồng phản ứng mạnh nhất, cần khai thác thường xuyên.
+- **Dùng con số cụ thể trong tiêu đề**: "$300", "30 tỷ USD", "109 tỷ USD", "21,7%" — số liệu rõ ràng tăng độ tin cậy và kích thích click, share.
+- **Tiêu đề dạng câu hỏi hoặc gợi cảm giác tác động trực tiếp đến túi tiền/quyền lợi người dùng**: "Khó tin?", "túi tiền bị ảnh hưởng?", "cơ hội vàng" — tạo phản xạ bình luận và chia sẻ tự nhiên.
+- **Hook nên nêu hậu quả/lợi ích cụ thể ngay câu đầu**, không dừng ở mô tả sự kiện — ví dụ: "người dùng cần chuẩn bị sớm", "cơ hội để nâng cấp với chi phí thấp hơn".
+- **Tránh các bài thuần thông báo/tính năng mờ nhạt**: Nhóm "announcement" không kèm yếu tố gây tranh cãi hoặc lợi ích rõ ràng (Apple Health, huy động nhân viên, AirPods firmware) đều dưới score 10 — hạn chế hoặc bắt buộc phải gắn góc "ảnh hưởng đến người dùng".
+- **Tránh đăng trùng chủ đề copy-paste iPhone↔Windows**: Hai bài cùng chủ đề, bài sau chỉ đạt score 4 — nội dung lặp làm cạn kiệt tương tác, mỗi chủ đề chỉ khai thác một lần.
+- **Nguồn r/apple và góc "community" phù hợp cho chủ đề deal/lợi ích thực tế**; nguồn 9to5Mac hiệu quả nhất khi đi kèm chủ đề giá hoặc số liệu tài chính — ưu tiên kết hợp này.
