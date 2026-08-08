@@ -1,7 +1,7 @@
-• **Chủ đề giá cả / tăng giá iPhone** là vũ khí số 1: bài về iPhone 18 Pro tăng giá đạt Score 263 (vượt xa toàn bộ), ưu tiên góc "túi tiền bị ảnh hưởng", so sánh mức tăng cụ thể bằng số ($, %).
-• **Deal / thu đổi / tiết kiệm tiền** hiệu quả thứ hai (Score 103) — luôn nhấn vào lợi ích tài chính trực tiếp cho người dùng ("cơ hội vàng", "chi phí thấp hơn", số tiền tiết kiệm được).
-• **Cấu trúc tiêu đề hiệu quả nhất**: [Sản phẩm cụ thể] + [con số/mức độ thay đổi rõ ràng] + [câu hỏi hoặc cảm xúc nghi ngờ/lo lắng] — ví dụ: *"tăng giá $300 — Khó tin?"*, *"túi tiền bị ảnh hưởng?"*. Câu hỏi cuối tiêu đề kích thích comment mạnh.
-• **Hook hiệu quả**: mở bằng con số tuyệt đối (giá, doanh thu, %), theo sau là hệ quả cảm xúc với người dùng phổ thông ("người dùng cần chuẩn bị sớm", "túi tiền tiếp tục bị ảnh hưởng") — tránh mô tả kỹ thuật thuần túy.
-• **Tránh hoàn toàn**: các bài thuần thông báo sự kiện không có yếu tố tranh luận hoặc lợi ích cá nhân (firmware beta, kiểm soát phụ huynh, mẹo Apple Health, nhân viên bán lẻ) — nhóm này đồng loạt Score 4–6, không kéo được share lẫn comment.
-• **Tin nóng ngoài hệ sinh thái Apple** (SpaceX, WhatsApp) không phù hợp audience — Score thấp, cần loại khỏi lịch đăng hoặc chỉ dùng khi có góc so sánh trực tiếp với iPhone/Apple.
-• **Nguồn không quyết định hiệu quả** — bài top đến từ 9to5Mac lẫn r/apple; yếu tố then chốt là góc khai thác (giá tiền, lợi ích/thiệt hại trực tiếp) chứ không phải độ uy tín nguồn.
+- **Ưu tiên chủ đề giá cả / túi tiền người dùng**: Bài về tăng giá iPhone 18 Pro đạt Score 303 (vượt trội tuyệt đối) — luôn gắn yếu tố tài chính, chi phí thực tế vào tiêu đề và hook.
+- **Chủ đề deal / trade-in / tiết kiệm tiền** hiệu quả thứ hai (Score 127) — khai thác góc "cơ hội vàng", "giá rẻ hơn", "tiết kiệm được bao nhiêu" để kéo reactions và shares.
+- **Cấu trúc tiêu đề hiệu quả**: Dùng con số cụ thể + tác động cá nhân ("tăng giá mạnh, túi tiền bị ảnh hưởng?") hoặc câu hỏi khơi lo ngại — tránh tiêu đề trung lập, thuần thông tin.
+- **Hook phải chạm vào lợi ích/nỗi đau trực tiếp** của người dùng phổ thông (tiền, nâng cấp, chi phí), không dừng ở mô tả sự kiện kỹ thuật đơn thuần.
+- **Tránh các chủ đề xa rời Apple core hoặc quá kỹ thuật hẹp**: SpaceX, Screen Sharing, WhatsApp parental control, firmware beta đơn lẻ — Score thấp (4–10), không kéo được tương tác cộng đồng.
+- **Tránh hook kiểu liệt kê tính năng** ("3 tính năng khiến fan phát cuồng", "mẹo hay") — không tạo đủ urgency hay tranh luận, score đều dưới 10.
+- **Nguồn và thể loại không quyết định hiệu quả** — cùng nguồn 9to5Mac có bài Score 303, có bài Score 4; yếu tố quyết định là góc tiếp cận tài chính/cá nhân hóa tác động.

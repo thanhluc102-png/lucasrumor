@@ -1358,10 +1358,10 @@
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
-      "reactions": 222,
-      "comments": 2,
-      "shares": 7,
-      "score": 263
+      "reactions": 249,
+      "comments": 3,
+      "shares": 9,
+      "score": 303
     }
   },
   {
@@ -1379,10 +1379,10 @@
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
     "performance": {
-      "reactions": 87,
+      "reactions": 111,
       "comments": 2,
       "shares": 2,
-      "score": 103
+      "score": 127
     }
   },
   {
@@ -1400,10 +1400,10 @@
     ],
     "publish_time": "2026-08-07T14:21:32.990016",
     "performance": {
-      "reactions": 10,
+      "reactions": 11,
       "comments": 1,
       "shares": 0,
-      "score": 13
+      "score": 14
     }
   },
   {
@@ -1462,6 +1462,27 @@
       "💸 Mức giá chưa được tiết lộ nhưng cộng đồng lo ngại sẽ cao hơn đáng kể so với Pro Max hiện tại"
     ],
     "publish_time": "2026-08-08T09:57:41.199449",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1518663283634332",
+    "title": "Madden NFL 27 đổ bộ Apple Arcade, chơi ngay trên iPhone!",
+    "summary": "EA Sports ra mắt Madden NFL 27 Arcade Edition dành riêng cho Apple Arcade, hỗ trợ iPhone, iPad, Mac và Apple TV.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/reviews/ea-sports-tailors-madden-nfl-27-for-apple-arcade/",
+    "bullets": [
+      "🏈 Có mặt trên Apple Arcade — không tốn thêm phí ngoài gói đăng ký",
+      "📱 Hỗ trợ đầy đủ iPhone, iPad, Mac và Apple TV",
+      "⚙️ Được tối ưu riêng cho phần cứng Apple, không phải port thông thường"
+    ],
+    "publish_time": "2026-08-08T14:00:35.093659",
     "performance": null
   }
 ]
