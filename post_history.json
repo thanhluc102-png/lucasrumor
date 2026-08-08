@@ -1358,10 +1358,10 @@
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
-      "reactions": 177,
+      "reactions": 222,
       "comments": 2,
-      "shares": 6,
-      "score": 213
+      "shares": 7,
+      "score": 263
     }
   },
   {
@@ -1379,10 +1379,10 @@
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
     "performance": {
-      "reactions": 60,
+      "reactions": 87,
       "comments": 2,
-      "shares": 1,
-      "score": 71
+      "shares": 2,
+      "score": 103
     }
   },
   {
@@ -1400,10 +1400,10 @@
     ],
     "publish_time": "2026-08-07T14:21:32.990016",
     "performance": {
-      "reactions": 6,
+      "reactions": 10,
       "comments": 1,
       "shares": 0,
-      "score": 9
+      "score": 13
     }
   },
   {
@@ -1441,6 +1441,27 @@
       "Cập nhật hướng tới an toàn trẻ em trên WhatsApp iPhone"
     ],
     "publish_time": "2026-08-08T06:00:34.514230",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1518489290318398",
+    "title": "iPhone Ultra, AirPods Ultra, MacBook Ultra — Thật sự?",
+    "summary": "Tin đồn: Apple sắp ra mắt 3 dòng sản phẩm Ultra mới, bao gồm cả iPhone Ultra lần đầu tiên.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1viarro/apple_rumored_to_launch_three_new_ultra_products/",
+    "bullets": [
+      "🔥 Lần đầu tiên iPhone có thể mang tên 'Ultra' — vượt trên cả Pro Max",
+      "🎧 AirPods Ultra & MacBook Ultra cũng nằm trong danh sách tin đồn ra mắt đầu 2026",
+      "💸 Mức giá chưa được tiết lộ nhưng cộng đồng lo ngại sẽ cao hơn đáng kể so với Pro Max hiện tại"
+    ],
+    "publish_time": "2026-08-08T09:57:41.199449",
     "performance": null
   }
 ]
