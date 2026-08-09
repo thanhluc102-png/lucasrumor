@@ -1358,10 +1358,10 @@
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
-      "reactions": 277,
-      "comments": 4,
+      "reactions": 279,
+      "comments": 6,
       "shares": 9,
-      "score": 334
+      "score": 342
     }
   },
   {
@@ -1379,10 +1379,10 @@
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
     "performance": {
-      "reactions": 157,
+      "reactions": 175,
       "comments": 2,
       "shares": 4,
-      "score": 183
+      "score": 201
     }
   },
   {
@@ -1504,6 +1504,27 @@
       "Người dùng laptop Windows cũ có thể bị ảnh hưởng nếu yêu cầu hệ thống tăng"
     ],
     "publish_time": "2026-08-09T03:10:51.446030",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1519257980241529",
+    "title": "Leak hé lộ 2 màu iPhone Ultra ra mắt!",
+    "summary": "Rò rỉ mới tiết lộ 2 màu sắc ra mắt của iPhone Ultra gập đầu tiên, dự kiến công bố tháng tới.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/08/iphone-ultra-colors-leak-rumor/",
+    "bullets": [
+      "🎨 Leak tiết lộ đúng 2 màu sắc ra mắt của iPhone Ultra gập",
+      "📅 Apple dự kiến công bố iPhone Ultra chính thức vào tháng tới",
+      "🔥 Đây là mẫu iPhone gập đầu tiên trong lịch sử của Apple"
+    ],
+    "publish_time": "2026-08-09T06:01:41.119290",
     "performance": null
   }
 ]
