@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề giá cả & tài chính người dùng**: Bài về tăng giá iPhone (Score 347) và tăng giá thu đổi (Score 220) áp đảo toàn bộ — luôn khai thác góc "ảnh hưởng trực tiếp đến túi tiền" khi có thể.
-• **Dùng số liệu cụ thể trong tiêu đề**: "tăng giá mạnh", "109 tỷ USD", "tăng 21,7%" tạo độ tin cậy và kích thích click — tránh tiêu đề mơ hồ, chung chung.
-• **Hook phải nêu rõ lợi ích hoặc mối đe dọa trực tiếp với người dùng Việt**: "cần chuẩn bị sớm", "cơ hội vàng để nâng cấp", "túi tiền bị ảnh hưởng" — tạo cảm giác cấp bách hoặc cơ hội không thể bỏ lỡ.
-• **Tránh các chủ đề xa rời hệ sinh thái Apple hoặc không liên quan người dùng Việt**: SpaceX vs viễn thông Mỹ, Madden NFL, MacBook Neo vs Windows — tương tác gần như bằng 0.
-• **Hạn chế dạng bài "mẹo/hướng dẫn" chung**: Apple Health tips, WhatsApp parental control — không tạo được thảo luận hay chia sẻ dù hook ổn.
-• **Tin đồn sản phẩm mới (Ultra, leak màu sắc) chưa đủ sức kéo tương tác** trừ khi gắn với yếu tố giá hoặc quyết định mua — cần bổ sung góc "có nên chờ không?" hoặc so sánh thế hệ cũ/mới.
-• **Ưu tiên nguồn 9to5Mac cho bài giá/deal, gắn CTA ngầm** ("chuẩn bị sớm", "đổi ngay") để thúc đẩy bình luận hỏi han và chia sẻ cho bạn bè cùng biết.
+• **Ưu tiên chủ đề giá cả & tài chính người dùng**: Bài về tăng giá iPhone, giá thu đổi máy đạt score cao nhất (347, 228) — luôn khai thác góc "túi tiền bị ảnh hưởng", "tiết kiệm bao nhiêu", "cơ hội vàng" để kích thích phản ứng cảm xúc mạnh.
+• **Cấu trúc tiêu đề hiệu quả**: Dùng con số cụ thể + dấu hỏi/cảm thán gợi lo ngại hoặc lợi ích trực tiếp (vd: *"tăng giá mạnh, túi tiền bị ảnh hưởng?"*, *"nâng giá thu đổi — cơ hội vàng"*); tránh tiêu đề trung lập, mô tả thuần túy.
+• **Hook phải tạo tension hoặc FOMO ngay câu đầu**: Nêu rõ tác động đến người dùng Việt (đắt hơn, tiết kiệm được, ảnh hưởng trực tiếp) thay vì chỉ tóm tắt sự kiện khách quan.
+• **Tránh các thể loại ít tương tác**: Tin mẹo/tips (Apple Health), bảo mật kỹ thuật thuần túy (macOS patch), game/giải trí không liên quan cộng đồng Apple Việt (Madden NFL) — các dạng này score thấp (4–16), không nên ưu tiên.
+• **Hạn chế tin đồn chung chung thiếu "stakes"**: Leak màu sắc, tin Ultra mơ hồ, SpaceX cạnh tranh viễn thông Mỹ — xa rời trải nghiệm người dùng Việt, không kích thích bình luận/chia sẻ.
+• **Góc so sánh & deal gắn hành động mua/nâng cấp** là công thức ổn định: Kết hợp thể loại Deal hoặc comparison với lợi ích tài chính cụ thể luôn tạo share và reaction tốt hơn tin announcement đơn thuần.
+• **Nguồn không quyết định hiệu quả** — ưu tiên chọn *góc khai thác* phù hợp tâm lý người dùng Việt (tiền, nâng cấp, so sánh) hơn là nguồn uy tín; cùng nguồn 9to5Mac nhưng score chênh lệch từ 4 đến 347 tùy cách đặt vấn đề.

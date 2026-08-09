@@ -1379,10 +1379,10 @@
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
     "performance": {
-      "reactions": 194,
+      "reactions": 202,
       "comments": 2,
       "shares": 4,
-      "score": 220
+      "score": 228
     }
   },
   {
@@ -1400,10 +1400,10 @@
     ],
     "publish_time": "2026-08-07T14:21:32.990016",
     "performance": {
-      "reactions": 12,
+      "reactions": 13,
       "comments": 1,
       "shares": 0,
-      "score": 15
+      "score": 16
     }
   },
   {
@@ -1526,10 +1526,10 @@
     ],
     "publish_time": "2026-08-09T06:01:41.119290",
     "performance": {
-      "reactions": 5,
+      "reactions": 7,
       "comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 10
     }
   },
   {
@@ -1546,6 +1546,27 @@
       "💬 Cộng đồng r/ipad phản hồi tích cực, nhiều người xác nhận trải nghiệm pin ấn tượng tương tự"
     ],
     "publish_time": "2026-08-09T10:00:29.558917",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1519566530210674",
+    "title": "Apple Upgrade: Thuê máy trả góp, túi tiền có ổn?",
+    "summary": "Apple ra mắt chương trình thuê thiết bị Apple Upgrade hợp tác Klarna — trả góp hàng tháng, không sở hữu máy.",
+    "category": "Deal",
+    "visual_type": "comparison",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/apple-upgrade-trades-ownership-for-lower-monthly-payments/",
+    "bullets": [
+      "💳 Trả góp hàng tháng qua Klarna — áp dụng cho iPhone, iPad, Mac, Apple Watch",
+      "⚠️ Không sở hữu thiết bị: quyền sở hữu thuộc bên cho thuê suốt kỳ hạn",
+      "🤔 Tổng chi phí dài hạn có thể cao hơn mua thẳng — cần tính kỹ trước khi đăng ký"
+    ],
+    "publish_time": "2026-08-09T14:02:52.352586",
     "performance": null
   }
 ]
