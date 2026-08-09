@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề giá cả / tài chính trực tiếp ảnh hưởng túi tiền người dùng** (tăng giá iPhone, giá thu đổi) — đây là nhóm dẫn đầu tương tác tuyệt đối (Score 342 và 201), vượt xa mọi chủ đề khác.
-• **Cấu trúc tiêu đề hiệu quả nhất:** dùng con số cụ thể + từ khóa cảm xúc/tác động ("tăng giá mạnh", "túi tiền bị ảnh hưởng", "cơ hội vàng") + dấu hỏi hoặc dấu chấm than để kéo bình luận và chia sẻ.
-• **Hook mạnh nhất** là câu mở nêu rõ lợi/hại cụ thể với người dùng ("cần chuẩn bị sớm", "chi phí thấp hơn") — tránh mô tả trung lập chỉ tóm tắt sự kiện.
-• **Nguồn 9to5Mac + MacRumors kết hợp góc so sánh hoặc deal** cho kết quả ổn định hơn MacStories/MacWorld với tin công bố thông thường.
-• **Tránh:** tin firmware/beta kỹ thuật thuần túy, tin game/ứng dụng bên thứ ba, tin tính năng mẹo hay — nhóm này đồng loạt Score ≤ 10, không kéo được chia sẻ.
-• **Tránh:** tiêu đề mô tả sự kiện dạng thông báo trung tính ("Apple phát hành…", "WhatsApp ra mắt…") — thay bằng góc tác động trực tiếp đến người đọc hoặc đặt câu hỏi tranh luận.
-• **Ưu tiên thể loại Deal và Tin nóng dạng comparison/stat** thay vì Sự kiện dạng announcement — tỷ lệ Shares/Comments trên mỗi điểm Score cao hơn rõ rệt.
+• **Ưu tiên chủ đề giá cả & tài chính người dùng**: Bài về tăng giá iPhone (Score 347) và tăng giá thu đổi (Score 220) áp đảo toàn bộ — luôn khai thác góc "ảnh hưởng trực tiếp đến túi tiền" khi có thể.
+• **Dùng số liệu cụ thể trong tiêu đề**: "tăng giá mạnh", "109 tỷ USD", "tăng 21,7%" tạo độ tin cậy và kích thích click — tránh tiêu đề mơ hồ, chung chung.
+• **Hook phải nêu rõ lợi ích hoặc mối đe dọa trực tiếp với người dùng Việt**: "cần chuẩn bị sớm", "cơ hội vàng để nâng cấp", "túi tiền bị ảnh hưởng" — tạo cảm giác cấp bách hoặc cơ hội không thể bỏ lỡ.
+• **Tránh các chủ đề xa rời hệ sinh thái Apple hoặc không liên quan người dùng Việt**: SpaceX vs viễn thông Mỹ, Madden NFL, MacBook Neo vs Windows — tương tác gần như bằng 0.
+• **Hạn chế dạng bài "mẹo/hướng dẫn" chung**: Apple Health tips, WhatsApp parental control — không tạo được thảo luận hay chia sẻ dù hook ổn.
+• **Tin đồn sản phẩm mới (Ultra, leak màu sắc) chưa đủ sức kéo tương tác** trừ khi gắn với yếu tố giá hoặc quyết định mua — cần bổ sung góc "có nên chờ không?" hoặc so sánh thế hệ cũ/mới.
+• **Ưu tiên nguồn 9to5Mac cho bài giá/deal, gắn CTA ngầm** ("chuẩn bị sớm", "đổi ngay") để thúc đẩy bình luận hỏi han và chia sẻ cho bạn bè cùng biết.

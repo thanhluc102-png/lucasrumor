@@ -1358,10 +1358,10 @@
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
-      "reactions": 279,
-      "comments": 6,
+      "reactions": 281,
+      "comments": 7,
       "shares": 9,
-      "score": 342
+      "score": 347
     }
   },
   {
@@ -1379,10 +1379,10 @@
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
     "performance": {
-      "reactions": 175,
+      "reactions": 194,
       "comments": 2,
       "shares": 4,
-      "score": 201
+      "score": 220
     }
   },
   {
@@ -1484,10 +1484,10 @@
     ],
     "publish_time": "2026-08-08T14:00:35.093659",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 1,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -1505,10 +1505,10 @@
     ],
     "publish_time": "2026-08-09T03:10:51.446030",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -1525,6 +1525,27 @@
       "🔥 Đây là mẫu iPhone gập đầu tiên trong lịch sử của Apple"
     ],
     "publish_time": "2026-08-09T06:01:41.119290",
+    "performance": {
+      "reactions": 5,
+      "comments": 1,
+      "shares": 0,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1519400676893926",
+    "title": "Pin iPad Air M4 11 inch khiến người dùng sốc",
+    "summary": "Người dùng mới sốc vì pin iPad Air M4 11 inch dùng lâu đến mức không ngờ.",
+    "category": "iPad",
+    "visual_type": "community",
+    "source": "r/ipad",
+    "article_link": "https://www.reddit.com/r/ipad/comments/1vj1p5d/ipad_air_m4_11_battery_apologies_if_this_has_been/",
+    "bullets": [
+      "🔋 Pin iPad Air M4 11 inch gây bất ngờ lớn cho người dùng mới chuyển sang từ Android hoặc laptop",
+      "⚡ Chip M4 tối ưu tiêu thụ điện năng vượt trội, là lợi thế cạnh tranh rõ ràng so với các máy tính bảng khác",
+      "💬 Cộng đồng r/ipad phản hồi tích cực, nhiều người xác nhận trải nghiệm pin ấn tượng tương tự"
+    ],
+    "publish_time": "2026-08-09T10:00:29.558917",
     "performance": null
   }
 ]
