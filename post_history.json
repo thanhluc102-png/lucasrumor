@@ -1358,10 +1358,10 @@
     ],
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
-      "reactions": 249,
-      "comments": 3,
+      "reactions": 277,
+      "comments": 4,
       "shares": 9,
-      "score": 303
+      "score": 334
     }
   },
   {
@@ -1379,10 +1379,10 @@
     ],
     "publish_time": "2026-08-07T10:14:37.111494",
     "performance": {
-      "reactions": 111,
+      "reactions": 157,
       "comments": 2,
-      "shares": 2,
-      "score": 127
+      "shares": 4,
+      "score": 183
     }
   },
   {
@@ -1400,10 +1400,10 @@
     ],
     "publish_time": "2026-08-07T14:21:32.990016",
     "performance": {
-      "reactions": 11,
+      "reactions": 12,
       "comments": 1,
       "shares": 0,
-      "score": 14
+      "score": 15
     }
   },
   {
@@ -1421,10 +1421,10 @@
     ],
     "publish_time": "2026-08-08T03:02:24.935109",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -1442,10 +1442,10 @@
     ],
     "publish_time": "2026-08-08T06:00:34.514230",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -1463,10 +1463,10 @@
     ],
     "publish_time": "2026-08-08T09:57:41.199449",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -1483,6 +1483,27 @@
       "⚙️ Được tối ưu riêng cho phần cứng Apple, không phải port thông thường"
     ],
     "publish_time": "2026-08-08T14:00:35.093659",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 1,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1519149526919041",
+    "title": "MacBook Neo ép Microsoft tăng RAM Windows 11?",
+    "summary": "Apple MacBook Neo ra mắt buộc Microsoft phải nâng yêu cầu bộ nhớ RAM cho Windows 11 để cạnh tranh.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vioogb/apple_macbook_neo_forces_microsoft_to_boost/",
+    "bullets": [
+      "MacBook Neo gây áp lực buộc Microsoft nâng chuẩn RAM cho Windows 11",
+      "Apple đang dẫn dắt cuộc đua phần cứng, đối thủ Windows phải chạy theo",
+      "Người dùng laptop Windows cũ có thể bị ảnh hưởng nếu yêu cầu hệ thống tăng"
+    ],
+    "publish_time": "2026-08-09T03:10:51.446030",
     "performance": null
   }
 ]

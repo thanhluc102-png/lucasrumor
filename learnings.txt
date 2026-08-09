@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề giá cả / túi tiền người dùng**: Bài về tăng giá iPhone 18 Pro đạt Score 303 (vượt trội tuyệt đối) — luôn gắn yếu tố tài chính, chi phí thực tế vào tiêu đề và hook.
-- **Chủ đề deal / trade-in / tiết kiệm tiền** hiệu quả thứ hai (Score 127) — khai thác góc "cơ hội vàng", "giá rẻ hơn", "tiết kiệm được bao nhiêu" để kéo reactions và shares.
-- **Cấu trúc tiêu đề hiệu quả**: Dùng con số cụ thể + tác động cá nhân ("tăng giá mạnh, túi tiền bị ảnh hưởng?") hoặc câu hỏi khơi lo ngại — tránh tiêu đề trung lập, thuần thông tin.
-- **Hook phải chạm vào lợi ích/nỗi đau trực tiếp** của người dùng phổ thông (tiền, nâng cấp, chi phí), không dừng ở mô tả sự kiện kỹ thuật đơn thuần.
-- **Tránh các chủ đề xa rời Apple core hoặc quá kỹ thuật hẹp**: SpaceX, Screen Sharing, WhatsApp parental control, firmware beta đơn lẻ — Score thấp (4–10), không kéo được tương tác cộng đồng.
-- **Tránh hook kiểu liệt kê tính năng** ("3 tính năng khiến fan phát cuồng", "mẹo hay") — không tạo đủ urgency hay tranh luận, score đều dưới 10.
-- **Nguồn và thể loại không quyết định hiệu quả** — cùng nguồn 9to5Mac có bài Score 303, có bài Score 4; yếu tố quyết định là góc tiếp cận tài chính/cá nhân hóa tác động.
+- **Ưu tiên chủ đề giá cả & túi tiền người dùng**: Bài về tăng giá iPhone 18 Pro (Score=334) và tăng giá thu đổi (Score=183) vượt trội tuyệt đối — luôn khai thác góc "ảnh hưởng tài chính trực tiếp đến người dùng Việt."
+- **Dùng con số cụ thể trong tiêu đề**: "tăng giá mạnh", "109 tỷ USD", "tăng 21,7%" tạo neo nhận thức mạnh — tiêu đề thiếu số liệu hoặc quá chung chung cho điểm thấp (4–7).
+- **Hook phải chứa yếu tố kêu gọi hành động hoặc cảnh báo cá nhân**: Các hook dạng "người dùng cần chuẩn bị", "túi tiền bị ảnh hưởng", "cơ hội vàng" kéo share & comment — tránh hook chỉ mô tả sự kiện trung tính.
+- **Tránh nội dung quá kỹ thuật hoặc quá hẹp**: Bài bảo mật macOS (Score=15), refurb MacBook (Score=5), WhatsApp parental control (Score=5) — chủ đề không chạm trực tiếp vào quyền lợi/cảm xúc số đông, cần thêm góc "điều này ảnh hưởng đến bạn thế nào."
+- **Chủ đề không liên quan Apple core (SpaceX, game Madden) cho điểm thấp** — chỉ dùng nếu có thể kéo về góc hưởng lợi trực tiếp cho người dùng iPhone/Mac.
+- **Cấu trúc tiêu đề hiệu quả nhất**: `[Sản phẩm cụ thể] + [động từ tác động mạnh] + [hậu quả/lợi ích với người dùng]` — ví dụ: "iPhone 18 Pro sắp tăng giá mạnh, túi tiền bị ảnh hưởng?"
+- **Dấu hỏi hoặc mở vấn đề ở cuối tiêu đề** kích thích comment tranh luận; tiêu đề khẳng định hoàn toàn hoặc quá trung lập không tạo phản xạ phản hồi.
