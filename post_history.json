@@ -1589,10 +1589,10 @@
     ],
     "publish_time": "2026-08-10T03:20:53.690866",
     "performance": {
-      "reactions": 11,
-      "comments": 2,
+      "reactions": 16,
+      "comments": 1,
       "shares": 0,
-      "score": 17
+      "score": 19
     }
   },
   {
@@ -1630,6 +1630,27 @@
       "❓ Tính năng chưa từng ra mắt — cộng đồng đang đặt câu hỏi tại sao Apple bỏ qua?"
     ],
     "publish_time": "2026-08-10T10:39:09.410978",
+    "performance": {
+      "reactions": 3,
+      "comments": 2,
+      "shares": 0,
+      "score": 9
+    }
+  },
+  {
+    "post_id": "1920842954802282_1520515983449062",
+    "title": "Apple Watch sắp lột xác? Phiên bản Premium sắp xuất hiện!",
+    "summary": "Apple đang tái thiết kế toàn bộ Apple Watch, hướng đến dòng Premium cao cấp hơn — túi tiền người dùng bị ảnh hưởng?",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3208976/a-sweeping-apple-watch-rethink-could-bring-new-designs-and-premium-models.html",
+    "bullets": [
+      "⏰ Series 12 & Ultra 4 sắp ra mắt — nhưng chỉ là nâng cấp nhỏ (chip nhanh hơn, một vài tính năng mới)",
+      "🔄 Apple đang lên kế hoạch 'tái thiết kế toàn diện' Apple Watch với diện mạo hoàn toàn khác biệt",
+      "💸 Dòng 'Premium Models' mới sẽ định vị cao hơn Ultra — mức giá có thể đội lên đáng kể, cân nhắc trước khi xuống tiền ngay bây giờ"
+    ],
+    "publish_time": "2026-08-10T14:34:11.438206",
     "performance": null
   }
 ]
