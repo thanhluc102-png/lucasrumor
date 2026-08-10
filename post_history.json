@@ -1316,10 +1316,10 @@
     ],
     "publish_time": "2026-08-06T15:31:51.577537",
     "performance": {
-      "reactions": 4,
+      "reactions": 5,
       "comments": 1,
       "shares": 1,
-      "score": 12
+      "score": 13
     }
   },
   {
@@ -1360,8 +1360,8 @@
     "performance": {
       "reactions": 281,
       "comments": 7,
-      "shares": 7,
-      "score": 337
+      "shares": 9,
+      "score": 347
     }
   },
   {
@@ -1568,10 +1568,10 @@
     ],
     "publish_time": "2026-08-09T14:02:52.352586",
     "performance": {
-      "reactions": 13,
+      "reactions": 16,
       "comments": 1,
       "shares": 0,
-      "score": 16
+      "score": 19
     }
   },
   {
@@ -1588,6 +1588,27 @@
       "💰 Người dùng đang dùng Apple Watch cũ nên theo dõi sát — quyết định nâng cấp có thể bị ảnh hưởng lớn"
     ],
     "publish_time": "2026-08-10T03:20:53.690866",
+    "performance": {
+      "reactions": 6,
+      "comments": 3,
+      "shares": 0,
+      "score": 15
+    }
+  },
+  {
+    "post_id": "1920842954802282_1520197310147596",
+    "title": "Tăng giá ép Apple nâng cấp sản phẩm chậm trễ?",
+    "summary": "Khủng hoảng bộ nhớ đẩy giá iPad Air lên $749, MacBook Pro lên $1.699 — túi tiền người dùng bị ảnh hưởng nặng.",
+    "category": "Tin nóng",
+    "visual_type": "comparison",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/09/apple-price-hikes-better-value-and-more-features/",
+    "bullets": [
+      "💸 iPad Air tăng từ $599 → $749, tức tăng ~$150 (khoảng 25%) chỉ vì khủng hoảng bộ nhớ toàn cầu",
+      "💻 M5 MacBook Pro cũng bị đẩy giá lên từ mức $1.699, tác động trực tiếp đến người mua laptop cao cấp",
+      "🤔 Câu hỏi đặt ra: Apple có chịu áp lực phải nâng cấp phần cứng xứng đáng hơn để bù đắp cho mức giá tăng cao không?"
+    ],
+    "publish_time": "2026-08-10T06:45:07.656766",
     "performance": null
   }
 ]
