@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề giá cả / túi tiền:** Bài về tăng giá iPhone 18 Pro (Score=347) và tăng giá thu đổi (Score=228) dẫn đầu tuyệt đối — luôn gắn yếu tố "ảnh hưởng tài chính trực tiếp đến người dùng" vào hook.
-• **Góc tiếp cận "so sánh & cạnh tranh" hoặc "cơ hội/deal tiết kiệm"** liên tục cho điểm cao; ưu tiên frame bài theo hướng *người dùng được/mất gì* thay vì chỉ thông báo sự kiện.
-• **Cấu trúc tiêu đề hiệu quả:** Dùng dấu hỏi hoặc cảm thán kết hợp từ khóa gây lo ngại / kỳ vọng (vd: *"tăng giá mạnh, túi tiền bị ảnh hưởng?"* / *"Cơ hội vàng!"*) — kích thích comment và share hơn tiêu đề trung tính.
-• **Hook phải chứa con số cụ thể hoặc mức độ rõ ràng** (vd: "tăng 21,7%", "109 tỷ USD") để tăng độ tin cậy và reactions; hook mơ hồ kiểu "nhiều tính năng hữu ích" cho điểm rất thấp.
-• **Tránh các chủ đề kỹ thuật hẹp hoặc không liên quan trực tiếp đến người dùng Apple Việt Nam** (bảo mật macOS, game Arcade, kiểm soát phụ huynh WhatsApp, SpaceX viễn thông Mỹ) — nhóm này đồng loạt dưới Score=19, không tạo được thảo luận.
-• **Hạn chế bài dạng "tips/mẹo hay" thuần túy** (Apple Health Mẹo Hay, Score=4) — định dạng này không kích thích share hoặc comment trên fanpage phụ kiện; nếu dùng phải gắn thêm góc "bạn có biết điều này không?" hoặc poll ý kiến cộng đồng.
-• **Chủ đề tin đồn sản phẩm mới (iPhone Ultra, màu sắc leak)** tiềm năng nhưng chưa bùng nổ — cần hook mạnh hơn kiểu *"Bạn sẽ chọn màu nào?"* hoặc gắn CTA bình luận trực tiếp để đẩy comment score.
+• **Chủ đề giá cả / tăng giá trực tiếp ảnh hưởng túi tiền** là động lực tương tác mạnh nhất — ưu tiên góc "người dùng bị ảnh hưởng thế nào" thay vì chỉ thông báo sự kiện (iPhone 18 Pro tăng giá: Score 342; tăng giá thu đổi: Score 228).
+• **Tiêu đề dạng câu hỏi hoặc gắn từ khoá cảm xúc tài chính** ("túi tiền bị ảnh hưởng?", "cơ hội vàng", "sốc") kích thích Reactions và Shares — luôn kết thúc tiêu đề bằng dấu hỏi hoặc từ kêu gọi phản ứng cá nhân.
+• **Hook phải nêu con số cụ thể hoặc hệ quả trực tiếp ngay câu đầu** ("đắt hơn đáng kể", "giá rẻ hơn", "nâng giá đổi máy") — tránh hook mơ hồ kiểu "ẩn chứa nhiều tính năng hữu ích".
+• **Tránh chủ đề quá ngách hoặc không liên quan trực tiếp đến người dùng Apple Việt Nam**: game Madden NFL, WhatsApp parental control, macOS patch bảo mật đơn lẻ — các dạng này đều cho Score < 20 dù hook đã cố kéo.
+• **Bài "community speculation" (tin đồn sản phẩm mới)** chỉ hiệu quả khi kèm yếu tố gây tranh cãi hoặc so sánh rõ ràng; tin đồn thuần tuý không có góc "ảnh hưởng đến tôi" cho Score thấp (Ultra màu sắc: Score 5, MacBook Neo: Score 4).
+• **Thể loại Deal kết hợp góc so sánh lợi/hại tài chính** outperform Deal đơn thuần — luôn thêm câu đặt vấn đề "có đáng không?" hoặc "bạn tiết kiệm được bao nhiêu?" vào hook.
+• **Nguồn r/apple và 9to5Mac không tự động tạo tương tác** — yếu tố quyết định là góc khai thác (tài chính, giá, upgrade), không phải độ uy tín nguồn.

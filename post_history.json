@@ -1360,8 +1360,8 @@
     "performance": {
       "reactions": 281,
       "comments": 7,
-      "shares": 9,
-      "score": 347
+      "shares": 8,
+      "score": 342
     }
   },
   {
@@ -1589,10 +1589,10 @@
     ],
     "publish_time": "2026-08-10T03:20:53.690866",
     "performance": {
-      "reactions": 6,
-      "comments": 3,
+      "reactions": 11,
+      "comments": 2,
       "shares": 0,
-      "score": 15
+      "score": 17
     }
   },
   {
@@ -1609,6 +1609,27 @@
       "🤔 Câu hỏi đặt ra: Apple có chịu áp lực phải nâng cấp phần cứng xứng đáng hơn để bù đắp cho mức giá tăng cao không?"
     ],
     "publish_time": "2026-08-10T06:45:07.656766",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1520342983466362",
+    "title": "Apple từng nghĩ đến chuyển dữ liệu trước khi nhận máy mới?",
+    "summary": "Apple từng cân nhắc tính năng chuyển dữ liệu trước khi nhận iPhone mới qua chương trình Upgrade — tiết kiệm thời gian setup đáng kể.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vjrb2r/apple_considered_a_data_pretransfer_feature_for/",
+    "bullets": [
+      "🔄 Dữ liệu được chuyển trước khi nhận máy — mở hộp là dùng ngay",
+      "📦 Tính năng gắn với Apple Upgrade Program, dành cho người nâng cấp iPhone hàng năm",
+      "❓ Tính năng chưa từng ra mắt — cộng đồng đang đặt câu hỏi tại sao Apple bỏ qua?"
+    ],
+    "publish_time": "2026-08-10T10:39:09.410978",
     "performance": null
   }
 ]
