@@ -1360,8 +1360,8 @@
     "performance": {
       "reactions": 281,
       "comments": 7,
-      "shares": 9,
-      "score": 347
+      "shares": 7,
+      "score": 337
     }
   },
   {
@@ -1400,10 +1400,10 @@
     ],
     "publish_time": "2026-08-07T14:21:32.990016",
     "performance": {
-      "reactions": 13,
+      "reactions": 16,
       "comments": 1,
       "shares": 0,
-      "score": 16
+      "score": 19
     }
   },
   {
@@ -1547,10 +1547,10 @@
     ],
     "publish_time": "2026-08-09T10:00:29.558917",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -1567,6 +1567,27 @@
       "🤔 Tổng chi phí dài hạn có thể cao hơn mua thẳng — cần tính kỹ trước khi đăng ký"
     ],
     "publish_time": "2026-08-09T14:02:52.352586",
+    "performance": {
+      "reactions": 13,
+      "comments": 1,
+      "shares": 0,
+      "score": 16
+    }
+  },
+  {
+    "post_id": "1920842954802282_1520080900159237",
+    "title": "Apple Watch thế hệ mới sắp thay đổi hoàn toàn?",
+    "summary": "Apple đang nghiên cứu thiết kế lại Apple Watch triệt để, kỷ nguyên hoàn toàn mới sắp bắt đầu.",
+    "category": "Tin nóng",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vjqq4i/apple_explores_shaking_up_its_smartwatch_for_a/",
+    "bullets": [
+      "⌚ Apple đang thử nghiệm thiết kế Apple Watch hoàn toàn mới, khác biệt so với các thế hệ hiện tại",
+      "💡 Đây có thể là thay đổi lớn nhất của Apple Watch kể từ lần ra mắt đầu tiên năm 2015",
+      "💰 Người dùng đang dùng Apple Watch cũ nên theo dõi sát — quyết định nâng cấp có thể bị ảnh hưởng lớn"
+    ],
+    "publish_time": "2026-08-10T03:20:53.690866",
     "performance": null
   }
 ]
