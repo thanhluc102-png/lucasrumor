@@ -1568,10 +1568,10 @@
     ],
     "publish_time": "2026-08-09T14:02:52.352586",
     "performance": {
-      "reactions": 16,
+      "reactions": 18,
       "comments": 1,
       "shares": 0,
-      "score": 19
+      "score": 21
     }
   },
   {
@@ -1589,10 +1589,10 @@
     ],
     "publish_time": "2026-08-10T03:20:53.690866",
     "performance": {
-      "reactions": 16,
-      "comments": 1,
-      "shares": 0,
-      "score": 19
+      "reactions": 18,
+      "comments": 2,
+      "shares": 2,
+      "score": 34
     }
   },
   {
@@ -1632,9 +1632,9 @@
     "publish_time": "2026-08-10T10:39:09.410978",
     "performance": {
       "reactions": 3,
-      "comments": 2,
+      "comments": 1,
       "shares": 0,
-      "score": 9
+      "score": 6
     }
   },
   {
@@ -1651,6 +1651,27 @@
       "💸 Dòng 'Premium Models' mới sẽ định vị cao hơn Ultra — mức giá có thể đội lên đáng kể, cân nhắc trước khi xuống tiền ngay bây giờ"
     ],
     "publish_time": "2026-08-10T14:34:11.438206",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1520986243402036",
+    "title": "iPhone 18 Pro sắp có màu Cherry — bạn đã sẵn sàng?",
+    "summary": "Leaker hé lộ iPhone 18 Pro ra mắt màu Cherry đỏ đậm mới, có thể là điểm nhấn flagship của năm.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vklu30/iphone_18_pros_flagship_new_cherry_color_detailed/",
+    "bullets": [
+      "🍒 Màu 'Cherry' đỏ anh đào đậm — sang trọng hơn Product(RED) truyền thống",
+      "📣 Thông tin từ leaker, chưa được Apple xác nhận chính thức",
+      "💬 Cộng đồng đang tranh luận: liệu màu mới có đủ sức thuyết phục nâng cấp?"
+    ],
+    "publish_time": "2026-08-11T03:13:25.136505",
     "performance": null
   }
 ]
