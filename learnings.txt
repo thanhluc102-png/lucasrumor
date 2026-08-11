@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề Deal/giá cả và Apple Watch/iPhone Ultra** — đây là nhóm có Score cao nhất (228, 34, 10+); người dùng phản ứng mạnh với tin liên quan trực tiếp đến túi tiền hoặc sản phẩm mang tính đột phá lần đầu.
-• **Góc tiếp cận "cơ hội / lợi ích tài chính trực tiếp"** (tiết kiệm được bao nhiêu, giá rẻ hơn, chi phí thấp hơn) tạo Reactions cao nhất — ưu tiên frame lợi ích cụ thể hơn là frame tin tức thuần túy.
-• **Tiêu đề dùng dấu "!" + từ kích thích hành động** ("Cơ hội vàng", "sắp thay đổi hoàn toàn", "lột xác") kéo Shares và Comments tốt hơn; câu hook nên đặt xung đột hoặc hệ quả rõ ràng ngay câu đầu (Apple buộc phải… / người dùng sốc vì…).
-• **Tránh bài đơn thuần là announcement kỹ thuật hẹp** (vá lỗi bảo mật, cập nhật phần mềm nhỏ, tính năng app bên thứ ba như WhatsApp) — nhóm này Score thấp nhất (3–19), không kích thích thảo luận.
-• **Tránh góc "so sánh trừu tượng / phân tích chính sách"** không gắn lợi ích cụ thể cho người dùng Lucas Combo (ví dụ: Apple Upgrade/Klarna, RAM Windows) — Score thấp dù chủ đề có vẻ hot.
-• **Ưu tiên nguồn community (r/apple, r/ipad)** kết hợp góc "người dùng thực tế phản ứng thế nào" thay vì chỉ dẫn nguồn báo — tạo cảm giác gần gũi, dễ kéo bình luận đồng thuận/tranh luận.
-• **Hook phải có yếu tố chưa chắc chắn hoặc câu hỏi mở** ("Thật sự?", "túi tiền có ổn?", "bạn đã sẵn sàng?") để kích thích Comments — tránh hook khẳng định hoàn toàn, không để lại khoảng trống cho độc giả phản hồi.
+• **Ưu tiên chủ đề Apple Watch & thiết kế sản phẩm hoàn toàn mới** (redesign, kỷ nguyên mới, lột xác toàn diện) — nhóm duy nhất đạt score cao (34), kéo cả Reactions lẫn Shares & Comments.
+• **Ưu tiên góc so sánh túi tiền / tác động giá cả** với các sản phẩm quen thuộc (MacBook, iPad, iPhone) — bài "Apple Upgrade trả góp" đạt score 21, bài macOS patch đạt 19 nhờ tính khẩn cấp rõ ràng.
+• **Cấu trúc tiêu đề hiệu quả:** Đặt câu hỏi trực tiếp gắn lợi ích/lo ngại của người dùng (*"túi tiền có ổn?", "thật sự?", "sắp thay đổi hoàn toàn?"*) — kích thích comment tranh luận hơn là phát ngôn một chiều.
+• **Hook cần nêu ngay hệ quả cụ thể với người dùng** (giá tăng bao nhiêu, tính năng thay đổi thế nào, ai bị ảnh hưởng) thay vì chỉ tóm tắt sự kiện — bài thiếu yếu tố này đều dừng ở score ≤ 6.
+• **Tránh bài deal/refurb đơn thuần, tin game/app bên thứ ba** (Madden, WhatsApp) và tin đồn màu sắc cụ thể không gắn câu hỏi mở — các dạng này nhất quán ở score thấp (4–10), không kéo được Shares hay Comments.
+• **Không đăng hai bài cùng chủ đề Apple Watch trong một tuần** nếu hook/góc gần giống nhau — bài thứ hai (timeline) chỉ đạt score 6 so với bài đầu 34, cho thấy bão hòa nhanh.
+• **Nguồn MacWorld & 9to5Mac với góc "khẩn cấp/cảnh báo"** (patch bảo mật, giá leo thang) hoạt động tốt hơn nguồn Reddit cho nội dung announcement — Reddit phù hợp hơn cho dạng thảo luận mở có câu hỏi kết thúc rõ ràng.
