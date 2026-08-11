@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề Apple Watch & thiết kế sản phẩm hoàn toàn mới** (redesign, kỷ nguyên mới, lột xác toàn diện) — nhóm duy nhất đạt score cao (34), kéo cả Reactions lẫn Shares & Comments.
-• **Ưu tiên góc so sánh túi tiền / tác động giá cả** với các sản phẩm quen thuộc (MacBook, iPad, iPhone) — bài "Apple Upgrade trả góp" đạt score 21, bài macOS patch đạt 19 nhờ tính khẩn cấp rõ ràng.
-• **Cấu trúc tiêu đề hiệu quả:** Đặt câu hỏi trực tiếp gắn lợi ích/lo ngại của người dùng (*"túi tiền có ổn?", "thật sự?", "sắp thay đổi hoàn toàn?"*) — kích thích comment tranh luận hơn là phát ngôn một chiều.
-• **Hook cần nêu ngay hệ quả cụ thể với người dùng** (giá tăng bao nhiêu, tính năng thay đổi thế nào, ai bị ảnh hưởng) thay vì chỉ tóm tắt sự kiện — bài thiếu yếu tố này đều dừng ở score ≤ 6.
-• **Tránh bài deal/refurb đơn thuần, tin game/app bên thứ ba** (Madden, WhatsApp) và tin đồn màu sắc cụ thể không gắn câu hỏi mở — các dạng này nhất quán ở score thấp (4–10), không kéo được Shares hay Comments.
-• **Không đăng hai bài cùng chủ đề Apple Watch trong một tuần** nếu hook/góc gần giống nhau — bài thứ hai (timeline) chỉ đạt score 6 so với bài đầu 34, cho thấy bão hòa nhanh.
-• **Nguồn MacWorld & 9to5Mac với góc "khẩn cấp/cảnh báo"** (patch bảo mật, giá leo thang) hoạt động tốt hơn nguồn Reddit cho nội dung announcement — Reddit phù hợp hơn cho dạng thảo luận mở có câu hỏi kết thúc rõ ràng.
+- **Ưu tiên chủ đề Apple Watch và iPhone Ultra/flagship**: Đây là 2 nhóm có điểm cao nhất (34 và 10), đặc biệt khi gắn với thiết kế đột phá, thay đổi toàn diện hoặc lần đầu tiên xuất hiện.
+- **Góc tiếp cận "thay đổi lớn / kỷ nguyên mới"** kích thích tương tác mạnh hơn góc thông báo thông thường — ưu tiên framing: đảo lộn thị trường, thiết kế lột xác, bước ngoặt lịch sử.
+- **Cấu trúc tiêu đề hiệu quả**: Dạng câu hỏi hoặc mâu thuẫn rõ ràng (VD: "Thật sự?", "Đã bị hủy?", "Túi tiền có ổn?") + emoji/dấu chấm than để tạo tò mò và thúc đẩy bình luận tranh luận.
+- **Hook hiệu quả**: Nêu tác động trực tiếp đến người dùng (túi tiền, trải nghiệm, thói quen dùng máy) thay vì chỉ mô tả tính năng — VD: "người dùng sốc", "túi tiền bị ảnh hưởng nặng".
+- **Shares tăng khi bài có yếu tố so sánh hoặc cộng đồng mạnh** (r/apple, r/ipad) kết hợp với góc "deal / cơ hội" hoặc "tác động cạnh tranh thị trường" — ưu tiên nguồn community hơn announcement đơn thuần.
+- **Tránh**: Bài thuần thông báo tính năng mới của app bên thứ ba (WhatsApp, Madden NFL) hoặc tin tức giá/chính sách thiếu góc gây tranh luận — nhóm này đồng loạt dưới 10 điểm, reactions thấp, shares = 0.
+- **Tránh**: Lặp lại cùng một chủ đề quá gần nhau (VD: 2 bài iPhone 20 năm toàn kính cùng tuần) — phân tán tương tác, điểm cả 2 đều thấp thay vì cộng hưởng.

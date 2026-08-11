@@ -1359,9 +1359,9 @@
     "publish_time": "2026-08-07T06:36:04.422399",
     "performance": {
       "reactions": 281,
-      "comments": 7,
-      "shares": 6,
-      "score": 332
+      "comments": 6,
+      "shares": 8,
+      "score": 339
     }
   },
   {
@@ -1714,6 +1714,27 @@
       "❓ Câu hỏi mở: Apple sẽ ra mắt gì thay thế để đánh dấu cột mốc 2027?"
     ],
     "publish_time": "2026-08-11T10:14:45.596407",
+    "performance": {
+      "reactions": 3,
+      "comments": 1,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1521410073359653",
+    "title": "iPhone 20 năm: Tin đồn 'khai tử' bị phóng đại?!",
+    "summary": "Tin đồn iPhone kỷ niệm 20 năm bị hủy bỏ có thể đã bị thổi phồng quá mức — dự án vẫn đang tiến triển.",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3210398/reports-of-the-20th-anniversary-iphones-death-seems-to-be-greatly-exaggerated.html",
+    "bullets": [
+      "📢 Tin đồn 'hủy dự án iPhone kỷ niệm 20 năm' bị cho là phóng đại và thiếu căn cứ",
+      "🔍 Macworld và các nguồn thạo tin xác nhận Apple vẫn đang phát triển thiết bị đặc biệt này",
+      "🚀 iPhone 2027 kỳ vọng mang thiết kế đột phá, đánh dấu tròn 2 thập kỷ thay đổi thế giới"
+    ],
+    "publish_time": "2026-08-11T14:33:52.069200",
     "performance": null
   }
 ]
