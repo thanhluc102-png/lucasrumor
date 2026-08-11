@@ -1,7 +1,7 @@
-• **Ưu tiên chủ đề giá/túi tiền & tin đồn sản phẩm flagship (iPhone Pro, Apple Watch):** Đây là 2 nhóm chủ đề đạt Score cao nhất (342, 34), kích thích tranh luận mạnh — luôn gắn góc độ "ảnh hưởng túi tiền người dùng" hoặc "thay đổi lớn sắp xảy ra".
-• **Hook phải nêu hệ quả cụ thể với người dùng ngay câu đầu:** Các bài Score cao đều có hook trả lời ngay "điều này ảnh hưởng gì đến tôi?" (đắt hơn, cơ hội vàng, chuẩn bị sớm) — tránh hook chỉ mô tả sự kiện trung tính.
-• **Tiêu đề dùng câu hỏi hoặc dấu chấm than + từ gây cảm giác cấp bách/bất ngờ:** Mẫu hiệu quả: *"[Sản phẩm] sắp [thay đổi lớn] — [hệ quả với bạn]?"* hoặc *"[Sự kiện bất ngờ] — [cơ hội/rủi ro]!"*
-• **Ưu tiên nguồn 9to5Mac + thể loại "Tin nóng" và "Deal":** Hai thể loại này chiếm toàn bộ top Score; nội dung từ 9to5Mac có độ tin cậy cao hơn trong mắt cộng đồng, thúc đẩy chia sẻ.
-• **Tránh nội dung quá niche hoặc không liên quan trực tiếp đến hệ sinh thái Apple cốt lõi:** Bài về Madden NFL, WhatsApp, macOS patch bảo mật đơn lẻ đều dưới Score 20 — loại bỏ hoặc gộp vào dạng roundup thay vì đăng độc lập.
-• **Tránh hook/tiêu đề mang tính thông báo thuần túy (announcement không có góc tranh luận):** Các bài chỉ thông báo tính năng mới mà không đặt câu hỏi, không tạo xung đột quan điểm đều có Score thấp (3–10).
-• **Khi đề cập Deal/giá, luôn so sánh con số cụ thể hoặc % tiết kiệm:** Bài "Apple tăng giá thu đổi" (Score 228) hiệu quả vì ngụ ý lợi ích tài chính rõ ràng; bài Deal thiếu số liệu cụ thể không tạo được phản ứng tương tự.
+• **Ưu tiên chủ đề Deal/giá cả và Apple Watch/iPhone Ultra** — đây là nhóm có Score cao nhất (228, 34, 10+); người dùng phản ứng mạnh với tin liên quan trực tiếp đến túi tiền hoặc sản phẩm mang tính đột phá lần đầu.
+• **Góc tiếp cận "cơ hội / lợi ích tài chính trực tiếp"** (tiết kiệm được bao nhiêu, giá rẻ hơn, chi phí thấp hơn) tạo Reactions cao nhất — ưu tiên frame lợi ích cụ thể hơn là frame tin tức thuần túy.
+• **Tiêu đề dùng dấu "!" + từ kích thích hành động** ("Cơ hội vàng", "sắp thay đổi hoàn toàn", "lột xác") kéo Shares và Comments tốt hơn; câu hook nên đặt xung đột hoặc hệ quả rõ ràng ngay câu đầu (Apple buộc phải… / người dùng sốc vì…).
+• **Tránh bài đơn thuần là announcement kỹ thuật hẹp** (vá lỗi bảo mật, cập nhật phần mềm nhỏ, tính năng app bên thứ ba như WhatsApp) — nhóm này Score thấp nhất (3–19), không kích thích thảo luận.
+• **Tránh góc "so sánh trừu tượng / phân tích chính sách"** không gắn lợi ích cụ thể cho người dùng Lucas Combo (ví dụ: Apple Upgrade/Klarna, RAM Windows) — Score thấp dù chủ đề có vẻ hot.
+• **Ưu tiên nguồn community (r/apple, r/ipad)** kết hợp góc "người dùng thực tế phản ứng thế nào" thay vì chỉ dẫn nguồn báo — tạo cảm giác gần gũi, dễ kéo bình luận đồng thuận/tranh luận.
+• **Hook phải có yếu tố chưa chắc chắn hoặc câu hỏi mở** ("Thật sự?", "túi tiền có ổn?", "bạn đã sẵn sàng?") để kích thích Comments — tránh hook khẳng định hoàn toàn, không để lại khoảng trống cho độc giả phản hồi.

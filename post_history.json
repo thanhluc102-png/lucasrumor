@@ -1360,8 +1360,8 @@
     "performance": {
       "reactions": 281,
       "comments": 7,
-      "shares": 8,
-      "score": 342
+      "shares": 6,
+      "score": 332
     }
   },
   {
@@ -1652,10 +1652,10 @@
     ],
     "publish_time": "2026-08-10T14:34:11.438206",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -1672,6 +1672,27 @@
       "💬 Cộng đồng đang tranh luận: liệu màu mới có đủ sức thuyết phục nâng cấp?"
     ],
     "publish_time": "2026-08-11T03:13:25.136505",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "shares": 1,
+      "score": 10
+    }
+  },
+  {
+    "post_id": "1920842954802282_1521092480058079",
+    "title": "iPhone 20 năm 'lột xác' toàn kính vẫn đúng hẹn!",
+    "summary": "Thiết kế iPhone kỷ niệm 20 năm toàn kính vẫn đang được phát triển, bất chấp đồn đoán bị hủy?",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/10/apples-20th-anniversary-iphone-redesign-reportedly-remains-on-track/",
+    "bullets": [
+      "🔥 Thiết kế toàn kính không viền kim loại — lần đầu tiên trong lịch sử iPhone",
+      "📅 Dự kiến ra mắt năm 2027, đúng dịp kỷ niệm 20 năm dòng iPhone",
+      "🤔 Tin đồn 'bị hủy' trước đó có thể chỉ là nhiễu — Bloomberg xác nhận dự án vẫn sống"
+    ],
+    "publish_time": "2026-08-11T06:07:38.382438",
     "performance": null
   }
 ]
