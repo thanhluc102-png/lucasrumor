@@ -7,6 +7,30 @@ from pathlib import Path
 FB_PAGE_TOKEN = os.environ.get("FB_PAGE_TOKEN")
 FB_PAGE_ID = os.environ.get("FB_PAGE_ID")
 
+def count_own_comments(post_id, token):
+    """Đếm bình luận do CHÍNH page viết (bot tự comment link/nội dung sau khi đăng).
+
+    Mọi bài đều được bot comment 1 lần ngay sau khi đăng. Nếu tính luôn comment
+    đó thì mỗi bài được cộng khống 3 điểm (Comments nhân hệ số 3) — với bài có
+    điểm trung vị 6 thì một nửa số điểm là do chính mình tạo ra, và mọi bài học
+    kiểu "thêm CTA để đẩy comment" đều rút ra từ nhiễu.
+    """
+    if not FB_PAGE_ID:
+        return 0
+    try:
+        r = requests.get(
+            f"https://graph.facebook.com/v25.0/{post_id}/comments",
+            params={"fields": "from", "limit": 100, "access_token": token},
+            timeout=10,
+        )
+        if r.status_code != 200:
+            return 0
+        data = r.json().get("data", [])
+        return sum(1 for c in data if (c.get("from") or {}).get("id") == FB_PAGE_ID)
+    except Exception:
+        return 0
+
+
 def get_engagement(post_id, token):
     # Thử gọi dạng post_id trực tiếp, nếu lỗi thử ghép {page_id}_{post_id}
     for pid in (post_id, f"{FB_PAGE_ID}_{post_id}"):
@@ -20,17 +44,22 @@ def get_engagement(post_id, token):
             if r.status_code == 200:
                 res = r.json()
                 reactions = res.get("reactions", {}).get("summary", {}).get("total_count", 0)
-                comments = res.get("comments", {}).get("summary", {}).get("total_count", 0)
+                comments_all = res.get("comments", {}).get("summary", {}).get("total_count", 0)
                 shares = res.get("shares", {}).get("count", 0)
+                own = count_own_comments(pid, token)
+                comments = max(0, comments_all - own)
                 return {
                     "reactions": reactions,
                     "comments": comments,
+                    "comments_total": comments_all,
+                    "own_comments": own,
                     "shares": shares,
                     "score": reactions * 1 + comments * 3 + shares * 5
                 }
         except Exception as e:
             print(f"Error fetching stats for {pid}: {e}")
     return None
+
 
 def sync_file(file_path):
     p = Path(file_path)
@@ -67,7 +96,7 @@ def sync_file(file_path):
             if stats:
                 entry["performance"] = stats
                 updated = True
-                print(f" -> Kết quả: L:{stats['reactions']}, C:{stats['comments']}, S:{stats['shares']}")
+                print(f" -> Kết quả: L:{stats['reactions']}, C:{stats['comments']} (bot {stats['own_comments']}), S:{stats['shares']} → Score {stats['score']}")
                 
     if updated:
         p.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")

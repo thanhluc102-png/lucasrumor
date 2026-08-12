@@ -1,6 +1,7 @@
 import os
 import json
 import anthropic
+from datetime import datetime
 from pathlib import Path
 
 # Đọc API key từ môi trường
@@ -39,17 +40,32 @@ def main():
     # Tạo báo cáo tóm tắt tương tác gửi sang AI
     report_lines = []
     
-    report_lines.append("--- TIN ĐỒN / THẢO LUẬN INFOGRAPHIC ---")
-    for r in valid_rumors[-15:]: # lấy tối đa 15 bài gần nhất
+    def fmt_rumor(r):
         perf = r["performance"]
-        report_lines.append(
+        return (
             f"Tiêu đề: {r['title']}\n"
             f"Hook: {r['summary']}\n"
             f"Thể loại: {r['category']} ({r['visual_type']})\n"
             f"Nguồn: {r['source']}\n"
-            f"Tương tác: Reactions={perf['reactions']}, Comments={perf['comments']}, Shares={perf['shares']} (Score={perf['score']})\n"
+            f"Tương tác: Reactions={perf['reactions']}, Comments={perf['comments']}, "
+            f"Shares={perf['shares']} (Score={perf['score']})\n"
         )
-        
+
+    # Cho AI nhìn TƯƠNG PHẢN thay vì 15 bài gần nhất theo thứ tự thời gian.
+    # Xếp hạng cho thấy rõ đâu là thứ tạo khác biệt; lấy theo thời gian thì
+    # phần lớn là bài điểm sàn na ná nhau, không rút ra được gì sắc.
+    ranked = sorted(valid_rumors, key=lambda r: r["performance"]["score"], reverse=True)
+    n = min(10, max(1, len(ranked) // 3))
+    best, worst = ranked[:n], ranked[-n:]
+
+    report_lines.append(f"--- TIN ĐỒN: {n} BÀI CAO ĐIỂM NHẤT (trên tổng {len(ranked)} bài) ---")
+    for r in best:
+        report_lines.append(fmt_rumor(r))
+
+    report_lines.append(f"--- TIN ĐỒN: {n} BÀI THẤP ĐIỂM NHẤT ---")
+    for r in worst:
+        report_lines.append(fmt_rumor(r))
+
     if valid_products:
         report_lines.append("--- BÀI SẢN PHẨM (ảnh sản phẩm + giá) ---")
         for p in valid_products[-15:]:
@@ -64,7 +80,9 @@ def main():
     data_context = "\n".join(report_lines)
     
     prompt = f"""Dưới đây là thống kê tương tác thực tế từ Fanpage Lucas Combo (chuyên phụ kiện Apple) cho hai loại bài: Infographic tin đồn/thảo luận, và bài sản phẩm (ảnh sản phẩm + giá).
-Điểm tương tác (Score) được tính bằng: Reactions * 1 + Comments * 3 + Shares * 5.
+Điểm tương tác (Score) = Reactions * 1 + Comments * 3 + Shares * 5.
+LƯU Ý: Comments ở đây ĐÃ TRỪ bình luận do chính Page tự đăng, nên đây là
+bình luận thật của người xem. Comments = 0 nghĩa là không ai bình luận.
 
 DỮ LIỆU TƯƠNG TÁC:
 {data_context}
@@ -94,6 +112,26 @@ Chỉ in ra kết quả bộ hướng dẫn dưới dạng danh sách gạch đ�
         
         Path("learnings.txt").write_text(learnings, encoding="utf-8")
         print("Đã lưu learnings.txt.")
+
+        # Lưu vết để sau còn truy được: bài học nào rút ra lúc nào, từ bao nhiêu
+        # bài, điểm trung vị khi đó bao nhiêu. learnings.txt bị ghi đè mỗi lượt
+        # nên nếu không lưu thì không bao giờ biết vòng học có tiến bộ hay không.
+        try:
+            scores = sorted(r["performance"]["score"] for r in valid_rumors)
+            median = scores[len(scores) // 2] if scores else 0
+            record = {
+                "time": datetime.now().isoformat(timespec="seconds"),
+                "n_rumors": len(valid_rumors),
+                "n_products": len(valid_products),
+                "median_score": median,
+                "max_score": max(scores) if scores else 0,
+                "learnings": learnings,
+            }
+            with open("learnings_history.jsonl", "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+            print(f"Đã ghi learnings_history.jsonl (n={len(valid_rumors)}, trung vị={median}).")
+        except Exception as e:
+            print(f"Không ghi được lịch sử bài học: {e}")
     except Exception as e:
         print(f"Lỗi khi gọi Claude AI: {e}")
 
