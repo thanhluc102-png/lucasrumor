@@ -112,8 +112,5 @@ def main():
     # Đồng bộ tin đồn
     sync_file("post_history.json")
 
-    # Đồng bộ bài sản phẩm (từ lucas-story/main_product.py)
-    sync_file("product_history.json")
-
 if __name__ == "__main__":
     main()
