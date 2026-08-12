@@ -1,4 +1,5 @@
 import os
+import json
 import base64
 import requests
 import subprocess
@@ -44,29 +45,79 @@ def render_story_png(data: dict, output_path: str = "mock_story.png", image_b64:
         browser.close()
     return output_path
 
-def send_facebook_story(image_path: str, page_token: str, page_id: str):
-    # Bước 1: Upload ảnh lên Facebook (nhưng không publish ra feed)
-    upload_url = f"https://graph.facebook.com/v25.0/{page_id}/photos"
-    upload_payload = {"published": "false", "access_token": page_token}
-    print("Đang tải ảnh lên server Facebook...")
+# Lịch sử nằm ở gốc repo để sync_insights.py (chạy từ gốc) đọc được.
+HISTORY_FILE = Path(__file__).resolve().parent.parent / "product_history.json"
+
+
+def build_caption(p: dict) -> str:
+    """Caption cho bài feed. Không để link trong caption (Facebook bóp reach) —
+    link đặt hàng đưa xuống bình luận đầu tiên, giống playbook của Lucas."""
+    lines = [p["title"]]
+    if p.get("description"):
+        lines += ["", p["description"]]
+    if p.get("regular_price"):
+        lines += ["", f"Giá {p['price']} (giá gốc {p['regular_price']})"]
+    else:
+        lines += ["", f"Giá {p['price']}"]
+    lines += ["Link đặt hàng ở bình luận đầu tiên 👇", "",
+              "#LucasCombo #chinhhang #phukienapple"]
+    return "\n".join(lines)
+
+
+def send_facebook_feed(image_path: str, caption: str, page_token: str, page_id: str):
+    """Đăng ảnh + caption lên BẢNG TIN (giống main.py), trả về post_id.
+
+    Trước đây bài sản phẩm đăng qua /photo_stories (Story 24h). Story không có
+    reactions/comments/shares — Graph API trả thẳng '(#100) Tried accessing
+    nonexisting field (reactions)' — nên vòng tự học không chấm điểm được bài
+    nào. Đổi sang /photos để dùng đúng cơ chế đo đã chạy tốt cho tin đồn.
+    """
+    url = f"https://graph.facebook.com/v25.0/{page_id}/photos"
+    payload = {"caption": caption, "access_token": page_token}
+    print("Đang đăng ảnh sản phẩm lên bảng tin...")
     with open(image_path, "rb") as f:
-        resp = requests.post(upload_url, data=upload_payload, files={"source": f})
+        resp = requests.post(url, data=payload, files={"source": f})
     if resp.status_code != 200:
-        print(f"Lỗi upload ảnh: {resp.text}")
+        print(f"  ⚠️ Chi tiết lỗi Facebook: {resp.text}")
     resp.raise_for_status()
-    photo_id = resp.json().get("id")
-    
-    # Bước 2: Đăng ảnh đó lên Story
-    story_url = f"https://graph.facebook.com/v25.0/{page_id}/photo_stories"
-    story_payload = {"photo_id": photo_id, "access_token": page_token}
-    print(f"Đang đẩy ảnh (ID: {photo_id}) lên bảng tin Story...")
-    story_resp = requests.post(story_url, data=story_payload)
-    if story_resp.status_code != 200:
-        print(f"Lỗi đăng Story: {story_resp.text}")
-    story_resp.raise_for_status()
-    
-    print("✅ Đã đăng thành công lên Facebook Story 24h!")
-    return story_resp.json()
+    result = resp.json()
+    post_id = result.get("post_id") or result.get("id")
+    print(f"✅ Đã đăng lên bảng tin! (post_id: {post_id})")
+    return post_id
+
+
+def comment_link(post_id: str, link: str, page_token: str):
+    try:
+        requests.post(
+            f"https://graph.facebook.com/v25.0/{post_id}/comments",
+            data={"message": f"Đặt hàng: {link}", "access_token": page_token},
+            timeout=15,
+        )
+        print("  💬 Đã comment link đặt hàng.")
+    except Exception as e:
+        print(f"  ⚠️ Không comment được link: {e}")
+
+
+def save_post_to_history(post_id: str, product: dict):
+    history = []
+    if HISTORY_FILE.exists():
+        try:
+            history = json.loads(HISTORY_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            history = []
+    history.append({
+        "post_id": post_id,
+        "title": product.get("title"),
+        "summary": product.get("description"),
+        "price": product.get("price"),
+        "regular_price": product.get("regular_price"),
+        "link": product.get("link"),
+        "publish_time": datetime.now().isoformat(),
+        "performance": None,
+    })
+    HISTORY_FILE.write_text(json.dumps(history, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  📝 Đã ghi {HISTORY_FILE.name} ({len(history)} bài)")
+
 
 def main():
     print("Đang cào sản phẩm mới từ lucas.vn...")
@@ -85,7 +136,13 @@ def main():
     fb_page_id = os.environ.get("FB_PAGE_ID")
     
     if fb_token and fb_page_id:
-        send_facebook_story(frame_path, fb_token, fb_page_id)
+        post_id = send_facebook_feed(frame_path, build_caption(product), fb_token, fb_page_id)
+        if post_id:
+            save_post_to_history(post_id, product)
+            if product.get("link"):
+                comment_link(post_id, product["link"], fb_token)
+    else:
+        print("Thiếu FB_PAGE_TOKEN/FB_PAGE_ID — bỏ qua bước đăng.")
 
 if __name__ == "__main__":
     main()

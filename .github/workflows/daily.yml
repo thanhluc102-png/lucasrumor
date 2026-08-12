@@ -56,6 +56,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_articles.json post_history.json learnings.txt || true
+          git add seen_articles.json post_history.json product_history.json learnings.txt || true
           git diff --staged --quiet || git commit -m "chore: update stats and learnings [skip ci]"
           git push

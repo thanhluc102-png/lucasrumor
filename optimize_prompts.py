@@ -24,11 +24,13 @@ def main():
     
     # 1. Đọc lịch sử
     rumors = load_history("post_history.json")
-    
+    products = load_history("product_history.json")
+
     # Chỉ lấy các bài viết đã được cập nhật tương tác
     valid_rumors = [r for r in rumors if r.get("performance")]
-    
-    if not valid_rumors:
+    valid_products = [p for p in products if p.get("performance")]
+
+    if not valid_rumors and not valid_products:
         print("Chưa có đủ dữ liệu tương tác để phân tích. Sử dụng hướng dẫn mặc định.")
         default_instructions = "- Ưu tiên viết ngắn gọn, giật tít tập trung vào dòng sản phẩm iPhone, MacBook, iPad.\n- Tránh nội dung mang tính chất quảng cáo lộ liễu, tăng tính thảo luận cộng đồng."
         Path("learnings.txt").write_text(default_instructions, encoding="utf-8")
@@ -48,9 +50,20 @@ def main():
             f"Tương tác: Reactions={perf['reactions']}, Comments={perf['comments']}, Shares={perf['shares']} (Score={perf['score']})\n"
         )
         
+    if valid_products:
+        report_lines.append("--- BÀI SẢN PHẨM (ảnh sản phẩm + giá) ---")
+        for p in valid_products[-15:]:
+            perf = p["performance"]
+            report_lines.append(
+                f"Sản phẩm: {p.get('title')}\n"
+                f"Mô tả: {p.get('summary')}\n"
+                f"Giá: {p.get('price')}" + (f" (gốc {p['regular_price']})" if p.get('regular_price') else "") + "\n"
+                f"Tương tác: Reactions={perf['reactions']}, Comments={perf['comments']}, Shares={perf['shares']} (Score={perf['score']})\n"
+            )
+
     data_context = "\n".join(report_lines)
     
-    prompt = f"""Dưới đây là thống kê tương tác thực tế từ Fanpage Lucas Combo (chuyên phụ kiện Apple) cho các bài viết (Infographic tin đồn/thảo luận) trong tuần qua.
+    prompt = f"""Dưới đây là thống kê tương tác thực tế từ Fanpage Lucas Combo (chuyên phụ kiện Apple) cho hai loại bài: Infographic tin đồn/thảo luận, và bài sản phẩm (ảnh sản phẩm + giá).
 Điểm tương tác (Score) được tính bằng: Reactions * 1 + Comments * 3 + Shares * 5.
 
 DỮ LIỆU TƯƠNG TÁC:
@@ -62,6 +75,7 @@ Yêu cầu bộ hướng dẫn:
 1. Nêu rõ những chủ đề hoặc góc tiếp cận nào có điểm tương tác cao nhất.
 2. Nêu rõ những cấu trúc tiêu đề (headline) hoặc câu hook nào kích thích bình luận, chia sẻ nhiều nhất.
 3. Chỉ ra những gì đang kém hiệu quả (nội dung/style) cần tránh hoặc thay đổi.
+3b. Nếu có dữ liệu cả hai loại bài, nêu rõ khác biệt giữa chúng thay vì gộp chung.
 4. Trình bày cực kỳ ngắn gọn dưới dạng gạch đầu dòng (tổng cộng tối đa 5-8 gạch đầu dòng), viết bằng tiếng Việt rõ ràng, súc tích để đưa thẳng vào prompt hệ thống cho các lượt sinh tiếp theo.
 
 Chỉ in ra kết quả bộ hướng dẫn dưới dạng danh sách gạch đầu dòng, tuyệt đối không thêm lời mở đầu hay kết thúc dư thừa nào.
