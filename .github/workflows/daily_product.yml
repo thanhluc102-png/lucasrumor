@@ -9,6 +9,11 @@ jobs:
   send-product-video:
     runs-on: ubuntu-latest
 
+    # Repo để GITHUB_TOKEN mặc định là read-only, nên không khai báo ở đây
+    # là bước ghi lịch sử bị 403 khi push. Trước giờ bị "|| true" nuốt mất.
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -38,6 +43,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
-          git add product_history.json || true
+          # Chỉ add file thật sự tồn tại. "git add a.json b.json" mà thiếu
+          # một file là abort toàn bộ, không stage được gì cả.
+          for f in product_history.json lucas-story/seen_articles.json; do
+            [ -f "$f" ] && git add "$f"
+          done
           git diff --staged --quiet || git commit -m "chore: log bai san pham [skip ci]"
-          git push || true
+          git push

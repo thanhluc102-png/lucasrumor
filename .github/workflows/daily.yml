@@ -56,6 +56,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_articles.json post_history.json product_history.json learnings.txt learnings_history.jsonl || true
+          # Chỉ add file thật sự tồn tại. "git add a.json b.json" mà thiếu một
+          # file là abort toàn bộ, KHÔNG stage gì cả — và "|| true" ở đây từng
+          # che mất chuyện đó suốt 6 ngày sau khi product_history.json bị bỏ.
+          for f in seen_articles.json post_history.json product_history.json \
+                   learnings.txt learnings_history.jsonl; do
+            [ -f "$f" ] && git add "$f"
+          done
           git diff --staged --quiet || git commit -m "chore: update stats and learnings [skip ci]"
           git push
