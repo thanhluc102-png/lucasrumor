@@ -1,7 +1,7 @@
-- **Ưu tiên chủ đề Apple Watch và iPhone Ultra/flagship**: Đây là 2 nhóm có điểm cao nhất (34 và 10), đặc biệt khi gắn với thiết kế đột phá, thay đổi toàn diện hoặc lần đầu tiên xuất hiện.
-- **Góc tiếp cận "thay đổi lớn / kỷ nguyên mới"** kích thích tương tác mạnh hơn góc thông báo thông thường — ưu tiên framing: đảo lộn thị trường, thiết kế lột xác, bước ngoặt lịch sử.
-- **Cấu trúc tiêu đề hiệu quả**: Dạng câu hỏi hoặc mâu thuẫn rõ ràng (VD: "Thật sự?", "Đã bị hủy?", "Túi tiền có ổn?") + emoji/dấu chấm than để tạo tò mò và thúc đẩy bình luận tranh luận.
-- **Hook hiệu quả**: Nêu tác động trực tiếp đến người dùng (túi tiền, trải nghiệm, thói quen dùng máy) thay vì chỉ mô tả tính năng — VD: "người dùng sốc", "túi tiền bị ảnh hưởng nặng".
-- **Shares tăng khi bài có yếu tố so sánh hoặc cộng đồng mạnh** (r/apple, r/ipad) kết hợp với góc "deal / cơ hội" hoặc "tác động cạnh tranh thị trường" — ưu tiên nguồn community hơn announcement đơn thuần.
-- **Tránh**: Bài thuần thông báo tính năng mới của app bên thứ ba (WhatsApp, Madden NFL) hoặc tin tức giá/chính sách thiếu góc gây tranh luận — nhóm này đồng loạt dưới 10 điểm, reactions thấp, shares = 0.
-- **Tránh**: Lặp lại cùng một chủ đề quá gần nhau (VD: 2 bài iPhone 20 năm toàn kính cùng tuần) — phân tán tương tác, điểm cả 2 đều thấp thay vì cộng hưởng.
+- **Chủ đề cao điểm:** Ưu tiên tin liên quan trực tiếp đến túi tiền người dùng (tăng giá, deal đổi máy, trả góp) và quyết định mua sắm — đây là nhóm dẫn đầu cả reactions lẫn shares.
+- **Tiêu đề hiệu quả:** Dùng cấu trúc gây áp lực tài chính hoặc lợi ích rõ ràng: *"túi tiền bị ảnh hưởng"*, *"cơ hội vàng"*, *"cần chuẩn bị sớm"* — kích thích phản ứng cảm xúc ngay từ dòng đầu.
+- **Hook hiệu quả:** Hook nêu con số cụ thể hoặc hệ quả trực tiếp (giá tăng, nguồn cung giảm, chính sách phạt) thúc đẩy bình luận và chia sẻ hơn hook mang tính mô tả trung lập.
+- **Tránh:** Bài mang tính kỹ thuật thuần túy (benchmark, lỗ hổng bảo mật, cập nhật hệ điều hành nhỏ), bài về app/công cụ indie, hoặc tin đồn xa vời không gắn với quyết định mua/dùng thiết bị hiện tại — nhóm này đồng loạt ≤ Score 3.
+- **Tránh thêm:** Tiêu đề dạng phủ định hoặc "debunk" (*"bị thổi phồng"*, *"có thực sự… không"*) — người dùng không engage với nội dung làm giảm kỳ vọng.
+- **Nguồn & thể loại:** MacWorld và 9to5Mac hiệu quả khi gắn với góc tài chính/deal; r/apple hiệu quả cho mẹo thực dụng (tips, community insight) — không phải mọi nguồn đều hoạt động tốt với mọi chủ đề.
+- **Lưu ý dữ liệu một chiều:** Tập dữ liệu chỉ có bài tin đồn/thảo luận, chưa có dữ liệu bài sản phẩm để so sánh trực tiếp — hướng dẫn trên áp dụng riêng cho định dạng infographic/tin tức.

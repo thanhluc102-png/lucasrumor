@@ -1590,9 +1590,11 @@
     "publish_time": "2026-08-10T03:20:53.690866",
     "performance": {
       "reactions": 18,
-      "comments": 2,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
       "shares": 2,
-      "score": 34
+      "score": 31
     }
   },
   {
@@ -1611,9 +1613,11 @@
     "publish_time": "2026-08-10T06:45:07.656766",
     "performance": {
       "reactions": 0,
-      "comments": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 0
     }
   },
   {
@@ -1632,9 +1636,11 @@
     "publish_time": "2026-08-10T10:39:09.410978",
     "performance": {
       "reactions": 3,
-      "comments": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 3
     }
   },
   {
@@ -1653,9 +1659,11 @@
     "publish_time": "2026-08-10T14:34:11.438206",
     "performance": {
       "reactions": 3,
-      "comments": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 3
     }
   },
   {
@@ -1674,9 +1682,11 @@
     "publish_time": "2026-08-11T03:13:25.136505",
     "performance": {
       "reactions": 2,
-      "comments": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
       "shares": 1,
-      "score": 10
+      "score": 7
     }
   },
   {
@@ -1695,9 +1705,11 @@
     "publish_time": "2026-08-11T06:07:38.382438",
     "performance": {
       "reactions": 2,
-      "comments": 2,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 5
     }
   },
   {
@@ -1715,10 +1727,12 @@
     ],
     "publish_time": "2026-08-11T10:14:45.596407",
     "performance": {
-      "reactions": 3,
-      "comments": 1,
+      "reactions": 7,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -1735,6 +1749,29 @@
       "🚀 iPhone 2027 kỳ vọng mang thiết kế đột phá, đánh dấu tròn 2 thập kỷ thay đổi thế giới"
     ],
     "publish_time": "2026-08-11T14:33:52.069200",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1526752279492099",
+    "title": "iPhone 17 Pro sau 1 năm: Điều gì còn xứng đáng?",
+    "summary": "MacRumors nhìn lại iPhone 17 Pro sau gần 12 tháng sử dụng thực tế — đâu giữ giá, đâu thất vọng.",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/08/13/iphone-17-pro-one-year-later/",
+    "bullets": [
+      "⏱️ Đánh giá sau gần 12 tháng dùng thực tế — không phải review ngắn hạn",
+      "✅ Chỉ ra rõ điểm nào của 17 Pro vẫn xứng đáng sau 1 năm",
+      "⚠️ Cần đọc trước khi quyết định lên đời iPhone 18 Pro sắp ra"
+    ],
+    "publish_time": "2026-08-17T02:58:09.500101",
     "performance": null
   }
 ]
