@@ -1865,12 +1865,12 @@
     ],
     "publish_time": "2026-08-18T02:37:59.062435",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -1887,6 +1887,29 @@
       "⚠️ Chưa có giá hay ngày ra mắt chính thức — nhưng đây là dấu hiệu sản phẩm đang rất gần hoàn thiện"
     ],
     "publish_time": "2026-08-18T05:48:34.625881",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1527897062710954",
+    "title": "iOS 27 cuối cùng sửa lỗi nhắn tin với Android!",
+    "summary": "iOS 27 vá lỗi trả lời tin nhắn Android lâu năm, cộng đồng Reddit phấn khích mạnh.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vqw6ia/ios_27_finally_fixes_replying_to_android_texts/",
+    "bullets": [
+      "🐛 iOS 27 vá lỗi trả lời tin nhắn Android bị sai ngữ cảnh trong group chat",
+      "💬 Cộng đồng r/apple đánh giá đây là một trong những cải tiến thực tế nhất của Apple gần đây",
+      "🔗 Tín hiệu cho thấy Apple đang đầu tư nghiêm túc hơn vào khả năng tương thích RCS cross-platform"
+    ],
+    "publish_time": "2026-08-18T09:51:44.405706",
     "performance": null
   }
 ]
