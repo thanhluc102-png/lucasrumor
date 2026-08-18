@@ -1819,12 +1819,12 @@
     ],
     "publish_time": "2026-08-17T10:01:18.780781",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -1842,12 +1842,12 @@
     ],
     "publish_time": "2026-08-17T13:56:14.502550",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -1864,6 +1864,29 @@
       "💸 Giá bán dự báo cao hơn đáng kể so với iPhone 16 Pro Max — ảnh hưởng trực tiếp đến quyết định mua cuối năm"
     ],
     "publish_time": "2026-08-18T02:37:59.062435",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1527758986058095",
+    "title": "AirPods gắn camera: Leak rõ nhất từ trước đến nay!",
+    "summary": "File ẩn trong macOS Tahoe 26.7 RC hé lộ video minh họa AirPods Pro tích hợp camera — rõ nhất từ trước đến giờ.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/17/airpods-with-camera-get-their-clearest-leak-yet/",
+    "bullets": [
+      "📁 Video leak được tìm thấy ẩn trong macOS Tahoe 26.7 Release Candidate — nguồn từ chính Apple",
+      "📷 AirPods Pro thế hệ mới được xác nhận có camera, nhiều khả năng phục vụ tính năng Apple Intelligence",
+      "⚠️ Chưa có giá hay ngày ra mắt chính thức — nhưng đây là dấu hiệu sản phẩm đang rất gần hoàn thiện"
+    ],
+    "publish_time": "2026-08-18T05:48:34.625881",
     "performance": null
   }
 ]
