@@ -1888,12 +1888,12 @@
     ],
     "publish_time": "2026-08-18T05:48:34.625881",
     "performance": {
-      "reactions": 11,
+      "reactions": 19,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 16
+      "score": 24
     }
   },
   {
@@ -1911,12 +1911,12 @@
     ],
     "publish_time": "2026-08-18T09:51:44.405706",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -1934,12 +1934,12 @@
     ],
     "publish_time": "2026-08-18T14:00:31.947134",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -1956,6 +1956,29 @@
       "💸 Người dùng cần cân nhắc: có đáng xuống tiền thêm cho bản Pro Max không?"
     ],
     "publish_time": "2026-08-19T02:34:39.469947",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1528689582631702",
+    "title": "Bang nào sắp dùng được CCCD số trên iPhone?",
+    "summary": "Apple Wallet mở rộng hỗ trợ lưu bằng lái xe/CCCD số tại thêm nhiều bang Mỹ, tiện lợi hơn cho người dùng.",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/18/apple-wallet-drivers-licenses-states-coming-soon/",
+    "bullets": [
+      "🪪 Bằng lái xe & CCCD kỹ thuật số lưu thẳng trong Apple Wallet trên iPhone",
+      "✈️ Có thể dùng tại sân bay TSA và các điểm chấp thuận chính thức",
+      "📍 Danh sách bang hỗ trợ đang được mở rộng — kiểm tra xem bang bạn có chưa"
+    ],
+    "publish_time": "2026-08-19T05:49:40.045137",
     "performance": null
   }
 ]

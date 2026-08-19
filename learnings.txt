@@ -1,11 +1,13 @@
-• **Chủ đề cao điểm:** Ưu tiên tin trực tiếp ảnh hưởng túi tiền người dùng (tăng giá, thu đổi, khan hàng, trả góp). Tránh tin kỹ thuật nội bộ (bảo mật, chip), tin đầu tư/cổ phiếu, hoặc so sánh iOS–Android — nhóm này nhất quán điểm 0–3.
+• **Chủ đề ăn tiền nhất:** Giá cả & túi tiền người dùng (tăng giá iPhone/Mac, chương trình đổi máy, trả góp) — kéo reaction lẫn comment cao nhất. Ưu tiên góc "ảnh hưởng trực tiếp đến ví tiền" hơn góc spec/tính năng thuần túy.
 
-• **Tiêu đề hiệu quả:** Dùng cấu trúc có yếu tố cảnh báo + hệ quả cá nhân, ví dụ: *"[Sự kiện] — túi tiền bị ảnh hưởng?"* hoặc *"[Sự kiện]: Người dùng cần chuẩn bị sớm."* Câu hỏi tu từ gắn với lợi ích/chi phí trực tiếp kéo Reactions mạnh nhất.
+• **Nguồn & thể loại hiệu quả:** Bài từ 9to5Mac + thể loại "Tin nóng (comparison/stat)" và "Deal (community)" cho điểm cao hơn hẳn. Ưu tiên hai nguồn này khi chọn nội dung.
 
-• **Hook hiệu quả:** Mở bằng xác nhận nguồn uy tín + con số/hành động cụ thể + hệ quả rõ ràng trong 1–2 câu. Tránh hook mơ hồ kiểu *"cộng đồng tranh luận"* hoặc *"Apple đang nghiên cứu"* — loại này không tạo được urgency, Share và Comment gần như bằng 0.
+• **Cấu trúc tiêu đề & hook hiệu quả:** Dùng câu hỏi trực tiếp chạm vào lợi ích/nỗi lo cá nhân ("túi tiền bị ảnh hưởng?", "có ổn không?") hoặc cụm từ tạo urgency ("sắp", "sớm hơn dự kiến", "cơ hội vàng"). Hook nên nêu con số cụ thể hoặc nguồn xác thực ngay câu đầu.
 
-• **Kích thích Share/Comment:** Bài có góc *Deal/cơ hội tiết kiệm* (ví dụ: nâng giá thu đổi, chương trình trả góp) tạo Share tốt hơn bài tin đồn thuần túy. Thêm lời kêu gọi ngầm ở cuối hook: gợi ý người đọc tag bạn bè hoặc đưa ra lựa chọn (nâng cấp hay không?).
+• **Cần tránh — chủ đề chết:** Tin đồn spec/camera độc quyền xa vời (iPhone 18 Pro Max camera, iOS 27 leak lineup), thảo luận so sánh iOS vs Android thuần lý thuyết, và tin tài chính/cổ phiếu Apple — nhất quán cho Score ≤ 3, thường = 0 comment.
 
-• **Tránh hoàn toàn:** Tin timeline dài hạn không rõ ngày ("sắp", "đang nghiên cứu" không kèm deadline), tin nhìn lại sản phẩm cũ, tin nội bộ Apple (chuỗi cung ứng, chip modem, lỗi phần mềm nhỏ) — nhóm này chiếm phần lớn bài thấp điểm và không tạo được bất kỳ tương tác nào.
+• **Cần tránh — cấu trúc yếu:** Hook mô tả sự kiện trung lập, không gắn hệ quả cụ thể với người đọc. Tiêu đề dạng "X hé lộ Y" hay "Z xác nhận W" không có yếu tố cảm xúc/lợi ích cá nhân → không kích thích comment hay share.
 
-• **Nguồn & thể loại:** Bài từ 9to5Mac kết hợp thể loại *Tin nóng (comparison/stat)* về giá hoặc supply chain người dùng = điểm cao nhất. Bài từ MacWorld về timeline hoặc announcement kỹ thuật = thấp nhất. Ưu tiên nguồn r/apple khi bài có góc *community thực tế* (mẹo dùng máy), không dùng r/apple cho tranh luận tính năng trừu tượng.
+• **Yếu tố tăng share:** Bài có tính "cần báo ngay cho bạn bè" (khan hàng, tăng giá, deal đổi máy) share nhiều hơn bài tips/mẹo hay tin spec. Ưu tiên framing "hành động ngay" hoặc "ảnh hưởng cộng đồng rộng".
+
+• **Lưu ý comment:** Comment thật rất khan hiếm (đa số bài = 0); chỉ bài chạm vào quyết định tài chính hoặc trải nghiệm cá nhân mới kéo được comment — đây là KPI khó nhất, cần hook kết thúc bằng câu hỏi mở gửi thẳng đến người đọc.
