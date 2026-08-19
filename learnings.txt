@@ -1,7 +1,7 @@
-• **Chủ đề ăn tiền nhất:** Giá cả / túi tiền người dùng bị ảnh hưởng trực tiếp (tăng giá iPhone, nâng giá thu đổi, trả góp) — ưu tiên góc "tác động tài chính cá nhân" hơn góc kỹ thuật thuần túy.
-• **Hook hiệu quả:** Câu mở nêu ngay hành động cụ thể của Apple + hệ quả rõ ràng với người đọc ("Apple vừa…", "Apple dự báo…") — tránh mở bằng nhận định mơ hồ hoặc câu hỏi tu từ đơn thuần.
-• **Tiêu đề kích tương tác cao:** Dạng câu hỏi có tính cảnh báo hoặc đối lập ("sắp tăng giá mạnh?", "túi tiền bị ảnh hưởng?", "phạt nặng đến mức nào?") — tạo cảm giác cấp bách và liên quan cá nhân.
-• **Nguồn & thể loại tốt nhất:** 9to5Mac + dạng "Tin nóng (comparison/stat)" cho điểm cao nhất; r/apple (community) vẫn hiệu quả nếu chủ đề chạm đúng nỗi lo tài chính hoặc trải nghiệm thực tế.
-• **Cần tránh:** Bài về thông số kỹ thuật nội bộ (lineup model, beta leak, cổ phiếu, lỗi phần mềm nhỏ), chủ đề so sánh iOS vs Android trừu tượng, và bài "nhìn lại/review" — nhóm này đồng loạt 0–3 điểm, không ai bình luận hay chia sẻ.
-• **Yếu tố tạo bình luận:** Chủ đề đụng đến quyết định mua/nâng cấp của cá nhân ("có nên mua không?", "chuẩn bị sớm") kéo comment nhiều hơn bài thông báo tính năng đơn thuần.
-• **Yếu tố tạo share:** Thông tin có tính "cảnh báo cộng đồng" hoặc deal thực tế (nâng giá thu đổi, khan hàng) — người dùng share để tag bạn bè cùng hoàn cảnh.
+- **Chủ đề ăn điểm cao nhất:** Giá cả/chi phí trực tiếp ảnh hưởng túi tiền người dùng (tăng giá iPhone, giá thu đổi, trả góp phạt trễ hạn) — đây là góc kích tương tác mạnh nhất, đặc biệt khi gắn với hành động cụ thể người dùng cần làm ngay.
+- **Cấu trúc tiêu đề/hook hiệu quả:** Đặt câu hỏi trực tiếp liên quan túi tiền ("túi tiền bị ảnh hưởng?", "túi tiền có ổn?") hoặc nêu lợi ích/rủi ro rõ ràng ngay trong hook — tránh hook chỉ mô tả sự kiện trung lập; phải có yếu tố "người đọc bị ảnh hưởng gì".
+- **Yếu tố kích share/comment:** Nội dung mang tính **deal/cơ hội** (Apple tăng giá thu đổi) hoặc **cảnh báo hành động sớm** (khan hàng, chuẩn bị sớm) tạo lý do chia sẻ cho bạn bè — ưu tiên hai góc này hơn góc thuần tin tức.
+- **Tránh hoàn toàn:** Bài leak/tin đồn thuần kỹ thuật không gắn lợi ích người dùng (AirPods 5 lộ diện, iOS 27 beta lộ lineup) — điểm gần bằng 0 dù có nguồn uy tín; thảo luận so sánh iOS vs Android cũng thất bại trên tệp khán giả này.
+- **Tránh hook mô tả sự kiện đơn thuần:** Hook kiểu "Apple phát hành X để vá Y" hoặc "Mã Z hé lộ model W" không tạo lý do bình luận — phải chuyển thành "điều này có nghĩa gì với bạn/tiền của bạn".
+- **Nguồn không quyết định hiệu quả:** Cùng nguồn 9to5Mac/MacWorld có bài đạt 339 điểm, có bài đạt 0 — yếu tố quyết định là góc tiếp cận (tài chính/hành động) chứ không phải độ uy tín nguồn.
+- **Ưu tiên thể loại Deal > Tin nóng > Community > Leak** theo thứ tự hiệu quả thực tế; bài Leak thuần túy nhất quán kém điểm nhất trong toàn bộ dataset.
