@@ -1,13 +1,7 @@
-• **Chủ đề ăn tiền nhất:** Giá cả & túi tiền người dùng (tăng giá iPhone/Mac, chương trình đổi máy, trả góp) — kéo reaction lẫn comment cao nhất. Ưu tiên góc "ảnh hưởng trực tiếp đến ví tiền" hơn góc spec/tính năng thuần túy.
-
-• **Nguồn & thể loại hiệu quả:** Bài từ 9to5Mac + thể loại "Tin nóng (comparison/stat)" và "Deal (community)" cho điểm cao hơn hẳn. Ưu tiên hai nguồn này khi chọn nội dung.
-
-• **Cấu trúc tiêu đề & hook hiệu quả:** Dùng câu hỏi trực tiếp chạm vào lợi ích/nỗi lo cá nhân ("túi tiền bị ảnh hưởng?", "có ổn không?") hoặc cụm từ tạo urgency ("sắp", "sớm hơn dự kiến", "cơ hội vàng"). Hook nên nêu con số cụ thể hoặc nguồn xác thực ngay câu đầu.
-
-• **Cần tránh — chủ đề chết:** Tin đồn spec/camera độc quyền xa vời (iPhone 18 Pro Max camera, iOS 27 leak lineup), thảo luận so sánh iOS vs Android thuần lý thuyết, và tin tài chính/cổ phiếu Apple — nhất quán cho Score ≤ 3, thường = 0 comment.
-
-• **Cần tránh — cấu trúc yếu:** Hook mô tả sự kiện trung lập, không gắn hệ quả cụ thể với người đọc. Tiêu đề dạng "X hé lộ Y" hay "Z xác nhận W" không có yếu tố cảm xúc/lợi ích cá nhân → không kích thích comment hay share.
-
-• **Yếu tố tăng share:** Bài có tính "cần báo ngay cho bạn bè" (khan hàng, tăng giá, deal đổi máy) share nhiều hơn bài tips/mẹo hay tin spec. Ưu tiên framing "hành động ngay" hoặc "ảnh hưởng cộng đồng rộng".
-
-• **Lưu ý comment:** Comment thật rất khan hiếm (đa số bài = 0); chỉ bài chạm vào quyết định tài chính hoặc trải nghiệm cá nhân mới kéo được comment — đây là KPI khó nhất, cần hook kết thúc bằng câu hỏi mở gửi thẳng đến người đọc.
+• **Chủ đề ăn tiền nhất:** Giá cả / túi tiền người dùng bị ảnh hưởng trực tiếp (tăng giá iPhone, nâng giá thu đổi, trả góp) — ưu tiên góc "tác động tài chính cá nhân" hơn góc kỹ thuật thuần túy.
+• **Hook hiệu quả:** Câu mở nêu ngay hành động cụ thể của Apple + hệ quả rõ ràng với người đọc ("Apple vừa…", "Apple dự báo…") — tránh mở bằng nhận định mơ hồ hoặc câu hỏi tu từ đơn thuần.
+• **Tiêu đề kích tương tác cao:** Dạng câu hỏi có tính cảnh báo hoặc đối lập ("sắp tăng giá mạnh?", "túi tiền bị ảnh hưởng?", "phạt nặng đến mức nào?") — tạo cảm giác cấp bách và liên quan cá nhân.
+• **Nguồn & thể loại tốt nhất:** 9to5Mac + dạng "Tin nóng (comparison/stat)" cho điểm cao nhất; r/apple (community) vẫn hiệu quả nếu chủ đề chạm đúng nỗi lo tài chính hoặc trải nghiệm thực tế.
+• **Cần tránh:** Bài về thông số kỹ thuật nội bộ (lineup model, beta leak, cổ phiếu, lỗi phần mềm nhỏ), chủ đề so sánh iOS vs Android trừu tượng, và bài "nhìn lại/review" — nhóm này đồng loạt 0–3 điểm, không ai bình luận hay chia sẻ.
+• **Yếu tố tạo bình luận:** Chủ đề đụng đến quyết định mua/nâng cấp của cá nhân ("có nên mua không?", "chuẩn bị sớm") kéo comment nhiều hơn bài thông báo tính năng đơn thuần.
+• **Yếu tố tạo share:** Thông tin có tính "cảnh báo cộng đồng" hoặc deal thực tế (nâng giá thu đổi, khan hàng) — người dùng share để tag bạn bè cùng hoàn cảnh.
