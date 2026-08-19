@@ -1,13 +1,11 @@
-• **Ưu tiên chủ đề tác động tài chính trực tiếp**: Bài về giá tăng/giảm, deal đổi máy, chi phí trả góp đạt điểm cao nhất (Score 228–339). Hook phải gắn rõ "túi tiền bị ảnh hưởng", "cơ hội vàng", "chi phí thấp hơn" — kéo người đọc vào lợi ích cá nhân tức thì.
+• **Chủ đề cao điểm:** Ưu tiên tin trực tiếp ảnh hưởng túi tiền người dùng (tăng giá, thu đổi, khan hàng, trả góp). Tránh tin kỹ thuật nội bộ (bảo mật, chip), tin đầu tư/cổ phiếu, hoặc so sánh iOS–Android — nhóm này nhất quán điểm 0–3.
 
-• **Tiêu đề dùng cấu trúc gây lo ngại hoặc cơ hội**: Dạng "X sắp [thay đổi tiêu cực]?" hoặc "Cơ hội vàng để [lợi ích]" kích thích reaction và share mạnh hơn dạng thông báo trung tính. Luôn có dấu hỏi hoặc từ cảm thán tạo khoảng trống thông tin.
+• **Tiêu đề hiệu quả:** Dùng cấu trúc có yếu tố cảnh báo + hệ quả cá nhân, ví dụ: *"[Sự kiện] — túi tiền bị ảnh hưởng?"* hoặc *"[Sự kiện]: Người dùng cần chuẩn bị sớm."* Câu hỏi tu từ gắn với lợi ích/chi phí trực tiếp kéo Reactions mạnh nhất.
 
-• **Hook phải nêu hệ quả cụ thể ngay câu đầu**: Không dừng ở mô tả sự kiện — phải nối thẳng sang "ảnh hưởng trực tiếp đến người dùng như thế nào". Bài cao điểm đều làm được điều này; bài thấp điểm chỉ tóm tắt tin.
+• **Hook hiệu quả:** Mở bằng xác nhận nguồn uy tín + con số/hành động cụ thể + hệ quả rõ ràng trong 1–2 câu. Tránh hook mơ hồ kiểu *"cộng đồng tranh luận"* hoặc *"Apple đang nghiên cứu"* — loại này không tạo được urgency, Share và Comment gần như bằng 0.
 
-• **Tránh bài thuần kỹ thuật/so sánh tính năng không gắn lợi ích tài chính hoặc quyết định mua**: Các bài về giao diện iOS vs Android, leak lineup sản phẩm chưa rõ giá/ngày ra, lỗi phần mềm nhỏ — nhất quán đạt Score 0–3, không nên ưu tiên thể loại này.
+• **Kích thích Share/Comment:** Bài có góc *Deal/cơ hội tiết kiệm* (ví dụ: nâng giá thu đổi, chương trình trả góp) tạo Share tốt hơn bài tin đồn thuần túy. Thêm lời kêu gọi ngầm ở cuối hook: gợi ý người đọc tag bạn bè hoặc đưa ra lựa chọn (nâng cấp hay không?).
 
-• **Tránh tiêu đề dạng liệt kê thông tin khô (Tên + Giá + Thời điểm)**: Dù nội dung có leak hấp dẫn, cấu trúc tiêu đề báo cáo thẳng không tạo được khoảng trống thông tin, người dùng không có lý do comment hay share.
+• **Tránh hoàn toàn:** Tin timeline dài hạn không rõ ngày ("sắp", "đang nghiên cứu" không kèm deadline), tin nhìn lại sản phẩm cũ, tin nội bộ Apple (chuỗi cung ứng, chip modem, lỗi phần mềm nhỏ) — nhóm này chiếm phần lớn bài thấp điểm và không tạo được bất kỳ tương tác nào.
 
-• **Nguồn r/apple hoặc community chỉ hiệu quả khi chủ đề gắn hành động thực tế** (mẹo chụp ảnh, deal, quyết định mua); bài community thuần thảo luận tính năng trừu tượng (Material You, giao diện động) không tạo tương tác dù nguồn cộng đồng.
-
-• **Comments đến từ bài có yếu tố quyết định cá nhân**: Bài nào buộc người đọc phải tự hỏi "mình có bị ảnh hưởng không / mình nên làm gì?" mới sinh comment. Ưu tiên đóng hook bằng câu ngầm kêu gọi ý kiến hoặc hành động cụ thể.
+• **Nguồn & thể loại:** Bài từ 9to5Mac kết hợp thể loại *Tin nóng (comparison/stat)* về giá hoặc supply chain người dùng = điểm cao nhất. Bài từ MacWorld về timeline hoặc announcement kỹ thuật = thấp nhất. Ưu tiên nguồn r/apple khi bài có góc *community thực tế* (mẹo dùng máy), không dùng r/apple cho tranh luận tính năng trừu tượng.
