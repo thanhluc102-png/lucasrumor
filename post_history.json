@@ -1888,12 +1888,12 @@
     ],
     "publish_time": "2026-08-18T05:48:34.625881",
     "performance": {
-      "reactions": 29,
+      "reactions": 40,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 2,
-      "score": 39
+      "score": 50
     }
   },
   {
@@ -1980,12 +1980,12 @@
     ],
     "publish_time": "2026-08-19T05:49:40.045137",
     "performance": {
-      "reactions": 7,
+      "reactions": 9,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 1,
-      "score": 15
+      "score": 17
     }
   },
   {
@@ -2003,12 +2003,12 @@
     ],
     "publish_time": "2026-08-19T09:52:31.376670",
     "performance": {
-      "reactions": 3,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 11
     }
   },
   {
@@ -2025,6 +2025,29 @@
       "💰 Nếu đang tính nâng cấp Mac hoặc iPad, hãy chuẩn bị ngân sách và theo dõi sát thông báo chính thức từ Apple"
     ],
     "publish_time": "2026-08-19T14:01:07.791803",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1529505302550130",
+    "title": "iPhone 17 Pro dùng 1 năm: Sự thật phũ phàng?",
+    "summary": "Cộng đồng r/apple chia sẻ trải nghiệm thực tế iPhone 17 Pro sau 1 năm, liệu có đáng tiền?",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vslvze/iphone_17_pro_after_1_year_the_honest_truth/",
+    "bullets": [
+      "🔋 Pin sau 1 năm: còn giữ được bao nhiêu % dung lượng thực tế?",
+      "📸 Camera 'cải tiến' có còn ấn tượng sau 12 tháng dùng thật?",
+      "💸 Mức giá cao ngất — sau 1 năm có thực sự xứng đáng không?"
+    ],
+    "publish_time": "2026-08-20T02:32:37.210341",
     "performance": null
   }
 ]
