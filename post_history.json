@@ -2003,12 +2003,12 @@
     ],
     "publish_time": "2026-08-19T09:52:31.376670",
     "performance": {
-      "reactions": 22,
+      "reactions": 24,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 22
+      "score": 24
     }
   },
   {
@@ -2094,6 +2094,29 @@
       "⚡ Epic Games phản bác, gọi phần phí còn lại là 'junk fees' — cuộc chiến pháp lý chưa thực sự kết thúc"
     ],
     "publish_time": "2026-08-20T09:53:54.238119",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1529940969173230",
+    "title": "HomePad sắp có giao diện y hệt Apple Watch?",
+    "summary": "Leak mới nhất tiết lộ HomePad sắp ra mắt có giao diện tròn giống Apple Watch, thay đổi lớn về trải nghiệm.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3215967/the-new-homepad-interface-could-look-a-lot-like-the-apple-watch.html",
+    "bullets": [
+      "⌚ Giao diện HomePad có thể mô phỏng mặt đồng hồ Apple Watch — widget tròn, bố cục vòng",
+      "📱 Khác hoàn toàn iPadOS thông thường — Apple chọn ngôn ngữ thiết kế watchOS cho màn hình lớn",
+      "💸 Câu hỏi còn bỏ ngỏ: mức giá HomePad có xứng đáng với trải nghiệm 'đồng hồ phóng to' này không?"
+    ],
+    "publish_time": "2026-08-20T14:03:10.827829",
     "performance": null
   }
 ]
