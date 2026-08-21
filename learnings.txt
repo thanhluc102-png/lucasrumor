@@ -1,13 +1,13 @@
-• **Chủ đề ăn điểm cao nhất:** Giá cả/chi phí trực tiếp ảnh hưởng túi tiền người dùng (tăng giá iPhone, nâng giá thu đổi, trả góp/thuê máy) — đây là nhóm kéo Reactions và Comments mạnh nhất. Ưu tiên góc "tác động tài chính cá nhân" hơn góc kỹ thuật thuần túy.
+• **Chủ đề ưu tiên:** Tập trung vào nội dung ảnh hưởng trực tiếp túi tiền người dùng Việt (giá tăng, chính sách thu đổi, trả góp, phạt trễ hạn) và leak/tin nóng về sản phẩm chủ lực iPhone/AirPods — đây là nhóm đạt điểm cao nhất (Score 21–339).
 
-• **Cấu trúc tiêu đề/hook hiệu quả:** Dùng câu hỏi trực tiếp gắn với lợi ích hoặc rủi ro của người đọc ("túi tiền bị ảnh hưởng?", "ví tiền có ổn?"); kết hợp từ khóa hành động cụ thể (tăng giá, phạt, cơ hội vàng). Tránh tiêu đề mô tả trung tính kiểu "X ra mắt tính năng Y".
+• **Cấu trúc tiêu đề hiệu quả:** Dùng câu hỏi kết hợp yếu tố "túi tiền/chi phí" hoặc từ mạnh gợi cảm giác khẩn cấp/lợi ích cá nhân (ví dụ: *"sắp tăng giá"*, *"cơ hội vàng"*, *"phạt nặng đến mức nào?"*) — kích thích reactions và shares mạnh hơn tiêu đề trung tính.
 
-• **Hook kích thích Shares:** Nhấn mạnh tính "khẩn cấp" hoặc "độc quyền lần đầu tiết lộ" (leak rõ nhất từ trước đến nay, vá khẩn cấp) — các bài có yếu tố này đều có Shares > 0 dù Reactions thấp.
+• **Hook hiệu quả:** Hook phải nêu ngay con số cụ thể hoặc hệ quả rõ ràng với người dùng (giá cụ thể, tên chương trình, tên lỗ hổng), tránh hook mơ hồ kiểu "thay đổi lớn sắp đến" — bài có hook cụ thể luôn vượt trội về Score.
 
-• **Kích thích Comments:** Đặt câu hỏi mở hoặc tạo tranh luận trong hook (nên/không nên, đáng tiền không, ảnh hưởng thế nào) — bài có Comments > 0 gần như đều chứa yếu tố kêu gọi ý kiến cá nhân.
+• **Kích thích bình luận (Comments):** Bài đạt Comments > 0 đều có yếu tố tranh luận tài chính, so sánh thiệt hơn, hoặc quyết định mua/nâng cấp — nên kết thúc hook bằng câu ngầm gợi ý người đọc tự đánh giá lựa chọn của mình.
 
-• **Cần tránh — nội dung kém hiệu quả:** Bài về tính năng phần mềm/hệ điều hành thuần kỹ thuật không gắn lợi ích người dùng (macOS Golden Gate, App Store EU, iOS đổi màu giao diện) — nhất quán cho về 0 điểm hoặc gần 0. Tương tự, bài nhìn lại/review theo dạng "timeline" (iPhone 17 Pro sau 1 năm) không tạo được tranh luận.
+• **Nội dung cần tránh:** Tin thuần kỹ thuật nội bộ Apple (macOS Siri app, App Store EU phí, HomePad UI) và bài nhìn lại sản phẩm cũ (review sau 1 năm) nhất quán đạt Score 0–2 — loại bỏ hoàn toàn khỏi lịch đăng.
 
-• **Tránh góc tài chính vĩ mô/cổ phiếu:** Bài liên quan Wall Street, cổ phiếu Apple không có tương tác — audience của page quan tâm túi tiền cá nhân, không quan tâm đầu tư.
+• **Góc tiếp cận kém hiệu quả cần loại:** Bài so sánh iOS vs Android về giao diện/tính năng trừu tượng và bài cổ phiếu/tài chính vĩ mô Apple — audience của Page không tương tác với nội dung không gắn trực tiếp vào thiết bị họ đang dùng hoặc sắp mua.
 
-• **Nguồn ưu tiên:** 9to5Mac và r/apple cho kết quả tốt hơn MacWorld ở nhóm bài có Reactions cao; tuy nhiên nguồn không phải yếu tố quyết định — góc khai thác quan trọng hơn.
+• **Nguồn & thể loại tối ưu:** Ưu tiên nguồn 9to5Mac + thể loại "Tin nóng" hoặc "Deal" với góc community (r/apple) khi nội dung liên quan giá/chính sách — tránh MacWorld cho bài announcement thuần kỹ thuật vì nhất quán underperform.

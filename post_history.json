@@ -2003,12 +2003,12 @@
     ],
     "publish_time": "2026-08-19T09:52:31.376670",
     "performance": {
-      "reactions": 24,
+      "reactions": 28,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 24
+      "shares": 1,
+      "score": 33
     }
   },
   {
@@ -2026,12 +2026,12 @@
     ],
     "publish_time": "2026-08-19T14:01:07.791803",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -2117,6 +2117,29 @@
       "💸 Câu hỏi còn bỏ ngỏ: mức giá HomePad có xứng đáng với trải nghiệm 'đồng hồ phóng to' này không?"
     ],
     "publish_time": "2026-08-20T14:03:10.827829",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1530427925791201",
+    "title": "MacBook Ultra sắp ra: 6 tính năng nóng mùa Thu?",
+    "summary": "Cộng đồng r/apple rộ lên thảo luận về MacBook Ultra với 6 tính năng mới ra mắt cuối năm 2025.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vtoh64/macbook_ultra_is_coming_six_new_features/",
+    "bullets": [
+      "💡 MacBook Ultra là dòng hoàn toàn mới — chưa từng xuất hiện trong lineup Apple trước đây",
+      "🗓️ Dự kiến ra mắt mùa Thu 2025 với 6 tính năng mới được tiết lộ qua leak",
+      "⚠️ Nếu bạn đang định mua MacBook Pro, nên cân nhắc chờ thêm để không 'mua hớ'"
+    ],
+    "publish_time": "2026-08-21T02:39:01.166279",
     "performance": null
   }
 ]
