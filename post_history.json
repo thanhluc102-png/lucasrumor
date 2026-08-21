@@ -2164,12 +2164,12 @@
     ],
     "publish_time": "2026-08-21T05:51:23.781579",
     "performance": {
-      "reactions": 2,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 4
     }
   },
   {
@@ -2186,6 +2186,29 @@
       "🧍 Tính năng nhận diện người (Person Detection) gợi ý AirPods camera sẽ tích hợp AI nhận biết ngữ cảnh"
     ],
     "publish_time": "2026-08-21T09:55:11.980522",
+    "performance": {
+      "reactions": 5,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1530858725748121",
+    "title": "Màu iPhone 18 Pro lộ diện: Chọn ngay màu nào?",
+    "summary": "Macworld tiết lộ màu sắc thực tế iPhone 18 Pro — một trong số đó được đánh giá là đáng mua nhất.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3212438/iphone-18-pro-colors-light-blue-gray-silver-dark-cherry-advice.html",
+    "bullets": [
+      "🎨 Macworld xác nhận đã được xem trực tiếp các màu sắc của iPhone 18 Pro",
+      "⭐ Ít nhất một tùy chọn màu được đánh giá nổi bật hơn hẳn các màu còn lại",
+      "📅 Thông tin màu sắc sớm giúp người dùng lên kế hoạch đặt trước, tránh cháy hàng"
+    ],
+    "publish_time": "2026-08-21T14:01:41.705011",
     "performance": null
   }
 ]
