@@ -2003,12 +2003,12 @@
     ],
     "publish_time": "2026-08-19T09:52:31.376670",
     "performance": {
-      "reactions": 29,
+      "reactions": 31,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 34
+      "score": 36
     }
   },
   {
@@ -2026,12 +2026,12 @@
     ],
     "publish_time": "2026-08-19T14:01:07.791803",
     "performance": {
-      "reactions": 8,
+      "reactions": 9,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -2141,12 +2141,12 @@
     ],
     "publish_time": "2026-08-21T02:39:01.166279",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -2163,6 +2163,29 @@
       "Người dùng đang cân nhắc: thời điểm này có nên xuống tiền mua iPhone hay chờ iPhone 17?"
     ],
     "publish_time": "2026-08-21T05:51:23.781579",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1530679465766047",
+    "title": "AirPods Camera: Độ phân giải, nhận diện người lộ ra?",
+    "summary": "Code macOS Tahoe 26.7 tiết lộ AirPods camera có độ phân giải, đèn trạng thái và nhận diện người.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/08/21/camera-airpods-code-reveals-hardware-details/",
+    "bullets": [
+      "📸 Độ phân giải chụp ảnh của camera AirPods lần đầu xuất hiện trong code macOS Tahoe 26.7",
+      "💡 Đèn báo trạng thái (Status Light) xác nhận camera sẽ có tín hiệu hoạt động rõ ràng cho người xung quanh",
+      "🧍 Tính năng nhận diện người (Person Detection) gợi ý AirPods camera sẽ tích hợp AI nhận biết ngữ cảnh"
+    ],
+    "publish_time": "2026-08-21T09:55:11.980522",
     "performance": null
   }
 ]

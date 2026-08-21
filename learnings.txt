@@ -1,7 +1,13 @@
-• **Chủ đề hiệu quả nhất:** Giá cả / túi tiền người dùng (tăng giá, deal đổi máy, trả góp) và leak/tin nóng về sản phẩm chủ lực (iPhone, AirPods) — ưu tiên góc "ảnh hưởng trực tiếp đến ví tiền hoặc quyết định mua" thay vì thuần túy kỹ thuật.
-• **Hook hiệu quả:** Mở đầu bằng sự kiện cụ thể + hệ quả rõ ràng với người dùng ("Apple vừa nâng giá đổi máy — cơ hội vàng…", "Code iOS 27 tiết lộ hình phạt nghiêm khắc nếu trễ hạn…"). Tránh hook mơ hồ hoặc chỉ mô tả sự kiện mà không nêu tác động.
-• **Tiêu đề hiệu quả:** Dùng câu hỏi có yếu tố cá nhân hóa ("túi tiền bị ảnh hưởng?", "túi tiền có ổn?") hoặc cụm từ tạo cảm giác cấp bách/bất ngờ ("sắp", "vừa", "rõ nhất từ trước đến nay"). Tránh tiêu đề liệt kê kiểu "6 tính năng mới" hoặc quá chung chung.
-• **Tránh hoàn toàn:** Nội dung về cổ phiếu/Wall Street, chính sách EU/App Store developer fee, macOS/Siri tính năng phần mềm đơn thuần — nhóm này nhất quán đạt Score = 0–1, không có tương tác thực.
-• **Tránh góc tranh luận trừu tượng:** Bài dạng "iOS có nên học Android không?" hay "cộng đồng đang tranh luận…" liên tục đạt điểm thấp nhất — độc giả page này không có nhu cầu thảo luận lý thuyết, chỉ quan tâm tin tức có hành động thực tế.
-• **Nguồn & thể loại:** Ưu tiên bài từ 9to5Mac + r/apple dạng *Deal* hoặc *Tin nóng có số liệu cụ thể*; bài từ MacWorld/MacRumors thuần announcement thường thấp điểm trừ khi nội dung tác động trực tiếp đến người dùng phổ thông.
-• **Đòn bẩy Share/Comment:** Yếu tố kích thích share là "thông tin có lợi thực tế" (deal, cơ hội nâng cấp rẻ hơn); yếu tố kích thích comment là "câu hỏi tài chính/rủi ro cá nhân" (phạt trễ trả góp, tăng giá bao nhiêu). Mỗi bài nên có ít nhất một trong hai yếu tố này trong hook.
+• **Chủ đề ăn điểm cao nhất:** Tác động trực tiếp đến túi tiền người dùng (tăng giá iPhone/Mac, giá thu đổi máy cũ, trả góp/phạt trễ hạn) — đặc biệt khi gắn với hành động cụ thể người dùng cần làm ngay. Ưu tiên góc "ảnh hưởng đến tôi" hơn góc tin tức thuần túy.
+
+• **Tiêu đề hiệu quả:** Dùng câu hỏi trực tiếp gắn lợi ích/rủi ro cá nhân ("túi tiền bị ảnh hưởng?", "túi tiền có ổn?") hoặc tạo kỳ vọng bất ngờ ("tăng giá mạnh", "phạt nặng đến mức nào?"). Tránh tiêu đề chỉ mô tả sự kiện trung tính.
+
+• **Hook hiệu quả:** Nêu ngay con số cụ thể hoặc nguồn xác tín (file ẩn macOS, Qualcomm xác nhận…) + hệ quả thực tế với người dùng trong cùng một câu. Hook dài giải thích bối cảnh nhưng thiếu "chốt hạ" lợi ích/rủi ro cá nhân thì thất bại.
+
+• **Nội dung/góc cần tránh:** Tin thị trường tài chính (cổ phiếu, Wall Street), thay đổi chính sách App Store EU, tính năng phần mềm thuần túy không gắn với sản phẩm người dùng đang dùng (macOS Siri app, HomePad giao diện) — nhóm này nhất quán về 0 điểm.
+
+• **Tránh dạng bài "tranh luận cộng đồng" chung chung** (iOS vs Android giao diện, có nên học Android…): không tạo được kết nối cá nhân, tương tác bằng 0 dù hook có vẻ gây tranh cãi. Chỉ dùng góc community khi gắn với trải nghiệm sản phẩm người dùng Lucas Combo đang dùng thực tế.
+
+• **Nguồn & thể loại:** 9to5Mac + thể loại "Tin nóng" hoặc "Deal" cho điểm cao nhất; MacWorld với nội dung chính sách/phần mềm nhỏ lẻ cho điểm thấp nhất — ưu tiên chọn góc Deal hoặc Tin nóng tài chính/sản phẩm khi biên tập lại từ bất kỳ nguồn nào.
+
+• **Lưu ý dữ liệu một chiều:** Toàn bộ dữ liệu hiện tại chỉ có bài Infographic tin đồn/thảo luận — chưa đủ dữ liệu bài sản phẩm để so sánh hai loại. Khi có dữ liệu bài sản phẩm, cần phân tích riêng thay vì áp dụng chung hướng dẫn này.
