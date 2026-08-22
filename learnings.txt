@@ -1,13 +1,13 @@
-• **Chủ đề ăn điểm cao:** Giá cả/chi phí ảnh hưởng trực tiếp túi tiền người dùng (tăng giá iPhone, nâng giá thu đổi, phạt trễ trả góp) — đây là nhóm duy nhất kéo được Reactions cao (200+) và Comments thật. Ưu tiên góc "tác động tài chính cụ thể đến người dùng Việt".
+• **Chủ đề ăn điểm cao:** Giá cả/chi phí trực tiếp ảnh hưởng túi tiền người dùng Việt (tăng giá iPhone, nâng giá thu đổi, trả góp phạt trễ hạn) — đây là nhóm kéo Reactions và Comments mạnh nhất. Ưu tiên góc "tác động tài chính cá nhân" thay vì tin công nghệ thuần túy.
 
-• **Cấu trúc tiêu đề hiệu quả:** Dùng câu hỏi trực tiếp hoặc cụm gây lo lắng/tò mò có lợi ích rõ ràng — *"túi tiền bị ảnh hưởng?"*, *"có ổn không?"*, *"phạt nặng đến mức nào?"*. Tránh tiêu đề chỉ tường thuật sự kiện trung lập.
+• **Tiêu đề hiệu quả:** Dùng cấu trúc gợi xung đột hoặc câu hỏi trực tiếp liên quan đến người đọc — *"túi tiền bị ảnh hưởng?"*, *"có ổn không?"*, *"phạt nặng đến mức nào?"*. Từ khóa "túi tiền", tên sản phẩm cụ thể (iPhone 18 Pro, AirPods 5), và động từ mạnh (tăng, phạt, chia tay) giúp kéo Reactions.
 
-• **Hook kéo Share/Comment:** Hook phải nêu hệ quả cụ thể với người dùng ngay câu đầu (không phải hệ quả với Apple hay thị trường). Bài có hook kiểu *"ảnh hưởng trực tiếp lợi nhuận Qualcomm"* → gần như 0 share; bài hook kiểu *"cơ hội vàng để nâng cấp với chi phí thấp hơn"* → share và comment tăng rõ.
+• **Hook hiệu quả:** Nêu ngay con số/hành động cụ thể của Apple trong câu đầu, sau đó nối thẳng vào lợi ích hoặc rủi ro với người dùng — tránh mở đầu bằng bối cảnh chung chung. Ví dụ tốt: *"Apple vừa nâng giá đổi máy cũ — cơ hội vàng để nâng cấp với chi phí thấp hơn."*
 
-• **Nguồn & thể loại:** Bài từ r/apple (community) hoặc 9to5Mac kết hợp góc so sánh/tác động thực tế hoạt động tốt hơn bài từ MacWorld/MacRumors thuần thông báo kỹ thuật. Ưu tiên framing "cộng đồng đang nói gì" hoặc "bạn nên làm gì ngay bây giờ".
+• **Kích thích Shares:** Bài có yếu tố "deal/cơ hội" hoặc "cảnh báo sớm" (chuẩn bị trước khi tăng giá, tận dụng trước khi hết) được share nhiều hơn bài thuần leak kỹ thuật. Gắn call-to-action ngầm vào hook: *"người dùng cần chuẩn bị sớm"*, *"cơ hội vàng"*.
 
-• **Nội dung cần tránh:** Bài thuần kỹ thuật không liên quan túi tiền (macOS cập nhật, Siri trên Mac, HomePad UI, App Store EU fee) — nhất quán điểm 0–2, không ai chia sẻ hay bình luận. Bài "nhìn lại sau X năm" hoặc tranh luận iOS vs Android cũng chết tương tác.
+• **NỘI DUNG CẦN TRÁNH:** Bài về thị trường tài chính/cổ phiếu Apple, chính sách EU/App Store, tính năng macOS/Siri mang tính kỹ thuật nội bộ, và các bài "nhìn lại/review" sản phẩm cũ — nhóm này liên tục đạt Score = 0–2, không có Comments lẫn Shares.
 
-• **Lưu ý thể loại Leak:** Leak chỉ hiệu quả khi kèm bằng chứng trực quan rõ ràng (*"file ẩn macOS hé lộ video AirPods camera — rõ nhất từ trước đến nay"* → 61 điểm); leak kiểu *"iOS 27 beta lộ iPhone 18"* không có yếu tố bằng chứng mới → 2 điểm. Chỉ đăng leak khi có chi tiết độc/visual cụ thể.
+• **TRÁNH leak thuần không có góc "người dùng":** Bài như *"iOS 27 beta lộ lineup iPhone 18"* hay *"HomePad giao diện giống Apple Watch"* dù tên hấp dẫn vẫn chết tương tác vì thiếu câu hỏi *"điều này ảnh hưởng gì đến tôi?"* — mọi bài leak/tin nóng phải được gắn thêm góc tác động thực tế đến người dùng hoặc ví tiền.
 
-• **Công thức ưu tiên cho bài tiếp theo:** Chủ đề = Giá/Chi phí/Deal → Tiêu đề hỏi tác động túi tiền → Hook nêu lợi ích hoặc rủi ro cụ thể với người dùng ngay câu 1 → Nguồn uy tín hoặc community làm bằng chứng.
+• **Nguồn & thể loại tốt nhất:** Ưu tiên nguồn 9to5Mac + r/apple cho thể loại Tin nóng/Deal dạng comparison hoặc community; tránh phụ thuộc MacWorld cho các bài announcement kỹ thuật vì nhóm này cho Score thấp nhất trong dữ liệu.
