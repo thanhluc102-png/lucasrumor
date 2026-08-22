@@ -2187,12 +2187,12 @@
     ],
     "publish_time": "2026-08-21T09:55:11.980522",
     "performance": {
-      "reactions": 16,
+      "reactions": 20,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 16
+      "score": 20
     }
   },
   {
@@ -2210,12 +2210,12 @@
     ],
     "publish_time": "2026-08-21T14:01:41.705011",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -2232,6 +2232,29 @@
       "💡 Đèn trạng thái (Status Light) xuất hiện trong code, xác nhận thiết kế phần cứng mới hoàn toàn"
     ],
     "publish_time": "2026-08-22T02:30:47.188417",
+    "performance": {
+      "reactions": 8,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1531452235688770",
+    "title": "ChatGPT iPhone: Đính ảnh nhanh hơn bao giờ hết!",
+    "summary": "ChatGPT trên iPhone có cử chỉ mới giúp đính ảnh gần đây vào cuộc trò chuyện nhanh hơn đáng kể.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/21/chatgpts-iphone-app-gets-a-handy-shortcut-to-attach-recent-photos-more-quickly/",
+    "bullets": [
+      "🖼️ Cử chỉ mới cho phép đính ảnh gần đây vào chat nhanh hơn",
+      "⚡ Không cần mở thư viện ảnh, tiết kiệm thao tác đáng kể",
+      "🔍 Lý tưởng cho ai dùng ChatGPT để nhận diện hoặc phân tích ảnh"
+    ],
+    "publish_time": "2026-08-22T05:46:53.765240",
     "performance": null
   }
 ]
