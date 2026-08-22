@@ -1,11 +1,13 @@
-• **Chủ đề ăn điểm cao:** Giá cả/chi phí tác động trực tiếp túi tiền người dùng (tăng giá iPhone, nâng giá thu đổi), và các leak/tin nóng về sản phẩm chủ lực quen thuộc (iPhone, AirPods). Góc "ảnh hưởng đến ví tiền" luôn kéo reactions và shares mạnh nhất.
+• **Chủ đề ăn điểm cao nhất:** Giá cả/túi tiền người dùng bị ảnh hưởng trực tiếp (tăng giá iPhone, chính sách thu đổi, trả góp phạt trễ hạn) — đây là góc kéo reactions và comments mạnh nhất; ưu tiên angle "ảnh hưởng tới ví tiền" thay vì chỉ đưa tin kỹ thuật thuần túy.
 
-• **Tiêu đề hiệu quả:** Dùng câu hỏi tu từ gắn "túi tiền/chi phí" ("túi tiền bị ảnh hưởng?", "túi tiền có ổn?") hoặc cụm từ gây tò mò + dấu chấm than ("Leak rõ nhất từ trước đến nay!", "Apple tăng giá thu đổi!"). Tránh tiêu đề mô tả thuần túy, không có yếu tố gây tranh cãi hoặc lợi ích cá nhân rõ ràng.
+• **Cấu trúc tiêu đề/hook hiệu quả:** Đặt câu hỏi trực tiếp liên quan lợi ích/thiệt hại của người đọc (ví dụ: "túi tiền bị ảnh hưởng?", "có ổn không?", "sự thật phũ phàng?") — dạng này kéo comments và shares tốt hơn tiêu đề chỉ mô tả sự kiện.
 
-• **Hook hiệu quả:** Nêu ngay tác động cụ thể, có số liệu hoặc nguồn uy tín trong câu đầu tiên; kết thúc hook bằng hệ quả với người dùng ("ảnh hưởng trực tiếp", "cơ hội vàng", "cần chuẩn bị sớm") — không để người đọc tự suy luận lý do họ nên quan tâm.
+• **Hook nên có:** Thông tin cụ thể, định lượng rõ ràng (tên sản phẩm, con số, hành động của Apple) kết hợp với hệ quả thực tế với người dùng — tránh hook mơ hồ chỉ nói "thay đổi lớn" hay "trải nghiệm mới".
 
-• **Cần tránh:** Bài về iOS/macOS tính năng phần mềm thuần túy (đổi màu giao diện, app Siri, Screen Sharing), chủ đề tài chính/cổ phiếu Apple, và bài "nhìn lại/review sau 1 năm" — đây là nhóm điểm thấp nhất (Score 0–2), kể cả khi có hook giật gân.
+• **Nội dung kém hiệu quả cần tránh:** Tin mang tính kỹ thuật/nội bộ không ảnh hưởng trực tiếp đến người dùng phổ thông (App Store EU phí dev, cổ phiếu Wall Street, macOS thêm app Siri, ChatGPT cử chỉ mới) — nhóm này nhất quán cho Score = 0–2.
 
-• **Nguồn & thể loại ưu tiên:** Bài từ 9to5Mac + thể loại "Tin nóng" hoặc "Deal" cho kết quả ổn định hơn MacWorld; bài thể loại "community" (r/apple) chỉ hoạt động tốt khi chủ đề gắn lợi ích tài chính trực tiếp, không hiệu quả với chủ đề ý kiến/thảo luận thuần túy.
+• **Góc tiếp cận "community/tranh luận" rủi ro cao:** Bài dạng "iOS có nên học Android?" hay "dùng 1 năm thật sự thế nào?" tưởng kéo thảo luận nhưng thực tế cho điểm thấp nhất — chỉ dùng khi có số liệu/dẫn chứng cụ thể kèm theo, không đặt câu hỏi chung chung.
 
-• **Đòn bẩy shares:** Bài có yếu tố "deal/cơ hội tiết kiệm tiền" (tăng giá thu đổi, trả góp) hoặc leak hình ảnh/file ẩn cụ thể tạo shares tốt hơn bài phân tích/nhận định — ưu tiên góc "hành động ngay" hơn góc "thú vị để biết".
+• **Nguồn và thể loại:** 9to5Mac và r/apple xuất hiện cả ở bài cao lẫn thấp điểm — nguồn không quyết định hiệu quả, **angle và mức độ liên quan trực tiếp tới người dùng mới là yếu tố quyết định.**
+
+• **Ưu tiên thứ tự chủ đề:** (1) Giá/chi phí/túi tiền → (2) Leak sản phẩm người dùng đang dùng (AirPods, iPhone) có hình ảnh/chi tiết rõ → (3) Chính sách Apple ảnh hưởng trực tiếp hành vi mua hàng; **bỏ qua hoặc hạ tần suất:** tin tài chính doanh nghiệp, tính năng phần mềm nhỏ lẻ, sản phẩm ngách (HomePad, macOS nội bộ).

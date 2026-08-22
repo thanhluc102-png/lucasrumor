@@ -2164,12 +2164,12 @@
     ],
     "publish_time": "2026-08-21T05:51:23.781579",
     "performance": {
-      "reactions": 4,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -2187,12 +2187,12 @@
     ],
     "publish_time": "2026-08-21T09:55:11.980522",
     "performance": {
-      "reactions": 20,
+      "reactions": 32,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 20
+      "score": 32
     }
   },
   {
@@ -2233,12 +2233,12 @@
     ],
     "publish_time": "2026-08-22T02:30:47.188417",
     "performance": {
-      "reactions": 8,
+      "reactions": 9,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -2255,6 +2255,29 @@
       "🔍 Lý tưởng cho ai dùng ChatGPT để nhận diện hoặc phân tích ảnh"
     ],
     "publish_time": "2026-08-22T05:46:53.765240",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1531585509008776",
+    "title": "MG sắp được hỗ trợ Apple Car Key?",
+    "summary": "Mã nguồn Apple tiết lộ MG của SAIC Motor sắp được tích hợp tính năng chìa khóa xe kỹ thuật số.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/08/21/mg-apple-car-key-support/",
+    "bullets": [
+      "🔍 Leak từ mã nguồn backend của Apple tiết lộ sự chuẩn bị hỗ trợ MG",
+      "🚗 MG (SAIC Motor) là thương hiệu xe phổ biến tại Việt Nam & châu Á",
+      "📱 Car Key cho phép dùng iPhone/Apple Watch thay chìa khóa xe vật lý"
+    ],
+    "publish_time": "2026-08-22T09:46:53.103355",
     "performance": null
   }
 ]
