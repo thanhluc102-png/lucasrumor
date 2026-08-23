@@ -2003,12 +2003,12 @@
     ],
     "publish_time": "2026-08-19T09:52:31.376670",
     "performance": {
-      "reactions": 31,
+      "reactions": 32,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 36
+      "score": 37
     }
   },
   {
@@ -2141,12 +2141,12 @@
     ],
     "publish_time": "2026-08-21T02:39:01.166279",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -2187,12 +2187,12 @@
     ],
     "publish_time": "2026-08-21T09:55:11.980522",
     "performance": {
-      "reactions": 34,
+      "reactions": 36,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 34
+      "score": 36
     }
   },
   {
@@ -2233,12 +2233,12 @@
     ],
     "publish_time": "2026-08-22T02:30:47.188417",
     "performance": {
-      "reactions": 9,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 9
+      "score": 11
     }
   },
   {
@@ -2301,6 +2301,29 @@
       "💸 Mức giá dự kiến sẽ cao hơn đáng kể so với AirPods hiện tại"
     ],
     "publish_time": "2026-08-22T13:47:35.264970",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1532221542278506",
+    "title": "Leak tuần này: AirPods camera, Beats 360 lộ diện!",
+    "summary": "macOS Tahoe 26.7 và nhà bán lẻ vô tình để lộ hàng loạt sản phẩm Apple sắp ra mắt.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/08/22/top-stories-apple-leaks-camera-airpods/",
+    "bullets": [
+      "📱 AirPods tích hợp camera lần đầu lộ diện qua file hệ thống macOS Tahoe 26.7",
+      "🎧 Beats 360 bị nhà bán lẻ vô tình để lộ — khả năng ra mắt rất gần",
+      "🕵️ Đây là đợt leak 'tự phát' từ chính Apple, không phải từ chuỗi cung ứng"
+    ],
+    "publish_time": "2026-08-23T02:39:34.234284",
     "performance": null
   }
 ]

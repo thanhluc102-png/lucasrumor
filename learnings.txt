@@ -1,6 +1,13 @@
-- **Chủ đề ăn điểm cao nhất:** Giá tiền & túi tiền người dùng (tăng giá iPhone, trade-in, trả góp), tin rò rỉ phần cứng gây tò mò mạnh (AirPods camera, Apple Watch redesign). Ưu tiên góc "ảnh hưởng trực tiếp đến ví tiền" hơn góc kỹ thuật thuần túy.
-- **Tiêu đề hiệu quả:** Dùng câu hỏi có từ khóa tài chính ("túi tiền", "ví tiền", "đắt hơn", "chi phí") hoặc cụm gây cảm giác cấp bách ("sắp", "vừa", "rõ nhất từ trước đến nay"). Tránh tiêu đề trung tính, mô tả đơn thuần.
-- **Hook kích thích comment/share:** Hook phải đặt người đọc vào tình huống cụ thể ("người dùng cần chuẩn bị sớm", "cơ hội vàng để nâng cấp") — tạo động lực hành động hoặc tranh luận ngay dòng đầu. Hook thuần thông tin kỹ thuật (score thấp) không tạo được phản ứng.
-- **Nguồn & thể loại tốt nhất:** 9to5Mac và r/apple (community) cho điểm ổn định cao hơn MacWorld ở các bài thấp điểm. Thể loại Deal + Tin nóng dạng comparison/community vượt trội; tránh thể loại Apple AI, MacBook thuần tính năng, hoặc tin tài chính doanh nghiệp (cổ phiếu, phí App Store EU).
-- **Nội dung cần tránh:** Tin liên quan đến developer/doanh nghiệp (App Store fee, Wall Street, MG Car Key), tính năng phần mềm nhỏ lẻ (Siri app, ChatGPT cử chỉ), và thiết bị ngoài core audience (HomePad, macOS patch không có góc bảo mật cá nhân). Các bài này nhất quán về 0–2 điểm.
-- **Công thức ưu tiên cho bài tiếp theo:** Chủ đề = [Sản phẩm Apple quen thuộc: iPhone/AirPods/Watch] + [Yếu tố tiền/giá/nâng cấp HOẶC leak hình ảnh cụ thể] + Hook đặt câu hỏi trực tiếp vào lợi ích/thiệt hại của người đọc.
+• **Chủ đề ăn điểm cao:** Giá cả/chi phí trực tiếp ảnh hưởng túi tiền người dùng Việt (tăng giá iPhone, nâng giá thu đổi, trả góp/phạt trễ hạn) — đây là nhóm kéo Reactions và Comments mạnh nhất. Ưu tiên góc "tài chính cá nhân" hơn góc "công nghệ thuần túy".
+
+• **Hook hiệu quả:** Gắn sự kiện kỹ thuật với hệ quả tài chính cụ thể của người đọc ("túi tiền bị ảnh hưởng", "chi phí thấp hơn", "cơ hội vàng") — tránh hook thuần mô tả tính năng hoặc chỉ tóm tắt sự kiện.
+
+• **Tiêu đề ăn Share/Comment:** Dùng câu hỏi gợi tranh luận hoặc kêu gọi phán xét cá nhân ("Túi tiền có ổn?", "Đáng tiền?", "Sự thật phũ phàng?") — không dùng tiêu đề dạng thông báo trung tính ("Apple phát hành X", "Leak tiết lộ Y").
+
+• **Tránh hoàn toàn:** Tin về thị trường tài chính/cổ phiếu, chính sách EU/App Store, tính năng phần mềm nhỏ lẻ (Siri app, cử chỉ ChatGPT, Car Key MG), sản phẩm niche không phổ biến tại Việt Nam (HomePad) — nhóm này nhất quán về Score = 0–1.
+
+• **Nguồn không quyết định hiệu quả:** Bài từ MacWorld có cả top lẫn đáy — yếu tố chủ đề và hook quan trọng hơn nguồn. Không ưu tiên hay loại bỏ nguồn nào chỉ vì thương hiệu.
+
+• **Thể loại Deal > Leak thuần túy:** Bài Deal gắn hành động cụ thể (đổi máy, trả góp) tạo tương tác tốt hơn bài Leak chỉ xác nhận sản phẩm tồn tại — Leak chỉ hiệu quả khi kèm chi tiết gây tranh luận (độ phân giải, tính năng nhận diện người).
+
+• **Lặp chủ đề = điểm chết:** Hai bài về AirPods camera — bài đầu (hook cụ thể, từ 9to5Mac) Score=61; bài lặp lại gần giống (MacWorld) Score=0. Không tái sử dụng chủ đề đã đăng gần đây trừ khi có thông tin thực sự mới và khác biệt rõ ràng.
