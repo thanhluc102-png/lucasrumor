@@ -2325,12 +2325,12 @@
     ],
     "publish_time": "2026-08-23T02:39:34.234284",
     "performance": {
-      "reactions": 2,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 4
     }
   },
   {
@@ -2347,6 +2347,29 @@
       "👨‍💻 Phát triển bởi indie developer, có mặt trên App Store"
     ],
     "publish_time": "2026-08-23T05:48:52.473447",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1532461015587892",
+    "title": "Walmart chấp nhận Apple Pay từ 24/8!",
+    "summary": "Sau nhiều năm từ chối, Walmart cuối cùng chấp nhận thanh toán Apple Pay tại hệ thống cửa hàng Mỹ.",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/08/21/walmart-to-begin-accepting-apple-pay-in-us/",
+    "bullets": [
+      "🏪 Walmart & Sam's Club — chuỗi bán lẻ lớn nhất thế giới — chính thức mở cửa cho Apple Pay",
+      "📅 Triển khai từ 24/8, bắt đầu ở một số cửa hàng rồi mở rộng toàn quốc",
+      "💳 Người dùng iPhone tại Mỹ không còn phải lo quẹt thẻ hay dùng ví Walmart khi mua sắm"
+    ],
+    "publish_time": "2026-08-23T09:47:13.591098",
     "performance": null
   }
 ]

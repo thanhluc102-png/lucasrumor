@@ -1,7 +1,13 @@
-• **Chủ đề hiệu quả nhất:** Giá cả/chi phí ảnh hưởng trực tiếp túi tiền người dùng (tăng giá iPhone, trade-in, trả góp) và Deal/cơ hội tiết kiệm — đây là góc duy nhất tạo được Reactions cao (200–280) và Comments thật.
-• **Góc tiếp cận ăn điểm:** Đặt câu hỏi liên quan lợi ích cá nhân ("túi tiền bị ảnh hưởng?", "có ổn không?") hoặc nêu hành động cụ thể người dùng nên làm ngay — kích thích Shares và Comments hơn hẳn so với chỉ đưa tin trung tính.
-• **Cấu trúc tiêu đề/hook hiệu quả:** Tiêu đề có từ khóa tài chính + dấu hỏi ("sắp tăng giá?", "túi tiền có ổn?") kết hợp hook nêu rõ con số hoặc hành động cụ thể (Apple nâng giá trade-in, Apple hợp tác Klarna) — tránh hook mơ hồ kiểu "thay đổi hoàn toàn" hay "kỷ nguyên mới".
-• **Tránh hoàn toàn:** Tin thuần kỹ thuật/phần mềm không ảnh hưởng người dùng phổ thông (App Store EU fee, macOS patch lỗi nhỏ, Siri app mới, Apple Car Key cho xe ít phổ biến, ChatGPT cử chỉ mới) — nhóm này đồng loạt Score = 0–2.
-• **Tránh lặp chủ đề dù góc khác nhau:** Hai bài AirPods camera đăng gần nhau — bài sau Score = 0 dù hook mạnh hơn; mỗi chủ đề chỉ đăng một lần, chọn góc tài chính/lợi ích người dùng thay vì góc kỹ thuật.
-• **Nguồn không quyết định hiệu quả:** Cả 9to5Mac lẫn MacWorld đều có bài Score = 0; yếu tố quyết định là chủ đề chạm túi tiền — ưu tiên chọn lọc góc bài trước, nguồn là thứ yếu.
-• **Bài Deal/community > Leak thuần túy:** Bài Deal (trade-in, trả góp) tạo tương tác thật (Comments, Shares) tốt hơn bài Leak phần cứng — khi có tin Leak, bắt buộc quy về hệ quả tài chính hoặc quyết định mua/nâng cấp của người dùng.
+• **Chủ đề ăn điểm cao:** Giá cả/chi phí trực tiếp ảnh hưởng túi tiền người dùng Việt (tăng giá iPhone, nâng giá thu đổi, trả góp/phạt trễ hạn) — đây là nhóm kéo Reactions và Comments mạnh nhất. Ưu tiên góc "tác động tài chính cá nhân" hơn góc công nghệ thuần túy.
+
+• **Cấu trúc tiêu đề hiệu quả:** Dạng câu hỏi có chứa từ khóa tài chính ("túi tiền", "chi phí", "đắt hơn", "ví tiền") hoặc hành động cụ thể ("sắp tăng giá", "nâng giá thu đổi") — kích thích comment và share vì người đọc muốn bày tỏ ý kiến hoặc tag bạn bè cùng hoàn cảnh.
+
+• **Hook hiệu quả:** Nêu con số/sự kiện cụ thể ngay câu đầu + nêu rõ ai bị ảnh hưởng và ảnh hưởng thế nào. Tránh hook mơ hồ kiểu "trải nghiệm mới", "thay đổi lớn" mà không định lượng được.
+
+• **Cần tránh — chủ đề chết tương tác:** Tin về developer/App Store EU, cổ phiếu/Wall Street, tính năng phần mềm nhỏ lẻ (Siri app, ChatGPT cử chỉ, Car Key MG, cloud gaming) — toàn bộ nhóm này đạt Score = 0, không phù hợp với tệp audience quan tâm phụ kiện/thiết bị Apple tiêu dùng.
+
+• **Cần tránh — dạng bài trùng chủ đề không có góc mới:** Hai bài AirPods camera đăng gần nhau (Score 61 vs 0) cho thấy bài sau cùng chủ đề nhưng thiếu thông tin mới sẽ bị bỏ qua hoàn toàn — mỗi chủ đề chỉ đăng một lần, trừ khi có chi tiết bổ sung đủ mạnh.
+
+• **Nguồn & thể loại tốt nhất:** Bài từ r/apple (community) và 9to5Mac kết hợp góc "comparison" hoặc "deal" cho điểm ổn định; bài dạng "announcement" thuần túy (chỉ thông báo tính năng, không liên quan tiền bạc) hầu hết rơi vào nhóm điểm thấp nhất.
+
+• **Ưu tiên thứ tự:** Reactions là chỉ số đông nhất — tiêu đề/hook cần chạm cảm xúc (lo ngại, bất ngờ, tiết kiệm) ngay lập tức. Shares cao khi nội dung có giá trị "cảnh báo" hoặc "cơ hội" rõ ràng để người dùng muốn nhắc nhau.
