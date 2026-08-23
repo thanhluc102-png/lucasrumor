@@ -2324,6 +2324,29 @@
       "🕵️ Đây là đợt leak 'tự phát' từ chính Apple, không phải từ chuỗi cung ứng"
     ],
     "publish_time": "2026-08-23T02:39:34.234284",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1532330292267631",
+    "title": "CloudGear: Chơi Cloud Gaming Ngay Trên Apple TV",
+    "summary": "Ứng dụng tvOS mới gom Xbox, GeForce Now, Luna vào một nơi duy nhất.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/22/indie-app-spotlight-cloudgear-brings-all-cloud-gaming-platforms-into-one-tvos-app/",
+    "bullets": [
+      "🎮 Hỗ trợ Xbox Cloud Gaming, GeForce Now, Amazon Luna trong 1 app",
+      "📺 Dành riêng cho Apple TV — giao diện tvOS tối ưu",
+      "👨‍💻 Phát triển bởi indie developer, có mặt trên App Store"
+    ],
+    "publish_time": "2026-08-23T05:48:52.473447",
     "performance": null
   }
 ]
