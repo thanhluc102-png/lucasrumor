@@ -2325,12 +2325,12 @@
     ],
     "publish_time": "2026-08-23T02:39:34.234284",
     "performance": {
-      "reactions": 4,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 6
     }
   },
   {
@@ -2370,6 +2370,29 @@
       "💳 Người dùng iPhone tại Mỹ không còn phải lo quẹt thẻ hay dùng ví Walmart khi mua sắm"
     ],
     "publish_time": "2026-08-23T09:47:13.591098",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1532622788905048",
+    "title": "iPhone bị đơ? Cách vào Recovery Mode cứu máy!",
+    "summary": "iPhone gặp sự cố nghiêm trọng, Recovery Mode là cách duy nhất để cứu dữ liệu và phục hồi máy.",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/672701/how-to-put-an-iphone-into-recovery-mode.html",
+    "bullets": [
+      "🆘 Recovery Mode là cách duy nhất cứu iPhone khi máy bị treo cứng hoặc không khởi động được",
+      "📋 Thao tác khác nhau theo từng dòng máy — iPhone 8+ dùng tổ hợp Vol Up → Vol Down → giữ Side",
+      "💾 Ưu tiên chọn 'Update' thay vì 'Restore' để tránh mất toàn bộ dữ liệu cá nhân"
+    ],
+    "publish_time": "2026-08-23T13:49:25.526671",
     "performance": null
   }
 ]
