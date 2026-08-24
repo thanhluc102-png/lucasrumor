@@ -2325,12 +2325,12 @@
     ],
     "publish_time": "2026-08-23T02:39:34.234284",
     "performance": {
-      "reactions": 14,
+      "reactions": 15,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 14
+      "score": 15
     }
   },
   {
@@ -2417,12 +2417,12 @@
     ],
     "publish_time": "2026-08-24T02:39:45.187846",
     "performance": {
-      "reactions": 2,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 5
     }
   },
   {
@@ -2439,6 +2439,29 @@
       "⚡ Chip M6 hứa hẹn hiệu năng vượt trội so với M4 hiện tại"
     ],
     "publish_time": "2026-08-24T05:56:59.909113",
+    "performance": {
+      "reactions": 3,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 6
+    }
+  },
+  {
+    "post_id": "1920842954802282_1533416338825693",
+    "title": "Apple tự để lộ hàng loạt sản phẩm chưa ra mắt!",
+    "summary": "macOS Tahoe 26.7 RC vô tình chứa tham chiếu đến hàng loạt thiết bị Apple chưa được công bố.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/08/24/how-apple-leaked-itself/",
+    "bullets": [
+      "🗂️ File RC của macOS Tahoe 26.7 chứa tham chiếu đến nhiều sản phẩm chưa ra mắt trên nhiều danh mục khác nhau",
+      "📱 Danh sách bị lộ trải rộng: thiết bị nhà thông minh, iPhone, iPad, AirPods và Mac",
+      "🤫 Đây là một trong những vụ tự rò rỉ có quy mô lớn và toàn diện nhất từ trước đến nay của Apple"
+    ],
+    "publish_time": "2026-08-24T10:08:16.474734",
     "performance": null
   }
 ]

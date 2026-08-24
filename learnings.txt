@@ -1,11 +1,13 @@
-• **Chủ đề ăn điểm cao:** Giá tiền/túi tiền người dùng bị ảnh hưởng trực tiếp (tăng giá iPhone, nâng giá thu đổi), tin rò rỉ sản phẩm sắp ra mắt có hình ảnh/code xác nhận rõ ràng (AirPods camera, AirPods 5). Tránh tin tài chính doanh nghiệp (cổ phiếu, phí App Store EU) và tính năng phần mềm nhỏ lẻ — nhóm này nhất quán về 0 điểm.
+• **Chủ đề ăn điểm cao:** Giá cả/chi phí tác động trực tiếp đến túi tiền người dùng (tăng giá iPhone, nâng giá thu đổi, trả góp/phạt trễ hạn) — đây là nhóm kéo Reactions và Comments mạnh nhất. Ưu tiên góc "ảnh hưởng tài chính cụ thể đến người dùng Việt" hơn là thông tin kỹ thuật thuần túy.
 
-• **Góc tiếp cận hiệu quả nhất:** Đặt câu hỏi tác động cá nhân ("túi tiền bị ảnh hưởng?", "có ổn?", "sự thật phũ phàng?") kéo reaction và comment; tin có yếu tố so sánh hoặc cộng đồng (community/comparison) vượt hẳn tin announcement thuần túy về share và comment.
+• **Tiêu đề hiệu quả:** Dùng cấu trúc có từ khóa tài chính + dấu hỏi kích tương tác ("túi tiền bị ảnh hưởng?", "có ổn?", "sự thật phũ phàng?"). Câu hook phải nêu ngay hệ quả thực tế với người dùng, không dừng ở mô tả sự kiện.
 
-• **Cấu trúc tiêu đề kích thích tương tác:** Dạng "Tên sản phẩm + hành động gây bất ngờ + dấu hỏi/dấu chấm than" (vd: *"Apple tăng giá thu đổi iPhone, Mac, Watch!"*). Hook cần nêu **sự kiện cụ thể + hệ quả với người dùng** trong 1–2 câu, tránh hook chỉ mô tả tính năng kỹ thuật trung tính.
+• **Hook kéo Share:** Nêu rõ con số hoặc mốc thời gian cụ thể ("nhanh hơn dự báo", "vừa nâng giá", "phát hành khẩn cấp") — tạo cảm giác tin tức nóng, cần chia sẻ ngay.
 
-• **Nguồn & độ tin cậy:** 9to5Mac và r/apple cho kết quả ổn định hơn MacWorld ở nhóm bài thấp điểm; ưu tiên nguồn có "code/file xác nhận" thay vì "nghiên cứu/đang cân nhắc" — mức độ xác nhận càng cao, tương tác càng tốt.
+• **Cần tránh — chủ đề chết:** Tin về thị trường tài chính/cổ phiếu Apple, tính năng dành cho developer (App Store EU fee), sản phẩm ngoài hệ sinh thái cốt lõi (HomePad, MG Car Key, CloudGaming trên Apple TV) — đều về 0, không phù hợp với tệp audience của Page.
 
-• **Nội dung cần loại khỏi lịch đăng:** Tin về ứng dụng bên thứ ba (CloudGear, ChatGPT gesture), tính năng xe hơi (Car Key), cập nhật phần mềm vá lỗi nhỏ, và tin tài chính/cổ phiếu — tất cả nhóm này đạt Score = 0 và không phù hợp với audience mua phụ kiện Apple.
+• **Cần tránh — dạng bài chết:** Leak/announcement thuần kỹ thuật không gắn với lợi ích người dùng (AirPods camera spec, macOS Siri app, ChatGPT cử chỉ mới) — dù nguồn uy tín vẫn không tạo tương tác. Tránh đăng bài trùng góc tiếp cận trong thời gian ngắn (AirPods camera xuất hiện 2 lần, bài sau về 0).
 
-• **Ngưỡng tối thiểu để đăng:** Chỉ đăng bài nếu chủ đề liên quan trực tiếp đến sản phẩm phần cứng Apple (iPhone, AirPods, Apple Watch, Mac) VÀ có ít nhất một trong hai yếu tố: (1) tác động tài chính rõ ràng với người dùng phổ thông, hoặc (2) rò rỉ/xác nhận từ code/file nội bộ về sản phẩm sắp ra mắt.
+• **Nguồn & thể loại tối ưu:** Bài từ r/apple (community) và 9to5Mac dạng "comparison" hoặc "deal" có Score ổn định hơn bài announcement thuần từ MacWorld/MacRumors. Ưu tiên thể loại Deal và Comparison khi chọn góc khai thác.
+
+• **Lưu ý tổng quát:** Tập dữ liệu chỉ có bài Tin đồn/Infographic — chưa đủ dữ liệu bài Sản phẩm để so sánh hai loại. Chưa thể kết luận loại nào vượt trội hơn; cần bổ sung dữ liệu bài sản phẩm để đưa ra hướng dẫn phân biệt hai nhóm.
