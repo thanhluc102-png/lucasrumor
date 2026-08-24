@@ -2417,12 +2417,12 @@
     ],
     "publish_time": "2026-08-24T02:39:45.187846",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -2462,6 +2462,29 @@
       "🤫 Đây là một trong những vụ tự rò rỉ có quy mô lớn và toàn diện nhất từ trước đến nay của Apple"
     ],
     "publish_time": "2026-08-24T10:08:16.474734",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1533585902142070",
+    "title": "iPhone Màn Hình Gập: Cơ Hội Hay Rủi Ro Cho Túi Tiền?",
+    "summary": "Cộng đồng tranh luận sôi nổi về iPhone gập — liệu có đáng xuống tiền khi giá dự kiến cực cao?",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/podcast-rewind-a-folding-iphone-portable-gaming-on-a-folding-phone-a-headphone-problem-and-classic-game-revivals/",
+    "bullets": [
+      "📡 Tin đồn iPhone gập nóng trở lại qua loạt podcast công nghệ uy tín",
+      "🎮 Câu hỏi lớn: Foldable có đủ sức thay thế máy chơi game cầm tay?",
+      "💸 Giá dự kiến cực cao — quyết định xuống tiền cần cân nhắc kỹ"
+    ],
+    "publish_time": "2026-08-24T14:06:08.731108",
     "performance": null
   }
 ]

@@ -1,13 +1,13 @@
-• **Chủ đề ăn điểm cao:** Giá cả/chi phí tác động trực tiếp đến túi tiền người dùng (tăng giá iPhone, nâng giá thu đổi, trả góp/phạt trễ hạn) — đây là nhóm kéo Reactions và Comments mạnh nhất. Ưu tiên góc "ảnh hưởng tài chính cụ thể đến người dùng Việt" hơn là thông tin kỹ thuật thuần túy.
+• **Chủ đề cao điểm:** Ưu tiên bài về giá cả/chi phí tác động trực tiếp túi tiền người dùng Việt (tăng giá iPhone, chương trình đổi máy, trả góp/phạt trễ hạn) — đây là nhóm duy nhất kéo được cả Reactions lẫn Comments và Shares cùng lúc.
 
-• **Tiêu đề hiệu quả:** Dùng cấu trúc có từ khóa tài chính + dấu hỏi kích tương tác ("túi tiền bị ảnh hưởng?", "có ổn?", "sự thật phũ phàng?"). Câu hook phải nêu ngay hệ quả thực tế với người dùng, không dừng ở mô tả sự kiện.
+• **Góc tiếp cận hiệu quả nhất:** Framing "ảnh hưởng đến tôi thế nào?" (tài chính, quyết định mua/nâng cấp) thắng áp đảo so với framing "Apple làm gì mới" — bài iPhone 18 Pro tăng giá (Score=339) gấp 5× bài AirPods camera leak gần nhất (Score=61).
 
-• **Hook kéo Share:** Nêu rõ con số hoặc mốc thời gian cụ thể ("nhanh hơn dự báo", "vừa nâng giá", "phát hành khẩn cấp") — tạo cảm giác tin tức nóng, cần chia sẻ ngay.
+• **Cấu trúc tiêu đề/hook kéo tương tác:** Đặt câu hỏi có "túi tiền" / chi phí cụ thể trong tiêu đề; hook nêu con số thật hoặc hậu quả cụ thể (giá tăng bao nhiêu, phạt nặng đến mức nào) — tránh hook chỉ mô tả sự kiện trung lập.
 
-• **Cần tránh — chủ đề chết:** Tin về thị trường tài chính/cổ phiếu Apple, tính năng dành cho developer (App Store EU fee), sản phẩm ngoài hệ sinh thái cốt lõi (HomePad, MG Car Key, CloudGaming trên Apple TV) — đều về 0, không phù hợp với tệp audience của Page.
+• **Nguồn/thể loại tốt:** Bài Deal và Tin nóng dạng comparison/stat từ 9to5Mac & r/apple có xu hướng Score cao hơn; bài từ MacWorld về tính năng kỹ thuật thuần túy thường điểm thấp.
 
-• **Cần tránh — dạng bài chết:** Leak/announcement thuần kỹ thuật không gắn với lợi ích người dùng (AirPods camera spec, macOS Siri app, ChatGPT cử chỉ mới) — dù nguồn uy tín vẫn không tạo tương tác. Tránh đăng bài trùng góc tiếp cận trong thời gian ngắn (AirPods camera xuất hiện 2 lần, bài sau về 0).
+• **Cần tránh — nội dung chết (Score=0):** Tính năng AI/app mới (ChatGPT, Siri Mac), gaming (CloudGear), xe hơi (Apple Car Key/MG), giao diện sản phẩm chưa xác nhận (HomePad) — hoàn toàn không tạo tương tác với tệp khán giả này.
 
-• **Nguồn & thể loại tối ưu:** Bài từ r/apple (community) và 9to5Mac dạng "comparison" hoặc "deal" có Score ổn định hơn bài announcement thuần từ MacWorld/MacRumors. Ưu tiên thể loại Deal và Comparison khi chọn góc khai thác.
+• **Cần tránh — cách viết kém:** Hook chỉ mô tả kỹ thuật ("tham chiếu trong code", "file ẩn tiết lộ") mà không dẫn ngay đến lợi ích/rủi ro cho người đọc; tiêu đề thiếu từ khóa cảm xúc hoặc câu hỏi kích phản hồi.
 
-• **Lưu ý tổng quát:** Tập dữ liệu chỉ có bài Tin đồn/Infographic — chưa đủ dữ liệu bài Sản phẩm để so sánh hai loại. Chưa thể kết luận loại nào vượt trội hơn; cần bổ sung dữ liệu bài sản phẩm để đưa ra hướng dẫn phân biệt hai nhóm.
+• **Lưu ý bộ dữ liệu:** Chỉ có dữ liệu bài Tin đồn/Infographic — chưa đủ dữ liệu bài sản phẩm để so sánh hai loại; không áp dụng kết luận này cho bài đăng sản phẩm cho đến khi có thêm số liệu.
