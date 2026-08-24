@@ -1,7 +1,11 @@
-- **Chủ đề ăn điểm nhất:** Giá cả/chi phí ảnh hưởng trực tiếp túi tiền người dùng (tăng giá iPhone, nâng giá thu đổi, phạt trễ trả góp) và tin nóng liên quan iPhone — đây là góc kéo Reactions và Comments mạnh nhất. Ưu tiên frame "tác động tài chính cụ thể đến người dùng" thay vì chỉ đưa tin sự kiện thuần túy.
-- **Tiêu đề hiệu quả:** Dùng câu hỏi tu từ gắn với lợi ích/rủi ro cá nhân ("túi tiền bị ảnh hưởng?", "có ổn không?", "sự thật phũ phàng?") hoặc cụm "cơ hội vàng / chuẩn bị sớm" để tạo urgency. Tránh tiêu đề chỉ mô tả sự kiện trung tính.
-- **Hook hiệu quả:** Nêu con số cụ thể hoặc nguồn đáng tin cay (tên file, mã code, tên quý tài chính) kèm hệ quả rõ ràng cho người dùng — không dừng ở "Apple vừa làm X" mà phải thêm "→ điều này có nghĩa gì với bạn/ví tiền bạn."
-- **Kém hiệu quả, cần tránh:** Tin về sản phẩm/hệ sinh thái Apple không liên quan trực tiếp đến người dùng Việt (Apple Car Key cho xe MG, Walmart Apple Pay, App Store EU, Cloud Gaming trên Apple TV) — nhóm này nhất quán về điểm 0, bất kể nguồn hay cách viết.
-- **Kém hiệu quả, cần tránh:** Bài announcement thuần túy không có góc "so sánh / tác động / cộng đồng" (AirPods camera viết lần 2 gần như y chang lần 1 nhưng score = 0 so với 61) — trùng chủ đề mà không có góc mới = chết tương tác.
-- **Ưu tiên thể loại:** *comparison* và *community* (dẫn thảo luận r/apple, phản hồi cộng đồng) cho điểm Comments/Shares cao hơn *announcement* thuần — nên gắn thêm "cộng đồng nói gì / bạn nghĩ sao?" vào hook để kéo bình luận.
-- **Tránh:** Tin về MacBook, macOS, HomePod, Apple AI/ChatGPT, tvOS — các thể loại này liên tục xuất hiện trong nhóm điểm thấp nhất, không phù hợp với tệp khán giả fanpage phụ kiện Apple.
+• **Chủ đề ăn điểm cao:** Giá tiền/túi tiền người dùng bị ảnh hưởng trực tiếp (tăng giá iPhone, nâng giá thu đổi), tin rò rỉ sản phẩm sắp ra mắt có hình ảnh/code xác nhận rõ ràng (AirPods camera, AirPods 5). Tránh tin tài chính doanh nghiệp (cổ phiếu, phí App Store EU) và tính năng phần mềm nhỏ lẻ — nhóm này nhất quán về 0 điểm.
+
+• **Góc tiếp cận hiệu quả nhất:** Đặt câu hỏi tác động cá nhân ("túi tiền bị ảnh hưởng?", "có ổn?", "sự thật phũ phàng?") kéo reaction và comment; tin có yếu tố so sánh hoặc cộng đồng (community/comparison) vượt hẳn tin announcement thuần túy về share và comment.
+
+• **Cấu trúc tiêu đề kích thích tương tác:** Dạng "Tên sản phẩm + hành động gây bất ngờ + dấu hỏi/dấu chấm than" (vd: *"Apple tăng giá thu đổi iPhone, Mac, Watch!"*). Hook cần nêu **sự kiện cụ thể + hệ quả với người dùng** trong 1–2 câu, tránh hook chỉ mô tả tính năng kỹ thuật trung tính.
+
+• **Nguồn & độ tin cậy:** 9to5Mac và r/apple cho kết quả ổn định hơn MacWorld ở nhóm bài thấp điểm; ưu tiên nguồn có "code/file xác nhận" thay vì "nghiên cứu/đang cân nhắc" — mức độ xác nhận càng cao, tương tác càng tốt.
+
+• **Nội dung cần loại khỏi lịch đăng:** Tin về ứng dụng bên thứ ba (CloudGear, ChatGPT gesture), tính năng xe hơi (Car Key), cập nhật phần mềm vá lỗi nhỏ, và tin tài chính/cổ phiếu — tất cả nhóm này đạt Score = 0 và không phù hợp với audience mua phụ kiện Apple.
+
+• **Ngưỡng tối thiểu để đăng:** Chỉ đăng bài nếu chủ đề liên quan trực tiếp đến sản phẩm phần cứng Apple (iPhone, AirPods, Apple Watch, Mac) VÀ có ít nhất một trong hai yếu tố: (1) tác động tài chính rõ ràng với người dùng phổ thông, hoặc (2) rò rỉ/xác nhận từ code/file nội bộ về sản phẩm sắp ra mắt.

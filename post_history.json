@@ -2233,12 +2233,12 @@
     ],
     "publish_time": "2026-08-22T02:30:47.188417",
     "performance": {
-      "reactions": 11,
+      "reactions": 12,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 11
+      "score": 12
     }
   },
   {
@@ -2325,12 +2325,12 @@
     ],
     "publish_time": "2026-08-23T02:39:34.234284",
     "performance": {
-      "reactions": 13,
+      "reactions": 14,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 13
+      "score": 14
     }
   },
   {
@@ -2371,12 +2371,12 @@
     ],
     "publish_time": "2026-08-23T09:47:13.591098",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -2394,12 +2394,12 @@
     ],
     "publish_time": "2026-08-23T13:49:25.526671",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -2416,6 +2416,29 @@
       "🇻🇳 Với thị trường Việt Nam, giá iPhone vốn đã cao — đợt tăng giá mới sẽ càng gây áp lực hơn"
     ],
     "publish_time": "2026-08-24T02:39:45.187846",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1533270985506895",
+    "title": "iMac M6 ra mắt cuối năm, thêm màu mới!",
+    "summary": "Apple chuẩn bị tung iMac chip M6 với bảng màu mới, lần đầu sau 2 năm chờ đợi.",
+    "category": "MacBook",
+    "visual_type": "comparison",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/23/apple-refreshed-imac-m6-chip-new-colors/",
+    "bullets": [
+      "🔥 iMac M6 dự kiến ra mắt cuối năm 2025, lần đầu sau 2 năm",
+      "🎨 Bảng màu mới được làm mới hoàn toàn, thêm nhiều tùy chọn hấp dẫn",
+      "⚡ Chip M6 hứa hẹn hiệu năng vượt trội so với M4 hiện tại"
+    ],
+    "publish_time": "2026-08-24T05:56:59.909113",
     "performance": null
   }
 ]
