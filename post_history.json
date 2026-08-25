@@ -2325,12 +2325,12 @@
     ],
     "publish_time": "2026-08-23T02:39:34.234284",
     "performance": {
-      "reactions": 15,
+      "reactions": 18,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 15
+      "score": 18
     }
   },
   {
@@ -2417,12 +2417,12 @@
     ],
     "publish_time": "2026-08-24T02:39:45.187846",
     "performance": {
-      "reactions": 6,
+      "reactions": 14,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 6
+      "shares": 1,
+      "score": 19
     }
   },
   {
@@ -2463,12 +2463,12 @@
     ],
     "publish_time": "2026-08-24T10:08:16.474734",
     "performance": {
-      "reactions": 3,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 8
+      "score": 10
     }
   },
   {
@@ -2485,6 +2485,29 @@
       "💸 Giá dự kiến cực cao — quyết định xuống tiền cần cân nhắc kỹ"
     ],
     "publish_time": "2026-08-24T14:06:08.731108",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1534057285428265",
+    "title": "Tim Cook rời ghế CEO Apple sau 15 năm?",
+    "summary": "Đúng 15 năm thay thế Steve Jobs, Tim Cook tuyên bố rời vị trí CEO Apple vào ngày 1/9.",
+    "category": "Sự kiện",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vx0zgt/tim_cook_replaced_steve_jobs_15_years_ago_today/",
+    "bullets": [
+      "⏳ Tim Cook chính thức rời ghế CEO Apple vào ngày 1 tháng 9",
+      "📅 Đúng 15 năm ông tiếp quản từ Steve Jobs — một kỷ nguyên khép lại",
+      "🔮 Cộng đồng đang sôi nổi đồn đoán về người kế nhiệm và tương lai Apple"
+    ],
+    "publish_time": "2026-08-25T02:33:40.437140",
     "performance": null
   }
 ]
