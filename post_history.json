@@ -2463,12 +2463,12 @@
     ],
     "publish_time": "2026-08-24T10:08:16.474734",
     "performance": {
-      "reactions": 8,
+      "reactions": 9,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 13
+      "score": 14
     }
   },
   {
@@ -2554,6 +2554,29 @@
       "🤔 Bạn đang chờ iOS 27 để fix lỗi Messages nào? Chia sẻ ngay bên dưới!"
     ],
     "publish_time": "2026-08-25T09:55:14.823716",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1534487758718551",
+    "title": "Mac mini mới có thể ra mắt bất ngờ bất kỳ lúc nào?",
+    "summary": "Báo cáo bất ngờ: Mac mini thế hệ mới có thể xuất hiện trong vài ngày tới, không cần chờ sự kiện lớn.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3219832/surprise-report-new-mac-mini-could-land-any-day-now.html",
+    "bullets": [
+      "🚨 Có thể xuất hiện bất kỳ ngày nào, không qua sự kiện chính thức",
+      "⚡ Dự kiến trang bị chip Apple Silicon thế hệ mới nhất",
+      "📦 Apple từng nhiều lần ra mắt sản phẩm kiểu 'thả im lặng' như vậy"
+    ],
+    "publish_time": "2026-08-25T14:08:18.701417",
     "performance": null
   }
 ]
