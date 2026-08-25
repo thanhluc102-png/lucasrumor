@@ -2417,12 +2417,12 @@
     ],
     "publish_time": "2026-08-24T02:39:45.187846",
     "performance": {
-      "reactions": 14,
+      "reactions": 15,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 19
+      "score": 20
     }
   },
   {
@@ -2463,12 +2463,12 @@
     ],
     "publish_time": "2026-08-24T10:08:16.474734",
     "performance": {
-      "reactions": 5,
+      "reactions": 8,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 10
+      "score": 13
     }
   },
   {
@@ -2486,12 +2486,12 @@
     ],
     "publish_time": "2026-08-24T14:06:08.731108",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -2508,6 +2508,29 @@
       "🔮 Cộng đồng đang sôi nổi đồn đoán về người kế nhiệm và tương lai Apple"
     ],
     "publish_time": "2026-08-25T02:33:40.437140",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1534174862083174",
+    "title": "AirPods 5 ra tháng tới — 2 phiên bản, ví bạn chịu được không?",
+    "summary": "Bloomberg tiết lộ Apple sắp tung hai phiên bản AirPods 5 ngay tháng tới, trước thềm mùa mua sắm cuối năm.",
+    "category": "Sự kiện",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/24/apple-could-debut-two-airpods-5-models-next-month-per-report/",
+    "bullets": [
+      "🗞️ Nguồn Bloomberg xác nhận: Apple ra mắt AirPods 5 với hai phiên bản riêng biệt ngay tháng tới",
+      "💰 Hai biến thể gợi ý có thể có mức giá khác nhau — người dùng tiết kiệm vẫn có lựa chọn",
+      "📅 AirPods camera vẫn chưa về năm nay — nếu đang chờ, hãy cân nhắc kỹ trước khi xuống tiền ngay"
+    ],
+    "publish_time": "2026-08-25T05:51:09.735626",
     "performance": null
   }
 ]

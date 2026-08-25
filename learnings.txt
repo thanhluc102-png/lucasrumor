@@ -1,6 +1,13 @@
-- **Chủ đề ưu tiên:** Giá cả / túi tiền người dùng bị ảnh hưởng trực tiếp (tăng giá iPhone, chương trình đổi máy, trả góp) → điểm cao nhất; tiếp theo là leak/rò rỉ phần cứng cụ thể (AirPods camera, AirPods 5). Tránh chủ đề quá kỹ thuật hoặc không liên quan trực tiếp đến người dùng Việt (Car Key MG, App Store EU fee, CloudGaming).
-- **Tiêu đề hiệu quả:** Dùng câu hỏi trực tiếp đánh vào lợi ích/lo ngại cá nhân ("túi tiền bị ảnh hưởng?", "có ổn không?", "sự thật phũ phàng?"). Tránh tiêu đề chỉ mô tả sự kiện trung lập, không có yếu tố kích thích phản ứng.
-- **Hook hiệu quả:** Nêu con số cụ thể hoặc hành động cụ thể của Apple trước, sau đó kết bằng hệ quả tác động đến người đọc. Tránh hook chỉ tóm tắt tin thuần kỹ thuật hoặc không có "stakes" rõ ràng.
-- **Nguồn & thể loại:** Bài từ r/apple (community) và 9to5Mac kết hợp góc "comparison" hoặc "community" cho Reactions cao hơn. Bài thuần "announcement" từ MacWorld/MacRumors về tính năng phần mềm (Siri, Screen Sharing, Golden Gate) gần như không có tương tác.
-- **Kém hiệu quả cần tránh:** Chủ đề không liên quan đến hầu hết người dùng Việt (HomePad, Apple TV gaming, EU policy, MG Car Key); bài lặp lại cùng góc với bài đã đăng trước đó mà không có thông tin mới đáng kể (hai bài AirPods camera score chênh lệch cực lớn do bài sau không thêm chi tiết mới).
-- **Đòn bẩy Comments & Shares:** Comments và Shares tập trung ở bài có yếu tố tranh luận tài chính hoặc quyết định mua sắm rõ ràng. Để tăng Comments, cuối hook nên đặt câu hỏi mở hoặc kêu gọi người đọc chia sẻ quan điểm cá nhân ("Bạn nghĩ sao?", "Bạn có sẵn sàng xuống tiền không?").
+• **Chủ đề ăn tiền:** Giá cả & túi tiền người dùng (iPhone tăng giá, trade-in, trả góp) → kéo reactions và comments cao nhất. Ưu tiên góc "ảnh hưởng trực tiếp đến ví tiền" hơn là tin công nghệ thuần túy.
+
+• **Tiêu đề hiệu quả:** Dùng cấu trúc **[Sự kiện] + [Tác động túi tiền/người dùng]** kèm dấu hỏi hoặc từ gợi lo ngại — ví dụ: *"X sắp tăng giá — túi tiền bạn bị ảnh hưởng?"*, *"Apple phạt nặng đến mức nào?"*. Tránh tiêu đề trung lập, thuần mô tả.
+
+• **Hook hiệu quả:** Nêu ngay con số cụ thể hoặc nguồn uy tín + hệ quả rõ ràng với người dùng trong câu đầu tiên (ví dụ: *"Qualcomm xác nhận... ảnh hưởng trực tiếp lợi nhuận quý tới"*). Hook mơ hồ hoặc chỉ mô tả tính năng → tương tác gần bằng 0.
+
+• **Tránh hoàn toàn:** Tin về cổ phiếu/Wall Street, thay đổi App Store EU, tính năng AI/Siri thuần kỹ thuật, ứng dụng bên thứ ba (CloudGear, ChatGPT cử chỉ), Car Key cho hãng xe ít phổ biến — các chủ đề này nhất quán về điểm 0.
+
+• **Sản phẩm niche = rủi ro cao:** AirPods camera và HomePad có thể hút reaction nếu nguồn rõ (9to5Mac + file ẩn macOS) nhưng trắng tay nếu hook không liên kết lợi ích người dùng. Leak phải đi kèm *"điều này có nghĩa gì với bạn"* mới có giá trị kéo tương tác.
+
+• **Nguồn ảnh hưởng ít, góc tiếp cận mới quan trọng hơn:** Cùng chủ đề AirPods camera — bài từ 9to5Mac/MacRumors đạt 36–61 điểm, bài từ MacWorld đạt 0. Yếu tố quyết định là hook có gắn lợi ích/tác động cụ thể hay không, không phải nguồn.
+
+• **Ưu tiên thể loại Deal & So sánh giá** hơn Announcement thuần túy — hai bài Deal (trade-in, Apple Upgrade) đều lọt top 10 dù score không vượt trội, trong khi Announcement không gắn "túi tiền" thì gần như luôn về 0.
