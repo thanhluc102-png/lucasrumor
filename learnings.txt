@@ -1,13 +1,13 @@
-• **Chủ đề ăn tiền:** Giá cả & túi tiền người dùng (iPhone tăng giá, trade-in, trả góp) → kéo reactions và comments cao nhất. Ưu tiên góc "ảnh hưởng trực tiếp đến ví tiền" hơn là tin công nghệ thuần túy.
+• **Chủ đề ăn điểm nhất:** Giá cả / túi tiền bị ảnh hưởng (tăng giá iPhone, trade-in, trả góp) và các leak/tin đồn về sản phẩm đại trà (iPhone, AirPods). Tránh chủ đề quá kỹ thuật hoặc hẹp (MG Car Key, ChatGPT cử chỉ, CloudGear, HomePad, App Store EU) — đây đều là bài 0 điểm.
 
-• **Tiêu đề hiệu quả:** Dùng cấu trúc **[Sự kiện] + [Tác động túi tiền/người dùng]** kèm dấu hỏi hoặc từ gợi lo ngại — ví dụ: *"X sắp tăng giá — túi tiền bạn bị ảnh hưởng?"*, *"Apple phạt nặng đến mức nào?"*. Tránh tiêu đề trung lập, thuần mô tả.
+• **Góc tiếp cận cao điểm:** Gắn thông tin vào tác động cá nhân ("túi tiền bị ảnh hưởng", "cơ hội vàng để nâng cấp") thay vì chỉ thông báo sự kiện thuần túy. Bài số 1 (Score=339) và số 2 (Score=228) đều dùng góc này.
 
-• **Hook hiệu quả:** Nêu ngay con số cụ thể hoặc nguồn uy tín + hệ quả rõ ràng với người dùng trong câu đầu tiên (ví dụ: *"Qualcomm xác nhận... ảnh hưởng trực tiếp lợi nhuận quý tới"*). Hook mơ hồ hoặc chỉ mô tả tính năng → tương tác gần bằng 0.
+• **Cấu trúc tiêu đề kích thích reactions & shares:** Dạng câu hỏi kết hợp từ khoá tài chính ("Túi tiền bạn bị ảnh hưởng?", "Ví bạn chịu được không?") hoặc dạng tin nóng có xác nhận rõ nguồn gốc đáng tin ("Leak rõ nhất từ trước đến nay!"). Tránh tiêu đề mô tả chức năng khô khan ("thêm app Siri mới cho Mac", "Đính ảnh nhanh hơn").
 
-• **Tránh hoàn toàn:** Tin về cổ phiếu/Wall Street, thay đổi App Store EU, tính năng AI/Siri thuần kỹ thuật, ứng dụng bên thứ ba (CloudGear, ChatGPT cử chỉ), Car Key cho hãng xe ít phổ biến — các chủ đề này nhất quán về điểm 0.
+• **Hook hiệu quả:** Mở bằng sự kiện cụ thể có con số hoặc hành động của Apple → kéo về hệ quả thực tế với người dùng. Tránh hook chỉ tóm tắt lại tiêu đề hoặc chỉ nêu tính năng mà không nêu tác động.
 
-• **Sản phẩm niche = rủi ro cao:** AirPods camera và HomePad có thể hút reaction nếu nguồn rõ (9to5Mac + file ẩn macOS) nhưng trắng tay nếu hook không liên kết lợi ích người dùng. Leak phải đi kèm *"điều này có nghĩa gì với bạn"* mới có giá trị kéo tương tác.
+• **Cần tránh:** Bài về phần mềm/hệ điều hành (macOS feature, iOS tweak), thiết bị ngoài hệ sinh thái chính (xe hơi, TV gaming), và bài "sự kiện announcement" thuần tuý không có yếu tố tranh luận hay tài chính — nhóm này chiếm toàn bộ top bài 0 điểm.
 
-• **Nguồn ảnh hưởng ít, góc tiếp cận mới quan trọng hơn:** Cùng chủ đề AirPods camera — bài từ 9to5Mac/MacRumors đạt 36–61 điểm, bài từ MacWorld đạt 0. Yếu tố quyết định là hook có gắn lợi ích/tác động cụ thể hay không, không phải nguồn.
+• **Nguồn & thể loại:** Bài từ r/apple (community) và 9to5Mac ổn định hơn; ưu tiên thể loại "Tin nóng" hoặc "Deal" thay vì "Sự kiện/announcement" đơn thuần. Bài announcement thuần có 5/6 bài trong top thấp điểm.
 
-• **Ưu tiên thể loại Deal & So sánh giá** hơn Announcement thuần túy — hai bài Deal (trade-in, Apple Upgrade) đều lọt top 10 dù score không vượt trội, trong khi Announcement không gắn "túi tiền" thì gần như luôn về 0.
+• **Kích thích comment (nhân hệ số x3):** Chỉ 2 bài có comment > 0 trong top cao điểm — đều là bài đặt câu hỏi trực tiếp ảnh hưởng tới quyết định mua/nâng cấp. Cuối hook nên để ngỏ câu hỏi kêu gọi ý kiến ("Bạn sẽ nâng cấp không?" / "Bạn chuẩn bị gì chưa?") thay vì kết luận đóng.

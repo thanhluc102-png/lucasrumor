@@ -2417,12 +2417,12 @@
     ],
     "publish_time": "2026-08-24T02:39:45.187846",
     "performance": {
-      "reactions": 15,
+      "reactions": 17,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 20
+      "score": 22
     }
   },
   {
@@ -2531,6 +2531,29 @@
       "📅 AirPods camera vẫn chưa về năm nay — nếu đang chờ, hãy cân nhắc kỹ trước khi xuống tiền ngay"
     ],
     "publish_time": "2026-08-25T05:51:09.735626",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1534314598735867",
+    "title": "iOS 27 dẹp 3 lỗi Messages khó chịu nhất!",
+    "summary": "iOS 27 sửa 3 lỗi Messages kinh điển khiến người dùng khổ sở bấy lâu nay.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vx3552/ios_27_fixes_three_of_the_most_annoying_messages/",
+    "bullets": [
+      "🐛 iOS 27 nhắm thẳng vào 3 lỗi Messages 'cổ điển' bị phàn nàn nhiều nhất",
+      "💬 Cộng đồng Apple phản ứng tích cực, nhiều người xác nhận đã gặp đúng các lỗi này",
+      "🤔 Bạn đang chờ iOS 27 để fix lỗi Messages nào? Chia sẻ ngay bên dưới!"
+    ],
+    "publish_time": "2026-08-25T09:55:14.823716",
     "performance": null
   }
 ]
