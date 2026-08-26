@@ -1,13 +1,11 @@
-• **Chủ đề ăn tiền:** Giá cả / chi phí ảnh hưởng trực tiếp túi tiền người dùng (iPhone tăng giá, trade-in, trả góp) và tin liên quan iPhone là nhóm dẫn đầu tương tác — ưu tiên góc "tác động tài chính cá nhân" hơn góc công nghệ thuần túy.
+• **Chủ đề ưu tiên:** Giá cả/túi tiền người dùng (tăng giá iPhone, trade-in, trả góp) và các tính năng phần cứng mới gây tranh cãi (AirPods camera) — đây là hai nhóm kéo Reactions và Comments cao nhất. Tránh các chủ đề phần mềm thuần túy (macOS app, iOS timeline, Siri), phụ kiện xe/nhà (CarKey, HomePad), và gaming — nhóm này nhất quán về điểm 0.
 
-• **Tiêu đề hiệu quả:** Dùng câu hỏi trực tiếp gắn với người đọc ("túi tiền bị ảnh hưởng?", "ví bạn chịu được không?") hoặc nêu lợi ích/rủi ro cụ thể — tránh tiêu đề chỉ mô tả sự kiện trung tính.
+• **Góc tiếp cận hiệu quả nhất:** Đặt vấn đề theo hướng "ảnh hưởng trực tiếp đến túi tiền / quyết định mua của người đọc" — bài có từ "túi tiền", "chi phí", "cơ hội vàng", "trả góp" luôn có điểm cao hơn bài thuần thông tin kỹ thuật.
 
-• **Hook kích thích Reactions & Shares:** Nêu con số cụ thể, mốc thời gian ("sắp", "ngay tháng tới"), hoặc xác nhận từ nguồn uy tín (Bloomberg, Qualcomm) — tạo cảm giác khẩn cấp và độ tin cậy cao.
+• **Cấu trúc tiêu đề kích thích chia sẻ/bình luận:** Dùng câu hỏi trực tiếp nhắm vào lợi ích cá nhân ("Túi tiền bạn bị ảnh hưởng?", "Sắp tăng giá mạnh — cần chuẩn bị?") hoặc từ kích thích cảm xúc ("nặng", "ép", "phạt", "cơ hội vàng"). Tránh tiêu đề mô tả trung lập kiểu thông báo sự kiện ("ra mắt khi nào", "thêm app mới", "hỗ trợ tính năng X").
 
-• **Hook kích thích Comments:** Đặt câu hỏi mở hoặc nêu tình huống gây tranh luận (tăng giá, phạt trễ trả góp, trade-in) — các bài Comments > 0 đều có yếu tố "ảnh hưởng đến quyết định mua/chi tiền" của độc giả.
+• **Hook hiệu quả:** Câu đầu phải nêu ngay hệ quả thực tế với người dùng (giá tăng bao nhiêu, tiết kiệm được gì, bị phạt thế nào) — không bắt đầu bằng mô tả kỹ thuật hoặc nguồn gốc tin tức. Ưu tiên structure: **[Hành động của Apple] → [Hệ quả cụ thể với người dùng]**.
 
-• **Tránh hoàn toàn:** Tin về phần mềm/tính năng phụ không liên quan iPhone/AirPods/Watch (macOS Siri app, Apple Maps ads, MG Car Key, CloudGear) — nhóm này nhất quán 0 tương tác, cho thấy audience của Page không quan tâm.
+• **Nguồn & thể loại tối ưu:** Bài từ **r/apple (community)** và **9to5Mac** kết hợp thể loại **Deal hoặc Tin nóng (comparison/stat)** cho điểm ổn định nhất. Bài từ MacWorld và thể loại "announcement" thuần túy thường rơi vào nhóm điểm thấp — nếu dùng nguồn này, phải chuyển góc sang "ảnh hưởng người dùng" thay vì thông báo.
 
-• **Tránh lặp chủ đề đã khai thác:** Bài AirPods camera đăng lần 2 (nguồn MacWorld) đạt 0 điểm dù bài đầu (9to5Mac) đạt 61 — không tái sử dụng cùng tin từ nguồn kém uy tín hơn hoặc sau khi audience đã thấy.
-
-• **Nguồn ưu tiên:** 9to5Mac và r/apple cho kết quả ổn định hơn MacWorld và MacRumors — khi có cùng chủ đề, ưu tiên dẫn nguồn 9to5Mac hoặc Bloomberg.
+• **Nội dung cần loại khỏi lịch đăng:** Tin về phần mềm/hệ điều hành không ảnh hưởng giá hoặc phần cứng (iOS/macOS update, Siri, ChatGPT feature), sản phẩm ngoài hệ sinh thái cá nhân (TV, xe hơi), và bất kỳ bài nào không trả lời được câu hỏi "điều này ảnh hưởng gì đến tôi ngay hôm nay?".
