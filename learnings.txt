@@ -1,11 +1,13 @@
-• **Chủ đề ưu tiên:** Giá cả/túi tiền người dùng (tăng giá iPhone, trade-in, trả góp) và các tính năng phần cứng mới gây tranh cãi (AirPods camera) — đây là hai nhóm kéo Reactions và Comments cao nhất. Tránh các chủ đề phần mềm thuần túy (macOS app, iOS timeline, Siri), phụ kiện xe/nhà (CarKey, HomePad), và gaming — nhóm này nhất quán về điểm 0.
+• **Chủ đề cao điểm:** Ưu tiên nội dung liên quan trực tiếp đến **túi tiền người dùng** (giá tăng, thu đổi, trả góp, deal) và **iPhone** — đây là 2 chủ đề duy nhất tạo ra Reactions + Comments + Shares đồng thời cao.
 
-• **Góc tiếp cận hiệu quả nhất:** Đặt vấn đề theo hướng "ảnh hưởng trực tiếp đến túi tiền / quyết định mua của người đọc" — bài có từ "túi tiền", "chi phí", "cơ hội vàng", "trả góp" luôn có điểm cao hơn bài thuần thông tin kỹ thuật.
+• **Góc tiếp cận hiệu quả:** Đặt câu hỏi "túi tiền bị ảnh hưởng?" hoặc nhấn mạnh lợi ích tài chính cụ thể (số tiền, % giảm, cơ hội nâng cấp rẻ hơn) trong cả tiêu đề lẫn hook — pattern này xuất hiện ở 3/5 bài cao điểm nhất.
 
-• **Cấu trúc tiêu đề kích thích chia sẻ/bình luận:** Dùng câu hỏi trực tiếp nhắm vào lợi ích cá nhân ("Túi tiền bạn bị ảnh hưởng?", "Sắp tăng giá mạnh — cần chuẩn bị?") hoặc từ kích thích cảm xúc ("nặng", "ép", "phạt", "cơ hội vàng"). Tránh tiêu đề mô tả trung lập kiểu thông báo sự kiện ("ra mắt khi nào", "thêm app mới", "hỗ trợ tính năng X").
+• **Cấu trúc tiêu đề kích thích chia sẻ:** Dùng định dạng **[Sản phẩm] + [hành động gây lo ngại/cơ hội] + câu hỏi tu từ** (vd: "iPhone 18 Pro sắp tăng giá mạnh, túi tiền bị ảnh hưởng?"). Tránh tiêu đề thuần thông báo dạng "X ra mắt / X thêm tính năng Y".
 
-• **Hook hiệu quả:** Câu đầu phải nêu ngay hệ quả thực tế với người dùng (giá tăng bao nhiêu, tiết kiệm được gì, bị phạt thế nào) — không bắt đầu bằng mô tả kỹ thuật hoặc nguồn gốc tin tức. Ưu tiên structure: **[Hành động của Apple] → [Hệ quả cụ thể với người dùng]**.
+• **Hook hiệu quả:** Hook phải nêu **số liệu cụ thể hoặc tên nguồn uy tín + hệ quả trực tiếp với người dùng** trong 1 câu. Hook chỉ mô tả tính năng kỹ thuật thuần túy (vd: "giao diện tròn", "biểu tượng phím rõ hơn") nhận tương tác gần bằng 0.
 
-• **Nguồn & thể loại tối ưu:** Bài từ **r/apple (community)** và **9to5Mac** kết hợp thể loại **Deal hoặc Tin nóng (comparison/stat)** cho điểm ổn định nhất. Bài từ MacWorld và thể loại "announcement" thuần túy thường rơi vào nhóm điểm thấp — nếu dùng nguồn này, phải chuyển góc sang "ảnh hưởng người dùng" thay vì thông báo.
+• **Nội dung cần tránh:** Leak/tin tức về **phần mềm nội bộ** (macOS, iOS, Siri app), **phụ kiện ngoài hệ sinh thái cốt lõi** (MG Car Key, HomePad, ChatGPT gesture, cloud gaming) và **Magic Keyboard** — nhóm này chiếm đa số bài 0 điểm, cho thấy audience của page không quan tâm.
 
-• **Nội dung cần loại khỏi lịch đăng:** Tin về phần mềm/hệ điều hành không ảnh hưởng giá hoặc phần cứng (iOS/macOS update, Siri, ChatGPT feature), sản phẩm ngoài hệ sinh thái cá nhân (TV, xe hơi), và bất kỳ bài nào không trả lời được câu hỏi "điều này ảnh hưởng gì đến tôi ngay hôm nay?".
+• **AirPods camera: thận trọng về trùng lặp** — cùng chủ đề nhưng bài đăng sau (Score=0) thấp hơn hẳn bài đầu (Score=61); tránh đăng lại góc tiếp cận tương tự trong thời gian ngắn, mỗi chủ đề chỉ khai thác một lần với góc mới nhất/rõ nhất.
+
+• **Nguồn không quyết định tương tác** — cùng nguồn 9to5Mac có bài Score=339 lẫn Score=0; yếu tố chủ đề và cách đặt vấn đề quan trọng hơn nguồn gốc.
