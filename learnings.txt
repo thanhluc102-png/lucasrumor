@@ -1,6 +1,13 @@
-- **Chủ đề giá tiền & túi tiền người dùng là số 1:** Bài liên quan đến tăng giá iPhone/Mac, chương trình đổi máy, trả góp đều đạt điểm cao nhất — luôn ưu tiên góc "ảnh hưởng tài chính trực tiếp đến người dùng Việt".
-- **Tiêu đề hiệu quả = tên sản phẩm cụ thể + hành động gây lo ngại + câu hỏi ngược về túi tiền:** Công thức: *[Sản phẩm] + [điều sắp xảy ra] + [túi tiền/bạn bị ảnh hưởng?]*. Tránh tiêu đề mô tả trung lập, thiếu yếu tố cảm xúc hoặc lợi ích cá nhân.
-- **Hook hiệu quả cần nêu nguồn uy tín + con số cụ thể + hệ quả cho người dùng** (ví dụ: "Qualcomm xác nhận… ảnh hưởng trực tiếp lợi nhuận quý tới"). Hook chỉ mô tả tính năng kỹ thuật thuần túy (macOS thêm app Siri, CarKey MG…) không tạo phản ứng.
-- **Bài sinh Comments & Shares cao nhất đều chạm vào quyết định mua/nâng cấp hoặc rủi ro tài chính** (tăng giá, phạt trễ góp, cơ hội deal). Bài chỉ là leak tính năng (AirPods camera specs, HomePad UI…) hầu như không có comments dù reactions ổn.
-- **Chủ đề cần tránh:** Nội dung quá kỹ thuật hoặc thị trường B2B (App Store EU fee, MG CarKey, Cloud Gaming trên Apple TV, macOS Siri app) — nhóm này đồng loạt Score = 0–1, không phù hợp với tệp độc giả phụ kiện Apple phổ thông.
-- **Với loại bài Infographic này (chưa có dữ liệu bài sản phẩm để so sánh trực tiếp):** Ưu tiên thể loại *Tin nóng (comparison)* và *Deal (community)* thay vì *Leak (announcement)* đơn thuần — dù cùng nguồn 9to5Mac/MacRumors, góc "so sánh thiệt hơn" luôn vượt góc "thông báo tính năng".
+• **Chủ đề ăn tiền:** Giá cả / chi phí ảnh hưởng trực tiếp túi tiền người dùng (iPhone tăng giá, trade-in, trả góp) và tin liên quan iPhone là nhóm dẫn đầu tương tác — ưu tiên góc "tác động tài chính cá nhân" hơn góc công nghệ thuần túy.
+
+• **Tiêu đề hiệu quả:** Dùng câu hỏi trực tiếp gắn với người đọc ("túi tiền bị ảnh hưởng?", "ví bạn chịu được không?") hoặc nêu lợi ích/rủi ro cụ thể — tránh tiêu đề chỉ mô tả sự kiện trung tính.
+
+• **Hook kích thích Reactions & Shares:** Nêu con số cụ thể, mốc thời gian ("sắp", "ngay tháng tới"), hoặc xác nhận từ nguồn uy tín (Bloomberg, Qualcomm) — tạo cảm giác khẩn cấp và độ tin cậy cao.
+
+• **Hook kích thích Comments:** Đặt câu hỏi mở hoặc nêu tình huống gây tranh luận (tăng giá, phạt trễ trả góp, trade-in) — các bài Comments > 0 đều có yếu tố "ảnh hưởng đến quyết định mua/chi tiền" của độc giả.
+
+• **Tránh hoàn toàn:** Tin về phần mềm/tính năng phụ không liên quan iPhone/AirPods/Watch (macOS Siri app, Apple Maps ads, MG Car Key, CloudGear) — nhóm này nhất quán 0 tương tác, cho thấy audience của Page không quan tâm.
+
+• **Tránh lặp chủ đề đã khai thác:** Bài AirPods camera đăng lần 2 (nguồn MacWorld) đạt 0 điểm dù bài đầu (9to5Mac) đạt 61 — không tái sử dụng cùng tin từ nguồn kém uy tín hơn hoặc sau khi audience đã thấy.
+
+• **Nguồn ưu tiên:** 9to5Mac và r/apple cho kết quả ổn định hơn MacWorld và MacRumors — khi có cùng chủ đề, ưu tiên dẫn nguồn 9to5Mac hoặc Bloomberg.

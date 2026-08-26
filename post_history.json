@@ -2421,8 +2421,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 1,
-      "score": 23
+      "shares": 3,
+      "score": 33
     }
   },
   {
@@ -2600,6 +2600,29 @@
       "💸 Apple mở rộng mảng doanh thu quảng cáo, đặt câu hỏi về cam kết bảo vệ người dùng"
     ],
     "publish_time": "2026-08-26T02:41:48.348889",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1535074078659919",
+    "title": "iOS 27 ra mắt khi nào? Ngày cụ thể đây!",
+    "summary": "iOS 27 sắp ra mắt công khai — đây là mốc thời gian chính thức bạn cần biết ngay.",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/25/ios-27-release-date-when-next-major-iphone-update-is-coming/",
+    "bullets": [
+      "iOS 27 dự kiến ra mắt chính thức vào tháng 9/2026 cùng iPhone 17",
+      "Bản beta công khai sẽ mở từ tháng 7 — ai cũng có thể đăng ký thử trước",
+      "Đây là bước nâng cấp lớn tiếp theo — ảnh hưởng đến mọi iPhone còn được hỗ trợ"
+    ],
+    "publish_time": "2026-08-26T05:53:43.907889",
     "performance": null
   }
 ]
