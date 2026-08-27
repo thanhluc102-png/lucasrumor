@@ -1,11 +1,13 @@
-• **Chủ đề ăn điểm cao:** Giá cả/chi phí ảnh hưởng trực tiếp túi tiền người dùng (tăng giá iPhone, chương trình thu đổi, trả góp) và tin rò rỉ sản phẩm chủ lực được dùng hằng ngày (iPhone, AirPods). Ưu tiên góc "tác động tài chính cá nhân" thay vì chỉ thông báo tính năng.
+• **Chủ đề ưu tiên:** Giá cả / túi tiền người dùng bị ảnh hưởng trực tiếp (tăng giá iPhone, chính sách thu đổi, trả góp) — nhóm này dẫn đầu cả Reactions lẫn Comments; tiếp theo là leak/tin đồn sản phẩm chủ lực (AirPods camera, Apple Watch redesign) có ảnh hưởng đến quyết định mua.
 
-• **Tiêu đề/hook kích thích tương tác:** Dùng câu hỏi trực tiếp có chứa "túi tiền", "bạn", "ảnh hưởng" (VD: *"...túi tiền bị ảnh hưởng?"*); kết hợp thông tin xác thực có nguồn cụ thể (file ẩn, code, Qualcomm xác nhận) với từ gợi khẩn cấp ("sắp", "vừa", "rõ nhất từ trước đến nay"). Hook nên nêu hệ quả thực tế ngay câu đầu, không dừng ở mô tả sự kiện.
+• **Công thức tiêu đề hiệu quả:** Đặt câu hỏi trực tiếp liên quan đến "túi tiền / chi phí / ảnh hưởng đến người dùng" (vd: *"…túi tiền bị ảnh hưởng?"*, *"…túi tiền có ổn?"*) — kiểu này kéo Comments và Shares cao hơn hẳn so với tiêu đề thuần thông tin.
 
-• **Nguồn & thể loại hiệu quả:** Bài từ **9to5Mac + thể loại Tin nóng** hoặc **r/apple + thể loại community/Deal** cho điểm cao nhất. Ưu tiên hai nguồn này; bài từ MacWorld và MacRumors ít tương tác hơn trừ khi nội dung đặc biệt mạnh.
+• **Hook hiệu quả:** Nêu ngay con số / sự kiện cụ thể + hệ quả thực tế với người dùng trong 1-2 câu đầu (vd: *"Apple vừa nâng giá đổi máy cũ — cơ hội vàng để nâng cấp với chi phí thấp hơn"*); tránh mô tả tính năng thuần túy mà không gắn lợi ích/rủi ro cá nhân.
 
-• **Nội dung/góc cần tránh:** Tính năng phần mềm nhỏ lẻ không ảnh hưởng trực tiếp người dùng phổ thông (Magic Keyboard, macOS Siri app, ChatGPT cử chỉ, Apple Maps quảng cáo, MG Car Key, CloudGear); sản phẩm ngách hoặc hệ sinh thái phụ (HomePad, Apple TV, Mac mini không gắn deal/giá cụ thể). Tránh hook chỉ mô tả tính năng mà không đặt câu hỏi hoặc nêu tác động.
+• **Nguồn & thể loại tốt nhất:** Bài từ **r/apple** (community) và **9to5Mac** kết hợp góc *comparison* hoặc *stat* cho điểm cao nhất; ưu tiên hai nguồn này khi có lựa chọn.
 
-• **Bài "AirPods camera" là ngoại lệ cần lưu ý:** Cùng chủ đề nhưng điểm chênh lệch lớn (Score 61 vs 0) — bài điểm cao nhờ hook nêu chi tiết cụ thể từ nguồn uy tín và từ "rõ nhất từ trước đến nay"; bài điểm 0 dùng hook chung chung. Luôn bổ sung chi tiết xác thực và superlative có căn cứ.
+• **Nội dung cần tránh:** Tin về tính năng phần mềm nhỏ lẻ (Siri app, ChatGPT cử chỉ, Apple Maps quảng cáo, MG Car Key, CloudGear), sản phẩm ngoài hệ sinh thái core (MacBook phím bàn phím, HomePad) — nhóm này liên tục đạt Score = 0 dù hook có clickbait.
 
-• **Về Comments (tương tác cao giá trị nhất ×3):** Chỉ bài liên quan tài chính/giá (tăng giá iPhone, thu đổi, phạt trả góp) mới kéo được comment thật. Mọi bài thuần công nghệ/tính năng đều Comments=0. Khi muốn tối đa Score, ưu tiên góc tiền bạc và đặt câu hỏi mở cuối hook để kích comment.
+• **Tránh lặp chủ đề cùng lúc:** Hai bài AirPods camera đăng gần nhau (MacWorld vs 9to5Mac) — bài sau Score = 0; mỗi chủ đề chỉ đăng một lần, chọn góc độc đáo nhất hoặc bổ sung thông tin mới rõ ràng mới tái sử dụng.
+
+• **Ưu tiên thể loại:** *Deal* và *comparison* (liên quan tài chính/so sánh giá) > *community leak* sản phẩm lớn > *announcement* tính năng đơn thuần — đây là thứ tự hiệu quả rõ từ dữ liệu.

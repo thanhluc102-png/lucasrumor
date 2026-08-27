@@ -2692,6 +2692,29 @@
       "🎨 iPhone Ultra sẽ có tổng cộng 3 tùy chọn màu sắc, định vị đẳng cấp cao nhất trong hệ sinh thái iPhone"
     ],
     "publish_time": "2026-08-27T11:15:10.815841",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1536635291837131",
+    "title": "Apple Wallet tích hợp CCCD: Dùng được ở đâu?",
+    "summary": "Apple Wallet cho phép lưu bằng lái và CCCD — nhưng chỉ hoạt động tại một số bang và địa điểm nhất định.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/2482638/how-to-add-drivers-license-state-id-apple-wallet.html",
+    "bullets": [
+      "🪪 Hỗ trợ thêm bằng lái xe và thẻ căn cước số vào Apple Wallet",
+      "✈️ Hiện được chấp nhận tại cổng TSA sân bay và một số địa điểm được cấp phép",
+      "⚠️ Chỉ khả dụng tại một số tiểu bang — vẫn nên mang giấy tờ vật lý dự phòng"
+    ],
+    "publish_time": "2026-08-27T23:00:17.383797",
     "performance": null
   }
 ]
