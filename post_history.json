@@ -2624,12 +2624,12 @@
     ],
     "publish_time": "2026-08-26T05:53:43.907889",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -2669,6 +2669,29 @@
       "Giao diện bút vẽ trực quan hơn, tích hợp sâu vào Messages"
     ],
     "publish_time": "2026-08-26T14:08:34.520865",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1536161948551132",
+    "title": "Leak: iPhone Ultra sắp lộ diện 3 màu độc đáo?",
+    "summary": "Leaker Evan Blass tiết lộ iPhone Ultra có 3 màu, nổi bật nhất là Dark Cherry/Burgundy đậm cá tính.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1vz54xp/leaker_evan_blass_says_iphone_ultra_will_come_in/",
+    "bullets": [
+      "🍒 Màu Dark Cherry/Burgundy lần đầu xuất hiện trên iPhone — hoàn toàn mới và chưa từng có tiền lệ",
+      "🔍 Nguồn leak: Evan Blass — leaker có độ uy tín cao, nhiều lần tiết lộ chính xác sản phẩm Apple",
+      "🎨 iPhone Ultra sẽ có tổng cộng 3 tùy chọn màu sắc, định vị đẳng cấp cao nhất trong hệ sinh thái iPhone"
+    ],
+    "publish_time": "2026-08-27T11:15:10.815841",
     "performance": null
   }
 ]
