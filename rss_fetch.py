@@ -236,17 +236,9 @@ def pick_and_build(client, articles: list[dict]) -> dict:
         for i, a in enumerate(articles)
     )
 
-    learnings = ""
-    learnings_file = Path("learnings.txt")
-    if learnings_file.exists():
-        try:
-            learnings = f"\nHƯỚNG DẪN CẢI TIẾN TỪ THỰC TẾ TƯƠNG TÁC GẦN ĐÂY:\n{learnings_file.read_text(encoding='utf-8')}\n"
-        except Exception:
-            pass
-
     prompt = f"""Bạn là biên tập viên công nghệ người Việt kiêm nhà thiết kế infographic.
 Tuyệt đối KHÔNG sử dụng các từ "News", "Tin tức" trong tiêu đề, tóm tắt hay bất kỳ đâu trong nội dung sinh ra. Thay vào đó hãy ưu tiên dùng các từ như "Tin đồn", "Thảo luận", "Cộng đồng", "Leak".
-{learnings}
+
 Dưới đây là các tin Apple mới nhất:
 
 {articles_text}
@@ -410,17 +402,9 @@ def pick_digest(client, articles: list[dict]) -> dict:
         for i, a in enumerate(articles)
     )
 
-    learnings = ""
-    learnings_file = Path("learnings.txt")
-    if learnings_file.exists():
-        try:
-            learnings = f"\nHƯỚNG DẪN CẢI TIẾN TỪ THỰC TẾ TƯƠNG TÁC GẦN ĐÂY:\n{learnings_file.read_text(encoding='utf-8')}\n"
-        except Exception:
-            pass
-
     prompt = f"""Bạn là biên tập viên công nghệ người Việt.
 Tuyệt đối KHÔNG sử dụng các từ "News", "Tin tức" trong kết quả. Thay bằng "Tin đồn", "Góc cộng đồng".
-{learnings}
+
 Dưới đây là các tin Apple mới nhất:
 
 {articles_text}
