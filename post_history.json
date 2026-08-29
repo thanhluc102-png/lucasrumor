@@ -2625,11 +2625,11 @@
     "publish_time": "2026-08-26T05:53:43.907889",
     "performance": {
       "reactions": 2,
-      "comments": 0,
-      "comments_total": 1,
+      "comments": 1,
+      "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 5
     }
   },
   {
@@ -2739,12 +2739,12 @@
     ],
     "publish_time": "2026-08-28T12:49:53.638873",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 3
     }
   },
   {
@@ -2761,6 +2761,29 @@
       "⚠️ Người dùng cần xem lại gói đăng ký hiện tại của mình"
     ],
     "publish_time": "2026-08-28T23:05:32.564134",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1537869361713724",
+    "title": "Apple Photos iOS 27 nâng cấp tính năng yêu thích",
+    "summary": "iOS 27 mang đến cải tiến lớn cho Apple Photos, nâng tầm trải nghiệm quản lý ảnh người dùng.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/08/28/apple-photos-in-ios-27-upgrades-one-of-my-favorite-features-in-a-big-way/",
+    "bullets": [
+      "📸 Apple Photos iOS 27 nâng cấp toàn diện tính năng cốt lõi được yêu thích",
+      "🔍 Trải nghiệm quản lý & tìm kiếm ảnh thông minh, trực quan hơn",
+      "🗓️ Cập nhật nằm trong chuỗi thay đổi lớn Apple công bố tại WWDC 2026"
+    ],
+    "publish_time": "2026-08-29T07:55:44.970899",
     "performance": null
   }
 ]
