@@ -2739,12 +2739,12 @@
     ],
     "publish_time": "2026-08-28T12:49:53.638873",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -2784,6 +2784,29 @@
       "🗓️ Cập nhật nằm trong chuỗi thay đổi lớn Apple công bố tại WWDC 2026"
     ],
     "publish_time": "2026-08-29T07:55:44.970899",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1538125338354793",
+    "title": "ChatGPT iOS ra mắt widget tùy chỉnh cho công việc",
+    "summary": "ChatGPT iOS cập nhật widget mới, cho phép ghim phím tắt tiện lợi ngay màn hình chính.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/ios/openai-updates-chatgpt-for-ios-with-customizable-widgets-for-chatgpt-work-and-codex-remote/",
+    "bullets": [
+      "🧩 Widget mới hoàn toàn tùy chỉnh, tự chọn phím tắt hiển thị trên Home Screen",
+      "💼 Hỗ trợ hai chế độ chuyên biệt: ChatGPT Work và Codex Remote",
+      "⚡ Truy cập trợ lý AI nhanh hơn mà không cần mở toàn bộ ứng dụng"
+    ],
+    "publish_time": "2026-08-29T14:32:26.142595",
     "performance": null
   }
 ]
