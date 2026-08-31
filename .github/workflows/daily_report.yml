@@ -1,0 +1,32 @@
+name: Báo cáo sáng qua Telegram
+
+# Gom 24h qua của cả 3 repo (reel cutout, rumor, reel daily) rồi gửi 1 tin Telegram:
+# máy đã chạy gì, tương tác ra sao, có gì cần người xử.
+#
+# Đặt 01:00 UTC = 08:00 VN, tức SAU khi các job đăng bài đêm/sáng sớm đã commit
+# lịch sử xong, nên số liệu trong báo cáo là bản mới nhất.
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 08:00 VN mỗi ngày
+  workflow_dispatch:      # bấm tay để xem thử bất cứ lúc nào
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gửi báo cáo
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Đọc trạng thái CI của các repo khác. GITHUB_TOKEN đọc được dữ liệu
+          # public của repo khác; hết hạn mức thì script tự báo "không kiểm được"
+          # chứ không im lặng coi như CI ổn.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python daily_report.py
