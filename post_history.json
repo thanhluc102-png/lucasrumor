@@ -2900,12 +2900,12 @@
     ],
     "publish_time": "2026-08-31T17:07:01.695260",
     "performance": {
-      "reactions": 4,
+      "reactions": 7,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 9
+      "score": 12
     }
   },
   {
@@ -2922,6 +2922,29 @@
       "🔭 Dòng sản phẩm lần này còn bao gồm cả iPhone Ultra — mẫu cao cấp hoàn toàn mới"
     ],
     "publish_time": "2026-09-01T06:17:02.863428",
+    "performance": {
+      "reactions": 5,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1540803848086942",
+    "title": "iOS 27 Beta 8 ra mắt, ngày phát hành chính thức cận kề",
+    "summary": "Apple tung iOS 27 beta 8 cho lập trình viên, phiên bản chính thức sắp ra mắt trong thời gian tới.",
+    "category": "Sự kiện",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3172166/ios-27-beta-updates-features-release-date.html",
+    "bullets": [
+      "🔄 iOS 27 beta 8 vừa được Apple phát hành cho nhà phát triển",
+      "📅 Đây là một trong những bản beta cuối trước khi ra mắt chính thức",
+      "👀 Cộng đồng đang theo dõi sát để phát hiện thay đổi mới"
+    ],
+    "publish_time": "2026-09-01T14:11:39.723724",
     "performance": null
   }
 ]
