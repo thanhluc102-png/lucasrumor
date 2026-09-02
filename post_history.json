@@ -2900,12 +2900,12 @@
     ],
     "publish_time": "2026-08-31T17:07:01.695260",
     "performance": {
-      "reactions": 7,
+      "reactions": 9,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 12
+      "score": 14
     }
   },
   {
@@ -2945,6 +2945,29 @@
       "👀 Cộng đồng đang theo dõi sát để phát hiện thay đổi mới"
     ],
     "publish_time": "2026-09-01T14:11:39.723724",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1541387101361950",
+    "title": "Apple Maps đổi tên Hồ Ontario thành 'Lake America'",
+    "summary": "Apple Maps cập nhật tên Hồ Ontario thành 'Lake America' theo sắc lệnh của Tổng thống Trump.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/01/apple-maps-renaming-lake-ontario-to-lake-america-following-trump-order/",
+    "bullets": [
+      "🗺️ Apple Maps đổi tên Hồ Ontario → 'Lake America' trên toàn nền tảng",
+      "📜 Thay đổi thực hiện theo sắc lệnh hành pháp của Tổng thống Trump",
+      "🌐 Hồ Ontario nằm trên biên giới Mỹ - Canada, gây phản ứng quốc tế"
+    ],
+    "publish_time": "2026-09-02T05:53:20.595668",
     "performance": null
   }
 ]
