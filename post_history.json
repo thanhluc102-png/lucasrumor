@@ -3014,6 +3014,29 @@
       "👥 Cộng đồng người dùng Apple đánh giá đây là bản cập nhật Mail đáng giá nhất nhiều năm qua"
     ],
     "publish_time": "2026-09-03T05:52:49.355274",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1542589351241725",
+    "title": "Apple thúc giục lập trình viên Mac từ bỏ Intel",
+    "summary": "Apple chính thức kêu gọi nhà phát triển ngừng hỗ trợ Intel, tập trung hoàn toàn vào chip Apple Silicon.",
+    "category": "MacBook",
+    "visual_type": "comparison",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3225932/apple-to-mac-developers-its-time-to-let-go-of-intel.html",
+    "bullets": [
+      "Apple kêu gọi lập trình viên ngừng hỗ trợ kiến trúc Intel trên Mac",
+      "Toàn bộ dòng Mac hiện tại đã chuyển sang chip Apple Silicon",
+      "Đây là bước cuối cùng để Apple kiểm soát hoàn toàn hệ sinh thái phần cứng - phần mềm"
+    ],
+    "publish_time": "2026-09-03T13:38:41.198445",
     "performance": null
   }
 ]
