@@ -2992,12 +2992,12 @@
     ],
     "publish_time": "2026-09-02T13:43:54.098469",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 6
+      "score": 8
     }
   },
   {
@@ -3015,12 +3015,12 @@
     ],
     "publish_time": "2026-09-03T05:52:49.355274",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -3037,6 +3037,29 @@
       "Đây là bước cuối cùng để Apple kiểm soát hoàn toàn hệ sinh thái phần cứng - phần mềm"
     ],
     "publish_time": "2026-09-03T13:38:41.198445",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1543227404511253",
+    "title": "MacBook Neo 2: Tất cả những gì đã biết",
+    "summary": "MacBook Neo thế hệ đầu thành công vang dội, phiên bản tiếp theo đang được cộng đồng săn đón từng chi tiết.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/03/macbook-neo-2-features-release-date/",
+    "bullets": [
+      "🔥 MacBook Neo thế hệ 1 cháy hàng, nhu cầu vượt kỳ vọng toàn cầu",
+      "🔍 Cộng đồng và các nguồn leak bắt đầu hé lộ thông tin về Neo 2",
+      "📅 Ngày ra mắt chính thức của MacBook Neo 2 vẫn chưa được Apple xác nhận"
+    ],
+    "publish_time": "2026-09-04T05:58:44.584397",
     "performance": null
   }
 ]
