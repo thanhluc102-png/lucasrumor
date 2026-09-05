@@ -3084,12 +3084,12 @@
     ],
     "publish_time": "2026-09-04T13:35:02.948165",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -3106,6 +3106,29 @@
       "🏆 CarPlay hiện có tổng cộng 5 ứng dụng chatbot AI lớn được hỗ trợ"
     ],
     "publish_time": "2026-09-05T05:49:24.509400",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1544410067726320",
+    "title": "Apple đang bí mật phát triển tay cầm chơi game?",
+    "summary": "Leak mới hé lộ Apple có thể đang nghiên cứu tay cầm chơi game riêng, đe dọa trực tiếp Xbox và PlayStation.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3227827/is-apple-working-on-its-own-game-controller.html",
+    "bullets": [
+      "🕹️ Apple được đồn đang phát triển tay cầm chơi game mang thương hiệu riêng",
+      "🎯 Động thái nhằm củng cố hệ sinh thái gaming gồm Apple Arcade & chip M-series",
+      "🔒 Dự án vẫn ở giai đoạn nghiên cứu, chưa có xác nhận chính thức từ Apple"
+    ],
+    "publish_time": "2026-09-05T12:46:27.588498",
     "performance": null
   }
 ]
