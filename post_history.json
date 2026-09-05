@@ -3083,6 +3083,29 @@
       "🎨 Gợi ý Apple đang theo đuổi ngôn ngữ thiết kế hoàn toàn khác biệt cho dòng Ultra"
     ],
     "publish_time": "2026-09-04T13:35:02.948165",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1544151704418823",
+    "title": "Claude gia nhập CarPlay, nâng tổng lên 5 chatbot",
+    "summary": "CarPlay hiện hỗ trợ 5 chatbot AI lớn sau khi Claude của Anthropic được tích hợp tuần này.",
+    "category": "Apple AI",
+    "visual_type": "stat",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/04/carplay-now-works-with-five-major-chatbot-apps/",
+    "bullets": [
+      "🚗 Claude của Anthropic chính thức hỗ trợ CarPlay trên iPhone",
+      "📅 Đây là chatbot AI thứ 2 được tích hợp CarPlay chỉ trong một tuần",
+      "🏆 CarPlay hiện có tổng cộng 5 ứng dụng chatbot AI lớn được hỗ trợ"
+    ],
+    "publish_time": "2026-09-05T05:49:24.509400",
     "performance": null
   }
 ]
