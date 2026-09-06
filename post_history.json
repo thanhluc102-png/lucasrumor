@@ -3107,12 +3107,12 @@
     ],
     "publish_time": "2026-09-05T05:49:24.509400",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -3152,6 +3152,29 @@
       "🔒 Apple hoàn toàn im lặng, chưa xác nhận hay phủ nhận thông tin leak này"
     ],
     "publish_time": "2026-09-05T16:08:33.698579",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1545035590997101",
+    "title": "MacBook Ultra: Mức giá có thể gây sốc?",
+    "summary": "Leak mới cho thấy MacBook Ultra sắp ra mắt có thể có giá cao hơn dự đoán ban đầu.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/05/macbook-ultra-pricing-lineup-rumor/",
+    "bullets": [
+      "💡 Lần đầu tiên Mac có màn hình cảm ứng và tấm nền OLED",
+      "🏝️ Dynamic Island xuất hiện trên MacBook Pro thế hệ mới",
+      "💰 MacBook Ultra được đồn đoán có giá cao hơn kỳ vọng của người dùng"
+    ],
+    "publish_time": "2026-09-06T06:01:12.519576",
     "performance": null
   }
 ]
