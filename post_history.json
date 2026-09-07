@@ -3199,12 +3199,12 @@
     ],
     "publish_time": "2026-09-06T12:55:51.644156",
     "performance": {
-      "reactions": 3,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -3244,6 +3244,29 @@
       "📱 Apple dự kiến ra mắt iPhone gập đầu tiên và dòng iPhone 18 Pro tại sự kiện"
     ],
     "publish_time": "2026-09-07T06:10:31.259606",
+    "performance": {
+      "reactions": 4,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1546312407536086",
+    "title": "Soulver 4: Máy tính notepad lớn nhất 7 năm",
+    "summary": "Soulver 4 ra mắt cho Mac, iPad, iPhone — bản cập nhật lớn nhất trong 7 năm của ứng dụng tính toán văn bản.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/sponsored/soulver-4-the-notepad-calculator-for-mac-ipad-and-iphone-biggest-update-in-7-years-sponsor/",
+    "bullets": [
+      "🗓️ Bản cập nhật lớn nhất kể từ 7 năm trước",
+      "📱 Hỗ trợ Mac, iPad và iPhone trong cùng một ứng dụng",
+      "✍️ Nhập liệu bằng ngôn ngữ tự nhiên, kết quả hiện ngay theo thời gian thực"
+    ],
+    "publish_time": "2026-09-07T15:05:58.364923",
     "performance": null
   }
 ]
