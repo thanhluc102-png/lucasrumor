@@ -3290,6 +3290,29 @@
       "📐 Thiết kế được đồn đoán tương tự Lenovo Yoga Book — gập đôi theo chiều ngang"
     ],
     "publish_time": "2026-09-08T06:01:34.217173",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1547144950786165",
+    "title": "M6 và M5 Ultra: Kỷ nguyên AI cục bộ trên Mac",
+    "summary": "Apple ra mắt chip M6 và M5 Ultra, mở ra tiềm năng xử lý AI trực tiếp trên macOS không cần đám mây.",
+    "category": "Apple AI",
+    "visual_type": "comparison",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/notes/the-potential-of-m6-and-m5-ultra-for-local-ai-on-macos/",
+    "bullets": [
+      "🟢 M6 ra mắt trên Mac mini — chip Apple Silicon thế hệ mới cho phân khúc phổ thông",
+      "🔵 M5 Ultra độc quyền trên Mac Studio — hiệu năng AI cục bộ đỉnh cao, không cần đám mây",
+      "⚡ Unified memory băng thông cao giúp chạy mô hình LLM trực tiếp trên macOS mượt mà hơn bao giờ hết"
+    ],
+    "publish_time": "2026-09-08T13:41:07.041872",
     "performance": null
   }
 ]
