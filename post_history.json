@@ -3337,12 +3337,12 @@
     ],
     "publish_time": "2026-09-09T06:03:28.240882",
     "performance": {
-      "reactions": 3,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -3359,6 +3359,29 @@
       "⚠️ Các nguồn tin vẫn chưa thống nhất — cần thêm xác nhận chính thức"
     ],
     "publish_time": "2026-09-09T13:47:03.801834",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1548668650633795",
+    "title": "Apple ra mắt tài nguyên cho iPhone Duo gập",
+    "summary": "Apple công bố bộ tài nguyên dành cho nhà phát triển, chuẩn bị cho iPhone gập đầu tiên ra mắt tháng 10.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/09/apple-launches-iphone-duo-developer-resources-ahead-of-october-release/",
+    "bullets": [
+      "🗂️ Apple phát hành bộ tài nguyên chính thức giúp nhà phát triển tối ưu app cho iPhone Duo",
+      "📅 iPhone Duo dự kiến ra mắt vào tháng 10 — đây là iPhone gập đầu tiên của Apple",
+      "🛠️ Tài liệu bao gồm hướng dẫn thiết kế UI và công cụ mô phỏng màn hình gập"
+    ],
+    "publish_time": "2026-09-10T06:02:10.663344",
     "performance": null
   }
 ]
