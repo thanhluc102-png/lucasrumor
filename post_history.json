@@ -3383,12 +3383,12 @@
     ],
     "publish_time": "2026-09-10T06:02:10.663344",
     "performance": {
-      "reactions": 0,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 4
     }
   },
   {
@@ -3405,6 +3405,29 @@
       "🔀 Ranh giới giữa iOS và macOS ngày càng mờ dần trong chiến lược sản phẩm của Apple"
     ],
     "publish_time": "2026-09-10T13:40:40.074011",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1549590623874931",
+    "title": "Apple gia hạn miễn phí kết nối vệ tinh thêm 1 năm",
+    "summary": "Apple tiếp tục cho phép người dùng iPhone dùng miễn phí tính năng kết nối vệ tinh thêm một năm nữa.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/10/apple-extends-free-iphone-satellite-access-for-another-year/",
+    "bullets": [
+      "🛰️ Apple gia hạn miễn phí tính năng vệ tinh thêm 1 năm cho iPhone hiện tại",
+      "📋 Thông tin được công bố trong chú thích của thông cáo ra mắt iPhone 18 Pro",
+      "🆘 Tính năng cho phép liên lạc khẩn cấp khi không có sóng di động hoặc Wi-Fi"
+    ],
+    "publish_time": "2026-09-11T06:04:50.317051",
     "performance": null
   }
 ]
