@@ -3429,12 +3429,12 @@
     ],
     "publish_time": "2026-09-11T06:04:50.317051",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -3451,6 +3451,29 @@
       "✨ Thiết kế tinh tế, bảo vệ tốt và tiện lợi hơn so với mang hai điện thoại rời"
     ],
     "publish_time": "2026-09-11T13:38:31.123620",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1550492353784758",
+    "title": "WhatsApp iPad ra mắt giao diện thanh bên kiểu Mac",
+    "summary": "WhatsApp đang triển khai giao diện iPad mới với sidebar giống Mac sau nhiều tháng thử nghiệm Liquid Glass.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/11/whatsapp-rolling-out-redesigned-ipad-interface-with-mac-like-sidebar/",
+    "bullets": [
+      "Giao diện iPad mới với thanh bên (sidebar) phong cách Mac, tối ưu cho màn hình lớn",
+      "Áp dụng ngôn ngữ thiết kế Liquid Glass sau nhiều tháng thử nghiệm beta",
+      "Đang được triển khai mở rộng, không còn giới hạn trong phiên bản beta"
+    ],
+    "publish_time": "2026-09-12T05:53:14.418470",
     "performance": null
   }
 ]
