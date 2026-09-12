@@ -3474,6 +3474,29 @@
       "Đang được triển khai mở rộng, không còn giới hạn trong phiên bản beta"
     ],
     "publish_time": "2026-09-12T05:53:14.418470",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1550753793758614",
+    "title": "AI âm thanh Apple: Lo ngại riêng tư có thực sự đáng?",
+    "summary": "Apple tích hợp AI xử lý âm thanh mới nhưng cam kết bảo mật dữ liệu người dùng hoàn toàn trên thiết bị.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3232620/why-apples-new-audio-ai-features-arent-the-privacy-nightmare-you-think-they-are.html",
+    "bullets": [
+      "🔒 AI âm thanh xử lý on-device, không gửi dữ liệu lên đám mây",
+      "⚡ Chip Apple Silicon đảm bảo hiệu năng và bảo mật song song",
+      "🛡️ Người dùng nên tự kiểm tra cài đặt quyền riêng tư để chắc chắn hơn"
+    ],
+    "publish_time": "2026-09-12T12:54:35.202788",
     "performance": null
   }
 ]
