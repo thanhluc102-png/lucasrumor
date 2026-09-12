@@ -3406,12 +3406,12 @@
     ],
     "publish_time": "2026-09-10T13:40:40.074011",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -3497,6 +3497,29 @@
       "🛡️ Người dùng nên tự kiểm tra cài đặt quyền riêng tư để chắc chắn hơn"
     ],
     "publish_time": "2026-09-12T12:54:35.202788",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1550905897076737",
+    "title": "iPhone Duo khiến Android phải xấu hổ",
+    "summary": "Cộng đồng Reddit tranh luận về việc bộ đôi iPhone áp đảo Android trong một so sánh mới nhất.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1we9lc5/the_iphone_duo_just_embarrassed_android_9to5google/",
+    "bullets": [
+      "📢 Bài viết xuất phát từ 9to5Google — trang chuyên Android — gây bất ngờ khi khen ngợi iPhone",
+      "🔥 Cộng đồng r/apple đang tích cực thảo luận về ưu thế của bộ đôi iPhone",
+      "⚡ Đây là một trong những so sánh iPhone vs Android được chú ý nhất gần đây"
+    ],
+    "publish_time": "2026-09-12T16:22:36.846391",
     "performance": null
   }
 ]
