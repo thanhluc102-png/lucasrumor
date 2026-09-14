@@ -237,7 +237,8 @@ def pick_and_build(client, articles: list[dict]) -> dict:
     )
 
     prompt = f"""Bạn là biên tập viên công nghệ người Việt kiêm nhà thiết kế infographic.
-Tuyệt đối KHÔNG sử dụng các từ "News", "Tin tức" trong tiêu đề, tóm tắt hay bất kỳ đâu trong nội dung sinh ra. Thay vào đó hãy ưu tiên dùng các từ như "Tin đồn", "Thảo luận", "Cộng đồng", "Leak".
+CHỦ ĐỀ: ưu tiên tuyệt đối tin về iPhone, MacBook, iPad (kèm iOS/macOS/iPadOS liên quan 3 dòng máy này). Tin không dính tới 3 dòng sản phẩm trên thì bỏ qua, chọn tin khác.
+CONTENT DÀY: viết đầy đặn, nhiều thông tin — tiêu đề giật, tóm tắt và phần chi tiết bám sát dữ liệu gốc, khai thác hết số liệu/mốc thời gian/chi tiết có trong bản tin. Không lấp liếm chung chung.
 
 Dưới đây là các tin Apple mới nhất:
 
@@ -250,8 +251,8 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
   "category": "iPhone | MacBook | Apple AI | Tin nóng | Deal | Sự kiện",
   "category_icon": "emoji phù hợp với category",
   "title": "tiêu đề tiếng Việt mạnh, tối đa 10 từ",
-  "summary": "Tóm tắt cực kỳ ngắn gọn, TỐI ĐA 25 TỪ, đi thẳng vào trọng tâm",
-  "full_translated_content": "Viết lại toàn bộ nội dung chi tiết của bản tin sang tiếng Việt một cách mượt mà, đầy đủ thông tin nhất có thể (dựa trên dữ liệu gốc được cung cấp). Trình bày rõ ràng, thân thiện, dễ đọc, độ dài từ 3-6 câu.",
+  "summary": "Tóm tắt gọn, 25-40 TỪ, đi thẳng trọng tâm, có chi tiết đắt (số liệu/tên máy/mốc)",
+  "full_translated_content": "Viết lại toàn bộ nội dung bản tin sang tiếng Việt mượt mà, ĐẦY ĐẶN, khai thác hết thông tin trong dữ liệu gốc: số liệu, cấu hình, giá, mốc ra mắt, bối cảnh. Trình bày rõ ràng, dễ đọc, độ dài 6-9 câu. Không bịa thông tin ngoài dữ liệu gốc.",
 
   "visual_type": "comparison | stat | announcement | deal | timeline | community",
   // Chọn loại visual phù hợp nhất với nội dung:
@@ -294,7 +295,7 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
     // "translated_post": "dịch toàn bộ nội dung bài đăng sang tiếng Việt tự nhiên, 2-4 câu, giữ nguyên giọng của người dùng"
   }},
 
-  "bullets": ["điểm 1", "điểm 2", "điểm 3"],
+  "bullets": ["điểm 1", "điểm 2", "điểm 3", "điểm 4", "điểm 5"],  // 4-5 gạch, mỗi gạch 1 chi tiết đắt
   "sources": ["nguồn 1"]
 }}"""
 
@@ -403,7 +404,7 @@ def pick_digest(client, articles: list[dict]) -> dict:
     )
 
     prompt = f"""Bạn là biên tập viên công nghệ người Việt.
-Tuyệt đối KHÔNG sử dụng các từ "News", "Tin tức" trong kết quả. Thay bằng "Tin đồn", "Góc cộng đồng".
+CHỦ ĐỀ: ưu tiên iPhone, MacBook, iPad. CONTENT DÀY: khai thác hết chi tiết trong dữ liệu gốc, không lấp liếm.
 
 Dưới đây là các tin Apple mới nhất:
 
