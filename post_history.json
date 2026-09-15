@@ -3664,6 +3664,31 @@
       "🔄 Đây là một trong những lần hiếm hoi Ternus xuất hiện công khai kể từ khi nhậm chức CEO"
     ],
     "publish_time": "2026-09-15T16:11:24.260007",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1553864890114171",
+    "title": "iOS 27 ra mắt: Cập nhật ngay đừng chần chừ!",
+    "summary": "Apple phát hành iOS 27 với loạt nâng cấp đáng kể cho iPhone. Macworld khuyến nghị người dùng không nên trì hoãn cập nhật, bất kể bạn có đang sử dụng tính năng AI hay không.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3233886/not-sure-whether-to-update-to-ios-27-these-new-iphone-features-will-convince-you.html",
+    "bullets": [
+      "🚀 iOS 27 là bản nâng cấp hệ điều hành lớn nhất năm 2025 dành cho iPhone",
+      "🤖 Tích hợp tính năng AI mới, nhưng Macworld khẳng định ngay cả ai không dùng AI cũng nên cập nhật",
+      "🔒 Bản cập nhật vá các lỗ hổng bảo mật quan trọng — trì hoãn đồng nghĩa với rủi ro",
+      "⚙️ Cải thiện hiệu suất tổng thể và mang lại giao diện mới trên nhiều dòng iPhone được hỗ trợ",
+      "📥 Cách cập nhật: Cài đặt > Cài đặt chung > Cập nhật phần mềm"
+    ],
+    "publish_time": "2026-09-15T22:42:52.135967",
     "performance": null
   }
 ]
