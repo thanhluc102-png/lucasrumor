@@ -3764,6 +3764,31 @@
       "🎉 Apple có truyền thống lâu đời cài Easter Egg ẩn trong phần mềm, tiếp nối văn hóa đặc trưng của hãng"
     ],
     "publish_time": "2026-09-16T16:04:14.308203",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1554782766689050",
+    "title": "Chi phí AI Apple Intelligence tăng chóng mặt, người dùng chịu trận",
+    "summary": "Apple Intelligence trên iOS 18 tiêu tốn chi phí vận hành khổng lồ cho mỗi tác vụ AI — và Apple cảnh báo con số này sẽ còn leo thang nặng nề hơn trong tương lai gần.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3237022/apple-outlines-steep-ai-usage-costs-and-its-probably-going-to-get-worse.html",
+    "bullets": [
+      "💸 Mỗi tác vụ AI đẩy lên Private Cloud Compute đều phát sinh chi phí server đáng kể, nhân với hàng trăm triệu thiết bị iPhone/iPad/Mac",
+      "🔒 Kiến trúc bảo mật Private Cloud Compute (PCC) — điểm mạnh về quyền riêng tư — chính là nguyên nhân khiến chi phí vận hành đắt hơn đám mây thông thường",
+      "📈 Apple thừa nhận chi phí sẽ còn tăng khi Apple Intelligence mở rộng ngôn ngữ, quốc gia và tính năng phức tạp hơn trong các bản cập nhật tới",
+      "❓ Dấu hỏi lớn: Apple sẽ giữ Apple Intelligence miễn phí mãi, hay sớm gắn vào gói trả phí như iCloud+ hoặc Apple One?",
+      "📱 Áp lực chi phí AI dự kiến leo thang mạnh khi iPhone 17 và Mac M5 ra mắt, kéo thêm hàng chục triệu người dùng mới vào hệ sinh thái Apple Intelligence"
+    ],
+    "publish_time": "2026-09-16T22:38:41.166691",
     "performance": null
   }
 ]
