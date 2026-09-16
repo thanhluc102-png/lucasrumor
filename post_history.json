@@ -3665,12 +3665,12 @@
     ],
     "publish_time": "2026-09-15T16:11:24.260007",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -3714,6 +3714,31 @@
       "🔍 Người dùng cần kiểm tra lại bảng giá trade-in trên apple.com trước khi đổi máy"
     ],
     "publish_time": "2026-09-16T03:11:00.889798",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1554224766744850",
+    "title": "iPhone 18 Pro Xác Thực Ảnh Thật Bằng Reference Image",
+    "summary": "Apple công bố tính năng Reference Image trên iPhone 18 Pro — hoạt động như 'phim âm bản kỹ thuật số', xác minh ảnh chụp thật, chưa chỉnh sửa và không phải AI tạo ra.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/09/15/apple-reference-image-info/",
+    "bullets": [
+      "📱 Tính năng Reference Image chỉ xuất hiện trên dòng iPhone 18 Pro",
+      "🔏 Xác minh ảnh được chụp thật bằng iPhone và chưa qua bất kỳ chỉnh sửa nào",
+      "🤖 Chứng minh nội dung hình ảnh không phải do AI tạo ra (non-AI-generated)",
+      "🎞️ Apple ví tính năng này như 'phim âm bản kỹ thuật số' — bằng chứng gốc không thể làm giả",
+      "🛡️ Ra đời nhằm đối phó làn sóng deepfake và ảnh AI ngày càng khó phân biệt với ảnh thật"
+    ],
+    "publish_time": "2026-09-16T09:03:06.677889",
     "performance": null
   }
 ]
