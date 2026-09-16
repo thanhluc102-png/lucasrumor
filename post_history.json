@@ -3690,12 +3690,12 @@
     ],
     "publish_time": "2026-09-15T22:42:52.135967",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -3739,6 +3739,31 @@
       "🛡️ Ra đời nhằm đối phó làn sóng deepfake và ảnh AI ngày càng khó phân biệt với ảnh thật"
     ],
     "publish_time": "2026-09-16T09:03:06.677889",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 2,
+      "score": 10
+    }
+  },
+  {
+    "post_id": "1920842954802282_1554545410046119",
+    "title": "Apple giấu Easter Egg Mac cổ điển trong iOS 27",
+    "summary": "Trong ứng dụng Cài đặt của iOS 27, Apple bí mật nhúng một Easter Egg lấy cảm hứng từ máy Mac cổ điển — chi tiết hoài niệm thú vị dành cho fan lâu năm.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1whtz9b/apple_hid_a_classic_mac_easter_egg_in_the_ios_27/",
+    "bullets": [
+      "🐣 Easter Egg được giấu trong app Cài đặt của iOS 27 — phiên bản iOS thế hệ tiếp theo",
+      "🖥️ Thiết kế Easter Egg lấy cảm hứng từ máy Mac cổ điển, gợi nhớ di sản hơn 40 năm của Apple",
+      "🔍 Phát hiện bởi cộng đồng Reddit r/apple — điển hình của việc fan đào sâu vào bản beta",
+      "📱 Sự xuất hiện của iOS 27 xác nhận Apple đang tích cực phát triển hệ điều hành iPhone thế hệ mới",
+      "🎉 Apple có truyền thống lâu đời cài Easter Egg ẩn trong phần mềm, tiếp nối văn hóa đặc trưng của hãng"
+    ],
+    "publish_time": "2026-09-16T16:04:14.308203",
     "performance": null
   }
 ]
