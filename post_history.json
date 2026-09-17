@@ -3790,12 +3790,12 @@
     ],
     "publish_time": "2026-09-16T22:38:41.166691",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -3814,6 +3814,31 @@
       "⚡ Nếu xác nhận, đây là cải tiến silicon đột phá nhất Apple thực hiện trong nửa thập kỷ"
     ],
     "publish_time": "2026-09-17T03:15:41.633786",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 7
+    }
+  },
+  {
+    "post_id": "1920842954802282_1555152599985400",
+    "title": "iOS 27.2 cho phép ghi đè dữ liệu iPhone bằng dữ liệu trắng",
+    "summary": "iOS 27.2 bổ sung tùy chọn xóa an toàn — ghi đè toàn bộ bộ nhớ iPhone bằng dữ liệu trắng. Tính năng chỉ áp dụng tại Trung Quốc, tuân thủ tiêu chuẩn quốc gia GB 46864-2025 có hiệu lực từ 1/1/2027.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wii8zs/ios_272_has_option_to_overwrite_iphone_storage/",
+    "bullets": [
+      "🆕 iOS 27.2 thêm tùy chọn ghi đè bộ nhớ iPhone bằng dữ liệu trắng — bảo mật cao hơn xóa thường",
+      "🇨🇳 Tính năng chỉ khả dụng tại Trung Quốc, không áp dụng cho các thị trường khác",
+      "📋 Nguyên nhân: tiêu chuẩn quốc gia GB 46864-2025 của Trung Quốc bắt buộc xóa dữ liệu an toàn",
+      "📅 Tiêu chuẩn GB 46864-2025 chính thức có hiệu lực từ ngày 1 tháng 1 năm 2027",
+      "🔒 Ghi đè bằng dữ liệu trắng ngăn chặn khả năng phục hồi dữ liệu bằng công cụ chuyên dụng sau khi xóa"
+    ],
+    "publish_time": "2026-09-17T09:10:53.730052",
     "performance": null
   }
 ]
