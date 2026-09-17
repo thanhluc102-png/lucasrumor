@@ -3640,12 +3640,12 @@
     ],
     "publish_time": "2026-09-15T03:14:27.331518",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -3765,12 +3765,12 @@
     ],
     "publish_time": "2026-09-16T16:04:14.308203",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 3
     }
   },
   {
@@ -3789,6 +3789,31 @@
       "📱 Áp lực chi phí AI dự kiến leo thang mạnh khi iPhone 17 và Mac M5 ra mắt, kéo thêm hàng chục triệu người dùng mới vào hệ sinh thái Apple Intelligence"
     ],
     "publish_time": "2026-09-16T22:38:41.166691",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1554941523339841",
+    "title": "iPhone 18 Pro: Nâng Cấp Chip Lớn Nhất 5 Năm",
+    "summary": "iPhone 18 Pro được đồn đại sở hữu bước nhảy vọt về chip lớn nhất kể từ 2020, cộng đồng Reddit sôi sục thảo luận về thế hệ A-series thế hệ tiếp theo của Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wifaee/iphone_18_pro_the_biggest_chip_upgrade_in_5_years/",
+    "bullets": [
+      "📅 Bước nhảy chip lớn nhất kể từ 2020 — năm Apple ra mắt A14 Bionic trên iPhone 12 Pro với tiến trình 5nm",
+      "🔥 Cộng đồng r/apple sôi sục, bài đăng nhanh chóng lan rộng và thu hút thảo luận lớn",
+      "📱 iPhone 18 Pro dự kiến ra mắt mùa thu 2026 theo chu kỳ thường niên của Apple",
+      "🤫 Chi tiết về tên chip, số nhân CPU/GPU và tiến trình sản xuất vẫn chưa được tiết lộ",
+      "⚡ Nếu xác nhận, đây là cải tiến silicon đột phá nhất Apple thực hiện trong nửa thập kỷ"
+    ],
+    "publish_time": "2026-09-17T03:15:41.633786",
     "performance": null
   }
 ]
