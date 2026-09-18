@@ -3765,12 +3765,12 @@
     ],
     "publish_time": "2026-09-16T16:04:14.308203",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -3939,6 +3939,31 @@
       "📷 Thiết kế cụm camera và Dynamic Island là hai điểm nóng được tranh luận nhiều nhất trong thread"
     ],
     "publish_time": "2026-09-18T08:43:54.259058",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1556450763188917",
+    "title": "So sánh dung lượng pin mọi đời iPhone",
+    "summary": "Macworld tổng hợp toàn bộ thông số pin iPhone theo mAh và Wh — từ các đời cũ đến iPhone 16 series, giúp người dùng đối chiếu trực tiếp dung lượng thực tế từng model.",
+    "category": "iPhone",
+    "visual_type": "stat",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/678413/iphone-battery-capacities-compared-all-iphones-battery-life-in-mah-and-wh.html",
+    "bullets": [
+      "🔋 Macworld tổng hợp thông số pin theo cả mAh lẫn Wh cho từng đời iPhone — hai đơn vị đo mà Apple hiếm khi công bố song song",
+      "📵 Apple không niêm yết con số mAh trên trang sản phẩm chính thức, khiến người dùng thường phải tự tìm kiếm thông tin từ bên thứ ba",
+      "📈 Pin iPhone tăng trưởng rõ rệt qua từng thế hệ, dòng Pro Max luôn dẫn đầu lineup về dung lượng",
+      "🔍 Bảng so sánh bao phủ toàn bộ các model từ đời cũ đến iPhone 16 series mới nhất",
+      "🛒 Thông tin hữu ích cho người dùng đang cân nhắc nâng cấp hoặc muốn đối chiếu hiệu năng pin thực tế giữa các đời máy"
+    ],
+    "publish_time": "2026-09-18T15:46:21.110063",
     "performance": null
   }
 ]
