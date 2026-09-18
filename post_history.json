@@ -3889,6 +3889,31 @@
       "🔭 Đây là bước mở rộng toàn cầu quan trọng, hướng tới hàng trăm triệu người dùng ngoài thị trường Anh ngữ"
     ],
     "publish_time": "2026-09-17T22:38:43.282697",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1555878893246104",
+    "title": "iOS 18.2 Beta Âm Thầm Cài Sẵn Tính Năng Bảo Mật Endpoint",
+    "summary": "Apple bổ sung Endpoint Security stack vào iOS 18.2 beta nhưng giữ ở trạng thái 'ngủ đông' — tính năng vốn chỉ có trên macOS, nay lần đầu xuất hiện trên iPhone.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wjb6iv/apple_adds_a_dormant_endpoint_security_stack_to/",
+    "bullets": [
+      "🔐 Endpoint Security stack — framework bảo mật cấp kernel — lần đầu xuất hiện trong iOS, cụ thể là bản beta iOS 18.2",
+      "😴 Trạng thái 'dormant': tính năng đã được nhúng vào hệ thống nhưng chưa kích hoạt, người dùng chưa thể dùng được",
+      "💻 Trên macOS, Endpoint Security cho phép app bên thứ ba giám sát file, tiến trình, mạng — nay có thể sắp lên iPhone",
+      "🏢 Tín hiệu Apple đang nhắm tới bảo mật doanh nghiệp sâu hơn: mở đường cho EDR, MDM và phần mềm diệt virus thực sự trên iOS",
+      "🔍 Phát hiện bởi cộng đồng lập trình viên trên Reddit, chưa có xác nhận chính thức từ Apple"
+    ],
+    "publish_time": "2026-09-18T03:01:35.399411",
     "performance": null
   }
 ]
