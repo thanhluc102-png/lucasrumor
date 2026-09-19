@@ -3765,12 +3765,12 @@
     ],
     "publish_time": "2026-09-16T16:04:14.308203",
     "performance": {
-      "reactions": 4,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -4039,6 +4039,31 @@
       "🔥 Hình ảnh CEO mở cửa Apple Store viral mạnh trên Reddit và mạng xã hội toàn cầu"
     ],
     "publish_time": "2026-09-19T02:59:24.729517",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1557036243130369",
+    "title": "Apple yêu cầu Bộ Nội vụ Anh thừa nhận đòi 'cửa hậu' iPhone",
+    "summary": "Apple công khai đối đầu pháp lý, buộc Bộ Nội vụ Anh phải thừa nhận lệnh bí mật yêu cầu mở 'backdoor' truy cập toàn bộ dữ liệu iCloud của người dùng iPhone toàn cầu.",
+    "category": "Tin nóng",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wka9oo/apple_tells_home_office_to_admit_to_secret_iphone/",
+    "bullets": [
+      "🏛️ Apple kiện tại Tòa án Quyền lực Điều tra (IPT) Anh, buộc Bộ Nội vụ thừa nhận lệnh backdoor bí mật với iCloud",
+      "🔐 Lệnh được ban hành theo Investigatory Powers Act — cho phép giám sát diện rộng, yêu cầu truy cập dữ liệu mã hóa toàn bộ người dùng iPhone toàn cầu",
+      "🇬🇧 Apple đã rút tính năng Advanced Data Protection (mã hóa đầu-cuối iCloud) khỏi thị trường Anh đầu năm 2025 thay vì tuân thủ yêu cầu",
+      "⚖️ Đây là lần đầu tiên Apple dùng con đường pháp lý để công khai hóa một lệnh giám sát chính phủ vốn được giữ tuyệt mật",
+      "🌍 Giới chuyên gia cảnh báo: nếu Anh thắng, các chính phủ khác sẽ ồ ạt đòi backdoor tương tự — đe dọa bảo mật hàng trăm triệu người dùng iPhone"
+    ],
+    "publish_time": "2026-09-19T08:30:56.890624",
     "performance": null
   }
 ]
