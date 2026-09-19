@@ -4114,6 +4114,31 @@
       "🎙️ Đây là một trong số ít lần Apple để kỹ sư phần cứng cấp cao lên tiếng công khai về sản phẩm chưa ra mắt"
     ],
     "publish_time": "2026-09-19T18:24:35.706761",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1557570623076931",
+    "title": "Xcode 27.1 Beta Ra Mắt, Hỗ Trợ iPhone Duo",
+    "summary": "Apple phát hành Xcode 27.1 beta đầu tiên ngày 18/9/2026, bổ sung hỗ trợ mô hình iPhone Duo — tín hiệu rõ ràng cho dòng iPhone mới sắp ra mắt.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/09/18/apple-releases-xcode-27-1-beta-iphone-duo-support/",
+    "bullets": [
+      "🗓️ Phát hành ngày 18/9/2026 — Xcode 27.1 beta đầu tiên chính thức lên sóng",
+      "📱 Xuất hiện tên 'iPhone Duo' — mã định danh thiết bị iPhone hoàn toàn mới trong bộ công cụ",
+      "🛠️ Dành cho nhà phát triển iOS/macOS/iPadOS — tải qua cổng Apple Developer",
+      "🔍 Hỗ trợ phần cứng mới trong Xcode beta thường báo hiệu sản phẩm sắp ra mắt",
+      "⚡ Là bản nối tiếp Xcode 27 — tiếp tục cập nhật hạ tầng cho toàn hệ sinh thái Apple"
+    ],
+    "publish_time": "2026-09-19T22:05:53.171566",
     "performance": null
   }
 ]
