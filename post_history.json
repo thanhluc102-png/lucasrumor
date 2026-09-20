@@ -4115,12 +4115,12 @@
     ],
     "publish_time": "2026-09-19T18:24:35.706761",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -4139,6 +4139,31 @@
       "⚡ Là bản nối tiếp Xcode 27 — tiếp tục cập nhật hạ tầng cho toàn hệ sinh thái Apple"
     ],
     "publish_time": "2026-09-19T22:05:53.171566",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1557742039726456",
+    "title": "iPhone 18 Pro Max: Phải Xả Pin Trước Khi Xuất Xưởng",
+    "summary": "Apple yêu cầu quy trình 'Prepare to Ship' — xả cạn pin iPhone 18 Pro Max trước khi đóng hộp xuất xưởng, một bước kiểm soát chất lượng pin mới được phát hiện bởi cộng đồng r/apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wkofkc/iphone_18_pro_max_requires_prepare_to_ship/",
+    "bullets": [
+      "🔋 Quy trình 'Prepare to Ship' yêu cầu xả pin iPhone 18 Pro Max xuống mức thấp trước khi đóng hộp",
+      "📦 Mục đích: bảo vệ pin lithium-ion khỏi suy giảm trong quá trình vận chuyển và lưu kho dài ngày",
+      "📱 Áp dụng riêng cho iPhone 18 Pro Max — mẫu flagship cao cấp nhất dòng iPhone 18",
+      "🔍 Phát hiện được chia sẻ bởi cộng đồng r/apple, gây ra làn sóng thảo luận sôi nổi",
+      "💡 Lý giải hiện tượng người dùng hay nhận máy Apple mới với pin chỉ 30–50% thay vì đầy 100%"
+    ],
+    "publish_time": "2026-09-20T03:13:24.836870",
     "performance": null
   }
 ]
