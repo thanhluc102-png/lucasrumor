@@ -4214,6 +4214,31 @@
       "🔧 Các cải tiến tốc độ trải rộng nhiều mặt: mở app, phản hồi cảm ứng, xử lý nền"
     ],
     "publish_time": "2026-09-20T15:23:28.026563",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1558384069662253",
+    "title": "Apple 'Personal Hub' AI: Thiết Bị Nhà Thông Minh Sắp Ra?",
+    "summary": "Apple đang phát triển chiến lược AI 'Personal Hub' — trung tâm kết nối cá nhân — gợi ý mạnh về một thiết bị nhà thông minh hoàn toàn mới sắp được ra mắt.",
+    "category": "Apple AI",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wlj05j/apples_personal_hub_ai_strategy_hints_at_upcoming/",
+    "bullets": [
+      "🏠 Apple phát triển chiến lược 'Personal Hub' — AI trung tâm điều phối toàn bộ thiết bị trong nhà",
+      "🤖 Gợi ý mạnh về thiết bị nhà thông minh hoàn toàn mới, khác biệt với HomePod & Apple TV hiện tại",
+      "🔒 AI xử lý on-device, bảo vệ quyền riêng tư — đặc trưng cốt lõi của Apple Intelligence",
+      "📱 Thiết bị mới nhiều khả năng chạy biến thể iOS/iPadOS tối ưu cho môi trường gia đình",
+      "⚔️ Apple đang phản công Google Nest & Amazon Echo trong cuộc đua nhà thông minh AI thế hệ mới"
+    ],
+    "publish_time": "2026-09-20T18:29:06.878784",
     "performance": null
   }
 ]
