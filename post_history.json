@@ -4239,6 +4239,31 @@
       "⚔️ Apple đang phản công Google Nest & Amazon Echo trong cuộc đua nhà thông minh AI thế hệ mới"
     ],
     "publish_time": "2026-09-20T18:29:06.878784",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1558512229649437",
+    "title": "iFixit Mổ Xẻ iPhone 18 Pro: Khẩu Độ Biến Thiên Lộ Diện",
+    "summary": "iFixit tháo tung iPhone 18 Pro, lần đầu ghi lại cận cảnh cơ chế khẩu độ biến thiên trên camera và phát hiện vấn đề đáng lo ngại liên quan đến việc thay màn hình.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/20/ifixit-tears-down-iphone-18-pro-explores-variable-aperture-finds-concerning-repair-issue/",
+    "bullets": [
+      "🔬 iFixit tháo toàn bộ iPhone 18 Pro trong video teardown truyền thống hàng năm",
+      "📷 Cơ chế khẩu độ biến thiên (variable aperture) được ghi lại cận cảnh lần đầu tiên",
+      "⚠️ Phát hiện vấn đề đáng lo về khả năng sửa chữa liên quan đến thay thế màn hình",
+      "🔩 Đây là lần đầu Apple tích hợp khẩu độ biến thiên vật lý vào dòng iPhone Pro",
+      "📊 Điểm repairability chính thức của iFixit cho iPhone 18 Pro dự kiến sẽ bị ảnh hưởng"
+    ],
+    "publish_time": "2026-09-20T22:10:33.381265",
     "performance": null
   }
 ]
