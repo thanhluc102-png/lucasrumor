@@ -4065,12 +4065,12 @@
     ],
     "publish_time": "2026-09-19T08:30:56.890624",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -4189,6 +4189,31 @@
       "🔧 Cộng đồng đặt câu hỏi liệu Apple có thể sửa lỗi này qua bản cập nhật iOS hay đây là giới hạn phần cứng"
     ],
     "publish_time": "2026-09-20T09:02:30.808152",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1558240736343253",
+    "title": "iOS 27 giúp iPhone nhanh hơn theo 30+ cách",
+    "summary": "Apple chính thức phát hành iOS 27, liệt kê hơn 30 cải tiến hiệu năng cụ thể giúp iPhone chạy nhanh hơn đáng kể so với iOS 26 trở về trước.",
+    "category": "iPhone",
+    "visual_type": "stat",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/09/19/ios-27-makes-your-iphone-faster-in-30-ways-heres-the-full-list/",
+    "bullets": [
+      "🚀 Hơn 30 cải tiến hiệu năng được Apple liệt kê chính thức trong iOS 27",
+      "📋 Apple chủ động công khai toàn bộ danh sách — mức độ minh bạch hiếm có với một bản cập nhật iOS",
+      "⚡ Người dùng sẽ cảm nhận iPhone nhanh hơn rõ rệt ngay sau khi cập nhật lên iOS 27",
+      "🌍 iOS 27 đã phát hành đến tất cả người dùng toàn cầu, cập nhật OTA miễn phí",
+      "🔧 Các cải tiến tốc độ trải rộng nhiều mặt: mở app, phản hồi cảm ứng, xử lý nền"
+    ],
+    "publish_time": "2026-09-20T15:23:28.026563",
     "performance": null
   }
 ]
