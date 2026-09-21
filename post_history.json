@@ -4339,6 +4339,31 @@
       "🔒 Vụ kiện là một trong những tranh chấp quyền riêng tư AI nổi bật nhất nhắm vào Apple từ trước đến nay"
     ],
     "publish_time": "2026-09-21T17:49:49.351525",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1559488909551769",
+    "title": "Cửa sổ hạ cấp iOS 26 đã đóng vĩnh viễn",
+    "summary": "Apple ngừng ký iOS 26.6.2 chỉ một tuần sau khi iOS 27 ra mắt ngày 14/9/2026, chặn toàn bộ khả năng hạ cấp về iOS 26 cho mọi người dùng đã lỡ nâng cấp.",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/09/21/ios-27-downgrading-impossible/",
+    "bullets": [
+      "🔒 Apple ngừng ký iOS 26.6.2 — phiên bản iOS 26 cuối cùng — chặn hoàn toàn đường hạ cấp",
+      "📅 iOS 27 ra mắt ngày 14/9/2026, cửa sổ hạ cấp chỉ mở chưa đầy 1 tuần",
+      "⚠️ Người dùng đã lên iOS 27 gặp lỗi hoặc app xung đột sẽ không có cách quay lại iOS 26",
+      "🔑 Apple kiểm soát bằng chữ ký số (signing): không có chữ ký, thiết bị từ chối cài bản cũ dù có file IPSW",
+      "✅ Người dùng vẫn đang chạy iOS 26 chưa nâng cấp thì chưa bị ảnh hưởng — nhưng một khi lên iOS 27 là không về được"
+    ],
+    "publish_time": "2026-09-21T23:00:19.411183",
     "performance": null
   }
 ]
