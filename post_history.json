@@ -4289,6 +4289,31 @@
       "📢 Đây là một trong những teardown sớm và chi tiết nhất của iPhone 18 Pro hiện có"
     ],
     "publish_time": "2026-09-21T03:09:41.774411",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1558950889605571",
+    "title": "iPhone 18 Pro Max: Bộ nhớ QLC chậm hơn thẻ SD?",
+    "summary": "Kiểm tra thực tế bộ nhớ QLC trên iPhone 18 Pro Max cho thấy tốc độ ghi giảm mạnh dưới tải nặng, thậm chí thua cả thẻ nhớ SD thông thường — gây tranh cãi lớn trên r/apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wm4ibz/slower_than_an_sd_card_under_heavy_load_iphone_18/",
+    "bullets": [
+      "📦 iPhone 18 Pro Max dùng bộ nhớ QLC NAND — lưu 4 bit/cell, rẻ hơn nhưng chậm hơn TLC/MLC",
+      "🐢 Dưới tải nặng (cache SLC đầy), tốc độ ghi thực tế thấp hơn cả thẻ nhớ SD thông thường",
+      "🎬 Ảnh hưởng rõ nhất khi quay video 4K/8K liên tục hoặc chuyển file dung lượng lớn",
+      "💰 Đây là lần đầu dòng iPhone Pro bị xác nhận dùng QLC — nghi vấn Apple cắt giảm chi phí linh kiện",
+      "🔥 Bài kiểm tra gây tranh cãi lớn trên r/apple, cộng đồng lo ngại về hiệu năng thực tế dài hạn"
+    ],
+    "publish_time": "2026-09-21T09:35:24.166431",
     "performance": null
   }
 ]
