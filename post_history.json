@@ -4165,12 +4165,12 @@
     ],
     "publish_time": "2026-09-20T03:13:24.836870",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 37,
-      "comments": 15,
-      "comments_total": 16,
+      "reactions": 302,
+      "comments": 86,
+      "comments_total": 87,
       "own_comments": 1,
-      "shares": 3,
-      "score": 97
+      "shares": 6,
+      "score": 590
     }
   },
   {
@@ -4414,6 +4414,31 @@
       "⚠️ Thông tin vẫn ở giai đoạn sớm, cần nhiều nguồn xác nhận độc lập trước khi kết luận chính thức"
     ],
     "publish_time": "2026-09-22T09:00:37.844466",
+    "performance": {
+      "reactions": 4,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1560159646151362",
+    "title": "Apple Âm Thầm Xóa iPhone 16 & 17 Khỏi Tính Năng Texture/Grain",
+    "summary": "Apple lặng lẽ loại iPhone 16 và iPhone 17 khỏi danh sách hỗ trợ tính năng Texture và Grain trong ảnh — động thái không có thông báo chính thức, gây bất ngờ cộng đồng r/apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wn4f0t/apple_quietly_removes_iphone_16_and_iphone_17/",
+    "bullets": [
+      "📌 iPhone 16 và iPhone 17 bị xóa khỏi danh sách hỗ trợ Texture & Grain — hai hiệu ứng chỉnh ảnh của hệ thống camera iOS",
+      "🔇 Apple không đưa ra bất kỳ thông báo chính thức hay changelog nào giải thích lý do gỡ bỏ",
+      "👥 Cộng đồng r/apple là nơi đầu tiên phát hiện và lan truyền thông tin về thay đổi âm thầm này",
+      "❓ Chưa rõ đây là lỗi kỹ thuật tạm thời hay quyết định loại bỏ vĩnh viễn từ phía Apple",
+      "⚠️ Đây tiếp tục là ví dụ điển hình về việc Apple thay đổi tính năng mà không minh bạch với người dùng"
+    ],
+    "publish_time": "2026-09-22T16:13:39.771503",
     "performance": null
   }
 ]
