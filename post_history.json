@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 10,
-      "comments": 3,
-      "comments_total": 4,
+      "reactions": 37,
+      "comments": 15,
+      "comments_total": 16,
       "own_comments": 1,
-      "shares": 2,
-      "score": 29
+      "shares": 3,
+      "score": 97
     }
   },
   {
@@ -4389,6 +4389,31 @@
       "📱 Phần cứng iPhone hoàn toàn giống nhau — chỉ địa chỉ tài khoản quyết định mức độ bảo mật bạn nhận được"
     ],
     "publish_time": "2026-09-22T03:09:37.995480",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 7
+    }
+  },
+  {
+    "post_id": "1920842954802282_1559857692848224",
+    "title": "Lộ kích thước màn hình iPhone 20 Pro 2027",
+    "summary": "Leaker Digital Chat Station tiết lộ kích thước màn hình dòng iPhone 20 Pro trước thềm ra mắt 2027, hé lộ Apple tiếp tục thay đổi cấu hình màn hình thế hệ tiếp theo.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wmao3g/digital_chat_station_iphone_20_pro_display_sizes/",
+    "bullets": [
+      "📅 iPhone 20 Pro dự kiến ra mắt năm 2027 — thông tin rò rỉ xuất hiện sớm ~2 năm trước",
+      "🔍 Nguồn: Digital Chat Station — leaker Trung Quốc có track record độ chính xác cao về phần cứng Apple",
+      "📐 Nội dung rò rỉ tập trung vào kích thước màn hình dòng Pro, gợi ý Apple đang xem xét thay đổi form factor",
+      "💬 Bài đăng nhanh chóng thu hút cộng đồng r/apple thảo luận sôi nổi về hướng đi thiết kế của Apple",
+      "⚠️ Thông tin vẫn ở giai đoạn sớm, cần nhiều nguồn xác nhận độc lập trước khi kết luận chính thức"
+    ],
+    "publish_time": "2026-09-22T09:00:37.844466",
     "performance": null
   }
 ]
