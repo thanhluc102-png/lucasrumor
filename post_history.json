@@ -4364,6 +4364,31 @@
       "✅ Người dùng vẫn đang chạy iOS 26 chưa nâng cấp thì chưa bị ảnh hưởng — nhưng một khi lên iOS 27 là không về được"
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
+    "performance": {
+      "reactions": 10,
+      "comments": 3,
+      "comments_total": 4,
+      "own_comments": 1,
+      "shares": 2,
+      "score": 29
+    }
+  },
+  {
+    "post_id": "1920842954802282_1559637249536935",
+    "title": "Anh: Hai iPhone giống hệt, bảo mật iCloud khác nhau",
+    "summary": "Tại Anh, Apple buộc phải tắt Advanced Data Protection cho người dùng nội địa sau yêu cầu chính phủ — tạo ra hệ thống mã hóa hai tầng bất bình đẳng ngay trên cùng một dòng iPhone.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wmbd2z/twotier_encryption_in_the_uk_alice_and_bill_have/",
+    "bullets": [
+      "🇬🇧 Apple tắt Advanced Data Protection (ADP) cho toàn bộ người dùng iCloud tại Anh theo yêu cầu chính phủ từ đầu 2025",
+      "🔓 Không có ADP: Apple giữ chìa khóa giải mã — ảnh, ghi chú, tin nhắn backup có thể bị truy cập theo lệnh tư pháp",
+      "🌍 Người dùng iPhone/iPad/Mac tại Mỹ và phần lớn thế giới vẫn được bật ADP, tạo ra hệ thống bảo mật hai tầng bất bình đẳng",
+      "⚠️ Cộng đồng lo ngại đây là tiền lệ nguy hiểm: nếu Anh thành công, các chính phủ khác có thể đưa ra yêu cầu tương tự",
+      "📱 Phần cứng iPhone hoàn toàn giống nhau — chỉ địa chỉ tài khoản quyết định mức độ bảo mật bạn nhận được"
+    ],
+    "publish_time": "2026-09-22T03:09:37.995480",
     "performance": null
   }
 ]
