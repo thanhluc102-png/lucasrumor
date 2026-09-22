@@ -4165,12 +4165,12 @@
     ],
     "publish_time": "2026-09-20T03:13:24.836870",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 302,
-      "comments": 86,
-      "comments_total": 87,
+      "reactions": 354,
+      "comments": 93,
+      "comments_total": 94,
       "own_comments": 1,
-      "shares": 6,
-      "score": 590
+      "shares": 10,
+      "score": 683
     }
   },
   {
@@ -4439,6 +4439,31 @@
       "⚠️ Đây tiếp tục là ví dụ điển hình về việc Apple thay đổi tính năng mà không minh bạch với người dùng"
     ],
     "publish_time": "2026-09-22T16:13:39.771503",
+    "performance": {
+      "reactions": 7,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 12
+    }
+  },
+  {
+    "post_id": "1920842954802282_1560402162793777",
+    "title": "Mua iPhone 2 năm qua, Apple nợ bạn tiền!",
+    "summary": "Apple bị ràng buộc bồi thường cho người dùng mua iPhone trong 2 năm gần đây, liên quan đến vụ kiện tập thể về tính năng iOS bị hạn chế cố tình.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3241239/if-you-bought-a-new-iphone-in-the-past-two-years-apple-owes-you-money.html",
+    "bullets": [
+      "💰 Apple bị ràng buộc bồi thường tiền mặt cho người dùng mua iPhone trong ~2 năm qua",
+      "⚖️ Vụ kiện tập thể cáo buộc Apple cố tình hạn chế tính năng iOS trên các iPhone đủ điều kiện phần cứng",
+      "📲 iOS 27 được nhắc đến như 'giọt nước tràn ly' — cuối cùng mới mang tính năng lẽ ra có sớm hơn",
+      "🔕 Apple không thừa nhận sai phạm nhưng đồng ý dàn xếp và chi trả bồi thường",
+      "📋 Người dùng đủ điều kiện có thể nộp đơn yêu cầu bồi thường trực tuyến — cần kiểm tra thời hạn"
+    ],
+    "publish_time": "2026-09-22T22:43:28.699909",
     "performance": null
   }
 ]
