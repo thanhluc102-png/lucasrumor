@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 370,
+      "reactions": 371,
       "comments": 97,
       "comments_total": 99,
       "own_comments": 2,
       "shares": 10,
-      "score": 711
+      "score": 712
     }
   },
   {
@@ -4440,12 +4440,12 @@
     ],
     "publish_time": "2026-09-22T16:13:39.771503",
     "performance": {
-      "reactions": 14,
+      "reactions": 15,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 19
+      "score": 20
     }
   },
   {
@@ -4465,12 +4465,12 @@
     ],
     "publish_time": "2026-09-22T22:43:28.699909",
     "performance": {
-      "reactions": 12,
+      "reactions": 13,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 18
+      "score": 19
     }
   },
   {
@@ -4539,6 +4539,31 @@
       "❓ Cộng đồng đặt câu hỏi: Apple có nên công bố rõ loại NAND dùng trong từng model?"
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1561348819365778",
+    "title": "Tính năng ảnh mới của Apple chỉ chạy trên iPhone mới",
+    "summary": "Apple giới hạn bộ điều khiển ảnh thế hệ mới — chỉ hoạt động với ảnh 'chụp' trực tiếp trên iPhone đời mới, không hỗ trợ ảnh cũ hoặc nhập từ ngoài.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3241056/apples-next-gen-photo-controls-only-work-on-images-captured-on-a-new-iphone.html",
+    "bullets": [
+      "📷 Bộ điều khiển ảnh thế hệ mới chỉ hoạt động với ảnh được 'chụp' trực tiếp trên iPhone mới — không hỗ trợ ảnh cũ hay ảnh nhập từ ngoài",
+      "🚫 Toàn bộ kho ảnh hiện có trong Camera Roll sẽ không được áp dụng tính năng chỉnh sửa tiên tiến này, dù máy đã được nâng cấp",
+      "🔩 Hạn chế xuất phát từ việc tính năng phụ thuộc vào metadata và dữ liệu thô đặc thù chỉ được tạo ra lúc chụp trên phần cứng tương thích",
+      "📋 Apple chưa công bố danh sách đầy đủ mẫu iPhone được hỗ trợ hoặc kế hoạch mở rộng tương thích",
+      "⚙️ Chiến lược này tiếp tục xu hướng Apple khóa tính năng cao cấp vào phần cứng mới, tạo áp lực nâng cấp thiết bị"
+    ],
+    "publish_time": "2026-09-23T22:40:29.788043",
     "performance": null
   }
 ]
