@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 365,
-      "comments": 94,
-      "comments_total": 96,
+      "reactions": 370,
+      "comments": 96,
+      "comments_total": 98,
       "own_comments": 2,
       "shares": 10,
-      "score": 697
+      "score": 708
     }
   },
   {
@@ -4390,12 +4390,12 @@
     ],
     "publish_time": "2026-09-22T03:09:37.995480",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 7
+      "score": 8
     }
   },
   {
@@ -4440,12 +4440,12 @@
     ],
     "publish_time": "2026-09-22T16:13:39.771503",
     "performance": {
-      "reactions": 11,
+      "reactions": 12,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 16
+      "score": 17
     }
   },
   {
@@ -4489,6 +4489,31 @@
       "⏳ Tính năng đang trong giai đoạn beta, chưa xác nhận ngày phát hành chính thức cho người dùng đại trà"
     ],
     "publish_time": "2026-09-23T03:09:15.779268",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1560771396090187",
+    "title": "iPhone Pro 2029 sẽ có màn hình Duo Display",
+    "summary": "Apple lên kế hoạch đưa công nghệ màn hình Duo Display lên dòng iPhone Pro vào năm 2029, mở rộng từ công nghệ đã xuất hiện trên các dòng máy trước đó.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wn9r8j/apple_planning_to_bring_iphone_duo_display_tech/",
+    "bullets": [
+      "📅 Mốc thời gian: Apple nhắm đến năm 2029 để ra mắt Duo Display trên iPhone Pro",
+      "🖥️ Công nghệ Duo Display hứa hẹn nâng cấp lớn về chất lượng hiển thị so với OLED hiện tại",
+      "📱 Chỉ dòng iPhone Pro mới được ưu tiên nhận công nghệ màn hình thế hệ mới này",
+      "🔬 Apple vẫn đang trong giai đoạn R&D dài hạn, chưa có thông số kỹ thuật chính thức",
+      "💬 Cộng đồng r/apple phản ứng tích cực, cho thấy kỳ vọng cao vào lộ trình phần cứng của Apple"
+    ],
+    "publish_time": "2026-09-23T09:03:35.558124",
     "performance": null
   }
 ]
