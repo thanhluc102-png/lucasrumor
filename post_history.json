@@ -4315,12 +4315,12 @@
     ],
     "publish_time": "2026-09-21T09:35:24.166431",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -4340,12 +4340,12 @@
     ],
     "publish_time": "2026-09-21T17:49:49.351525",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -4366,11 +4366,11 @@
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
       "reactions": 370,
-      "comments": 96,
-      "comments_total": 98,
+      "comments": 97,
+      "comments_total": 99,
       "own_comments": 2,
       "shares": 10,
-      "score": 708
+      "score": 711
     }
   },
   {
@@ -4440,12 +4440,12 @@
     ],
     "publish_time": "2026-09-22T16:13:39.771503",
     "performance": {
-      "reactions": 12,
+      "reactions": 14,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 17
+      "score": 19
     }
   },
   {
@@ -4465,12 +4465,12 @@
     ],
     "publish_time": "2026-09-22T22:43:28.699909",
     "performance": {
-      "reactions": 5,
-      "comments": 1,
-      "comments_total": 2,
+      "reactions": 12,
+      "comments": 2,
+      "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 18
     }
   },
   {
@@ -4514,6 +4514,31 @@
       "💬 Cộng đồng r/apple phản ứng tích cực, cho thấy kỳ vọng cao vào lộ trình phần cứng của Apple"
     ],
     "publish_time": "2026-09-23T09:03:35.558124",
+    "performance": {
+      "reactions": 4,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1561091839391476",
+    "title": "iPhone 18 Pro Max: Tốc độ ghi chỉ 1.1 MB/s?",
+    "summary": "iPhone 18 Pro Max dùng NAND QLC bị ghi nhận tốc độ ghi tụt xuống 1.1 MB/s khi ghi nặng — thấp hơn cả ổ cứng HDD cơ học, và chậm hơn 38% so với bản Pro dùng NAND TLC.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wnvwbh/iphone_18_pro_max_storage_can_drop_lower_than_a/",
+    "bullets": [
+      "🐌 Tốc độ ghi tụt còn 1.1 MB/s khi ghi nặng — thấp hơn ổ HDD cơ học thế hệ cũ",
+      "📉 iPhone 18 Pro Max chậm hơn iPhone 18 Pro tới 38% trong bài test ghi liên tục",
+      "💾 Nguyên nhân: Apple dùng NAND QLC trên Pro Max để đạt dung lượng cao hơn",
+      "⚖️ NAND QLC ưu điểm: dung lượng lớn hơn — nhược điểm: hiệu năng ghi kém khi đầy cache",
+      "❓ Cộng đồng đặt câu hỏi: Apple có nên công bố rõ loại NAND dùng trong từng model?"
+    ],
+    "publish_time": "2026-09-23T16:02:52.230260",
     "performance": null
   }
 ]
