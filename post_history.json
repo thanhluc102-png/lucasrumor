@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 354,
-      "comments": 93,
-      "comments_total": 94,
-      "own_comments": 1,
+      "reactions": 365,
+      "comments": 94,
+      "comments_total": 96,
+      "own_comments": 2,
       "shares": 10,
-      "score": 683
+      "score": 697
     }
   },
   {
@@ -4440,12 +4440,12 @@
     ],
     "publish_time": "2026-09-22T16:13:39.771503",
     "performance": {
-      "reactions": 7,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 12
+      "score": 16
     }
   },
   {
@@ -4464,6 +4464,31 @@
       "📋 Người dùng đủ điều kiện có thể nộp đơn yêu cầu bồi thường trực tuyến — cần kiểm tra thời hạn"
     ],
     "publish_time": "2026-09-22T22:43:28.699909",
+    "performance": {
+      "reactions": 5,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1560559089444751",
+    "title": "iOS 27.2 Beta 2 Hé Lộ Tính Năng Chống Giật Điện Thoại",
+    "summary": "iOS 27.2 beta 2 tiết lộ chi tiết mới về tính năng chống giật điện thoại, được phát hiện qua phân tích code bản beta dành cho iPhone, hứa hẹn bảo vệ thiết bị khi bị cướp giật.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wn7cfe/ios_272_beta_2_reveals_new_details_about/",
+    "bullets": [
+      "🔍 Phát hiện từ iOS 27.2 beta 2 — bản beta thứ hai trong chu kỳ phát triển iOS 27.2",
+      "🛡️ Tính năng chống giật điện thoại (anti-snatching) — bảo vệ iPhone khi bị cướp giật ngoài đường",
+      "💻 Thông tin được khai quật từ việc phân tích sâu code ẩn trong bản beta",
+      "📣 Bài đăng nhanh chóng lan truyền trên r/apple, cộng đồng Apple lớn nhất Reddit",
+      "⏳ Tính năng đang trong giai đoạn beta, chưa xác nhận ngày phát hành chính thức cho người dùng đại trà"
+    ],
+    "publish_time": "2026-09-23T03:09:15.779268",
     "performance": null
   }
 ]
