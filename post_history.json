@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 38,
+      "reactions": 43,
       "comments": 3,
       "comments_total": 4,
       "own_comments": 1,
       "shares": 1,
-      "score": 52
+      "score": 57
     }
   },
   {
@@ -4565,12 +4565,12 @@
     ],
     "publish_time": "2026-09-23T22:40:29.788043",
     "performance": {
-      "reactions": 12,
+      "reactions": 15,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 12
+      "shares": 1,
+      "score": 20
     }
   },
   {
@@ -4639,6 +4639,31 @@
       "Chưa rõ lộ trình AT&T có kế hoạch hỗ trợ tính năng này hay không trong các bản cập nhật sau"
     ],
     "publish_time": "2026-09-24T16:27:23.630446",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1562398659260794",
+    "title": "Video bị thất lạc: Jobs 'dập tắt' bê bối Antennagate 2010",
+    "summary": "Đoạn video hiếm năm 2010 hé lộ cách Steve Jobs xử lý khủng hoảng Antennagate — scandal mất sóng iPhone 4 chấn động ngành công nghệ, từng khiến Apple lao đao trước truyền thông toàn cầu.",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3243483/watch-steve-jobs-defuse-apples-antennagate-scandal-in-lost-video-footage.html",
+    "bullets": [
+      "📱 iPhone 4 (2010) dính lỗi mất sóng khi tay che góc ăng-ten trái — Apple gọi đây là 'Antennagate'",
+      "🎥 Đoạn video hiếm của Steve Jobs xử lý khủng hoảng vừa được công bố sau nhiều năm thất lạc",
+      "🛡️ Jobs lập luận lỗi ăng-ten là vấn đề chung của cả ngành, không riêng iPhone 4",
+      "🎁 Apple tặng miễn phí ốp lưng cho toàn bộ người dùng iPhone 4 bị ảnh hưởng như biện pháp xoa dịu",
+      "📺 Tư liệu quý cho thấy phong cách kiểm soát khủng hoảng truyền thông đặc trưng của Steve Jobs"
+    ],
+    "publish_time": "2026-09-24T23:00:20.817712",
     "performance": null
   }
 ]
