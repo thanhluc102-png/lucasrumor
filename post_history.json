@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 371,
+      "reactions": 373,
       "comments": 96,
       "comments_total": 98,
       "own_comments": 2,
-      "shares": 10,
-      "score": 709
+      "shares": 11,
+      "score": 716
     }
   },
   {
@@ -4465,12 +4465,12 @@
     ],
     "publish_time": "2026-09-22T22:43:28.699909",
     "performance": {
-      "reactions": 17,
+      "reactions": 21,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 23
+      "score": 27
     }
   },
   {
@@ -4515,12 +4515,12 @@
     ],
     "publish_time": "2026-09-23T09:03:35.558124",
     "performance": {
-      "reactions": 4,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 11,
-      "comments": 0,
-      "comments_total": 1,
+      "reactions": 38,
+      "comments": 3,
+      "comments_total": 4,
       "own_comments": 1,
-      "shares": 0,
-      "score": 11
+      "shares": 1,
+      "score": 52
     }
   },
   {
@@ -4565,12 +4565,12 @@
     ],
     "publish_time": "2026-09-23T22:40:29.788043",
     "performance": {
-      "reactions": 5,
-      "comments": 1,
-      "comments_total": 2,
+      "reactions": 12,
+      "comments": 0,
+      "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 12
     }
   },
   {
@@ -4614,6 +4614,31 @@
       "🔄 Apple mở rộng chính sách hoàn tiền lên 30 ngày cho khách hàng không hài lòng"
     ],
     "publish_time": "2026-09-24T08:59:41.001150",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1562133375953989",
+    "title": "AT&T Bỏ Qua Tính Năng Handoff iPhone Mới Trên iOS 27",
+    "summary": "iOS 27 giới thiệu tính năng iPhone Handoff cho phép chuyển cuộc gọi liền mạch giữa các thiết bị, nhưng AT&T — nhà mạng lớn tại Mỹ — từ chối hỗ trợ tính năng này ngay từ đầu.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wob6ng/att_responds_to_ios_27s_new_iphone_handoff/",
+    "bullets": [
+      "iOS 27 ra mắt tính năng iPhone Handoff — cho phép chuyển cuộc gọi liền mạch giữa các thiết bị Apple",
+      "AT&T xác nhận KHÔNG hỗ trợ tính năng Handoff mới ngay từ thời điểm iOS 27 ra mắt",
+      "AT&T là một trong những nhà mạng lớn nhất tại Mỹ, quyết định này ảnh hưởng đến hàng triệu người dùng iPhone",
+      "Cộng đồng r/apple phản ứng mạnh, xem đây là bước thụt lùi trong trải nghiệm hệ sinh thái Apple",
+      "Chưa rõ lộ trình AT&T có kế hoạch hỗ trợ tính năng này hay không trong các bản cập nhật sau"
+    ],
+    "publish_time": "2026-09-24T16:27:23.630446",
     "performance": null
   }
 ]
