@@ -4315,12 +4315,12 @@
     ],
     "publish_time": "2026-09-21T09:35:24.166431",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -4366,11 +4366,11 @@
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
       "reactions": 371,
-      "comments": 97,
-      "comments_total": 99,
+      "comments": 96,
+      "comments_total": 98,
       "own_comments": 2,
       "shares": 10,
-      "score": 712
+      "score": 709
     }
   },
   {
@@ -4465,12 +4465,12 @@
     ],
     "publish_time": "2026-09-22T22:43:28.699909",
     "performance": {
-      "reactions": 15,
+      "reactions": 17,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 21
+      "score": 23
     }
   },
   {
@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 5,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 11
     }
   },
   {
@@ -4565,12 +4565,12 @@
     ],
     "publish_time": "2026-09-23T22:40:29.788043",
     "performance": {
-      "reactions": 4,
+      "reactions": 5,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 7
+      "score": 8
     }
   },
   {
@@ -4589,6 +4589,31 @@
       "🐛 Phát hiện xuất hiện trong giai đoạn beta của macOS 26, chưa có phản hồi chính thức từ Apple"
     ],
     "publish_time": "2026-09-24T03:00:20.814135",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1561763529324307",
+    "title": "Antennagate iPhone 4: Jobs, Cook & Mansfield Trả Lời",
+    "summary": "Buổi Q&A lịch sử năm 2010 về scandal ăng-ten iPhone 4 với sự góp mặt của Steve Jobs, Tim Cook và Bob Mansfield — một trong những khủng hoảng PR lớn nhất lịch sử Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1woak51/iphone_4_antennagate_qa_steve_jobs_tim_cook_bob/",
+    "bullets": [
+      "📡 Lỗi ăng-ten iPhone 4 xảy ra khi tay chạm vào góc dưới trái, làm mất sóng hoàn toàn",
+      "👤 Ba lãnh đạo cùng xuất hiện: Steve Jobs (CEO), Tim Cook (COO), Bob Mansfield (VP Hardware)",
+      "🎁 Apple tặng miễn phí ốp Bumper cho toàn bộ người dùng iPhone 4 như biện pháp xử lý",
+      "💬 Jobs lập luận mọi smartphone đều bị suy giảm tín hiệu khi cầm — phát biểu gây tranh cãi lớn",
+      "🔄 Apple mở rộng chính sách hoàn tiền lên 30 ngày cho khách hàng không hài lòng"
+    ],
+    "publish_time": "2026-09-24T08:59:41.001150",
     "performance": null
   }
 ]
