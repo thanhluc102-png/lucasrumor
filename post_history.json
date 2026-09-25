@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 43,
-      "comments": 3,
-      "comments_total": 4,
+      "reactions": 58,
+      "comments": 5,
+      "comments_total": 6,
       "own_comments": 1,
       "shares": 1,
-      "score": 57
+      "score": 78
     }
   },
   {
@@ -4664,6 +4664,31 @@
       "📺 Tư liệu quý cho thấy phong cách kiểm soát khủng hoảng truyền thông đặc trưng của Steve Jobs"
     ],
     "publish_time": "2026-09-24T23:00:20.817712",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1562580655909261",
+    "title": "Video 'Antennagate' iPhone 4 lộ diện sau 16 năm",
+    "summary": "Video Q&A đầy đủ về scandal ăng-ten iPhone 4 năm 2010 bất ngờ xuất hiện sau 16 năm, hé lộ toàn bộ buổi họp báo lịch sử của Apple với Steve Jobs.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wp0nlm/full_iphone_4_antennagate_qa_video_surfaces_after/",
+    "bullets": [
+      "📅 Sự kiện xảy ra năm 2010 — iPhone 4 dùng viền thép không gỉ kiêm ăng-ten, gây mất sóng khi cầm tay che góc trái",
+      "😤 Apple ban đầu phản hồi gây tranh cãi: 'Đừng cầm điện thoại theo cách đó' — bị chỉ trích toàn cầu",
+      "🎤 Steve Jobs tổ chức họp báo đặc biệt ngày 16/7/2010 tại Cupertino để giải trình trực tiếp",
+      "🎁 Apple xử lý khủng hoảng bằng cách tặng miễn phí ốp lưng + cho đổi trả máy trong 30 ngày",
+      "📼 Video Q&A đầy đủ bỗng xuất hiện sau 16 năm — tư liệu lịch sử hiếm về khủng hoảng PR lớn nhất của Apple"
+    ],
+    "publish_time": "2026-09-25T03:17:01.903680",
     "performance": null
   }
 ]
