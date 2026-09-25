@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 146,
+      "reactions": 155,
       "comments": 19,
       "comments_total": 20,
       "own_comments": 1,
       "shares": 5,
-      "score": 228
+      "score": 237
     }
   },
   {
@@ -4739,6 +4739,31 @@
       "🎯 Thành công tại Ấn Độ có thể biến nơi đây thành động lực tăng trưởng iPhone lớn nhất thập kỷ tới"
     ],
     "publish_time": "2026-09-25T16:27:37.136742",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1563467359153924",
+    "title": "Apple Sắp Vá Lỗi Face ID Đóng Băng Trên iPhone 16",
+    "summary": "iPhone 16 dính lỗi Face ID bị đóng băng sau khi khởi động lại. Apple xác nhận đã biết lỗi và sẽ tung bản vá trong bản cập nhật phần mềm sắp tới.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3244462/iphone-18-pro-fix-coming-soon-to-address-face-id-freezing-bug.html",
+    "bullets": [
+      "🐛 Lỗi: Face ID bị đóng băng hoàn toàn sau khi khởi động lại iPhone 16",
+      "✅ Apple chính thức xác nhận đã nhận biết lỗi này",
+      "🔧 Bản vá sẽ được phát hành qua bản cập nhật phần mềm iOS sắp tới",
+      "⌨️ Giải pháp tạm thời hiện tại: nhập mật mã thủ công để mở khóa máy",
+      "⏳ Chưa có mốc thời gian cụ thể cho bản cập nhật chính thức từ Apple"
+    ],
+    "publish_time": "2026-09-25T23:04:35.337724",
     "performance": null
   }
 ]
