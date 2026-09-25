@@ -4365,12 +4365,12 @@
     ],
     "publish_time": "2026-09-21T23:00:19.411183",
     "performance": {
-      "reactions": 373,
+      "reactions": 374,
       "comments": 96,
       "comments_total": 98,
       "own_comments": 2,
       "shares": 11,
-      "score": 716
+      "score": 717
     }
   },
   {
@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 58,
-      "comments": 5,
-      "comments_total": 6,
+      "reactions": 89,
+      "comments": 10,
+      "comments_total": 11,
       "own_comments": 1,
-      "shares": 1,
-      "score": 78
+      "shares": 5,
+      "score": 144
     }
   },
   {
@@ -4689,6 +4689,31 @@
       "📼 Video Q&A đầy đủ bỗng xuất hiện sau 16 năm — tư liệu lịch sử hiếm về khủng hoảng PR lớn nhất của Apple"
     ],
     "publish_time": "2026-09-25T03:17:01.903680",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1562852715882055",
+    "title": "Apple Vá Lỗi Tự Khởi Động iPhone 18 Pro Tuần Tới",
+    "summary": "Apple xác nhận bản cập nhật phần mềm sửa lỗi iPhone 18 Pro tự khởi động lại sẽ phát hành tuần tới, người dùng r/apple phản ứng mạnh trên Reddit.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wp2rv2/apple_says_software_update_to_fix_iphone_18_pro/",
+    "bullets": [
+      "🔴 Lỗi tự khởi động lại ảnh hưởng trực tiếp đến dòng iPhone 18 Pro",
+      "📅 Apple cam kết phát hành bản cập nhật phần mềm khắc phục trong tuần tới",
+      "🔇 Apple chưa công bố nguyên nhân kỹ thuật cụ thể gây ra lỗi reboot",
+      "💬 Bài đăng trên r/apple thu hút phản ứng mạnh từ cộng đồng người dùng Apple",
+      "⚙️ Bản vá dự kiến được phát hành dưới dạng cập nhật iOS khẩn cấp"
+    ],
+    "publish_time": "2026-09-25T09:22:26.797045",
     "performance": null
   }
 ]
