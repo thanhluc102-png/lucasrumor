@@ -4465,12 +4465,12 @@
     ],
     "publish_time": "2026-09-22T22:43:28.699909",
     "performance": {
-      "reactions": 21,
+      "reactions": 23,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 27
+      "score": 29
     }
   },
   {
@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 89,
-      "comments": 10,
-      "comments_total": 11,
+      "reactions": 146,
+      "comments": 19,
+      "comments_total": 20,
       "own_comments": 1,
       "shares": 5,
-      "score": 144
+      "score": 228
     }
   },
   {
@@ -4565,12 +4565,12 @@
     ],
     "publish_time": "2026-09-23T22:40:29.788043",
     "performance": {
-      "reactions": 15,
+      "reactions": 17,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 20
+      "score": 22
     }
   },
   {
@@ -4714,6 +4714,31 @@
       "⚙️ Bản vá dự kiến được phát hành dưới dạng cập nhật iOS khẩn cấp"
     ],
     "publish_time": "2026-09-25T09:22:26.797045",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1563196005847726",
+    "title": "Apple Sắp Thống Lĩnh Thị Trường Smartphone Ấn Độ",
+    "summary": "Apple đang đẩy mạnh sản xuất iPhone tại Ấn Độ và nhắm tới thị phần lớn hơn ở thị trường smartphone lớn thứ hai thế giới, nơi hàng trăm triệu người dùng đang chờ được 'táo hóa'.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wpk3w8/inside_india_newsletter_apple_set_to_take_a/",
+    "bullets": [
+      "📍 Ấn Độ là thị trường smartphone lớn thứ hai thế giới — mục tiêu chiến lược dài hạn của Apple",
+      "🏭 Apple sản xuất iPhone trực tiếp tại Ấn Độ qua Foxconn & Tata, giảm phụ thuộc Trung Quốc",
+      "🏪 Apple Store chính hãng đã xuất hiện tại Mumbai & New Delhi, mở rộng kênh bán lẻ cao cấp",
+      "💰 Tầng lớp trung lưu Ấn Độ tăng nhanh tạo ra nhu cầu iPhone tiềm năng khổng lồ",
+      "🎯 Thành công tại Ấn Độ có thể biến nơi đây thành động lực tăng trưởng iPhone lớn nhất thập kỷ tới"
+    ],
+    "publish_time": "2026-09-25T16:27:37.136742",
     "performance": null
   }
 ]
