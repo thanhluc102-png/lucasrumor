@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 196,
+      "reactions": 198,
       "comments": 22,
       "comments_total": 23,
       "own_comments": 1,
       "shares": 5,
-      "score": 287
+      "score": 289
     }
   },
   {
@@ -4565,12 +4565,12 @@
     ],
     "publish_time": "2026-09-23T22:40:29.788043",
     "performance": {
-      "reactions": 20,
+      "reactions": 21,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 25
+      "score": 26
     }
   },
   {
@@ -4665,12 +4665,12 @@
     ],
     "publish_time": "2026-09-24T23:00:20.817712",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -4914,6 +4914,31 @@
       "⚠️ Bài đăng đặt ra câu hỏi về trách nhiệm pháp lý khi quảng cáo tính năng chưa tồn tại"
     ],
     "publish_time": "2026-09-27T03:29:35.962372",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1564895619011098",
+    "title": "Ngân Hàng Liên Minh Kiện Apple Pay Độc Quyền",
+    "summary": "Vụ kiện chống độc quyền cáo buộc Apple chặn cạnh tranh thanh toán tap-to-pay tiến triển mạnh — các ngân hàng và tổ chức tín dụng được phép liên kết khởi kiện Apple về phí Apple Pay.",
+    "category": "Tin nóng",
+    "visual_type": "timeline",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/",
+    "bullets": [
+      "⚖️ Tòa án chấp thuận cho các ngân hàng & credit union hợp nhất thành vụ kiện tập thể chống Apple",
+      "📵 Cáo buộc cốt lõi: Apple chặn đối thủ truy cập NFC trên iPhone, triệt tiêu cạnh tranh tap-to-pay",
+      "💸 Phí Apple Pay thu từ tổ chức tài chính bị xem là bất công do Apple độc chiếm hệ sinh thái thanh toán",
+      "📅 Vụ kiện khởi nguồn từ năm 2022, đây là bước leo thang pháp lý quan trọng nhất từ trước đến nay",
+      "🔓 Kết quả có thể buộc Apple mở NFC cho bên thứ ba — thay đổi toàn bộ hệ sinh thái thanh toán iPhone"
+    ],
+    "publish_time": "2026-09-27T09:48:29.961716",
     "performance": null
   }
 ]
