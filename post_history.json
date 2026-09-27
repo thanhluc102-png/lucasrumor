@@ -4665,12 +4665,12 @@
     ],
     "publish_time": "2026-09-24T23:00:20.817712",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -4840,12 +4840,12 @@
     ],
     "publish_time": "2026-09-26T15:42:46.320271",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -4889,6 +4889,31 @@
       "🏆 Cùng danh sách: Gentler Streak, The Outsiders, DoMarks, Cheatsheet Notes"
     ],
     "publish_time": "2026-09-26T22:22:03.950759",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1564645905702736",
+    "title": "Apple Quảng Cáo Tính Năng Rồi... Không Giao Hàng",
+    "summary": "Apple từng quảng cáo tính năng ghi nhật ký tập luyện sức mạnh (strength training logging) cho Apple Watch, nhưng đến nay vẫn chưa triển khai — người dùng Reddit nổi giận vì bị 'bán bánh vẽ'.",
+    "category": "Tin nóng",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wr46sc/apple_promised_strength_training_logging_in_its/",
+    "bullets": [
+      "🎯 Apple đưa tính năng 'strength training logging' vào quảng cáo chính thức nhưng không triển khai thực tế",
+      "😤 Cộng đồng r/apple phẫn nộ, coi đây là hành vi quảng cáo gây hiểu lầm người tiêu dùng",
+      "📜 Không phải tiền lệ mới — Apple Intelligence cũng từng bị hoãn nhiều tính năng đã công bố",
+      "⌚ Tính năng này liên quan trực tiếp đến Apple Watch và ứng dụng Fitness/Health của Apple",
+      "⚠️ Bài đăng đặt ra câu hỏi về trách nhiệm pháp lý khi quảng cáo tính năng chưa tồn tại"
+    ],
+    "publish_time": "2026-09-27T03:29:35.962372",
     "performance": null
   }
 ]
