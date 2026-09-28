@@ -4465,12 +4465,12 @@
     ],
     "publish_time": "2026-09-22T22:43:28.699909",
     "performance": {
-      "reactions": 28,
+      "reactions": 30,
       "comments": 3,
       "comments_total": 4,
       "own_comments": 1,
       "shares": 0,
-      "score": 37
+      "score": 39
     }
   },
   {
@@ -4965,12 +4965,12 @@
     ],
     "publish_time": "2026-09-27T16:21:09.581637",
     "performance": {
-      "reactions": 6,
+      "reactions": 10,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 9
+      "score": 13
     }
   },
   {
@@ -5039,6 +5039,31 @@
       "🔍 Nguồn: phát hiện từ mã nguồn Apple bởi Aaron Perris (MacRumors)"
     ],
     "publish_time": "2026-09-28T10:30:56.418183",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1566414165525910",
+    "title": "Apple vá lỗ hổng bảo mật nguy hiểm đang bị khai thác",
+    "summary": "Apple phát hành iOS 26.7.1, iPadOS 26.7.1, macOS Tahoe 26.7.1 và macOS Sequoia 15.8.1 để vá lỗ hổng nghiêm trọng đã bị tin tặc khai thác nhắm vào một số người dùng cụ thể.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/09/28/ios-26-7-1-active-exploit-fixed/",
+    "bullets": [
+      "🔴 Lỗ hổng đã bị tin tặc khai thác nhắm vào một số người dùng cụ thể (targeted attacks)",
+      "📱 Bản vá phủ đồng loạt: iOS 26.7.1, iPadOS 26.7.1 cho iPhone & iPad",
+      "💻 Mac nhận 2 bản vá riêng: macOS Tahoe 26.7.1 và macOS Sequoia 15.8.1",
+      "⚡ Apple phát hành ngoài chu kỳ thông thường — dấu hiệu mức độ khẩn cấp cao",
+      "🛡️ Khuyến cáo cập nhật ngay lập tức, đặc biệt với người dùng có nguy cơ cao"
+    ],
+    "publish_time": "2026-09-28T19:12:27.153969",
     "performance": null
   }
 ]
