@@ -5139,6 +5139,31 @@
       "📡 Tin rò rỉ lan truyền mạnh trên cộng đồng r/apple, thu hút sự chú ý lớn"
     ],
     "publish_time": "2026-09-29T17:34:33.910686",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1567590728741587",
+    "title": "Chưa lên macOS 26? Có bản vá quan trọng chờ bạn",
+    "summary": "Apple phát hành bản cập nhật bảo mật khẩn cho các phiên bản macOS cũ hơn macOS 26, người dùng MacBook/iMac/Mac mini chưa nâng cấp cần cài ngay để vá lỗ hổng nghiêm trọng.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3246545/if-youre-not-running-os-27-theres-an-important-update-waiting-for-you.html",
+    "bullets": [
+      "🔒 Apple phát hành bản vá bảo mật riêng cho các phiên bản macOS cũ hơn macOS 26 (Tahoe)",
+      "⚠️ Người dùng chưa nâng cấp lên macOS 26 vẫn cần cài bản cập nhật này để bảo vệ máy",
+      "🖥️ Áp dụng cho toàn bộ dòng Mac: MacBook, iMac, Mac mini, Mac Pro, Mac Studio",
+      "📍 Kiểm tra tại: System Settings → General → Software Update để thấy bản vá",
+      "🚨 Bỏ qua bản vá khiến máy Mac có nguy cơ bị khai thác lỗ hổng bảo mật đã công khai"
+    ],
+    "publish_time": "2026-09-29T23:26:25.003316",
     "performance": null
   }
 ]
