@@ -4965,12 +4965,12 @@
     ],
     "publish_time": "2026-09-27T16:21:09.581637",
     "performance": {
-      "reactions": 10,
+      "reactions": 11,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 13
+      "score": 14
     }
   },
   {
@@ -5064,6 +5064,31 @@
       "🛡️ Khuyến cáo cập nhật ngay lập tức, đặc biệt với người dùng có nguy cơ cao"
     ],
     "publish_time": "2026-09-28T19:12:27.153969",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1566586115508715",
+    "title": "Apple Phát Hành macOS Golden Gate 27.0.1 Vá Lỗi",
+    "summary": "Apple tung bản cập nhật macOS Golden Gate 27.0.1 — bản vá đầu tiên kể từ khi hệ điều hành macOS 27 ra mắt giữa tháng 9, tập trung sửa lỗi cho MacBook và các máy Mac tương thích.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/09/28/apple-releases-macos-27-0-1/",
+    "bullets": [
+      "📦 macOS 27.0.1 là bản cập nhật đầu tiên sau khi macOS Golden Gate ra mắt giữa tháng 9",
+      "🐛 Trọng tâm bản cập nhật: vá lỗi (bug fixes), không phải tính năng mới",
+      "💻 Áp dụng cho MacBook Pro, MacBook Air và toàn bộ Mac tương thích macOS 27",
+      "🌉 'Golden Gate' — tên đặt theo cây cầu biểu tượng của San Francisco, California",
+      "⬇️ Cập nhật qua Cài đặt Hệ thống → Cập nhật Phần mềm trên máy Mac"
+    ],
+    "publish_time": "2026-09-29T00:11:08.316280",
     "performance": null
   }
 ]
