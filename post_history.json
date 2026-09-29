@@ -4540,12 +4540,12 @@
     ],
     "publish_time": "2026-09-23T16:02:52.230260",
     "performance": {
-      "reactions": 213,
+      "reactions": 214,
       "comments": 22,
       "comments_total": 23,
       "own_comments": 1,
       "shares": 5,
-      "score": 304
+      "score": 305
     }
   },
   {
@@ -4965,12 +4965,12 @@
     ],
     "publish_time": "2026-09-27T16:21:09.581637",
     "performance": {
-      "reactions": 14,
+      "reactions": 15,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 20
+      "score": 21
     }
   },
   {
@@ -5114,6 +5114,31 @@
       "📲 Apple khuyến nghị tất cả người dùng iOS 27 cập nhật ngay lên 27.0.1"
     ],
     "publish_time": "2026-09-29T10:24:00.929840",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1567363888764271",
+    "title": "iPhone Duo gặp sự cố sản xuất trước ngày ra mắt",
+    "summary": "iPhone Duo — mẫu màn hình gập đầu tiên của Apple — đang đối mặt với vấn đề nghiêm trọng trong dây chuyền sản xuất, có thể ảnh hưởng trực tiếp đến lịch ra mắt dự kiến.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wta35h/iphone_duo_reportedly_facing_production_problems/",
+    "bullets": [
+      "📌 iPhone Duo là mẫu điện thoại màn hình gập đầu tiên trong lịch sử Apple",
+      "⚠️ Sự cố sản xuất được báo cáo xảy ra ngay trước thềm ra mắt chính thức",
+      "🏭 Vấn đề có thể ảnh hưởng đến số lượng hàng trong đợt mở bán đầu tiên",
+      "🔇 Apple chưa đưa ra bất kỳ tuyên bố chính thức nào về sự cố",
+      "📡 Tin rò rỉ lan truyền mạnh trên cộng đồng r/apple, thu hút sự chú ý lớn"
+    ],
+    "publish_time": "2026-09-29T17:34:33.910686",
     "performance": null
   }
 ]
