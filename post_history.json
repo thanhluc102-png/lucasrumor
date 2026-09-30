@@ -5140,12 +5140,12 @@
     ],
     "publish_time": "2026-09-29T17:34:33.910686",
     "performance": {
-      "reactions": 2,
-      "comments": 0,
-      "comments_total": 1,
+      "reactions": 4,
+      "comments": 1,
+      "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 7
     }
   },
   {
@@ -5165,12 +5165,12 @@
     ],
     "publish_time": "2026-09-29T23:26:25.003316",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -5189,6 +5189,31 @@
       "⏳ Cộng đồng đang gây áp lực để Apple ưu tiên phát hành bản vá lỗi khẩn cấp trong thời gian sớm nhất"
     ],
     "publish_time": "2026-09-30T03:50:47.648716",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1568031162030877",
+    "title": "Apple Pay chính thức ra mắt tại Ấn Độ",
+    "summary": "Apple Pay đã có mặt tại Ấn Độ, cho phép chủ thẻ Axis Bank thêm thẻ vào Wallet trên iPhone và Apple Watch để thanh toán không tiếp xúc và trực tuyến.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/09/29/apple-pay-india/",
+    "bullets": [
+      "🇮🇳 Apple Pay chính thức khả dụng tại Ấn Độ — thị trường tỷ dân đầy tiềm năng số",
+      "🏦 Axis Bank là đối tác ngân hàng đầu tiên được hỗ trợ tích hợp Apple Pay",
+      "📱 Hỗ trợ thêm thẻ vào Wallet trên iPhone và Apple Watch ngay từ ngày đầu",
+      "💳 Dùng được cho cả thanh toán không tiếp xúc tại quầy lẫn thanh toán trực tuyến",
+      "📢 Apple công bố chính thức qua Newsroom phiên bản Ấn Độ (apple.com/in/newsroom)"
+    ],
+    "publish_time": "2026-09-30T10:17:06.222876",
     "performance": null
   }
 ]
