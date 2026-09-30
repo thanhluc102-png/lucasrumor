@@ -5214,6 +5214,31 @@
       "📢 Apple công bố chính thức qua Newsroom phiên bản Ấn Độ (apple.com/in/newsroom)"
     ],
     "publish_time": "2026-09-30T10:17:06.222876",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1568387151995278",
+    "title": "Cùng app iOS nhưng dung lượng lại khác nhau?",
+    "summary": "Người dùng Reddit phát hiện cùng một ứng dụng trên iOS nhưng hiển thị dung lượng lưu trữ khác nhau — đặt câu hỏi về cách iOS tính toán và báo cáo storage.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/ios",
+    "article_link": "https://www.reddit.com/r/ios/comments/1wtvkt9/why_this_discrepancy/",
+    "bullets": [
+      "📦 Cùng 1 app iOS nhưng dung lượng hiển thị không khớp ở các mục khác nhau trong Settings",
+      "🗂️ iOS phân tách dữ liệu app thành: app core, Documents & Data, cache — có thể hiển thị riêng lẻ hoặc gộp",
+      "⚙️ Tính năng App Offload của iOS có thể khiến con số báo cáo lệch so với thực tế đang chiếm",
+      "🧹 Cache chưa được dọn dẹp là nguyên nhân phổ biến gây ra chênh lệch dung lượng trên iPhone",
+      "💬 Bài đăng gây chú ý cộng đồng r/ios, phản ánh nỗi bức xúc quen thuộc của nhiều người dùng iPhone"
+    ],
+    "publish_time": "2026-09-30T17:34:30.769374",
     "performance": null
   }
 ]
