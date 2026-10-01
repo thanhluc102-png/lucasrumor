@@ -5289,6 +5289,31 @@
       "🔗 Kế thừa nền tảng HomeKit sẵn có, mở rộng với Apple Intelligence"
     ],
     "publish_time": "2026-10-01T03:57:58.648476",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1569103485256978",
+    "title": "Mail trên Mac có thể mất đồng bộ Microsoft 365 hôm nay",
+    "summary": "Microsoft bắt đầu vô hiệu hóa giao thức EWS trong Exchange Online từ hôm nay, khiến ứng dụng Mail và Calendar trên Mac có thể ngừng đồng bộ tài khoản Microsoft 365 hoàn toàn.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/10/01/apple-mail-mac-stop-sync-microsoft-365/",
+    "bullets": [
+      "⚠️ Microsoft bắt đầu tắt EWS (Exchange Web Services) mặc định trong Exchange Online từ hôm nay",
+      "📧 Apple Mail và Calendar trên Mac dùng EWS để đồng bộ tài khoản Microsoft 365 — sẽ bị ảnh hưởng trực tiếp",
+      "🔐 Nguyên nhân: Microsoft thúc đẩy chuyển sang Modern Authentication / Microsoft Graph API, khai tử giao thức cũ",
+      "🛠️ Giải pháp tạm thời: quản trị viên IT có thể bật lại EWS thủ công trong cài đặt Exchange Online",
+      "➡️ Giải pháp dài hạn: chuyển sang Microsoft Outlook cho Mac — hỗ trợ đầy đủ giao thức xác thực mới của Microsoft"
+    ],
+    "publish_time": "2026-10-01T10:46:27.181885",
     "performance": null
   }
 ]
