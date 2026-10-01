@@ -5264,6 +5264,31 @@
       "✅ Khuyến cáo: Chỉ tải Zoom từ zoom.us hoặc Mac App Store, cập nhật macOS ngay lập tức"
     ],
     "publish_time": "2026-09-30T23:26:09.968381",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1568804048620255",
+    "title": "Apple Ra Mắt Hub Nhà Thông Minh Tích Hợp Siri AI",
+    "summary": "Apple đang phát triển thiết bị hub nhà thông minh mới, tích hợp Siri AI, kiểm soát HomeKit, xem video, lịch và thời tiết — trung tâm thông tin cho cả hộ gia đình.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/guide/apple-command-center/",
+    "bullets": [
+      "🤖 Tích hợp Siri AI làm giao diện tương tác chính cho toàn bộ hộ gia đình",
+      "🏠 Điều khiển tất cả thiết bị HomeKit từ một điểm duy nhất",
+      "📺 Hỗ trợ xem video, kiểm tra lịch cá nhân và cập nhật thời tiết",
+      "⚔️ Cạnh tranh trực tiếp với Amazon Echo Show và Google Nest Hub",
+      "🔗 Kế thừa nền tảng HomeKit sẵn có, mở rộng với Apple Intelligence"
+    ],
+    "publish_time": "2026-10-01T03:57:58.648476",
     "performance": null
   }
 ]
