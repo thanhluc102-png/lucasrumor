@@ -5439,6 +5439,31 @@
       "📡 Thông tin được chia sẻ trên cộng đồng r/apple, chưa có ngày ra mắt chính thức từ Apple"
     ],
     "publish_time": "2026-10-02T17:24:39.163455",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1570789585088368",
+    "title": "AT&T tung cách sửa lỗi sóng iPhone nhưng thất bại",
+    "summary": "AT&T đề xuất giải pháp khắc phục lỗi mất sóng cellular trên iPhone, nhưng người dùng thực tế phản ánh biện pháp này hoàn toàn không có tác dụng.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3250214/att-floats-a-fix-for-iphone-cellular-issues-but-it-doesnt-appear-to-work.html",
+    "bullets": [
+      "AT&T chủ động đề xuất cách sửa lỗi mất sóng cellular cho người dùng iPhone",
+      "Giải pháp AT&T đưa ra bị phản ánh là không có tác dụng thực tế",
+      "Sự cố ảnh hưởng diện rộng đến nhiều mẫu iPhone dùng mạng AT&T tại Mỹ",
+      "Apple chưa xác nhận nguyên nhân: lỗi iOS hay hạ tầng mạng AT&T",
+      "AT&T chưa công bố mốc thời gian cụ thể để khắc phục hoàn toàn"
+    ],
+    "publish_time": "2026-10-02T23:33:32.711128",
     "performance": null
   }
 ]
