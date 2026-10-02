@@ -5365,12 +5365,12 @@
     ],
     "publish_time": "2026-10-01T23:40:54.467514",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -5389,6 +5389,31 @@
       "📈 Đây là tín hiệu đảo chiều rõ ràng sau giai đoạn Apple liên tục chịu sức ép cạnh tranh và sụt giảm thị phần tại Trung Quốc"
     ],
     "publish_time": "2026-10-02T03:55:07.414900",
+    "performance": {
+      "reactions": 5,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1570173191816674",
+    "title": "MacBook Pro Thiết Kế Mới: Thời Điểm Ra Mắt Gây Sốt",
+    "summary": "MacBook Pro redesign hoàn toàn mới được cập nhật mốc ra mắt hấp dẫn, cộng đồng Reddit r/apple xôn xao bàn luận về thế hệ MacBook Pro thay đổi thiết kế lớn nhất nhiều năm qua.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wv5olz/new_macbook_pro_redesign_gets_exciting_launch/",
+    "bullets": [
+      "🗓️ Mốc ra mắt MacBook Pro thiết kế mới được cập nhật — gây hào hứng lớn trong cộng đồng Apple",
+      "🔄 Đây được xem là cuộc thay đổi thiết kế lớn nhất của dòng MacBook Pro trong nhiều năm qua",
+      "💬 Bài đăng thu hút hàng loạt bình luận sôi nổi trên r/apple — một trong những subreddit Apple lớn nhất",
+      "🖥️ Người dùng đặc biệt quan tâm đến thay đổi ngoại hình: màn hình, cổng kết nối, form factor tổng thể",
+      "⏳ Nhiều người dùng cho biết đang 'giữ ví' chờ đợi thế hệ MacBook Pro redesign này trước khi xuống tiền"
+    ],
+    "publish_time": "2026-10-02T10:18:38.484409",
     "performance": null
   }
 ]
