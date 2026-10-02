@@ -5365,12 +5365,12 @@
     ],
     "publish_time": "2026-10-01T23:40:54.467514",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -5390,12 +5390,12 @@
     ],
     "publish_time": "2026-10-02T03:55:07.414900",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -5414,6 +5414,31 @@
       "⏳ Nhiều người dùng cho biết đang 'giữ ví' chờ đợi thế hệ MacBook Pro redesign này trước khi xuống tiền"
     ],
     "publish_time": "2026-10-02T10:18:38.484409",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1570545418446118",
+    "title": "iPhone Duo: Lớp màn hình gập có thể thay thế",
+    "summary": "Apple xác nhận iPhone Duo trang bị lớp màn hình gập có thể tháo rời và thay thế, giúp giảm thiểu nếp gấp — bước đi kỹ thuật táo bạo cho iPhone gập đầu tiên.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wv82jy/apple_says_iphone_duo_has_replaceable_folding/",
+    "bullets": [
+      "📐 Lớp màn hình gập (folding display layer) trên iPhone Duo có thể tháo rời và thay thế độc lập",
+      "🔧 Giải pháp nhằm giảm thiểu nếp gấp — vấn đề nan giải nhất của mọi smartphone gập hiện nay",
+      "🆕 iPhone Duo là chiếc iPhone màn hình gập đầu tiên trong lịch sử Apple",
+      "🛠️ Thiết kế hướng tới khả năng bảo trì dài hạn, khác biệt hoàn toàn so với Samsung Galaxy Z Fold hay Motorola Razr",
+      "📡 Thông tin được chia sẻ trên cộng đồng r/apple, chưa có ngày ra mắt chính thức từ Apple"
+    ],
+    "publish_time": "2026-10-02T17:24:39.163455",
     "performance": null
   }
 ]
