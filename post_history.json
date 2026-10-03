@@ -4965,12 +4965,12 @@
     ],
     "publish_time": "2026-09-27T16:21:09.581637",
     "performance": {
-      "reactions": 16,
+      "reactions": 17,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 22
+      "score": 23
     }
   },
   {
@@ -5514,6 +5514,31 @@
       "💬 Bài đăng thu hút lượng thảo luận lớn trên cộng đồng r/apple"
     ],
     "publish_time": "2026-10-03T09:39:54.489355",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1571482068352453",
+    "title": "Halo Ra Mắt: Cơ Hội Vàng Mac Bị Bỏ Lỡ",
+    "summary": "Tựa game bom tấn Halo chính thức lên Mac — nhưng giới công nghệ chỉ ra đây là cơ hội lớn Apple đã bỏ lỡ suốt nhiều năm để biến Mac thành nền tảng gaming nghiêm túc.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3249377/25-years-of-xbox-why-halo-should-have-come-to-the-mac-first.html",
+    "bullets": [
+      "🎮 Halo — franchise bắn súng bom tấn của Xbox — chính thức có mặt trên macOS",
+      "💡 Chip Apple Silicon đủ sức xử lý game AAA, vấn đề là chiến lược gaming của Apple quá yếu",
+      "📉 Mac bị bỏ lỡ cơ hội vàng khi Apple không tận dụng làn sóng Apple Silicon (từ 2020) để kéo studio lớn",
+      "⚔️ Kho game Mac vẫn nghèo nàn so với Windows dù phần cứng đã ngang tầm",
+      "🔮 Halo xuất hiện là tín hiệu tích cực, nhưng Apple cần cam kết dài hạn mới thay đổi được hình ảnh gaming"
+    ],
+    "publish_time": "2026-10-03T15:41:24.243472",
     "performance": null
   }
 ]
