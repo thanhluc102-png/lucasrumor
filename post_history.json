@@ -4965,12 +4965,12 @@
     ],
     "publish_time": "2026-09-27T16:21:09.581637",
     "performance": {
-      "reactions": 15,
+      "reactions": 16,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 21
+      "score": 22
     }
   },
   {
@@ -5465,12 +5465,12 @@
     ],
     "publish_time": "2026-10-02T23:33:32.711128",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -5489,6 +5489,31 @@
       "✅ Người dùng Mac nên vào Cài đặt Hệ thống → Bảo mật & Quyền riêng tư để rà soát lại danh sách ứng dụng được cấp quyền"
     ],
     "publish_time": "2026-10-03T03:39:24.066707",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1571174618383198",
+    "title": "iOS 27 Mở Khóa 4 Cách Tùy Biến Màn Hình Khóa",
+    "summary": "iOS 27 bổ sung 4 tùy chọn mới cho màn hình khóa iPhone, mang lại khả năng cá nhân hóa sâu hơn iOS 26, tiếp nối làn sóng tùy biến giao diện từ iOS 16.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wvtj4f/ios_27_adds_four_new_ways_to_customize_your/",
+    "bullets": [
+      "🆕 iOS 27 thêm đúng 4 tùy chọn mới cho màn hình khóa iPhone",
+      "📅 Tính năng tùy biến Lock Screen ra đời từ iOS 16 (2022), liên tục được nâng cấp",
+      "🍎 iOS 27 dự kiến ra mắt mùa thu 2025, đi kèm dòng iPhone 17",
+      "🎨 Apple tập trung vào cá nhân hóa sâu như một lợi thế cạnh tranh với Android",
+      "💬 Bài đăng thu hút lượng thảo luận lớn trên cộng đồng r/apple"
+    ],
+    "publish_time": "2026-10-03T09:39:54.489355",
     "performance": null
   }
 ]
