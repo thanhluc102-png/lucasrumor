@@ -5539,6 +5539,31 @@
       "🔮 Halo xuất hiện là tín hiệu tích cực, nhưng Apple cần cam kết dài hạn mới thay đổi được hình ảnh gaming"
     ],
     "publish_time": "2026-10-03T15:41:24.243472",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1571629135004413",
+    "title": "Apple ra mắt Pass Designer cho macOS 27",
+    "summary": "Apple giới thiệu ứng dụng Pass Designer trên macOS 27, cho phép người dùng tự thiết kế Apple Wallet pass — tính năng mới hoàn toàn chưa từng có trên Mac.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wwsky0/apple_introduces_pass_designer_app_for_macos_27/",
+    "bullets": [
+      "🆕 Pass Designer là ứng dụng hoàn toàn mới, lần đầu xuất hiện trên macOS 27",
+      "💳 Hỗ trợ thiết kế mọi loại Apple Wallet pass: vé máy bay, vé sự kiện, thẻ thành viên",
+      "🖥️ Giao diện trực quan dành cho người dùng phổ thông, không cần biết lập trình",
+      "🔗 Gắn liền với macOS 27 — phiên bản hệ điều hành Mac thế hệ tiếp theo của Apple",
+      "📢 Được cộng đồng Reddit r/apple đón nhận như bước nâng cấp thực tế cho hệ sinh thái Wallet"
+    ],
+    "publish_time": "2026-10-03T18:59:49.522017",
     "performance": null
   }
 ]
