@@ -5464,6 +5464,31 @@
       "AT&T chưa công bố mốc thời gian cụ thể để khắc phục hoàn toàn"
     ],
     "publish_time": "2026-10-02T23:33:32.711128",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1570944568406203",
+    "title": "macOS Siết Chặt Quyền Truy Cập Toàn Bộ Ổ Đĩa",
+    "summary": "Apple cập nhật cơ chế Full Disk Access trên macOS, thay đổi cách ứng dụng xin quyền truy cập toàn bộ ổ đĩa — ảnh hưởng trực tiếp đến bảo mật và quyền riêng tư người dùng Mac.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1ww2bc2/updates_to_full_disk_access_in_macos_latest_news/",
+    "bullets": [
+      "🔐 Full Disk Access là lớp bảo vệ quan trọng trên macOS, kiểm soát quyền đọc/ghi toàn bộ hệ thống tệp",
+      "📁 Tính năng này bảo vệ dữ liệu nhạy cảm: Mail, Messages, Safari, iCloud Drive khỏi bị ứng dụng trái phép truy cập",
+      "⚙️ Thay đổi ảnh hưởng đến các ứng dụng sao lưu, dọn dẹp, diệt virus cần quyền truy cập sâu vào hệ thống",
+      "🛡️ Apple liên tục siết chặt bảo mật macOS qua từng phiên bản, xu hướng này ngày càng rõ ràng hơn",
+      "✅ Người dùng Mac nên vào Cài đặt Hệ thống → Bảo mật & Quyền riêng tư để rà soát lại danh sách ứng dụng được cấp quyền"
+    ],
+    "publish_time": "2026-10-03T03:39:24.066707",
     "performance": null
   }
 ]
