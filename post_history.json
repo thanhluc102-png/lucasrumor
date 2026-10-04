@@ -4965,12 +4965,12 @@
     ],
     "publish_time": "2026-09-27T16:21:09.581637",
     "performance": {
-      "reactions": 17,
+      "reactions": 18,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 23
+      "score": 24
     }
   },
   {
@@ -5614,6 +5614,31 @@
       "🏆 Được 9to5Mac chọn vào 'Indie App Spotlight' — chuỗi điểm danh app indie nổi bật hàng tuần"
     ],
     "publish_time": "2026-10-04T04:09:34.873694",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1572334274933899",
+    "title": "Frames CLI 1.5.0 hỗ trợ iPhone 18 Pro và iPhone Duo",
+    "summary": "Frames CLI 1.5.0 ra mắt với khung ảnh iPhone 18 Pro và hỗ trợ thử nghiệm iPhone Duo — bao gồm đầy đủ các góc chụp màn hình, kèm tính năng co giãn tỉ lệ tự động.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/notes/frames-cli-1-5-0-now-with-iphone-18-pro-and-experimental-iphone-duo-support/",
+    "bullets": [
+      "📦 Frames CLI cập nhật lên v1.5.0 — công cụ dòng lệnh đồng hành với shortcut Apple Frames",
+      "📱 Tích hợp bộ khung ảnh (frame) chính thức cho iPhone 18 Pro",
+      "🔬 Hỗ trợ thử nghiệm (experimental) iPhone Duo ở tất cả các góc (pose) chụp màn hình",
+      "📐 Tính năng proportional scaling được bổ sung riêng cho iPhone Duo để giữ đúng tỉ lệ màn hình",
+      "🗓️ Shortcut Apple Frames gốc được tác giả phát hành trong năm 2025, Frames CLI là công cụ đi kèm"
+    ],
+    "publish_time": "2026-10-04T13:40:15.997309",
     "performance": null
   }
 ]
