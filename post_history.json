@@ -5664,6 +5664,31 @@
       "🚀 Tốc độ đưa chip Apple vào Linux mainline ngày càng nhanh hơn, nhờ nền tảng từ dự án Asahi Linux"
     ],
     "publish_time": "2026-10-04T19:01:15.598121",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1572740381559955",
+    "title": "macOS Siết Chặt Quyền Truy Cập Đĩa Vì AI Agent",
+    "summary": "Apple thông báo bổ sung 'kiểm soát bổ sung' cho tính năng Full Disk Access trên macOS, nhằm đối phó rủi ro bảo mật từ làn sóng AI agent thường trực như Meta Muse và OpenAI Dots.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/10/02/apple-announces-macos-full-disk-access-changes/",
+    "bullets": [
+      "🔒 Apple thêm 'additional controls' cho Full Disk Access trên macOS — tính năng vốn cho phép app đọc toàn bộ ổ đĩa",
+      "🤖 Nguyên nhân: sự trỗi dậy của AI agent hoạt động liên tục (always-on), điển hình là Meta Muse và OpenAI Dots",
+      "⚠️ Rủi ro mới: AI agent có thể âm thầm truy cập file nhạy cảm mà người dùng không kiểm soát được",
+      "📢 Thông báo được đăng trực tiếp trên trang Apple Developer News — hướng tới cộng đồng lập trình viên",
+      "🛡️ Đây là bước điều chỉnh kiến trúc bảo mật macOS để theo kịp thực tế AI agent năm 2025"
+    ],
+    "publish_time": "2026-10-04T22:42:56.592527",
     "performance": null
   }
 ]
