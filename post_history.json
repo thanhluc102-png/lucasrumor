@@ -5565,12 +5565,12 @@
     ],
     "publish_time": "2026-10-03T18:59:49.522017",
     "performance": {
-      "reactions": 1,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 3
     }
   },
   {
@@ -5589,6 +5589,31 @@
       "📱 Sự cố liên quan đến dòng iPhone cấu hình 'Duo', quy mô đủ lớn để Apple tạo SKU riêng"
     ],
     "publish_time": "2026-10-03T22:41:01.151697",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1571955578305102",
+    "title": "HEVCut: Dọn thư viện ảnh iPhone không xóa file gốc",
+    "summary": "App HEVCut cho iPhone giúp cắt bớt video HEVC trong Photos mà không xóa bản gốc, tiết kiệm dung lượng thông minh — giải pháp độc đáo cho thư viện ảnh phình to.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/03/indie-app-spotlight-hevcut-iphone-photo-storage/",
+    "bullets": [
+      "📹 Hỗ trợ cắt (trim) video định dạng HEVC — định dạng video mặc định trên iPhone hiện đại",
+      "🔒 Không xóa file gốc: bản gốc được giữ nguyên, chỉ tạo phiên bản đã cắt",
+      "📂 Tích hợp trực tiếp với ứng dụng Photos trên iOS",
+      "💡 Giải pháp tiết kiệm dung lượng thông minh, không cần xóa thủ công",
+      "🏆 Được 9to5Mac chọn vào 'Indie App Spotlight' — chuỗi điểm danh app indie nổi bật hàng tuần"
+    ],
+    "publish_time": "2026-10-04T04:09:34.873694",
     "performance": null
   }
 ]
