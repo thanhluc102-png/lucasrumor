@@ -5639,6 +5639,31 @@
       "🗓️ Shortcut Apple Frames gốc được tác giả phát hành trong năm 2025, Frames CLI là công cụ đi kèm"
     ],
     "publish_time": "2026-10-04T13:40:15.997309",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1572611888239471",
+    "title": "Linux 7.4 Hỗ Trợ Chip Apple M4 Và A18 Pro",
+    "summary": "Linux kernel 7.4 sẽ bổ sung Device Tree khởi đầu cho chip Apple M4 và A18 Pro, mở đường cho MacBook Neo chạy Linux — bước tiến lớn trong hành trình hỗ trợ phần cứng Apple.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wx4naz/linux_74_to_introduce_initial_device_trees_for/",
+    "bullets": [
+      "🔧 Linux kernel 7.4 bổ sung Device Tree khởi đầu cho chip Apple M4 và A18 Pro",
+      "💻 M4 hiện có mặt trên MacBook Pro & MacBook Air; A18 Pro gắn với 'MacBook Neo' thế hệ tiếp theo",
+      "⚙️ Device Tree là bước nền tảng bắt buộc để Linux nhận diện và vận hành phần cứng Apple Silicon",
+      "🐧 Hỗ trợ mới chỉ ở mức 'initial' — chưa đủ để người dùng phổ thông cài Linux ngay lập tức",
+      "🚀 Tốc độ đưa chip Apple vào Linux mainline ngày càng nhanh hơn, nhờ nền tảng từ dự án Asahi Linux"
+    ],
+    "publish_time": "2026-10-04T19:01:15.598121",
     "performance": null
   }
 ]
