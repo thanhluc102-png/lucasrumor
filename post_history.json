@@ -5640,12 +5640,12 @@
     ],
     "publish_time": "2026-10-04T13:40:15.997309",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -5714,6 +5714,31 @@
       "📰 Nguồn từ bài báo có gift link (Wall Street Journal hoặc Bloomberg) — độ tin cậy cao, không phải tin đồn thông thường"
     ],
     "publish_time": "2026-10-05T03:54:01.937735",
+    "performance": {
+      "reactions": 11,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 16
+    }
+  },
+  {
+    "post_id": "1920842954802282_1573214064845920",
+    "title": "Apple Đổi Máy Miễn Phí Lô iPhone 18 Pro Max Lỗi",
+    "summary": "Apple chính thức đề nghị thay thế miễn phí cho lô iPhone 18 Pro Max bị lỗi sản xuất — động thái hiếm gặp, cho thấy sự cố nghiêm trọng ngay từ đợt đầu ra mắt.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wy43jr/apple_offers_to_replace_faulty_batch_of_iphone_18/",
+    "bullets": [
+      "🔄 Apple chủ động đề nghị đổi máy mới hoàn toàn — không sửa, không refurbished",
+      "📦 Chỉ ảnh hưởng một lô sản xuất cụ thể của iPhone 18 Pro Max, không phải toàn bộ dòng máy",
+      "📣 Apple liên hệ trực tiếp với khách hàng trong lô bị lỗi để thông báo quyền đổi máy",
+      "🔍 Số serial và phạm vi thị trường bị ảnh hưởng chưa được Apple công bố công khai",
+      "⚠️ Sự cố xảy ra ngay trong chu kỳ ra mắt — thời điểm nhạy cảm nhất với sản phẩm flagship"
+    ],
+    "publish_time": "2026-10-05T11:10:09.202627",
     "performance": null
   }
 ]
