@@ -5615,12 +5615,12 @@
     ],
     "publish_time": "2026-10-04T04:09:34.873694",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -5640,12 +5640,12 @@
     ],
     "publish_time": "2026-10-04T13:40:15.997309",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -5665,12 +5665,12 @@
     ],
     "publish_time": "2026-10-04T19:01:15.598121",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 2
     }
   },
   {
@@ -5689,6 +5689,31 @@
       "🛡️ Đây là bước điều chỉnh kiến trúc bảo mật macOS để theo kịp thực tế AI agent năm 2025"
     ],
     "publish_time": "2026-10-04T22:42:56.592527",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1572929791541014",
+    "title": "Ternus Tự Làm Giám Đốc Thiết Kế, MacBook Pro Cảm Ứng Sắp Đến",
+    "summary": "John Ternus — Phó Chủ tịch Phần cứng Apple — kiêm luôn vai trò Giám đốc Thiết Kế sau khi Jony Ive ra đi. Đặc biệt: MacBook Pro màn hình cảm ứng đang được phát triển nghiêm túc.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1wxhslk/gift_article_apples_john_ternus_has_found_a_new/",
+    "bullets": [
+      "🧑‍💼 John Ternus — Phó Chủ tịch Phần cứng — kiêm nhiệm Giám đốc Thiết Kế, hợp nhất hai vai trò quyền lực nhất về sản phẩm tại Apple",
+      "🎨 Vị trí Giám đốc Thiết Kế bị bỏ trống từ năm 2019 khi Jony Ive — cha đẻ thiết kế iPhone/MacBook — rời Apple sau hơn 27 năm",
+      "💻 Bài báo tiết lộ 'cập nhật lớn' về MacBook Pro màn hình cảm ứng — xác nhận dự án đang được phát triển nghiêm túc trong nội bộ",
+      "🔗 Việc Ternus nắm cả kỹ thuật lẫn thiết kế phản ánh chiến lược Apple muốn tích hợp sâu hơn giữa hardware engineering và industrial design",
+      "📰 Nguồn từ bài báo có gift link (Wall Street Journal hoặc Bloomberg) — độ tin cậy cao, không phải tin đồn thông thường"
+    ],
+    "publish_time": "2026-10-05T03:54:01.937735",
     "performance": null
   }
 ]
