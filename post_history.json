@@ -5715,12 +5715,12 @@
     ],
     "publish_time": "2026-10-05T03:54:01.937735",
     "performance": {
-      "reactions": 35,
+      "reactions": 40,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 3,
-      "score": 56
+      "score": 61
     }
   },
   {
@@ -5740,12 +5740,12 @@
     ],
     "publish_time": "2026-10-05T11:10:09.202627",
     "performance": {
-      "reactions": 12,
+      "reactions": 15,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
-      "shares": 1,
-      "score": 23
+      "shares": 2,
+      "score": 31
     }
   },
   {
@@ -5789,6 +5789,31 @@
       "🗓️ Nếu xác nhận, đây sẽ là tháng 9 có mật độ sự kiện ra mắt sản phẩm dày đặc và đặc biệt nhất trong lịch sử Apple"
     ],
     "publish_time": "2026-10-06T14:43:46.427724",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1574597854707541",
+    "title": "New Balance tri ân Steve Jobs tròn 15 năm",
+    "summary": "Nhân kỷ niệm 15 năm ngày mất Steve Jobs (5/10/2011–2026), New Balance âm thầm tôn vinh nhà đồng sáng lập Apple bằng chi tiết ẩn đặc biệt trên sản phẩm giới hạn.",
+    "category": "Sự kiện",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3252013/check-out-new-balances-secret-tribute-to-steve-jobs-on-the-anniversary-of-his-passing.html",
+    "bullets": [
+      "🗓️ Tròn 15 năm ngày Steve Jobs qua đời: 5/10/2011 → 5/10/2026",
+      "👟 New Balance cài chi tiết tri ân ẩn trên sản phẩm — không công bố rầm rộ",
+      "🍎 Jobs qua đời vì ung thư tuyến tụy, để lại iPhone, Mac, iPad cho hàng tỷ người",
+      "🌍 Tầm ảnh hưởng vượt công nghệ: thời trang toàn cầu cũng tôn vinh ông",
+      "🔍 Chi tiết 'tribute' tinh tế, chỉ người am hiểu Apple mới nhận ra"
+    ],
+    "publish_time": "2026-10-06T20:47:33.889145",
     "performance": null
   }
 ]
