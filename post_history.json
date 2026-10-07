@@ -5740,12 +5740,12 @@
     ],
     "publish_time": "2026-10-05T11:10:09.202627",
     "performance": {
-      "reactions": 39,
+      "reactions": 40,
       "comments": 5,
       "comments_total": 6,
       "own_comments": 1,
       "shares": 3,
-      "score": 69
+      "score": 70
     }
   },
   {
@@ -5864,6 +5864,31 @@
       "📢 Thông báo xuất phát từ blog chính thức của Apple dành cho developer"
     ],
     "publish_time": "2026-10-07T15:03:34.258707",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1575576837942976",
+    "title": "GoodLinks: Lưu Bài Đọc Sau Trên iPhone, iPad, Mac",
+    "summary": "GoodLinks vừa cập nhật lớn, cho phép lưu bài viết để đọc sau trên iPhone, iPad và Mac với giao diện đọc sạch sẽ, tùy biến cao — giải pháp 'read later' đa nền tảng Apple.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/sponsored/goodlinks-read-later-and-do-more-with-your-articles-sponsor/",
+    "bullets": [
+      "📱 Hỗ trợ đầy đủ 3 nền tảng: iPhone (iOS), iPad (iPadOS) và Mac (macOS)",
+      "🔄 Vừa ra bản cập nhật mới với nhiều cải tiến về giao diện và tính năng đọc bài",
+      "🎨 Giao diện đọc sạch sẽ, tùy biến linh hoạt theo sở thích người dùng",
+      "📂 Tổ chức và lưu trữ bài viết gọn gàng, dễ quản lý danh sách đọc sau",
+      "🍎 Thiết kế tối ưu riêng cho hệ sinh thái Apple, không hỗ trợ Android/Windows"
+    ],
+    "publish_time": "2026-10-07T21:01:35.486953",
     "performance": null
   }
 ]
