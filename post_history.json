@@ -5715,12 +5715,12 @@
     ],
     "publish_time": "2026-10-05T03:54:01.937735",
     "performance": {
-      "reactions": 46,
+      "reactions": 48,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 3,
-      "score": 67
+      "score": 69
     }
   },
   {
@@ -5740,12 +5740,12 @@
     ],
     "publish_time": "2026-10-05T11:10:09.202627",
     "performance": {
-      "reactions": 31,
-      "comments": 4,
-      "comments_total": 5,
+      "reactions": 39,
+      "comments": 5,
+      "comments_total": 6,
       "own_comments": 1,
-      "shares": 2,
-      "score": 53
+      "shares": 3,
+      "score": 69
     }
   },
   {
@@ -5765,12 +5765,12 @@
     ],
     "publish_time": "2026-10-06T04:41:44.599008",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -5790,12 +5790,12 @@
     ],
     "publish_time": "2026-10-06T14:43:46.427724",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -5815,12 +5815,12 @@
     ],
     "publish_time": "2026-10-06T20:47:33.889145",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -5839,6 +5839,31 @@
       "⚔️ Cạnh tranh trực tiếp Amazon Ring, Google Nest, Samsung SmartThings trên thị trường nhà thông minh toàn cầu"
     ],
     "publish_time": "2026-10-07T04:07:55.139112",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1575315537969106",
+    "title": "Apple Mở Nhận App Cho iPhone Duo Gập",
+    "summary": "Apple chính thức mở cổng nộp ứng dụng App Store cho iPhone Duo — smartphone màn hình gập đầu tiên — ra mắt ngày 23/10, hỗ trợ biên dịch lại app qua Xcode 27.1.",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/linked/iphone-duo-app-submissions-are-open/",
+    "bullets": [
+      "📅 iPhone Duo ra mắt ngày 23/10 — chỉ hơn 2 tuần kể từ thông báo",
+      "🛠️ Xcode 27.1 là công cụ bắt buộc để build & recompile app cho Duo",
+      "🏪 App Store đã mở cổng nhận submission app dành riêng cho iPhone Duo",
+      "🔄 Lập trình viên có thể biên dịch lại app hiện có mà không cần viết từ đầu",
+      "📢 Thông báo xuất phát từ blog chính thức của Apple dành cho developer"
+    ],
+    "publish_time": "2026-10-07T15:03:34.258707",
     "performance": null
   }
 ]
