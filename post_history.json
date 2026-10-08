@@ -5740,12 +5740,12 @@
     ],
     "publish_time": "2026-10-05T11:10:09.202627",
     "performance": {
-      "reactions": 41,
+      "reactions": 46,
       "comments": 5,
       "comments_total": 6,
       "own_comments": 1,
       "shares": 3,
-      "score": 71
+      "score": 76
     }
   },
   {
@@ -5765,12 +5765,12 @@
     ],
     "publish_time": "2026-10-06T04:41:44.599008",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -5865,12 +5865,12 @@
     ],
     "publish_time": "2026-10-07T15:03:34.258707",
     "performance": {
-      "reactions": 4,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 9
+      "score": 16
     }
   },
   {
@@ -5914,6 +5914,31 @@
       "🚀 Việc ra RC song song hai nhánh cho thấy Apple quản lý chuyển tiếp hệ điều hành rất có hệ thống"
     ],
     "publish_time": "2026-10-08T04:20:08.171432",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1576308891203104",
+    "title": "MacBook Pro Cảm Ứng: Mỏng Hơn Không Đáng Kể?",
+    "summary": "MacBook Pro màn hình cảm ứng sắp ra mắt được đồn nhẹ hơn nhưng độ mỏng gần như không thay đổi so với thế hệ hiện tại — trái với kỳ vọng của nhiều người dùng.",
+    "category": "MacBook",
+    "visual_type": "comparison",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3255920/apples-lighter-touchscreen-macbook-pro-might-not-be-much-thinner-after-all.html",
+    "bullets": [
+      "MacBook Pro màn hình cảm ứng sẽ nhẹ hơn thế hệ hiện tại nhưng độ mỏng gần như không đổi",
+      "Lớp cảm ứng bổ sung khiến Apple khó giảm độ dày tổng thể của máy",
+      "Apple ưu tiên giảm trọng lượng thay vì giảm độ dày trong thiết kế lần này",
+      "Đây là thay đổi lớn nhất của dòng MacBook Pro kể từ khi tích hợp Apple Silicon",
+      "Thời điểm ra mắt dự kiến vào năm 2025 hoặc đầu 2026, chưa có xác nhận chính thức"
+    ],
+    "publish_time": "2026-10-08T15:11:54.997540",
     "performance": null
   }
 ]
