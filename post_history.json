@@ -5715,12 +5715,12 @@
     ],
     "publish_time": "2026-10-05T03:54:01.937735",
     "performance": {
-      "reactions": 48,
+      "reactions": 49,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 3,
-      "score": 69
+      "score": 70
     }
   },
   {
@@ -5740,12 +5740,12 @@
     ],
     "publish_time": "2026-10-05T11:10:09.202627",
     "performance": {
-      "reactions": 40,
+      "reactions": 41,
       "comments": 5,
       "comments_total": 6,
       "own_comments": 1,
       "shares": 3,
-      "score": 70
+      "score": 71
     }
   },
   {
@@ -5765,12 +5765,12 @@
     ],
     "publish_time": "2026-10-06T04:41:44.599008",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 7
+      "score": 8
     }
   },
   {
@@ -5840,12 +5840,12 @@
     ],
     "publish_time": "2026-10-07T04:07:55.139112",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -5865,12 +5865,12 @@
     ],
     "publish_time": "2026-10-07T15:03:34.258707",
     "performance": {
-      "reactions": 2,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 2
+      "shares": 1,
+      "score": 9
     }
   },
   {
@@ -5889,6 +5889,31 @@
       "🍎 Thiết kế tối ưu riêng cho hệ sinh thái Apple, không hỗ trợ Android/Windows"
     ],
     "publish_time": "2026-10-07T21:01:35.486953",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1575843784582948",
+    "title": "Apple Phát RC macOS Sequoia 15.8.2 và Tahoe 26 Beta",
+    "summary": "Apple đồng loạt tung Release Candidate macOS Sequoia 15.8.2 và macOS Tahoe 26 beta 7.2 cho developer, sau đó mở rộng cho public beta testers — cùng build number, cập nhật song song hai nhánh hệ điều hành.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/07/first-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-now-available-to-developers/",
+    "bullets": [
+      "🔧 RC phát hành đồng thời cho cả macOS Sequoia 15.8.2 (bản vá ổn định) và macOS Tahoe 26 beta 7.2 (thế hệ mới)",
+      "📅 Ngày 7/10: Apple mở rộng cả hai RC tới người dùng Public Beta — không chỉ giới hạn developer",
+      "🔢 Build number của hai RC hoàn toàn giống nhau giữa bản developer và public beta, không có thay đổi",
+      "🖥️ macOS Sequoia 15.8.2 nhắm đến các máy Mac chưa/không nâng lên Tahoe, tiếp tục nhận hỗ trợ bảo mật",
+      "🚀 Việc ra RC song song hai nhánh cho thấy Apple quản lý chuyển tiếp hệ điều hành rất có hệ thống"
+    ],
+    "publish_time": "2026-10-08T04:20:08.171432",
     "performance": null
   }
 ]
