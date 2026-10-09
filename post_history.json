@@ -5715,12 +5715,12 @@
     ],
     "publish_time": "2026-10-05T03:54:01.937735",
     "performance": {
-      "reactions": 50,
+      "reactions": 51,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 3,
-      "score": 71
+      "score": 72
     }
   },
   {
@@ -5989,6 +5989,31 @@
       "🚀 MacBook Pro OLED được xác định là sản phẩm đầu tàu trong phân khúc laptop premium OLED năm nay"
     ],
     "publish_time": "2026-10-09T04:25:27.501055",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1577276507773009",
+    "title": "5 App Indie Hay Nhất Tận Dụng iOS 27",
+    "summary": "MacStories giới thiệu loạt app indie nổi bật khai thác tính năng mới của iOS 27: Haven, Structured, Capture, Scrappy và Fin — hỗ trợ iPhone, iPad, Mac và Apple Watch.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/reviews/our-favorite-indie-apps-for-ios-27-vol-3/",
+    "bullets": [
+      "Haven hỗ trợ 4 nền tảng: iPhone, iPad, Mac và Apple Watch cùng lúc",
+      "Haven do nhà phát triển João Franco xây dựng, chuyên quản lý mã ghép nối HomeKit & Matter",
+      "Tính năng Siri AI được tích hợp vào Haven trong đợt cập nhật mùa thu năm nay",
+      "Tổng cộng 5 app được chọn: Haven, Structured, Capture, Scrappy và Fin",
+      "Đây là tập 3 trong chuỗi bài điểm app indie tận dụng tính năng mới của iOS 27"
+    ],
+    "publish_time": "2026-10-09T14:57:24.552670",
     "performance": null
   }
 ]
