@@ -5715,12 +5715,12 @@
     ],
     "publish_time": "2026-10-05T03:54:01.937735",
     "performance": {
-      "reactions": 49,
+      "reactions": 50,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 3,
-      "score": 70
+      "score": 71
     }
   },
   {
@@ -5865,12 +5865,12 @@
     ],
     "publish_time": "2026-10-07T15:03:34.258707",
     "performance": {
-      "reactions": 11,
+      "reactions": 13,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 16
+      "score": 18
     }
   },
   {
@@ -5940,12 +5940,12 @@
     ],
     "publish_time": "2026-10-08T15:11:54.997540",
     "performance": {
-      "reactions": 1,
+      "reactions": 4,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 7
     }
   },
   {
@@ -5964,6 +5964,31 @@
       "🔥 Được đánh giá là một trong những sự kiện có mật độ thông tin cao nhất của Apple năm 2025"
     ],
     "publish_time": "2026-10-08T21:01:32.174666",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1576840531149940",
+    "title": "MacBook Pro OLED Sắp Bùng Nổ Thị Trường Màn Hình",
+    "summary": "Báo cáo Counterpoint Research: MacBook Pro OLED thế hệ mới sẽ kéo dài lượng vận chuyển màn hình OLED notebook tăng 50%, đánh dấu bước ngoặt lớn của Apple trong phân khúc cao cấp.",
+    "category": "MacBook",
+    "visual_type": "stat",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/08/oled-macbook-pro-to-help-boost-premium-display-shipments-per-report/",
+    "bullets": [
+      "📊 Counterpoint Research dự báo lượng vận chuyển màn hình OLED notebook tăng 50% nhờ MacBook Pro OLED mới",
+      "🖥️ Apple hiện vẫn dùng màn hình Liquid Retina XDR (miniLED) trên MacBook Pro — OLED là bước nhảy vọt tiếp theo",
+      "⚡ OLED mang lại độ tương phản vô cực, màu đen tuyệt đối và hiệu suất tiết kiệm điện vượt trội so với miniLED",
+      "🏭 Quyết định chuyển sang OLED của Apple được nhận định là yếu tố đủ sức thay đổi cấu trúc thị trường màn hình cao cấp toàn cầu",
+      "🚀 MacBook Pro OLED được xác định là sản phẩm đầu tàu trong phân khúc laptop premium OLED năm nay"
+    ],
+    "publish_time": "2026-10-09T04:25:27.501055",
     "performance": null
   }
 ]
