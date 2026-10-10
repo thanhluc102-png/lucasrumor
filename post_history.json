@@ -5715,12 +5715,12 @@
     ],
     "publish_time": "2026-10-05T03:54:01.937735",
     "performance": {
-      "reactions": 51,
+      "reactions": 52,
       "comments": 2,
       "comments_total": 3,
       "own_comments": 1,
       "shares": 3,
-      "score": 72
+      "score": 73
     }
   },
   {
@@ -6039,6 +6039,31 @@
       "📅 Keynote chính thức dự kiến ngày 9/6/2025 — mở màn tuần lễ WWDC sôi động nhất năm"
     ],
     "publish_time": "2026-10-09T20:32:31.611842",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1577805354386791",
+    "title": "Mua iPhone Duo tại Apple Store Mỹ: Bất ngờ chờ đón!",
+    "summary": "Mark Gurman (Bloomberg) tiết lộ: khách mua iPhone Duo trực tiếp tại Apple Store Mỹ sẽ nhận được một bất ngờ đặc biệt ngay lần đầu bật máy — chi tiết chưa được công bố.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/09/iphone-duo-buyers-to-get-a-special-surprise-at-u-s-apple-stores-gurman-says/",
+    "bullets": [
+      "🔒 Bất ngờ chỉ dành cho khách mua iPhone Duo trực tiếp tại Apple Store Mỹ — không áp dụng khi mua online hay qua nhà mạng",
+      "📰 Nguồn tin: Mark Gurman (Bloomberg) — phóng viên có độ chính xác cao nhất về tin nội bộ Apple",
+      "📍 Bất ngờ xảy ra ngay lần đầu tiên bật máy (first boot) — có thể là tính năng phần mềm hoặc trải nghiệm kích hoạt đặc biệt",
+      "🏪 Apple đang đẩy mạnh giá trị của kênh mua sắm trực tiếp tại cửa hàng vật lý so với online",
+      "❓ Nội dung cụ thể của 'bất ngờ' vẫn chưa được Gurman hoặc Apple tiết lộ — giới công nghệ đang chờ đợi"
+    ],
+    "publish_time": "2026-10-10T04:10:42.220414",
     "performance": null
   }
 ]
