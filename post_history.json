@@ -6090,12 +6090,12 @@
     ],
     "publish_time": "2026-10-10T14:12:36.502403",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 2
     }
   },
   {
@@ -6114,6 +6114,31 @@
       "❓ Đây là suy đoán cộng đồng Reddit, chưa có rò rỉ hay xác nhận chính thức từ Apple"
     ],
     "publish_time": "2026-10-10T19:43:27.961872",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1578573934309933",
+    "title": "Mã độc iOS tấn công ví tiền điện tử người dùng",
+    "summary": "Hai khai thác nguy hiểm DarkSword và Coruna nhắm vào thiết bị iOS, đánh cắp ví crypto của người dùng iPhone — cảnh báo bảo mật khẩn cấp từ Macworld.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3257479/darksword-and-coruna-ios-exploits-continue-to-attack-crypto-wallets.html",
+    "bullets": [
+      "🗡️ DarkSword và Coruna là hai exploit nhắm đặc biệt vào thiết bị chạy iOS",
+      "💰 Mục tiêu chính: đánh cắp dữ liệu và tài sản trong ví tiền điện tử",
+      "🔄 Cả hai mã độc tiếp tục hoạt động dai dẳng, chưa bị vô hiệu hóa hoàn toàn",
+      "📲 Người dùng iPhone cần cập nhật iOS bản mới nhất ngay để giảm nguy cơ",
+      "🚫 Cảnh báo: không lưu seed phrase/private key trực tiếp trên thiết bị iOS"
+    ],
+    "publish_time": "2026-10-10T23:11:34.345521",
     "performance": null
   }
 ]
