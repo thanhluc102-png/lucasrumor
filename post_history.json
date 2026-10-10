@@ -6064,6 +6064,31 @@
       "❓ Nội dung cụ thể của 'bất ngờ' vẫn chưa được Gurman hoặc Apple tiết lộ — giới công nghệ đang chờ đợi"
     ],
     "publish_time": "2026-10-10T04:10:42.220414",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1578208321013161",
+    "title": "Cách chỉnh độ rung Apple Watch theo ý muốn",
+    "summary": "Apple Watch cho phép người dùng tùy chỉnh cường độ rung haptic trực tiếp trên đồng hồ hoặc qua ứng dụng Watch trên iPhone, giúp cá nhân hóa trải nghiệm thông báo.",
+    "category": "Sự kiện",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3255191/how-to-adjust-the-vibration-intensity-on-your-apple-watch.html",
+    "bullets": [
+      "⌚ Điều chỉnh rung trực tiếp trên Apple Watch qua Cài đặt > Âm thanh & Haptics",
+      "📱 Cũng có thể chỉnh qua ứng dụng Watch trên iPhone: My Watch > Sounds & Haptics",
+      "💪 Tùy chọn 'Prominent Haptic' kích hoạt rung mạnh hơn trước mỗi thông báo",
+      "🔋 Taptic Engine được tối ưu năng lượng, ít ảnh hưởng tới thời lượng pin",
+      "🔕 Tính năng lý tưởng cho môi trường yên tĩnh — thay thế hoàn toàn âm thanh chuông"
+    ],
+    "publish_time": "2026-10-10T14:12:36.502403",
     "performance": null
   }
 ]
