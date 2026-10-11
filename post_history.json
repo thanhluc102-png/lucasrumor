@@ -5865,12 +5865,12 @@
     ],
     "publish_time": "2026-10-07T15:03:34.258707",
     "performance": {
-      "reactions": 13,
+      "reactions": 15,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 18
+      "score": 20
     }
   },
   {
@@ -6164,6 +6164,31 @@
       "📺 'homeOS' có thể là hệ điều hành cho HomePod, Apple TV hoặc màn hình thông minh gia đình đang phát triển"
     ],
     "publish_time": "2026-10-11T03:47:22.826205",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1579024504264876",
+    "title": "MacBook Pro Thiết Kế Mới Ra Sớm Hơn Dự Kiến",
+    "summary": "Apple sẽ trang bị thiết kế hoàn toàn mới cho MacBook Pro entry-level sớm hơn kế hoạch, theo Mark Gurman — mẫu máy giá rẻ nhất dòng Pro sắp có diện mạo lột xác vào nửa đầu 2027.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/10/m7-macbook-pro-redesign-next-spring/",
+    "bullets": [
+      "🔥 MacBook Pro entry-level sẽ có thiết kế mới sớm hơn kỳ vọng ban đầu",
+      "📅 Mốc ra mắt dự kiến: nửa đầu năm 2027 theo tiết lộ của Bloomberg",
+      "🕵️ Nguồn tin: Mark Gurman — nhà báo có độ chính xác cao nhất về nội bộ Apple",
+      "💡 Bất ngờ: Apple ưu tiên nâng cấp thiết kế cho mẫu giá rẻ nhất dòng Pro trước",
+      "⏳ Người dùng đang cân nhắc mua MacBook Pro nên chờ thêm thông tin nửa đầu 2027"
+    ],
+    "publish_time": "2026-10-11T10:34:54.934172",
     "performance": null
   }
 ]
