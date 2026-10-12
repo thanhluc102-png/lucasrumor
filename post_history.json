@@ -6190,12 +6190,12 @@
     ],
     "publish_time": "2026-10-11T10:34:54.934172",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -6215,12 +6215,12 @@
     ],
     "publish_time": "2026-10-11T17:17:50.928793",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -6239,6 +6239,31 @@
       "🤔 Độ trung thành cao của người dùng Mac đặt ra câu hỏi về hiệu quả thực tế của chiến dịch này"
     ],
     "publish_time": "2026-10-11T23:26:35.284070",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1579816614185665",
+    "title": "Sạc Kuxiu D5 ra màu Burgundy hợp iPhone 18 Pro",
+    "summary": "Kuxiu ra mắt đế sạc D5 màu Burgundy để đồng bộ với iPhone 18 Pro, tiếp nối truyền thống làm phụ kiện khớp màu chính xác với từng thế hệ iPhone mới.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/11/kuxius-d5-charger-now-comes-in-burgundy-to-perfectly-match-your-iphone-18-pro/",
+    "bullets": [
+      "🍷 Màu Burgundy được chọn để khớp chính xác với iPhone 18 Pro mới nhất",
+      "🥇 Kuxiu là hãng đầu tiên làm sạc phối màu Cosmic Orange cho iPhone năm ngoái",
+      "🔌 Đế sạc D5 hỗ trợ 3-in-1: iPhone + Apple Watch + AirPods trên một đế",
+      "🎨 Chiến lược ra màu phụ kiện đồng bộ với bảng màu Apple từng thế hệ",
+      "📅 Kuxiu tiếp tục theo sát lịch ra mắt iPhone để tung sản phẩm kịp thời"
+    ],
+    "publish_time": "2026-10-12T04:09:47.923234",
     "performance": null
   }
 ]
