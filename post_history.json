@@ -6290,12 +6290,12 @@
     ],
     "publish_time": "2026-10-12T17:20:03.403724",
     "performance": {
-      "reactions": 3,
+      "reactions": 5,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 8
     }
   },
   {
@@ -6339,6 +6339,31 @@
       "🏆 iPhone tiếp tục giữ vững phân khúc cao cấp — ít bị ảnh hưởng nhất khi thị trường chung đi xuống"
     ],
     "publish_time": "2026-10-13T11:24:08.386441",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1581504650683528",
+    "title": "Siri Remote Mới Giá $59 Hỗ Trợ Apple TV Nào?",
+    "summary": "Apple ra mắt Siri Remote thế hệ mới giá $59, tương thích có chọn lọc với các đời Apple TV — chi tiết model được hỗ trợ gây chú ý cộng đồng Reddit.",
+    "category": "Tin nóng",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x4ywvj/new_siri_remote_is_59_and_compatible_with_these/",
+    "bullets": [
+      "💰 Giá chính hãng: $59 USD cho Siri Remote thế hệ mới",
+      "📺 Không phải mọi đời Apple TV đều tương thích — danh sách model hỗ trợ được Apple công bố kèm theo",
+      "🔍 Cộng đồng r/apple đang đối chiếu model Apple TV cá nhân với danh sách tương thích chính thức",
+      "🎛️ Remote dùng thiết kế clickpad aluminum đặc trưng của dòng Siri Remote cao cấp",
+      "⚠️ Người dùng Apple TV đời cũ cần kiểm tra kỹ tương thích trước khi xuống tiền $59"
+    ],
+    "publish_time": "2026-10-13T18:51:00.048618",
     "performance": null
   }
 ]
