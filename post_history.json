@@ -6215,12 +6215,12 @@
     ],
     "publish_time": "2026-10-11T17:17:50.928793",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -6265,12 +6265,12 @@
     ],
     "publish_time": "2026-10-12T04:09:47.923234",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -6290,12 +6290,12 @@
     ],
     "publish_time": "2026-10-12T17:20:03.403724",
     "performance": {
-      "reactions": 0,
-      "comments": 0,
-      "comments_total": 1,
+      "reactions": 3,
+      "comments": 1,
+      "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 6
     }
   },
   {
@@ -6314,6 +6314,31 @@
       "💬 Cộng đồng r/apple đang sôi nổi tranh luận về ý nghĩa và thông số của dòng iPhone Duo"
     ],
     "publish_time": "2026-10-13T01:48:29.583801",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1581154320718561",
+    "title": "iPhone chiếm kỷ lục 22% thị phần smartphone toàn cầu",
+    "summary": "Dù doanh số iPhone giảm, Apple vẫn đạt thị phần 22% trong Q3/2026 — mức cao nhất lịch sử quý 3 — nhờ thị trường smartphone toàn cầu thu hẹp mạnh, theo Counterpoint Research.",
+    "category": "iPhone",
+    "visual_type": "stat",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/10/13/iphone-takes-bigger-slice-of-shrinking-market/",
+    "bullets": [
+      "📈 22% thị phần Q3/2026 — mức cao kỷ lục trong lịch sử các quý 3 của Apple",
+      "📉 Nghịch lý: lượng iPhone xuất xưởng thực tế giảm nhưng thị phần vẫn tăng",
+      "🌍 Thị trường smartphone toàn cầu sụt giảm mạnh, kéo sản lượng đối thủ xuống sâu hơn Apple",
+      "📊 Nguồn số liệu: báo cáo sơ bộ Q3/2026 của Counterpoint Research",
+      "🏆 iPhone tiếp tục giữ vững phân khúc cao cấp — ít bị ảnh hưởng nhất khi thị trường chung đi xuống"
+    ],
+    "publish_time": "2026-10-13T11:24:08.386441",
     "performance": null
   }
 ]
