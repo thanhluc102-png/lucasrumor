@@ -6389,6 +6389,31 @@
       "📲 Cách cập nhật: Cài đặt → Chung → Cập nhật phần mềm (dành cho thiết bị đã đăng ký beta)"
     ],
     "publish_time": "2026-10-13T23:36:04.683934",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1581826407318019",
+    "title": "HomeView: Chạy App Bên Thứ Ba Ngay Trên iPhone/iPad",
+    "summary": "HomeView là ứng dụng mới cho phép chạy app bên thứ ba trực tiếp từ màn hình chính iPhone hoặc iPad, mở rộng trải nghiệm màn hình chủ iOS/iPadOS vượt ra ngoài giới hạn Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x53aoe/homeview_runs_thirdparty_apps_from_your_iphone_or/",
+    "bullets": [
+      "📲 HomeView cho phép nhúng & chạy app bên thứ ba trực tiếp từ Home Screen iPhone/iPad",
+      "🔓 Phá vỡ giới hạn tùy biến màn hình chính vốn bị Apple kiểm soát chặt trên iOS/iPadOS",
+      "🧩 Khác với widget thông thường — người dùng có thể tương tác sâu hơn với nội dung app",
+      "🌐 Bài đăng nhanh chóng thu hút chú ý lớn trên cộng đồng r/apple với hơn 600k thành viên",
+      "⚙️ Ứng dụng hoạt động trên cả iPhone lẫn iPad, tương thích với iOS và iPadOS hiện đại"
+    ],
+    "publish_time": "2026-10-14T03:24:28.370139",
     "performance": null
   }
 ]
