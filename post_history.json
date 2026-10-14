@@ -6415,12 +6415,12 @@
     ],
     "publish_time": "2026-10-14T03:24:28.370139",
     "performance": {
-      "reactions": 4,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 6
     }
   },
   {
@@ -6464,6 +6464,31 @@
       "⚠️ Kế hoạch sản xuất sớm nhằm tránh thiếu hàng — bài học rút ra từ các chu kỳ iPhone trước đây"
     ],
     "publish_time": "2026-10-14T16:28:06.307443",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1582699937230666",
+    "title": "iOS 27 khiến tôi chốt mua iPhone Duo",
+    "summary": "iOS 27 được xác nhận mang tính năng mới đột phá cho dòng iPhone Duo sắp ra mắt, khiến quyết định nâng cấp của người dùng trở nên dễ dàng hơn bao giờ hết.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3253022/apple-just-made-my-decision-to-buy-an-iphone-duo-much-easier.html",
+    "bullets": [
+      "iOS 27 được xác nhận là yếu tố then chốt thúc đẩy quyết định mua iPhone Duo",
+      "Dòng iPhone Duo đang được kỳ vọng với thiết kế/cấu hình khác biệt so với các thế hệ iPhone trước",
+      "Macworld nhận định sự kết hợp iOS 27 + iPhone Duo tạo ra trải nghiệm vượt trội",
+      "Bài viết phản ánh tâm lý người dùng: phần mềm mạnh có thể 'kéo' quyết định mua phần cứng",
+      "Nguồn: Macworld — một trong những tạp chí công nghệ Apple uy tín hàng đầu"
+    ],
+    "publish_time": "2026-10-14T22:58:38.218340",
     "performance": null
   }
 ]
