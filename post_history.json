@@ -6415,12 +6415,12 @@
     ],
     "publish_time": "2026-10-14T03:24:28.370139",
     "performance": {
-      "reactions": 2,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 4
     }
   },
   {
@@ -6439,6 +6439,31 @@
       "💬 Bài đăng đang gây tranh luận sôi nổi trên r/apple về tính xác thực và nguồn gốc thông tin"
     ],
     "publish_time": "2026-10-14T09:16:38.212761",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1582431677257492",
+    "title": "Apple Đặt Cược Lớn Vào iPhone 18",
+    "summary": "Apple kỳ vọng nhu cầu iPhone 18 cực mạnh, lên kế hoạch đẩy sản xuất quy mô lớn — tín hiệu rõ ràng nhất từ trước tới nay về chu kỳ siêu nâng cấp sắp tới.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x5odl5/apple_expects_strong_iphone_18_demand_plans_major/",
+    "bullets": [
+      "🏭 Apple lên kế hoạch đẩy mạnh sản xuất iPhone 18 với quy mô lớn hơn các thế hệ trước",
+      "📈 Tín hiệu rõ ràng Apple kỳ vọng 'siêu chu kỳ nâng cấp' — hàng triệu người dùng đồng loạt lên đời",
+      "📅 iPhone 18 dự kiến ra mắt mùa thu 2025, theo đúng lịch thường niên tháng 9 của Apple",
+      "🤖 Kỳ vọng tích hợp AI sâu hơn vào phần cứng & iOS sẽ là lý do nâng cấp thuyết phục nhất",
+      "⚠️ Kế hoạch sản xuất sớm nhằm tránh thiếu hàng — bài học rút ra từ các chu kỳ iPhone trước đây"
+    ],
+    "publish_time": "2026-10-14T16:28:06.307443",
     "performance": null
   }
 ]
