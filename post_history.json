@@ -5865,12 +5865,12 @@
     ],
     "publish_time": "2026-10-07T15:03:34.258707",
     "performance": {
-      "reactions": 15,
+      "reactions": 16,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 20
+      "score": 21
     }
   },
   {
@@ -6391,11 +6391,11 @@
     "publish_time": "2026-10-13T23:36:04.683934",
     "performance": {
       "reactions": 2,
-      "comments": 1,
-      "comments_total": 2,
+      "comments": 0,
+      "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 2
     }
   },
   {
@@ -6414,6 +6414,31 @@
       "⚙️ Ứng dụng hoạt động trên cả iPhone lẫn iPad, tương thích với iOS và iPadOS hiện đại"
     ],
     "publish_time": "2026-10-14T03:24:28.370139",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1582064523960874",
+    "title": "Hé Lộ Hệ Thống Tản Nhiệt iPhone 18 Pro",
+    "summary": "Bài đăng Reddit khám phá chi tiết hệ thống tản nhiệt bên trong iPhone Duo và iPhone 18 Pro — hai mẫu iPhone thế hệ tiếp theo đang được cộng đồng công nghệ mổ xẻ kỹ lưỡng.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x51s9z/inside_the_iphone_duo_and_18_pro_cooling_system/",
+    "bullets": [
+      "🔥 Tập trung vào hệ thống tản nhiệt của iPhone Duo & iPhone 18 Pro — hai mẫu chưa ra mắt chính thức",
+      "⚙️ Phân tích cấu trúc buồng hơi (vapor chamber) và vật liệu dẫn nhiệt thế hệ mới bên trong máy",
+      "🆕 Cái tên 'iPhone Duo' lần đầu xuất hiện, gợi ý thiết kế phần cứng hoàn toàn mới chưa có tiền lệ",
+      "🧠 iPhone 18 Pro dự kiến dùng chip A19 Pro — yêu cầu quản lý nhiệt cao hơn thế hệ trước",
+      "💬 Bài đăng đang gây tranh luận sôi nổi trên r/apple về tính xác thực và nguồn gốc thông tin"
+    ],
+    "publish_time": "2026-10-14T09:16:38.212761",
     "performance": null
   }
 ]
