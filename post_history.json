@@ -6290,12 +6290,12 @@
     ],
     "publish_time": "2026-10-12T17:20:03.403724",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -6514,6 +6514,31 @@
       "🤔 Quyết định phụ thuộc thói quen dùng máy: người cẩn thận vs. người dễ làm rơi/vỡ thiết bị"
     ],
     "publish_time": "2026-10-15T03:02:51.638534",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1583100733857253",
+    "title": "iPhone Duo lộ điểm Geekbench: Flagship màn hình gập mạnh nhất",
+    "summary": "iPhone Duo — smartphone màn hình gập đầu tiên của Apple — xuất hiện trên Geekbench với hiệu năng vượt mọi đối thủ gập hiện tại, xác nhận đây là chiếc foldable mạnh nhất từng được thử nghiệm.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x6foq1/apple_iphone_duo_debuts_on_geekbench_as_most/",
+    "bullets": [
+      "📊 iPhone Duo đạt điểm Geekbench cao nhất trong lịch sử các smartphone màn hình gập từng được benchmark",
+      "🔬 Đây là lần đầu tiên thiết bị foldable của Apple được xác nhận trên nền tảng benchmark độc lập bên thứ ba",
+      "⚡ Máy nhiều khả năng trang bị chip Apple Silicon mới nhất — A18 Pro hoặc biến thể riêng cho form factor gập",
+      "📅 Sự xuất hiện trên Geekbench thường báo hiệu thiết bị đang ở giai đoạn sản xuất thử / kiểm định cuối",
+      "🗓️ iPhone Duo dự kiến ra mắt cuối 2025 hoặc đầu 2026, cạnh tranh trực tiếp với Samsung Galaxy Z Fold và Huawei"
+    ],
+    "publish_time": "2026-10-15T08:49:21.058494",
     "performance": null
   }
 ]
