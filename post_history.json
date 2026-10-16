@@ -6544,8 +6544,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 1
+      "shares": 1,
+      "score": 6
     }
   },
   {
@@ -6664,6 +6664,31 @@
       "😤 Cộng đồng Reddit phản ứng thất vọng, đặc biệt những ai đang chờ upgrade MacBook Pro"
     ],
     "publish_time": "2026-10-16T16:01:16.613418",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1584576987042961",
+    "title": "Website Apple Vô Tình Lộ iPad Mini 8",
+    "summary": "Trang web chính thức của Apple bất ngờ để lộ thông tin gợi ý về sự tồn tại của iPad Mini 8, làm dấy lên sự chú ý lớn trong cộng đồng người dùng Apple trên Reddit.",
+    "category": "iPad",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x7bxih/oops_apples_website_just_hinted_at_ipad_mini_8/",
+    "bullets": [
+      "🌐 Trang web chính thức của Apple vô tình để lộ thông tin về iPad Mini 8",
+      "📅 iPad Mini 7 vừa ra mắt cuối năm 2024 với chip A17 Pro — thế hệ mới đã được 'nhắc tới'",
+      "🔍 Đây là dấu hiệu được cộng đồng coi là tín hiệu đáng tin cậy về kế hoạch sản phẩm của Apple",
+      "💬 Bài đăng nhanh chóng lan truyền mạnh trên cộng đồng r/apple với sự chú ý lớn",
+      "🤖 Người dùng kỳ vọng iPad Mini 8 sẽ tích hợp Apple Intelligence và nâng cấp chip mới"
+    ],
+    "publish_time": "2026-10-16T19:32:25.240712",
     "performance": null
   }
 ]
