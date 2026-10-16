@@ -6565,12 +6565,12 @@
     ],
     "publish_time": "2026-10-15T16:15:51.035796",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -6614,6 +6614,31 @@
       "🔇 Apple hiện chưa chính thức xác nhận bất kỳ thông tin nào về sản phẩm iPhone gập"
     ],
     "publish_time": "2026-10-16T03:00:03.773627",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1584082000425793",
+    "title": "MacBook Pro OLED phải chờ đến chip M7",
+    "summary": "Mark Gurman (Bloomberg) xác nhận Apple gần hoàn tất dòng chip M6. MacBook Pro OLED sẽ không được trang bị M7 cho đến cuối năm 2027, muộn hơn kỳ vọng.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/10/15/macbook-pro-m7-late-2027/",
+    "bullets": [
+      "🔴 Mark Gurman (Bloomberg) xác nhận Apple 'gần như xong' với chip M6",
+      "🖥️ Chip M6 xuất hiện đầu tiên trên Mac mini, tiếp theo là iMac M6",
+      "📺 MacBook Pro OLED — sản phẩm rất được mong đợi — sẽ dùng chip M7",
+      "📅 Mốc ra mắt MacBook Pro OLED với M7 là cuối năm 2027, không sớm hơn",
+      "⏳ Người dùng muốn cả OLED lẫn M7 phải chờ ít nhất hơn 2 năm nữa"
+    ],
+    "publish_time": "2026-10-16T08:44:34.604150",
     "performance": null
   }
 ]
