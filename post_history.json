@@ -6640,12 +6640,12 @@
     ],
     "publish_time": "2026-10-16T08:44:34.604150",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -6764,6 +6764,31 @@
       "💬 Chủ đề nhận được lượng tương tác cao, cho thấy ergonomics vẫn là ưu tiên hàng đầu của người dùng Apple"
     ],
     "publish_time": "2026-10-17T08:15:33.859697",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1585345946966065",
+    "title": "Meta ra mô hình 800 tỷ tham số, chạy trên Mac Studio M5 Ultra",
+    "summary": "Meta phát hành Muse Spark Open — mô hình AI đa phương thức hơn 800 tỷ tham số, kiến trúc MoE, 40 tỷ tham số hoạt động mỗi token, chạy được ngay trên Mac Studio M5 Ultra nhờ hợp tác trực tiếp với Apple.",
+    "category": "Apple AI",
+    "visual_type": "stat",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/meta-releases-muse-spark-open-an-over-800-billion-parameter-model-that-can-run-locally-on-multiple-m5-ultra-mac-studios/",
+    "bullets": [
+      "🧠 Hơn 800 tỷ tham số tổng — một trong những mô hình mã nguồn mở lớn nhất từng được phát hành",
+      "⚡ Kiến trúc Mixture-of-Experts: chỉ 40 tỷ tham số hoạt động mỗi token, tiết kiệm tài nguyên đáng kể",
+      "🖥️ Chạy được cục bộ trên Mac Studio M5 Ultra — không cần server GPU chuyên dụng",
+      "🤝 Meta hợp tác trực tiếp với Apple để tối ưu hóa mô hình cho nền tảng M5 Ultra",
+      "🌐 Muse Spark Open là mô hình đa phương thức (multimodal) mã nguồn mở, trọng số được phát hành công khai"
+    ],
+    "publish_time": "2026-10-17T14:55:11.188815",
     "performance": null
   }
 ]
