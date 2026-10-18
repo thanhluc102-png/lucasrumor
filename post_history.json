@@ -6740,12 +6740,12 @@
     ],
     "publish_time": "2026-10-17T02:51:52.719151",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -6840,12 +6840,12 @@
     ],
     "publish_time": "2026-10-17T21:58:39.744870",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -6864,6 +6864,31 @@
       "⚠️ Đây là động thái hiếm gặp từ Apple — thường chỉ xảy ra trước các đợt ra mắt iPhone thế hệ mới cực hot"
     ],
     "publish_time": "2026-10-18T02:53:53.216792",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1586080996892560",
+    "title": "Nhà phát triển nghi ngờ thỏa thuận chống độc quyền Apple",
+    "summary": "Các nhà phát triển lo ngại thỏa thuận giữa DOJ và Apple trong vụ kiện chống độc quyền sẽ không thực sự nới lỏng quyền kiểm soát của Apple trên iPhone và App Store.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/10/16/developers-question-scope-of-antitrust-settlement/",
+    "bullets": [
+      "🔍 DOJ (Bộ Tư pháp Mỹ) đang đàm phán thỏa thuận chống độc quyền trực tiếp với Apple liên quan đến hệ sinh thái iPhone",
+      "😤 Nhiều nhà phát triển lo ngại thỏa thuận sẽ chỉ mang tính hình thức, không thực sự mở cửa App Store hay xóa bỏ rào cản thanh toán",
+      "🏪 Trọng tâm tranh chấp: Apple bị cáo buộc dùng iPhone làm 'cổng' để kiểm soát toàn bộ thị trường ứng dụng và thanh toán di động",
+      "⚖️ Nguồn tin từ The Information — tờ báo công nghệ chuyên sâu — cho thấy lo ngại lan rộng trong cộng đồng dev",
+      "🌍 Áp lực pháp lý lên Apple ngày càng tăng từ nhiều phía: DOJ (Mỹ), EU, và các vụ kiện riêng lẻ như Epic Games"
+    ],
+    "publish_time": "2026-10-18T08:32:35.960269",
     "performance": null
   }
 ]
