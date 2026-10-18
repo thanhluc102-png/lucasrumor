@@ -6840,12 +6840,12 @@
     ],
     "publish_time": "2026-10-17T21:58:39.744870",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -6865,12 +6865,12 @@
     ],
     "publish_time": "2026-10-18T02:53:53.216792",
     "performance": {
-      "reactions": 7,
+      "reactions": 14,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 12
+      "score": 19
     }
   },
   {
@@ -6914,6 +6914,31 @@
       "🧩 Câu hỏi lớn: macOS sẽ được tối ưu hóa giao diện cảm ứng đến mức nào?"
     ],
     "publish_time": "2026-10-18T15:21:13.920250",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 8
+    }
+  },
+  {
+    "post_id": "1920842954802282_1586581653509161",
+    "title": "Apple HomeView Ra Mắt Giá 299 USD, Cánh Tay Robot Sắp Theo",
+    "summary": "Apple chính thức ra mắt màn hình thông minh HomeView giá 299 USD. Báo cáo tiết lộ phiên bản tích hợp cánh tay robot có thể xuất hiện sớm nhất vào năm tới.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/18/apples-next-homeview-could-debut-as-soon-as-next-year-with-a-robotic-arm-report/",
+    "bullets": [
+      "💰 Giá bán chính thức: 299 USD cho phiên bản HomeView tiêu chuẩn",
+      "🤖 Phiên bản tích hợp cánh tay robot dự kiến ra mắt sớm nhất năm 2026",
+      "⏳ Sản phẩm đã trải qua quá trình phát triển kéo dài nhiều năm trước khi công bố",
+      "🏠 HomeView định vị là trung tâm điều khiển nhà thông minh trong hệ sinh thái Apple",
+      "📡 Apple đang mở rộng chiến lược phần cứng vượt ra ngoài iPhone, Mac, iPad"
+    ],
+    "publish_time": "2026-10-18T18:27:40.301383",
     "performance": null
   }
 ]
