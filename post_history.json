@@ -6765,12 +6765,12 @@
     ],
     "publish_time": "2026-10-17T08:15:33.859697",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -6839,6 +6839,31 @@
       "🔥 Động thái của Verizon bị cộng đồng phản ứng mạnh: nhà mạng 'thương mại hoá' tính năng miễn phí của Apple"
     ],
     "publish_time": "2026-10-17T21:58:39.744870",
+    "performance": {
+      "reactions": 0,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1585848296915830",
+    "title": "Apple Cảnh Báo Nhân Viên: Đừng Bán iPhone Duo Tại Quầy",
+    "summary": "Nhân viên bán lẻ Apple được chỉ đạo chủ động cảnh báo khách hàng không nên mua iPhone Duo theo hình thức walk-in, gợi ý đặt trước để đảm bảo trải nghiệm tốt hơn.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x8mn8m/apple_retail_staff_told_to_warn_against_iphone/",
+    "bullets": [
+      "📋 Apple chỉ đạo nhân viên bán lẻ chủ động cảnh báo khách về rủi ro mua iPhone Duo walk-in",
+      "🛒 Khuyến nghị khách đặt trước qua app Apple Store hoặc apple.com thay vì đến trực tiếp",
+      "📦 Chính sách phản ánh dự báo nhu cầu cực cao, nguy cơ hết hàng tại quầy rất lớn",
+      "🔥 Tin xuất hiện trên r/apple, thu hút sự chú ý rộng rãi từ cộng đồng người dùng Apple",
+      "⚠️ Đây là động thái hiếm gặp từ Apple — thường chỉ xảy ra trước các đợt ra mắt iPhone thế hệ mới cực hot"
+    ],
+    "publish_time": "2026-10-18T02:53:53.216792",
     "performance": null
   }
 ]
