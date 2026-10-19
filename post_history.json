@@ -6544,8 +6544,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 1,
-      "score": 6
+      "shares": 0,
+      "score": 1
     }
   },
   {
@@ -6840,12 +6840,12 @@
     ],
     "publish_time": "2026-10-17T21:58:39.744870",
     "performance": {
-      "reactions": 25,
+      "reactions": 35,
       "comments": 3,
       "comments_total": 4,
       "own_comments": 1,
-      "shares": 1,
-      "score": 39
+      "shares": 2,
+      "score": 54
     }
   },
   {
@@ -6865,12 +6865,12 @@
     ],
     "publish_time": "2026-10-18T02:53:53.216792",
     "performance": {
-      "reactions": 25,
+      "reactions": 28,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 30
+      "score": 33
     }
   },
   {
@@ -7014,6 +7014,31 @@
       "❓ Ngày ra mắt chính thức và mức giá của iPhone Duo vẫn chưa được Apple xác nhận"
     ],
     "publish_time": "2026-10-19T09:34:28.194957",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1587584116742248",
+    "title": "Đơn iPhone Duo được giao sớm hơn dự kiến",
+    "summary": "Nhiều người dùng Reddit báo cáo đơn đặt hàng iPhone Duo bị dời lên ngày giao sớm hơn, gợi ý Apple đang sản xuất vượt tiến độ ban đầu.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1x9xj6z/some_iphone_duo_orders_getting_moved_up_to/",
+    "bullets": [
+      "📦 Nhiều đơn iPhone Duo tự động được cập nhật ngày giao hàng sớm hơn ban đầu",
+      "🏭 Dấu hiệu cho thấy Apple hoàn thành sản xuất và logistics vượt tiến độ dự báo",
+      "🛍️ Hiện tượng 'ship sớm' thường gắn với đợt pre-order đầu tiên khi cung vượt cầu cục bộ",
+      "📲 Người dùng nên kiểm tra app Apple Store hoặc email để xem ngày giao mới nhất",
+      "📈 Tín hiệu tích cực về tình trạng tồn kho iPhone Duo có thể cải thiện nhanh hơn kỳ vọng"
+    ],
+    "publish_time": "2026-10-19T18:18:10.843767",
     "performance": null
   }
 ]
