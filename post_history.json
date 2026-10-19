@@ -6840,12 +6840,12 @@
     ],
     "publish_time": "2026-10-17T21:58:39.744870",
     "performance": {
-      "reactions": 7,
-      "comments": 1,
-      "comments_total": 2,
+      "reactions": 13,
+      "comments": 2,
+      "comments_total": 3,
       "own_comments": 1,
-      "shares": 0,
-      "score": 10
+      "shares": 1,
+      "score": 24
     }
   },
   {
@@ -6865,12 +6865,12 @@
     ],
     "publish_time": "2026-10-18T02:53:53.216792",
     "performance": {
-      "reactions": 19,
+      "reactions": 22,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 24
+      "score": 27
     }
   },
   {
@@ -6964,6 +6964,31 @@
       "📋 Ưu tiên liên hệ nhà cung cấp xác nhận lộ trình ra bản Universal Binary hoặc Apple Silicon native"
     ],
     "publish_time": "2026-10-18T22:13:28.719706",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1586910846809575",
+    "title": "Verizon Thu Phí $10/Tháng Cho iPhone Handoff",
+    "summary": "Verizon xác nhận tính phí $10/tháng để dùng tính năng iPhone Handoff của Apple — theo chân T-Mobile và Deutsche Telekom đã công bố trước đó.",
+    "category": "iPhone",
+    "visual_type": "stat",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/16/verizon-confirms-10-monthly-fee-for-new-iphone-handoff-feature/",
+    "bullets": [
+      "💸 Verizon thu $10/tháng cho tính năng iPhone Handoff — mức giá đồng nhất với T-Mobile và Deutsche Telekom",
+      "📡 iPhone Handoff là tính năng Apple mới, cho phép chuyển giao liền mạch kết nối/tác vụ giữa các iPhone qua mạng nhà mạng",
+      "🌍 Ít nhất 3 nhà mạng lớn tại Mỹ và châu Âu đã công khai mức phí $10/tháng cho tính năng này",
+      "📋 Người dùng Verizon phải đăng ký thêm gói phụ phí riêng để kích hoạt iPhone Handoff",
+      "💰 Nếu duy trì cả năm, người dùng sẽ tốn thêm $120/năm chỉ riêng cho tính năng này"
+    ],
+    "publish_time": "2026-10-19T03:06:37.443792",
     "performance": null
   }
 ]
