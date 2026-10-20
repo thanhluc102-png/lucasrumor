@@ -6865,12 +6865,12 @@
     ],
     "publish_time": "2026-10-18T02:53:53.216792",
     "performance": {
-      "reactions": 30,
+      "reactions": 31,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 35
+      "score": 36
     }
   },
   {
@@ -7064,6 +7064,31 @@
       "⏱️ Sau RC, bản public release thường xuất hiện trong 1–2 tuần — trùng ngày mở bán máy mới"
     ],
     "publish_time": "2026-10-19T23:18:10.320659",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1587913183376008",
+    "title": "Apple tung iOS 27.2 RC cho iPhone",
+    "summary": "Apple phát hành iOS 27.2 Release Candidate cho iPhone, bước cuối trước bản chính thức. Đây là tín hiệu cập nhật ổn định sắp đến tay người dùng đại trà trong vài ngày tới.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xa5c0d/apple_releases_ios_272_rc_for_iphone/",
+    "bullets": [
+      "🚀 iOS 27.2 RC là bước cuối cùng trước bản phát hành chính thức cho toàn bộ người dùng iPhone",
+      "🛠️ RC (Release Candidate) nghĩa là Apple đã đóng băng code, chỉ vá lỗi khẩn nếu cần",
+      "📲 Người dùng trong chương trình beta của Apple có thể cập nhật ngay qua Cài đặt > Cập nhật phần mềm",
+      "⏳ Bản chính thức thường ra mắt đại trà trong vòng 1–2 tuần sau khi RC được phát hành",
+      "🔒 Cập nhật dự kiến bao gồm vá bảo mật và cải thiện hiệu năng cho các dòng iPhone tương thích"
+    ],
+    "publish_time": "2026-10-20T03:15:55.742149",
     "performance": null
   }
 ]
