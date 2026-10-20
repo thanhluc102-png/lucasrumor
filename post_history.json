@@ -6865,12 +6865,12 @@
     ],
     "publish_time": "2026-10-18T02:53:53.216792",
     "performance": {
-      "reactions": 33,
+      "reactions": 35,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 1,
-      "score": 41
+      "score": 43
     }
   },
   {
@@ -7139,6 +7139,31 @@
       "🔥 Apple chưa phản hồi, nhiều khả năng sẽ kháng cáo — vụ kiện có thể kéo dài nhiều năm"
     ],
     "publish_time": "2026-10-20T16:19:00.745069",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1588759343291392",
+    "title": "MacBook Pro Màn Hình Cảm Ứng: OLED & Thiết Kế Mới",
+    "summary": "Apple đang phát triển MacBook Pro màn hình cảm ứng tích hợp tấm nền OLED, hứa hẹn thay đổi thiết kế đột phá — đây là tổng hợp toàn bộ tin đồn về cấu hình, ngoại hình và thời điểm ra mắt.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/2931833/touchscreen-macbook-pro-design-processor-specs-release.html",
+    "bullets": [
+      "🖥️ Màn hình OLED cảm ứng — lần đầu tiên xuất hiện trên dòng MacBook Pro",
+      "✏️ Hỗ trợ Apple Pencil, thu hẹp ranh giới giữa Mac và iPad Pro",
+      "🎨 Thiết kế vỏ máy được làm mới để tích hợp lớp cảm ứng",
+      "📅 Ra mắt sớm nhất năm 2026, một số nguồn nói 2027",
+      "🔬 Tin đồn đến từ nhiều nguồn chuỗi cung ứng độc lập, độ tin cậy cao hơn trước"
+    ],
+    "publish_time": "2026-10-20T22:56:03.105929",
     "performance": null
   }
 ]
