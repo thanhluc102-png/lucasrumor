@@ -7090,12 +7090,12 @@
     ],
     "publish_time": "2026-10-20T03:15:55.742149",
     "performance": {
-      "reactions": 20,
+      "reactions": 23,
       "comments": 4,
       "comments_total": 5,
       "own_comments": 1,
       "shares": 0,
-      "score": 32
+      "score": 35
     }
   },
   {
@@ -7165,12 +7165,12 @@
     ],
     "publish_time": "2026-10-20T22:56:03.105929",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -7189,6 +7189,31 @@
       "🚫 Chưa có bất kỳ xác nhận chính thức nào từ Apple về sản phẩm iPhone Duo"
     ],
     "publish_time": "2026-10-21T03:10:40.956468",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1589155966585063",
+    "title": "Apple Công Bố Đối Tác Sản Xuất iPhone 18 Tại Mỹ",
+    "summary": "Apple chính thức công bố các đối tác trong Chương trình Sản xuất Mỹ (American Manufacturing Program) dành cho iPhone Duo và iPhone 18 Pro — động thái lớn giữa căng thẳng thuế quan.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xaqhv6/apple_announces_american_manufacturing_program/",
+    "bullets": [
+      "📦 Hai dòng máy được áp dụng: iPhone Duo (phổ thông) và iPhone 18 Pro (cao cấp)",
+      "🏭 Chương trình mang tên American Manufacturing Program — nằm trong cam kết đầu tư 500 tỷ USD của Apple tại Mỹ",
+      "🇺🇸 Động thái trực tiếp phản ứng trước áp lực thuế quan và yêu cầu nội địa hóa từ chính phủ Mỹ",
+      "🤝 Danh sách đối tác sản xuất cụ thể lần đầu được Apple công khai cho dòng iPhone thế hệ 18",
+      "📅 iPhone 18 series dự kiến ra mắt vào mùa thu 2025 theo chu kỳ thường niên của Apple"
+    ],
+    "publish_time": "2026-10-21T09:06:51.462014",
     "performance": null
   }
 ]
