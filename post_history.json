@@ -7090,12 +7090,12 @@
     ],
     "publish_time": "2026-10-20T03:15:55.742149",
     "performance": {
-      "reactions": 23,
+      "reactions": 24,
       "comments": 4,
       "comments_total": 5,
       "own_comments": 1,
       "shares": 0,
-      "score": 35
+      "score": 36
     }
   },
   {
@@ -7140,12 +7140,12 @@
     ],
     "publish_time": "2026-10-20T16:19:00.745069",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -7214,6 +7214,31 @@
       "📅 iPhone 18 series dự kiến ra mắt vào mùa thu 2025 theo chu kỳ thường niên của Apple"
     ],
     "publish_time": "2026-10-21T09:06:51.462014",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 7
+    }
+  },
+  {
+    "post_id": "1920842954802282_1589500933217233",
+    "title": "Apple Store hạn chế bán iPhone mới cho khách vãng lai",
+    "summary": "Apple Stores sẽ chỉ có số lượng 'hạn chế' iPhone mới để bán trực tiếp cho khách walk-in ngay ngày mở bán, ưu tiên khách đặt trước online.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xbo8ue/apple_stores_will_have_limited_availability_of/",
+    "bullets": [
+      "📦 Apple Store chỉ có hàng 'hạn chế' cho khách walk-in ngày mở bán iPhone mới",
+      "🛒 Apple ưu tiên hoàn toàn cho khách đặt hàng trước qua Apple.com hoặc app Store",
+      "🎨 Mức độ khan hàng khác nhau theo từng màu sắc, dung lượng và phiên bản",
+      "📲 Apple khuyến cáo kiểm tra tình trạng hàng qua ứng dụng trước khi đến cửa hàng",
+      "🔥 Thông báo phản ánh nhu cầu cực cao với thế hệ iPhone sắp ra mắt"
+    ],
+    "publish_time": "2026-10-21T16:34:29.831341",
     "performance": null
   }
 ]
