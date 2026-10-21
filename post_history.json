@@ -6544,8 +6544,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 1
+      "shares": 1,
+      "score": 6
     }
   },
   {
@@ -7090,12 +7090,12 @@
     ],
     "publish_time": "2026-10-20T03:15:55.742149",
     "performance": {
-      "reactions": 17,
-      "comments": 2,
-      "comments_total": 3,
+      "reactions": 20,
+      "comments": 4,
+      "comments_total": 5,
       "own_comments": 1,
       "shares": 0,
-      "score": 23
+      "score": 32
     }
   },
   {
@@ -7164,6 +7164,31 @@
       "🔬 Tin đồn đến từ nhiều nguồn chuỗi cung ứng độc lập, độ tin cậy cao hơn trước"
     ],
     "publish_time": "2026-10-20T22:56:03.105929",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1588919316608728",
+    "title": "Giao diện ứng dụng Apple trên iPhone Duo lộ diện",
+    "summary": "Hình ảnh rò rỉ cho thấy các ứng dụng gốc của Apple được tối ưu hóa thế nào trên iPhone Duo — mẫu iPhone màn hình đôi đang được cộng đồng Reddit xôn xao bàn tán.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xb27vq/heres_what_apples_apps_look_like_on_the_iphone_duo/",
+    "bullets": [
+      "📸 Hình ảnh thực tế các app gốc Apple (Mail, Messages, Safari, Photos) trên iPhone Duo lần đầu được hé lộ",
+      "🖥️ Giao diện được tối ưu hóa riêng cho form factor màn hình đôi — khác biệt hoàn toàn với iPhone hiện tại",
+      "⚙️ iOS đã được Apple chuẩn bị sẵn để hỗ trợ bố cục UI linh hoạt trên thiết bị mới",
+      "🔥 Bài đăng gây sốt cộng đồng r/apple, tiếp tục làm nóng đồn đoán về lộ trình iPhone tương lai",
+      "🚫 Chưa có bất kỳ xác nhận chính thức nào từ Apple về sản phẩm iPhone Duo"
+    ],
+    "publish_time": "2026-10-21T03:10:40.956468",
     "performance": null
   }
 ]
