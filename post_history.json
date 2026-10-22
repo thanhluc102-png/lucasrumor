@@ -7215,12 +7215,12 @@
     ],
     "publish_time": "2026-10-21T09:06:51.462014",
     "performance": {
-      "reactions": 10,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 2,
-      "score": 20
+      "score": 21
     }
   },
   {
@@ -7339,6 +7339,31 @@
       "📡 Sự kiện làm nổi bật sức mạnh hệ sinh thái Apple: phần cứng vô dụng nếu không có sự cho phép của Apple"
     ],
     "publish_time": "2026-10-22T16:35:34.667684",
+    "performance": {
+      "reactions": 4,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1590793073088019",
+    "title": "Apple Lộ Công Cụ AI Đe Dọa Google Workspace",
+    "summary": "Apple vô tình để lộ tính năng AI tích hợp sâu vào bộ ứng dụng năng suất trên macOS, cạnh tranh trực tiếp với Google Workspace và Microsoft 365.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3267434/apple-accidentally-reveals-google-workspace-ai-competitor.html",
+    "bullets": [
+      "🔍 Apple vô tình để lộ tính năng AI mới tích hợp vào bộ iWork (Pages, Numbers, Keynote) trên macOS",
+      "⚔️ Nhắm trực tiếp vào Google Workspace và Microsoft 365 — hai ông lớn năng suất doanh nghiệp",
+      "🧠 Tận dụng nền tảng Apple Intelligence đã ra mắt, đưa AI vào luồng làm việc hàng ngày trên Mac",
+      "📅 Thông tin bị lộ sớm hơn lịch công bố chính thức, cho thấy Apple đang tăng tốc phát triển",
+      "💻 Người dùng MacBook và Mac là đối tượng hưởng lợi trực tiếp, không cần dùng công cụ AI bên thứ ba"
+    ],
+    "publish_time": "2026-10-22T22:58:06.095817",
     "performance": null
   }
 ]
