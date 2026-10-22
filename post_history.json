@@ -7215,12 +7215,12 @@
     ],
     "publish_time": "2026-10-21T09:06:51.462014",
     "performance": {
-      "reactions": 5,
+      "reactions": 8,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 1,
-      "score": 10
+      "shares": 2,
+      "score": 18
     }
   },
   {
@@ -7240,12 +7240,12 @@
     ],
     "publish_time": "2026-10-21T16:34:29.831341",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -7289,6 +7289,31 @@
       "📱 Cho thấy Apple đang đầu tư cải thiện trải nghiệm một tay trên dòng iPhone Duo"
     ],
     "publish_time": "2026-10-22T03:09:06.647916",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1590180053149321",
+    "title": "Chơi Game PC Natively Trên iPhone Không Cần Stream",
+    "summary": "Playport cho phép chạy game PC thực sự trên iPhone không qua streaming, dùng sideloading + Developer Mode + JIT — bước đột phá lớn với game thủ iOS.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xc43od/playport_pc_games_on_your_iphone_natively_no/",
+    "bullets": [
+      "🎮 Playport chạy game PC native trên iPhone — không phụ thuộc server hay kết nối internet để chơi",
+      "⚙️ Yêu cầu 3 điều kiện kỹ thuật: Sideloading + Developer Mode + JIT (Just-In-Time compilation)",
+      "🔓 JIT vốn bị Apple khóa trên iOS vì lý do bảo mật, Developer Mode là cách hợp lệ để kích hoạt",
+      "🌍 Sideloading khả thi rộng rãi hơn nhờ chính sách DMA của EU buộc Apple mở nền tảng",
+      "💡 Chip ARM Apple Silicon trên iPhone đủ mạnh để dịch và chạy mã x86/x64 của game PC"
+    ],
+    "publish_time": "2026-10-22T09:09:21.990646",
     "performance": null
   }
 ]
