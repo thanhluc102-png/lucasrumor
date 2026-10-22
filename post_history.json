@@ -7040,12 +7040,12 @@
     ],
     "publish_time": "2026-10-19T18:18:10.843767",
     "performance": {
-      "reactions": 7,
+      "reactions": 8,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 7
+      "score": 8
     }
   },
   {
@@ -7215,12 +7215,12 @@
     ],
     "publish_time": "2026-10-21T09:06:51.462014",
     "performance": {
-      "reactions": 2,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 7
+      "score": 10
     }
   },
   {
@@ -7264,6 +7264,31 @@
       "📍 Địa điểm tại LA thay vì Apple Park — Cupertino, báo hiệu sự kiện có tính chất đặc biệt"
     ],
     "publish_time": "2026-10-21T23:00:56.686529",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1589952239838769",
+    "title": "Reachability Sắp Lên iPhone Duo Cuối Năm Nay",
+    "summary": "Apple xác nhận tính năng Reachability — giúp với tay chạm màn hình lớn dễ hơn — sẽ đổ bộ iPhone Duo trong năm 2025, theo thông báo chính thức từ hãng.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xbmj9c/apple_says_reachability_feature_coming_to_iphone/",
+    "bullets": [
+      "✅ Apple chính thức xác nhận Reachability sẽ lên iPhone Duo trong năm 2025",
+      "👆 Reachability cho phép kéo toàn bộ giao diện xuống thấp, hỗ trợ dùng một tay trên màn hình lớn",
+      "📅 Tính năng dự kiến ra mắt qua bản cập nhật phần mềm trước cuối năm nay",
+      "📣 Thông báo đến trực tiếp từ Apple, không qua nguồn rò rỉ hay bên thứ ba",
+      "📱 Cho thấy Apple đang đầu tư cải thiện trải nghiệm một tay trên dòng iPhone Duo"
+    ],
+    "publish_time": "2026-10-22T03:09:06.647916",
     "performance": null
   }
 ]
