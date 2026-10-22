@@ -7140,12 +7140,12 @@
     ],
     "publish_time": "2026-10-20T16:19:00.745069",
     "performance": {
-      "reactions": 4,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -7215,12 +7215,12 @@
     ],
     "publish_time": "2026-10-21T09:06:51.462014",
     "performance": {
-      "reactions": 8,
+      "reactions": 10,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 2,
-      "score": 18
+      "score": 20
     }
   },
   {
@@ -7314,6 +7314,31 @@
       "💡 Chip ARM Apple Silicon trên iPhone đủ mạnh để dịch và chạy mã x86/x64 của game PC"
     ],
     "publish_time": "2026-10-22T09:09:21.990646",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1590542159779777",
+    "title": "Apple Vô Hiệu Hóa iPhone Bị Cướp Trong Bạo Loạn Pháp",
+    "summary": "Trong làn sóng bạo loạn tại Pháp, hàng nghìn iPhone bị cướp phá — Apple lập tức theo dõi và vô hiệu hóa toàn bộ. Thiệt hại ước tính có thể chạm ngưỡng 1 tỷ bảng Anh.",
+    "category": "Tin nóng",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xcjk8w/apple_deactivated_and_tracked_iphones_stolen/",
+    "bullets": [
+      "🇫🇷 Bạo loạn Pháp khiến hàng nghìn iPhone bị cướp khỏi cửa hàng và đại lý ủy quyền Apple",
+      "🔒 Apple kích hoạt từ xa: toàn bộ iPhone đánh cắp bị vô hiệu hóa và theo dõi vị trí qua Find My",
+      "💷 Tổng thiệt hại toàn quốc từ bạo loạn ước tính có thể đạt tới 1 tỷ bảng Anh (~1,27 tỷ USD)",
+      "🧱 iPhone bị khóa Activation Lock trở thành 'cục gạch' — không thể kích hoạt hay bán lại",
+      "📡 Sự kiện làm nổi bật sức mạnh hệ sinh thái Apple: phần cứng vô dụng nếu không có sự cho phép của Apple"
+    ],
+    "publish_time": "2026-10-22T16:35:34.667684",
     "performance": null
   }
 ]
