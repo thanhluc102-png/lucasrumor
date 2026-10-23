@@ -7344,8 +7344,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 3,
-      "score": 29
+      "shares": 4,
+      "score": 34
     }
   },
   {
@@ -7439,6 +7439,24 @@
       "❓ Apple chưa có phản hồi chính thức; cộng đồng đang chờ chương trình bảo hành hoặc xử lý lỗi đặc biệt"
     ],
     "publish_time": "2026-10-23T16:43:00.880590",
+    "performance": null
+  },
+  {
+    "post_id": "1920842954802282_1591773062990020",
+    "title": "iPod Tròn 24 Tuổi: Apple Music Ẩn Easter Egg Đặc Biệt",
+    "summary": "Nhân kỷ niệm 24 năm ra mắt iPod (23/10/2001), Apple Music tích hợp Easter egg bí ẩn tri ân huyền thoại máy nghe nhạc đã thay đổi ngành âm nhạc số.",
+    "category": "Sự kiện",
+    "visual_type": "timeline",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3268226/celebrate-the-ipods-anniversary-with-this-amazing-apple-music-easter-egg.html",
+    "bullets": [
+      "🎂 iPod tròn 24 tuổi vào ngày 23/10/2025 — ra mắt lần đầu năm 2001 bởi Steve Jobs",
+      "🐣 Apple Music tích hợp Easter egg ẩn đặc biệt để tri ân dòng máy nghe nhạc huyền thoại",
+      "💾 iPod Gen 1 có dung lượng 5GB — đủ chứa ~1.000 bài hát, giá $399 khi ra mắt",
+      "🪦 Apple chính thức khai tử iPod vào tháng 5/2022 sau 21 năm tồn tại",
+      "📱 Di sản iPod vẫn sống trong ứng dụng Nhạc trên iPhone, iPad và Mac hiện nay"
+    ],
+    "publish_time": "2026-10-23T22:53:29.118826",
     "performance": null
   }
 ]
