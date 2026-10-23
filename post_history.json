@@ -7340,12 +7340,12 @@
     ],
     "publish_time": "2026-10-22T16:35:34.667684",
     "performance": {
-      "reactions": 9,
+      "reactions": 14,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 2,
-      "score": 19
+      "shares": 3,
+      "score": 29
     }
   },
   {
@@ -7365,12 +7365,12 @@
     ],
     "publish_time": "2026-10-22T22:58:06.095817",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -7414,6 +7414,31 @@
       "🤐 Apple chưa có bình luận chính thức — bí ẩn về iPhone Duo vẫn chưa được giải đáp"
     ],
     "publish_time": "2026-10-23T09:05:40.162950",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1591532696347390",
+    "title": "Hàng Loạt Apple Watch Ultra Duo Bị Vỡ Màn Hình",
+    "summary": "Cộng đồng Reddit r/apple chia sẻ loạt ảnh Apple Watch Ultra bị hỏng phần Duo (màn hình đôi/viền ghép), dấy lên lo ngại về chất lượng vật liệu và độ bền thực tế của dòng máy cao cấp này.",
+    "category": "Tin nóng",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xdfasu/more_broken_duos/",
+    "bullets": [
+      "⌚ Apple Watch Ultra là dòng đồng hồ cao cấp nhất Apple, vỏ titan hàng không vũ trụ + kính sapphire",
+      "💥 Lỗi tập trung tại một điểm cụ thể gọi là 'Duo' — cấu trúc viền/kính đặc trưng của máy",
+      "📸 Nhiều người dùng đăng ảnh hư hỏng thực tế, cho thấy lỗi lặp lại có hệ thống chứ không phải ngẫu nhiên",
+      "🔁 Tiêu đề 'More broken Duos' ngụ ý đây là làn sóng phàn nàn thứ hai trở lên, không phải lần đầu",
+      "❓ Apple chưa có phản hồi chính thức; cộng đồng đang chờ chương trình bảo hành hoặc xử lý lỗi đặc biệt"
+    ],
+    "publish_time": "2026-10-23T16:43:00.880590",
     "performance": null
   }
 ]
