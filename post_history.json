@@ -7557,6 +7557,31 @@
       "🔄 Apple nhiều khả năng sẽ khẩn cấp phát hành bản vá iOS để xử lý trong thời gian tới"
     ],
     "publish_time": "2026-10-24T18:35:02.795838",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1592752739558719",
+    "title": "Safari 27.1 tự hiển thị PDF 2 trang trên iPhone Duo",
+    "summary": "Safari 27.1 mang tính năng mới cho iPhone Duo: tự động hiển thị PDF dạng 2 trang song song khi gập máy kiểu sách, tối ưu trải nghiệm màn hình gập.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/linked/apple-investigating-options-for-extending-web-content-under-iphone-duos-safari-controls/",
+    "bullets": [
+      "Safari 27.1 là phiên bản đầu tiên có tính năng tối ưu riêng cho iPhone Duo màn hình gập",
+      "PDF tự động chuyển sang chế độ 2 trang song song khi gập máy ở tư thế cầm như sách",
+      "Khi mở phẳng hoặc đóng màn hình, Safari tự điều chỉnh lại layout phù hợp",
+      "Thông tin được xác nhận chính thức qua blog WebKit bởi Jen Simmons của Apple",
+      "Apple đang nghiên cứu thêm phương án kéo dài nội dung web xuống dưới thanh điều hướng Safari trên iPhone Duo"
+    ],
+    "publish_time": "2026-10-24T22:15:01.199906",
     "performance": null
   }
 ]
