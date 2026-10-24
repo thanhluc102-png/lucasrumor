@@ -7458,12 +7458,12 @@
     ],
     "publish_time": "2026-10-23T22:53:29.118826",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 1,
       "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 5
     }
   },
   {
@@ -7482,6 +7482,31 @@
       "🔮 Ternus được giới quan sát đánh giá là ứng viên sáng giá kế nhiệm CEO Tim Cook"
     ],
     "publish_time": "2026-10-24T03:09:27.961120",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1592149512952375",
+    "title": "iPhone Duo chính thức xuất hiện tại Apple Store toàn cầu",
+    "summary": "Mẫu iPhone mang tên 'Duo' bất ngờ xuất hiện tại các Apple Store trên toàn thế giới, đánh dấu sự hiện diện chính thức đầu tiên của dòng máy này tại hệ thống bán lẻ của Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xdc1nv/iphone_duo_arrives_at_apple_store_locations/",
+    "bullets": [
+      "📍 iPhone Duo xuất hiện đồng loạt tại Apple Store trên toàn cầu — lần đầu tiên được ghi nhận chính thức",
+      "🌍 Sự kiện diễn ra đồng thời tại nhiều quốc gia, không giới hạn một thị trường cụ thể",
+      "🔥 Bài đăng thu hút lượng lớn thảo luận trên cộng đồng r/apple ngay sau khi đăng tải",
+      "❓ Cấu hình, giá bán và ngày ra mắt chính thức của iPhone Duo vẫn chưa được Apple tiết lộ",
+      "📸 Người dùng chia sẻ hình ảnh thực tế từ nhiều Apple Store tại các địa điểm khác nhau trên thế giới"
+    ],
+    "publish_time": "2026-10-24T08:37:32.827503",
     "performance": null
   }
 ]
