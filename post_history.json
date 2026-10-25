@@ -7558,12 +7558,12 @@
     ],
     "publish_time": "2026-10-24T18:35:02.795838",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -7607,6 +7607,31 @@
       "💬 Bài đăng thu hút phản ứng mạnh từ cộng đồng, phản ánh sự quan tâm lớn với dòng iPhone Duo"
     ],
     "publish_time": "2026-10-25T03:03:36.762830",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1593161769517816",
+    "title": "Úc ép Apple mở kho ứng dụng thay thế trên iPhone",
+    "summary": "Cơ quan quản lý Úc ra lệnh Apple phải cho phép các app store bên thứ ba trên iPhone, theo mô hình tương tự DMA của EU — một đòn pháp lý lớn với hệ sinh thái iOS.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xem1w6/apple_must_open_iphone_to_alternative_app_stores/",
+    "bullets": [
+      "🇦🇺 ACCC (Úc) chính thức yêu cầu Apple mở iPhone cho app store bên thứ ba",
+      "🇪🇺 Tiền lệ từ EU: Apple đã bị buộc cho phép sideloading trên iOS tại châu Âu từ đầu 2024 theo DMA",
+      "💰 App Store hiện thu phí hoa hồng 15–30% mọi giao dịch — nguồn doanh thu khổng lồ Apple đang bảo vệ",
+      "⚖️ Apple có thể kháng cáo hoặc đàm phán điều kiện thực thi như đã làm tại EU",
+      "🌏 Làn sóng siết quy định app store lan rộng ngoài EU, đe dọa mô hình kiểm soát iOS toàn cầu của Apple"
+    ],
+    "publish_time": "2026-10-25T08:56:47.530503",
     "performance": null
   }
 ]
