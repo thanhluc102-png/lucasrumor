@@ -7558,12 +7558,12 @@
     ],
     "publish_time": "2026-10-24T18:35:02.795838",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -7582,6 +7582,31 @@
       "Apple đang nghiên cứu thêm phương án kéo dài nội dung web xuống dưới thanh điều hướng Safari trên iPhone Duo"
     ],
     "publish_time": "2026-10-24T22:15:01.199906",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1592932602874066",
+    "title": "Thử Độ Bền iPhone Duo: Đừng Làm Vậy!",
+    "summary": "Bài đăng trên r/apple chia sẻ video thử độ bền iPhone Duo theo cách cực đoan, cảnh báo người dùng không nên tự thực hiện. Clip gây sốt cộng đồng Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xdyxr0/iphone_duo_durability_test_dont_do_this/",
+    "bullets": [
+      "📌 Bài đăng xuất phát từ cộng đồng r/apple — một trong những subreddit Apple lớn nhất thế giới",
+      "🧪 Nội dung xoay quanh video thử độ bền iPhone Duo theo cách cực đoan, không được khuyến khích",
+      "⚠️ Tiêu đề tự cảnh báo người xem: 'ĐỪNG LÀM ĐIỀU NÀY' — phản ánh mức độ rủi ro của thử nghiệm",
+      "🖼️ Hình ảnh thumbnail cho thấy cảnh thử nghiệm vật lý trực tiếp trên máy thật",
+      "💬 Bài đăng thu hút phản ứng mạnh từ cộng đồng, phản ánh sự quan tâm lớn với dòng iPhone Duo"
+    ],
+    "publish_time": "2026-10-25T03:03:36.762830",
     "performance": null
   }
 ]
