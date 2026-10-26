@@ -218,6 +218,9 @@ def main():
                     fb_caption += f"{data['summary']}\n\n"
                     if bullets:
                         fb_caption += "\n".join(f"• {b}" for b in bullets) + "\n\n"
+                    comment_hook = data.get("comment_hook")
+                    if comment_hook and not any(comment_hook in b for b in bullets):
+                        fb_caption += f"👉 {comment_hook}\n\n"
                     fb_caption += "#LucasCombo #Apple #iPhone #MacBook"
                     
                     # Đăng LIVE trực tiếp (delay_hours = 0)

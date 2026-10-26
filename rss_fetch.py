@@ -27,6 +27,15 @@ REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
 # Chỉ lấy bài có engagement đủ lớn
 MIN_SCORE    = 80   # upvotes tối thiểu
 KEYWORDS = ["iphone", "macbook", "ipad", "ios", "macos", "ipados"]
+JUNK_KEYWORDS = [
+    "antitrust", "lawsuit", "sues apple", "sued by", "doj", "department of justice",
+    "court", "judge", "australia", "european union", "eu regulation", "dma",
+    "q1 earnings", "q2 earnings", "q3 earnings", "q4 earnings", "quarterly results",
+    "revenue", "wall street", "stock slides", "shareholder", "investor", "fiscal",
+    "patent", "patents", "trademark",
+    "apple tv+", "ted lasso", "trailer", "premiere", "director", "hollywood",
+    "podcast", "roundup", "episode"
+]
 DEAL_KEYWORDS = [
     "save $", "save up to", " off on ", "deal:", "% off", "drops to $",
     "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
@@ -82,6 +91,8 @@ def _add_entries(feed_entries, source, seen_links, articles, limit):
         summary  = entry.get("summary", entry.get("description", ""))
         combined = (title + " " + summary).lower()
         if any(kw in combined for kw in DEAL_KEYWORDS):
+            continue
+        if any(kw in combined for kw in JUNK_KEYWORDS):
             continue
         if not any(kw in combined for kw in KEYWORDS):
             continue
@@ -248,7 +259,16 @@ QUY TẮC BẮT BUỘC VỀ THỜI GIAN & MỐC NĂM:
 - Dịch các từ chỉ thời gian: "this year" là "năm nay ({current_year})", "next year" là "năm sau ({current_year+1})".
 
 CHỦ ĐỀ: ưu tiên tuyệt đối tin về iPhone, MacBook, iPad (kèm iOS/macOS/iPadOS liên quan 3 dòng máy này). Tin không dính tới 3 dòng sản phẩm trên thì bỏ qua, chọn tin khác.
-CONTENT DÀY: viết đầy đặn, nhiều thông tin — tiêu đề giật, tóm tắt và phần chi tiết bám sát dữ liệu gốc, khai thác hết số liệu/mốc thời gian/chi tiết có trong bản tin. Không lấp liếm chung chung.
+
+QUY TẮC NỘI DUNG TĂNG TƯƠNG TÁC (VIRAL HOOK):
+1. TIÊU ĐỀ "3T" (Tối đa 12 từ): Phải kích thích tò mò, chạm vào TÚI TIỀN / LỖI MÁY / TRANH CÃI / TRẢI NGHIỆM THỰC TẾ.
+   - Công thức: [Thiết bị/Sản phẩm] + [Hành động/Biến động mạnh] + [Hệ quả hoặc câu hỏi]
+   - Ví dụ hay: "iPhone 18 Pro sắp tăng giá mạnh: Túi tiền có chịu nổi?", "Cửa sổ hạ cấp iOS đã đóng: Ai lỡ lên coi như kẹt lại!", "Người dùng kêu trời vì tốc độ ghi chỉ 1.1 MB/s trên máy mới"
+   - Tuyệt đối TRÁNH tiêu đề buồn ngủ kiểu thông tấn xã: "Apple phát hành...", "Bản cập nhật mới có...".
+2. TÓM TẮT & NỘI DUNG: Đi thẳng vào vấn đề: người dùng được gì, mất gì, ai bị ảnh hưởng trực tiếp.
+3. BULLETS & CÂU HỎI MỒI BÌNH LUẬN:
+   - 3-4 gạch đầu: chi tiết kỹ thuật đắt giá, số liệu, mốc thời gian.
+   - GẠCH CUỐI CÙNG BẮT BUỘC: Đặt 1 câu hỏi mở kích thích người đọc comment bàn luận (Bắt đầu bằng emoji 💬, ví dụ: "💬 Anh em thấy nâng cấp này có đáng tiền không?", "💬 Đã ai lên bản này bị dính lỗi pin chưa?").
 
 Dưới đây là các tin Apple mới nhất:
 
@@ -260,7 +280,8 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
   "selected_index": số thứ tự bài (1-based),
   "category": "iPhone | MacBook | Apple AI | Tin nóng | Deal | Sự kiện",
   "category_icon": "emoji phù hợp với category",
-  "title": "tiêu đề tiếng Việt mạnh, tối đa 10 từ",
+  "title": "tiêu đề tiếng Việt giật hook 3T mạnh, tối đa 12 từ",
+  "comment_hook": "1 câu hỏi mở sắc bén mồi người đọc cmt thảo luận",
   "summary": "Tóm tắt gọn, 25-40 TỪ, đi thẳng trọng tâm, có chi tiết đắt (số liệu/tên máy/mốc)",
   "full_translated_content": "Viết lại toàn bộ nội dung bản tin sang tiếng Việt mượt mà, ĐẦY ĐẶN, khai thác hết thông tin trong dữ liệu gốc: số liệu, cấu hình, giá, mốc ra mắt, bối cảnh. Trình bày rõ ràng, dễ đọc, độ dài 6-9 câu. Không bịa thông tin ngoài dữ liệu gốc.",
 

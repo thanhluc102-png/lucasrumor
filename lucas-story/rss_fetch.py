@@ -27,6 +27,15 @@ REDDIT_SKIP = ["weekly", "daily", "megathread", "what should i buy",
 # Chỉ lấy bài có engagement đủ lớn
 MIN_SCORE    = 80   # upvotes tối thiểu
 KEYWORDS = ["macbook", "iphone", "apple", "mac", "ipad", "ios", "macos"]
+JUNK_KEYWORDS = [
+    "antitrust", "lawsuit", "sues apple", "sued by", "doj", "department of justice",
+    "court", "judge", "australia", "european union", "eu regulation", "dma",
+    "q1 earnings", "q2 earnings", "q3 earnings", "q4 earnings", "quarterly results",
+    "revenue", "wall street", "stock slides", "shareholder", "investor", "fiscal",
+    "patent", "patents", "trademark",
+    "apple tv+", "ted lasso", "trailer", "premiere", "director", "hollywood",
+    "podcast", "roundup", "episode"
+]
 DEAL_KEYWORDS = ["save $", "save up to", " off on ", "deal:", "% off", "drops to $",
                  "for just $", "for only $", "price drop", "on sale", "grab ", "coupon",
                  "refurbished", "best place to buy", "skip apple's pricey",
@@ -62,6 +71,8 @@ def _add_entries(feed_entries, source, seen_links, articles, limit):
         summary  = entry.get("summary", entry.get("description", ""))
         combined = (title + " " + summary).lower()
         if any(kw in combined for kw in DEAL_KEYWORDS):
+            continue
+        if any(kw in combined for kw in JUNK_KEYWORDS):
             continue
         if not any(kw in combined for kw in KEYWORDS):
             continue
