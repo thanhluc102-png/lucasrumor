@@ -7090,12 +7090,12 @@
     ],
     "publish_time": "2026-10-20T03:15:55.742149",
     "performance": {
-      "reactions": 24,
+      "reactions": 25,
       "comments": 4,
       "comments_total": 5,
       "own_comments": 1,
       "shares": 0,
-      "score": 36
+      "score": 37
     }
   },
   {
@@ -7633,12 +7633,12 @@
     ],
     "publish_time": "2026-10-25T08:56:47.530503",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -7683,12 +7683,12 @@
     ],
     "publish_time": "2026-10-25T18:43:22.406881",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -7725,6 +7725,31 @@
       "🏷️ Tên \"Duo\" gợi ý thiết kế hoặc tính năng kép đặc biệt, Apple chưa xác nhận chính thức"
     ],
     "publish_time": "2026-10-26T03:03:09.143319",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1594257782741548",
+    "title": "iPhone Fold bị lỗi màn hình: iFixit vừa mổ xẻ và phát hiện ra!",
+    "summary": "iFixit vừa teardown iPhone Fold, phát hiện dấu hiệu đáng lo về màn hình gập. Đây là hồi chuông cảnh báo cho ai đang chờ mua dòng iPhone gập đầu tiên của Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xfm4ij/apples_folding_iphone_duo_might_have_a_screen/",
+    "bullets": [
+      "🔬 iFixit thực hiện teardown bộ đôi iPhone Fold — lần đầu tiên Apple ra mắt dòng iPhone dạng gập",
+      "⚠️ Phát hiện dấu hiệu bất thường ở cấu trúc màn hình gập ngay trong quá trình tháo máy",
+      "📐 Mối lo chính: độ bền lớp màn hình khi người dùng mở/đóng máy liên tục hàng ngày",
+      "📋 iFixit sẽ công bố bài teardown đầy đủ với chi tiết kỹ thuật sâu hơn trong thời gian tới",
+      "💬 Anh em có dám xuống tiền mua iPhone gập đời đầu khi màn hình đã bị nghi có vấn đề từ khi mổ máy chưa?"
+    ],
+    "publish_time": "2026-10-26T09:51:47.950947",
     "performance": null
   }
 ]
