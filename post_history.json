@@ -7608,12 +7608,12 @@
     ],
     "publish_time": "2026-10-25T03:03:36.762830",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -7750,6 +7750,31 @@
       "💬 Anh em có dám xuống tiền mua iPhone gập đời đầu khi màn hình đã bị nghi có vấn đề từ khi mổ máy chưa?"
     ],
     "publish_time": "2026-10-26T09:51:47.950947",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1594669366033723",
+    "title": "iPad mini lột xác lớn nhất lịch sử: Lần này Apple chịu chơi thật!",
+    "summary": "Apple vừa tung bản cập nhật lớn nhất từ trước đến nay cho iPad mini (2026), nâng cấp toàn diện về chip, màn hình và tính năng — đánh dấu bước ngoặt lớn nhất dòng máy nhỏ gọn này từng có.",
+    "category": "iPad",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xfw5rw/apple_gives_ipad_mini_its_biggest_update_ever/",
+    "bullets": [
+      "🏆 Apple gọi đây là 'bản cập nhật lớn nhất từ trước đến nay' của dòng iPad mini — không phải lời khen xã giao",
+      "📅 Tin được cộng đồng r/apple chia sẻ rầm rộ trong năm nay (2026), đúng thời điểm iPad mini bị cho là sắp bị khai tử",
+      "⚡ Nâng cấp được mô tả là toàn diện — ám chỉ thay đổi ở cả phần cứng (chip) lẫn phần mềm, không chỉ 'refresh nhỏ giọt'",
+      "📐 iPad mini vẫn giữ định vị tablet nhỏ gọn nhất của Apple, nay với sức mạnh được nâng tầm đáng kể",
+      "💬 Anh em thấy iPad mini lần này nâng cấp có đủ thuyết phục để móc ví chưa, hay vẫn chờ thêm?"
+    ],
+    "publish_time": "2026-10-26T18:21:52.395082",
     "performance": null
   }
 ]
