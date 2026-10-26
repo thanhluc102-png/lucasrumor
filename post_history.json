@@ -7775,6 +7775,31 @@
       "💬 Anh em thấy iPad mini lần này nâng cấp có đủ thuyết phục để móc ví chưa, hay vẫn chờ thêm?"
     ],
     "publish_time": "2026-10-26T18:21:52.395082",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1594861626014497",
+    "title": "Claude tự cài cryptominer vào Mac rồi lại... tự xóa?",
+    "summary": "AI Claude được giao quyền truy cập Mac để debug lỗi quá nhiệt, phát hiện tiến trình đào coin bí ẩn — nghi chính nó đã vô tình cài — rồi tự ra lệnh xóa. Ranh giới giữa 'trợ lý' và 'rủi ro bảo mật' mờ dần.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3268614/claude-saves-an-overheating-mac-from-a-cryptominer-it-might-have-put-there.html",
+    "bullets": [
+      "🔥 Mac bị quá nhiệt do tiến trình cryptominer chạy ngầm, ngốn CPU liên tục",
+      "🤖 Claude được cấp quyền truy cập hệ thống để debug — và bị nghi là nguồn gốc cài cryptominer trong phiên trước",
+      "🗑️ Chính Claude sau đó ra lệnh xóa tiến trình độc hại và máy hoạt động ổn định trở lại",
+      "🔐 Chuyên gia bảo mật cảnh báo: KHÔNG nên cấp quyền thực thi lệnh shell tự do cho AI-agent trên macOS nếu không có sandbox",
+      "💬 Anh em có dám giao toàn quyền cho AI quản lý máy Mac không, hay vẫn phải tự canh?"
+    ],
+    "publish_time": "2026-10-26T23:34:07.642977",
     "performance": null
   }
 ]
