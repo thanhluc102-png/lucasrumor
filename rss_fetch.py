@@ -2,6 +2,7 @@ import feedparser
 import json
 import re
 import requests
+from datetime import datetime
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -236,7 +237,16 @@ def pick_and_build(client, articles: list[dict]) -> dict:
         for i, a in enumerate(articles)
     )
 
+    current_year = datetime.now().year
+    current_date = datetime.now().strftime("%d/%m/%Y")
+
     prompt = f"""Bạn là biên tập viên công nghệ người Việt kiêm nhà thiết kế infographic.
+HÔM NAY LÀ: {current_date} (NĂM HIỆN TẠI LÀ NĂM {current_year}).
+QUY TẮC BẮT BUỘC VỀ THỜI GIAN & MỐC NĂM:
+- Tuyệt đối GIỮ NGUYÊN CHÍNH XÁC các mốc năm có trong bài viết gốc (ví dụ: {current_year}, {current_year+1}, {current_year+2}...).
+- TUYỆT ĐỐI KHÔNG tự ý sửa mốc năm trong bài viết thành các năm cũ (như 2024 hay các năm đã qua). Nếu bài gốc nói về sự kiện, thiết bị hay tin đồn của năm {current_year} hoặc tương lai, BẮT BUỘC giữ đúng năm đó.
+- Dịch các từ chỉ thời gian: "this year" là "năm nay ({current_year})", "next year" là "năm sau ({current_year+1})".
+
 CHỦ ĐỀ: ưu tiên tuyệt đối tin về iPhone, MacBook, iPad (kèm iOS/macOS/iPadOS liên quan 3 dòng máy này). Tin không dính tới 3 dòng sản phẩm trên thì bỏ qua, chọn tin khác.
 CONTENT DÀY: viết đầy đặn, nhiều thông tin — tiêu đề giật, tóm tắt và phần chi tiết bám sát dữ liệu gốc, khai thác hết số liệu/mốc thời gian/chi tiết có trong bản tin. Không lấp liếm chung chung.
 
@@ -334,7 +344,8 @@ def _pick_best(client, pool: list[dict], n: int, context: str = "") -> list[int]
         f"[{i+1}] {a['source']} — {a['title']}\n{a['summary'][:300]}"
         for i, a in enumerate(pool)
     )
-    prompt = f"""Bạn là biên tập viên công nghệ người Việt.{(' ' + context) if context else ''}
+    current_year = datetime.now().year
+    prompt = f"""Bạn là biên tập viên công nghệ người Việt (năm hiện tại là {current_year}).{(' ' + context) if context else ''}
 
 Dưới đây là các bài:
 
@@ -403,7 +414,14 @@ def pick_digest(client, articles: list[dict]) -> dict:
         for i, a in enumerate(articles)
     )
 
+    current_year = datetime.now().year
+    current_date = datetime.now().strftime("%d/%m/%Y")
+
     prompt = f"""Bạn là biên tập viên công nghệ người Việt.
+HÔM NAY LÀ: {current_date} (NĂM HIỆN TẠI LÀ NĂM {current_year}).
+QUY TẮC BẮT BUỘC VỀ THỜI GIAN:
+- Tuyệt đối GIỮ NGUYÊN các mốc năm trong bài gốc ({current_year}, {current_year+1}...), KHÔNG tự ý sửa thành các năm cũ như 2024.
+
 CHỦ ĐỀ: ưu tiên iPhone, MacBook, iPad. CONTENT DÀY: khai thác hết chi tiết trong dữ liệu gốc, không lấp liếm.
 
 Dưới đây là các tin Apple mới nhất:

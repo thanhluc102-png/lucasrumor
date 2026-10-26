@@ -56,7 +56,8 @@ def get_recent_posts():
 
 def generate_comment(post_message):
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    prompt = f"""Bạn là quản trị viên Fanpage Lucas Combo (chuyên bán phụ kiện Apple).
+    current_year = datetime.now().year
+    prompt = f"""Bạn là quản trị viên Fanpage Lucas Combo (chuyên bán phụ kiện Apple, năm hiện tại {current_year}).
 Đọc nội dung bài đăng sau đây trên Fanpage của bạn:
 "{post_message}"
 

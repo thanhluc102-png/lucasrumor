@@ -2,6 +2,7 @@ import feedparser
 import json
 import re
 import requests
+from datetime import datetime
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -214,7 +215,16 @@ def pick_and_build(client, articles: list[dict]) -> dict:
         for i, a in enumerate(articles)
     )
 
+    current_year = datetime.now().year
+    current_date = datetime.now().strftime("%d/%m/%Y")
+
     prompt = f"""Bạn là biên tập viên công nghệ người Việt kiêm nhà thiết kế infographic.
+HÔM NAY LÀ: {current_date} (NĂM HIỆN TẠI LÀ NĂM {current_year}).
+QUY TẮC BẮT BUỘC VỀ THỜI GIAN & MỐC NĂM:
+- Tuyệt đối GIỮ NGUYÊN CHÍNH XÁC các mốc năm có trong bài viết gốc (ví dụ: {current_year}, {current_year+1}, {current_year+2}...).
+- TUYỆT ĐỐI KHÔNG tự ý sửa mốc năm trong bài viết thành các năm cũ (như 2024 hay các năm đã qua).
+- Dịch các từ chỉ thời gian: "this year" là "năm nay ({current_year})", "next year" là "năm sau ({current_year+1})".
+
 Tuyệt đối KHÔNG sử dụng các từ "News", "Tin tức" trong tiêu đề, tóm tắt hay bất kỳ đâu trong nội dung sinh ra. Thay vào đó hãy ưu tiên dùng các từ như "Tin đồn", "Thảo luận", "Cộng đồng", "Leak".
 
 Dưới đây là các tin Apple mới nhất:
