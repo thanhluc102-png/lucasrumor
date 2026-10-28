@@ -7851,12 +7851,12 @@
     ],
     "publish_time": "2026-10-27T09:35:02.138653",
     "performance": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 4
     }
   },
   {
@@ -7876,12 +7876,12 @@
     ],
     "publish_time": "2026-10-27T17:35:09.949697",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -7901,12 +7901,12 @@
     ],
     "publish_time": "2026-10-27T23:28:36.296299",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -7925,6 +7925,31 @@
       "💬 Anh em đang dùng MacBook Pro M3/M4 có tính lên đời M6 không, hay thấy chưa cần thiết?"
     ],
     "publish_time": "2026-10-28T03:51:28.313910",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1596456912521635",
+    "title": "MacBook Pro màn OLED cảm ứng: Khởi điểm 2.899 USD, có đáng xuống tiền?",
+    "summary": "MacBook Pro trang bị màn OLED cảm ứng lần đầu tiên có thể chốt giá khởi điểm 2.899 USD — đắt hơn thế hệ hiện tại, nhưng đây là bước nâng cấp màn hình lớn nhất nhiều năm qua.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xh73n5/oled_touchscreen_macbook_pro_could_start_at_2899/",
+    "bullets": [
+      "💰 Giá khởi điểm dự kiến: 2.899 USD — cao hơn MacBook Pro mini-LED hiện tại cùng cấu hình tương đương",
+      "🖥️ Lần đầu tiên MacBook Pro tích hợp màn hình OLED cảm ứng — bước ngoặt lịch sử với dòng máy này",
+      "✨ OLED mang lại độ tương phản vô cực, đen thuần, tiết kiệm pin vượt trội so với tấm nền mini-LED hiện tại",
+      "📅 Apple chưa xác nhận chính thức, thông tin đến từ nguồn rò rỉ — khả năng ra mắt được kỳ vọng trong tương lai gần",
+      "💬 MacBook Pro OLED cảm ứng giá gần 3.000 USD — anh em thấy có đáng nâng cấp không, hay giữ máy cũ chờ giá ổn định hơn?"
+    ],
+    "publish_time": "2026-10-28T10:19:39.725832",
     "performance": null
   }
 ]
