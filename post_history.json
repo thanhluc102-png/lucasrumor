@@ -8050,6 +8050,31 @@
       "💬 Anh em đang dùng MacBook nào và pin thực tế được mấy tiếng — có khớp với quảng cáo của Apple không?"
     ],
     "publish_time": "2026-10-29T14:57:00.744962",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1598143585686301",
+    "title": "MacBook Pro OLED có cảm ứng: Lập trình viên cần làm gì ngay?",
+    "summary": "Apple chính thức ra mắt MacBook Pro OLED hỗ trợ Touch (cảm ứng màn hình), đồng thời tung tài nguyên và video hướng dẫn cho nhà phát triển muốn tích hợp trải nghiệm cảm ứng tùy chỉnh vào ứng dụng của mình.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/apple-kicks-off-touch-on-mac-developer-resources-with-videos-and-labs/",
+    "bullets": [
+      "🖥️ MacBook Pro OLED ra mắt với tính năng Touch — cảm ứng màn hình lần đầu xuất hiện chính thức trên Mac",
+      "⚙️ Hầu hết app bên thứ ba tự động tương thích với Touch, không cần lập trình viên sửa code",
+      "🧰 Apple phát hành API cử chỉ hệ thống mới để dev xây dựng trải nghiệm cảm ứng tùy chỉnh sâu hơn",
+      "🎬 Tài nguyên hỗ trợ developer gồm video hướng dẫn chi tiết và lab thực hành được tung ra ngay hôm nay (29/10/2026)",
+      "💬 Anh em có thật sự cần màn hình cảm ứng trên MacBook Pro, hay chỉ là tính năng cho có?"
+    ],
+    "publish_time": "2026-10-29T20:51:08.038843",
     "performance": null
   }
 ]
