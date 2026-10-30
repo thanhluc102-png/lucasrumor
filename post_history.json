@@ -8051,12 +8051,12 @@
     ],
     "publish_time": "2026-10-29T14:57:00.744962",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 0
+      "shares": 1,
+      "score": 7
     }
   },
   {
@@ -8075,6 +8075,31 @@
       "💬 Anh em có thật sự cần màn hình cảm ứng trên MacBook Pro, hay chỉ là tính năng cho có?"
     ],
     "publish_time": "2026-10-29T20:51:08.038843",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1598466062320720",
+    "title": "MacBook Pro cảm ứng ra mắt: Tính năng ẩn mới là át chủ bài!",
+    "summary": "MacBook Pro 2026 ra mắt với màn hình cảm ứng gây bão, nhưng điều bất ngờ nhất lại là quyết định Apple KHÔNG làm — chi tiết này mới thực sự đáng bàn với người dùng chuyên nghiệp.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/10/29/apples-best-macbook-pro-decision-this-week-had-nothing-to-do-with-touch/",
+    "bullets": [
+      "🖥️ MacBook Pro 2026 lần đầu tiên trong lịch sử tích hợp màn hình cảm ứng — cột mốc Apple kháng cự nhiều năm",
+      "🤫 Điểm gây bão nhất tuần: Một tính năng Apple chủ động KHÔNG đưa vào máy lại được khen nhiều hơn màn hình cảm ứng",
+      "⚙️ Máy đi kèm loạt nâng cấp phần cứng đáng kể khác ngoài màn hình cảm ứng, dành cho người dùng chuyên nghiệp",
+      "📅 Ra mắt chính thức tháng 10/2026, đánh dấu bước ngoặt chiến lược lớn trong dòng MacBook Pro",
+      "💬 Anh em có sẵn sàng xuống tiền cho MacBook Pro cảm ứng, hay vẫn thấy chưa đủ thuyết phục?"
+    ],
+    "publish_time": "2026-10-30T04:13:42.568261",
     "performance": null
   }
 ]
