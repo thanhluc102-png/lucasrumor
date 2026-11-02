@@ -8350,6 +8350,31 @@
       "💬 Anh em đang dùng iPad đời nào — chờ loạt mới đầu 2027 hay xuống tiền luôn cho iPad mini OLED vừa ra?"
     ],
     "publish_time": "2026-11-02T04:13:18.890828",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1602433435257316",
+    "title": "Camera iPhone 'thiên vị' màu mùa thu khi có bàn tay trong khung hình?",
+    "summary": "Cộng đồng Reddit phát hiện camera iPhone tự động tăng cường màu mùa thu (đỏ, cam, vàng) rõ rệt hơn khi trong khung hình xuất hiện bàn tay — dấy lên tranh cãi về AI xử lý ảnh của Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xlyv5v/the_iphone_camera_makes_fall_colors_look_better/",
+    "bullets": [
+      "🍂 Phát hiện: Màu lá mùa thu (đỏ, cam, vàng) được tăng cường đáng kể khi có bàn tay người xuất hiện trong khung hình",
+      "🤖 Nguyên nhân nghi vấn: AI nhận diện da người dùng như tín hiệu ngữ cảnh, tự điều chỉnh white balance & tone màu ấm hơn",
+      "⚠️ Tranh cãi lớn: Người dùng đặt câu hỏi iPhone có đang 'bịa' màu sắc thay vì ghi lại thực tế không?",
+      "📜 Tiền lệ: Apple từng bị chỉ trích về tính năng làm mịn da ngầm trên selfie — lịch sử lặp lại?",
+      "💬 Anh em đã thử chụp lá mùa thu với và không có tay trong khung chưa — màu sắc có khác nhau rõ không?"
+    ],
+    "publish_time": "2026-11-02T17:46:58.026965",
     "performance": null
   }
 ]
