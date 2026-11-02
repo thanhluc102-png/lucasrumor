@@ -8226,12 +8226,12 @@
     ],
     "publish_time": "2026-10-31T16:46:41.905985",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -8251,12 +8251,12 @@
     ],
     "publish_time": "2026-10-31T23:03:16.150649",
     "performance": {
-      "reactions": 2,
+      "reactions": 3,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 3
     }
   },
   {
@@ -8276,12 +8276,12 @@
     ],
     "publish_time": "2026-11-01T04:09:14.911525",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -8325,6 +8325,31 @@
       "💬 Anh em có hào hứng với iPhone Duo không, hay vẫn chờ xem thực tế ra sao?"
     ],
     "publish_time": "2026-11-01T20:08:13.575237",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1601788475321812",
+    "title": "3 iPad mới sắp đổ bộ đầu 2027: Chờ hay mua ngay?",
+    "summary": "Apple vừa ra mắt iPad mini OLED và còn 3 mẫu iPad nữa đang trong kế hoạch ra mắt nửa đầu 2027, hoàn thiện toàn bộ lineup iPad trong chu kỳ làm mới gần nhất.",
+    "category": "Sự kiện",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/01/three-new-ipad-models-are-reportedly-launching-early-next-year-heres-whats-coming/",
+    "bullets": [
+      "🟢 iPad mini OLED vừa ra mắt chính thức trong tuần qua (2026) — nâng cấp màn hình lớn nhất dòng mini từ trước tới nay",
+      "📦 3 mẫu iPad bổ sung đang trong pipeline, dự kiến xuất hiện trong nửa đầu năm 2027",
+      "🔄 Toàn bộ lineup iPad sẽ được làm mới hoàn toàn sau đợt ra mắt này — chu kỳ cập nhật rút ngắn đáng kể",
+      "⏳ Nửa đầu 2027 được dự báo là giai đoạn iPad sôi động nhất trong nhiều năm gần đây",
+      "💬 Anh em đang dùng iPad đời nào — chờ loạt mới đầu 2027 hay xuống tiền luôn cho iPad mini OLED vừa ra?"
+    ],
+    "publish_time": "2026-11-02T04:13:18.890828",
     "performance": null
   }
 ]
