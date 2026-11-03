@@ -8351,12 +8351,12 @@
     ],
     "publish_time": "2026-11-02T04:13:18.890828",
     "performance": {
-      "reactions": 3,
+      "reactions": 9,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 9
     }
   },
   {
@@ -8375,6 +8375,31 @@
       "💬 Anh em đã thử chụp lá mùa thu với và không có tay trong khung chưa — màu sắc có khác nhau rõ không?"
     ],
     "publish_time": "2026-11-02T17:46:58.026965",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1602772095223450",
+    "title": "MKBHD dùng thử iPhone Duo rồi quay về iPhone 18 Pro: Vì sao?",
+    "summary": "YouTuber công nghệ triệu sub MKBHD sau 2 tuần trải nghiệm iPhone Duo đã quyết định quay lại dùng iPhone 18 Pro làm máy chính — động thái gây tranh cãi lớn trong cộng đồng Apple.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xlz0k0/mkbhd_switches_back_to_iphone_18_pro_after_two/",
+    "bullets": [
+      "⏱️ MKBHD dùng iPhone Duo đúng 2 tuần trước khi quyết định quay về iPhone 18 Pro làm máy chính",
+      "📊 Đây là phép thử thực tế hiếm có: không phải review lab mà là 14 ngày sinh hoạt hằng ngày thực sự",
+      "🆚 iPhone Duo và iPhone 18 Pro là hai dòng máy Apple song song ra mắt trong năm nay (2026), nhắm vào hai tệp người dùng khác nhau",
+      "🔥 Bài đăng nhanh chóng viral trên r/apple, phản ánh sự phân hóa rõ rệt trong cộng đồng về việc nên chọn dòng nào",
+      "💬 Anh em sẽ chọn iPhone Duo hay iPhone 18 Pro — và lý do gì khiến bạn quyết định?"
+    ],
+    "publish_time": "2026-11-03T01:59:46.972762",
     "performance": null
   }
 ]
