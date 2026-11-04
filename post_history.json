@@ -8500,6 +8500,31 @@
       "💬 Nếu iPhone 18 Pro tăng thêm vài triệu, anh em có vẫn mua hay chuyển sang Android?"
     ],
     "publish_time": "2026-11-04T11:51:20.284119",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1604618931705433",
+    "title": "Jailbreak iPhone qua mặt Lockdown Mode, sống sót sau update!",
+    "summary": "Một kỹ thuật jailbreak mới vừa được công bố, có khả năng vượt qua Lockdown Mode trên iPhone và tồn tại ngay cả sau khi thiết bị được cập nhật phần mềm — đây là mối đe dọa bảo mật nghiêm trọng với người dùng.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xnbp4a/iphone_jailbreak_gets_past_lockdown_mode_and/",
+    "bullets": [
+      "🔓 Jailbreak mới vượt qua được Lockdown Mode — tính năng Apple thiết kế để chống lại phần mềm gián điệp cấp nhà nước như Pegasus",
+      "⚠️ Nguy hiểm cấp độ cao: kỹ thuật này tồn tại ngay cả sau khi người dùng cập nhật phiên bản iOS mới nhất",
+      "🎯 Nhóm bị ảnh hưởng nặng nhất: nhà báo, nhà hoạt động, chính khách — đối tượng chủ yếu dựa vào Lockdown Mode để tự bảo vệ",
+      "🛡️ Apple chưa có phản hồi chính thức về lỗ hổng này tính đến thời điểm bài đăng lan truyền trên Reddit",
+      "💬 Anh em có lo ngại bảo mật iPhone sau khi biết Lockdown Mode cũng bị qua mặt không?"
+    ],
+    "publish_time": "2026-11-04T19:25:07.258395",
     "performance": null
   }
 ]
