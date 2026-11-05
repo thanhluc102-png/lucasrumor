@@ -8530,8 +8530,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 0
+      "shares": 1,
+      "score": 5
     }
   },
   {
@@ -8550,6 +8550,31 @@
       "💬 Anh em có hay nâng cấp dung lượng iPhone không, hay chọn mua thẳng bản cao hơn cho lành?"
     ],
     "publish_time": "2026-11-05T00:43:11.242731",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1605328554967804",
+    "title": "iPhone hóa máy chơi game Wii cầm tay nhờ SUMEE!",
+    "summary": "Trình giả lập SUMEE! biến iPhone thành thiết bị chơi game phong cách Wii cầm tay, hỗ trợ điều khiển cảm ứng và gyroscope — một bước ngoặt cho game thủ dùng iPhone.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xo3luq/sumee_emulator_turns_your_iphone_into_a/",
+    "bullets": [
+      "🎮 SUMEE! là trình giả lập mới cho phép iPhone chạy game Wii theo phong cách handheld cầm tay",
+      "📡 Dùng gyroscope & accelerometer tích hợp sẵn trên iPhone để giả lập tay cầm Wiimote — không cần phụ kiện",
+      "🛒 Khả dĩ ra mắt sau cột mốc Apple mở cửa App Store cho ứng dụng giả lập, mở ra kỷ nguyên gaming mới trên iOS",
+      "🔥 Bài đăng lan truyền mạnh trên r/apple, cộng đồng phản ứng rất tích cực với tiềm năng của ứng dụng này",
+      "💬 Anh em có sẵn sàng cầm iPhone lên chơi game Wii không, hay vẫn thích mua máy handheld riêng?"
+    ],
+    "publish_time": "2026-11-05T11:51:31.251284",
     "performance": null
   }
 ]
