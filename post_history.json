@@ -8627,11 +8627,11 @@
     "publish_time": "2026-11-06T00:44:47.277654",
     "performance": {
       "reactions": 2,
-      "comments": 1,
-      "comments_total": 2,
+      "comments": 0,
+      "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 2
     }
   },
   {
@@ -8650,6 +8650,31 @@
       "💬 Anh em hay dùng app nào dựng video trên Mac — liệu Edits của Instagram có đủ sức thay thế không?"
     ],
     "publish_time": "2026-11-06T11:47:10.744785",
+    "performance": {
+      "reactions": 5,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 2,
+      "score": 15
+    }
+  },
+  {
+    "post_id": "1920842954802282_1606797258154267",
+    "title": "iPhone 2027 khai tử Action Button: Tính năng hay bị 'hy sinh'?",
+    "summary": "Tin đồn rò rỉ cho thấy Apple có thể loại bỏ nút Action Button khỏi dòng iPhone năm sau (2027), chỉ sau 2 đời máy kể từ khi ra mắt trên iPhone 15 Pro.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xpf5c5/apple_rumored_to_drop_the_iphones_action_button/",
+    "bullets": [
+      "🔴 Action Button có thể bị loại khỏi iPhone thế hệ 2027 — chỉ tồn tại 2 đời Pro kể từ iPhone 15 Pro",
+      "⚙️ Nút này từng được Apple quảng bá là phím đa năng tùy chỉnh: im lặng, đèn pin, camera, phím tắt...",
+      "💸 Khả năng bị cắt để tối ưu chi phí sản xuất hoặc nhường chỗ cho cơ chế điều khiển thế hệ mới",
+      "📢 Tin đồn chưa được xác nhận chính thức, nhưng nguồn rò rỉ đủ uy tín để cộng đồng xôn xao",
+      "💬 Anh em có hay dùng Action Button không, hay mua về rồi để mặc định mãi?"
+    ],
+    "publish_time": "2026-11-06T18:51:17.997933",
     "performance": null
   }
 ]
