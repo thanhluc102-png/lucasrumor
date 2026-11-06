@@ -8601,12 +8601,12 @@
     ],
     "publish_time": "2026-11-05T19:28:04.994146",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -8625,6 +8625,31 @@
       "💬 Anh em thấy Apple thu phí sub thêm trên app đã mua đứt có phải 'ăn hai lần' không?"
     ],
     "publish_time": "2026-11-06T00:44:47.277654",
+    "performance": {
+      "reactions": 2,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1606432978190695",
+    "title": "Instagram Edits đổ bộ Mac: Dân sáng tạo mừng hay lo?",
+    "summary": "Instagram chính thức ra mắt ứng dụng chỉnh video Edits phiên bản Mac, tối ưu cho màn hình lớn với chuột và bàn phím, nhắm đến các dự án nội dung quy mô lớn hơn.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/11/05/instagram-edits-mac/",
+    "bullets": [
+      "🖥️ Edits for Mac ra mắt chính thức ngày 06/11/2026, truy cập tại edits.instagram.com/desktop",
+      "🎬 Tối ưu cho dự án video lớn hơn, tận dụng màn hình rộng và điều khiển chuột + bàn phím",
+      "📱 Trước đây Edits chỉ có trên iOS & Android — bản Mac là bước nâng cấp lớn đầu tiên lên desktop",
+      "⚔️ Cạnh tranh trực tiếp với CapCut Desktop, DaVinci Resolve và Final Cut Pro trong phân khúc creator",
+      "💬 Anh em hay dùng app nào dựng video trên Mac — liệu Edits của Instagram có đủ sức thay thế không?"
+    ],
+    "publish_time": "2026-11-06T11:47:10.744785",
     "performance": null
   }
 ]
