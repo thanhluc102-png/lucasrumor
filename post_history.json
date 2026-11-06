@@ -8600,6 +8600,31 @@
       "💬 Anh em nghĩ iPhone có thực sự đủ đỉnh để quay phim điện ảnh chuyên nghiệp, hay chỉ là chiêu marketing của Apple?"
     ],
     "publish_time": "2026-11-05T19:28:04.994146",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1605921734908486",
+    "title": "Trả $200 mua Logic Pro vẫn bị chặn tính năng AI mới?",
+    "summary": "Logic Pro 13.0 ra mắt ngày 06/11/2026 với tính năng AI Intelligent Assistant, nhưng người dùng đã bỏ $199.99 mua trọn gói vẫn KHÔNG được dùng — phải trả thêm $12.99/tháng hoặc $129/năm qua Apple Creator Studio.",
+    "category": "Apple AI",
+    "visual_type": "comparison",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/11/05/logic-pro-new-feature-requires-subscription/",
+    "bullets": [
+      "🆕 Logic Pro 13.0 ra mắt ngày 06/11/2026 với tính năng AI Intelligent Assistant là điểm nhấn chính",
+      "🚫 Người dùng đã mua Logic Pro bản một lần ($199.99) KHÔNG được truy cập tính năng AI mới này",
+      "💳 Muốn dùng AI, bắt buộc đăng ký Apple Creator Studio: $12.99/tháng hoặc $129/năm",
+      "📢 Apple công bố rõ trong ghi chú phát hành chính thức — không phải lỗi, là chính sách có chủ đích",
+      "💬 Anh em thấy Apple thu phí sub thêm trên app đã mua đứt có phải 'ăn hai lần' không?"
+    ],
+    "publish_time": "2026-11-06T00:44:47.277654",
     "performance": null
   }
 ]
