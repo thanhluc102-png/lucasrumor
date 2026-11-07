@@ -8651,12 +8651,12 @@
     ],
     "publish_time": "2026-11-06T11:47:10.744785",
     "performance": {
-      "reactions": 8,
+      "reactions": 10,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 2,
-      "score": 18
+      "shares": 3,
+      "score": 25
     }
   },
   {
@@ -8676,12 +8676,12 @@
     ],
     "publish_time": "2026-11-06T18:51:17.997933",
     "performance": {
-      "reactions": 7,
-      "comments": 1,
-      "comments_total": 2,
+      "reactions": 26,
+      "comments": 4,
+      "comments_total": 5,
       "own_comments": 1,
       "shares": 0,
-      "score": 10
+      "score": 38
     }
   },
   {
@@ -8700,6 +8700,31 @@
       "💬 Anh em háo hức nhất với tính năng nào trong iOS 27.3 — Health mới hay iPhone Duo?"
     ],
     "publish_time": "2026-11-07T00:04:59.271772",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1607225798111413",
+    "title": "watchOS 27.3 ra mắt tính năng mới: Dân dùng Apple Watch mê liền!",
+    "summary": "watchOS 27.3 beta vừa ra mắt tuần này cùng iOS 27.3, mang theo tính năng mới đáng chú ý cho Apple Watch — được biên tập viên 9to5Mac đánh giá là 'cực kỳ yêu thích' ngay lần đầu trải nghiệm.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/06/watchos-27-3-adds-new-apple-watch-feature-that-i-absolutely-love/",
+    "bullets": [
+      "⚡ watchOS 27.3 beta ra mắt tuần này (tháng 11/2026) cùng iOS 27.3",
+      "🔁 Tích hợp Siri Recap & Live Rewind — xem lại thông tin thông minh ngay trên cổ tay",
+      "❤️ Có ít nhất 1 tính năng mới hoàn toàn được biên tập viên 9to5Mac đánh giá 'absolutely love'",
+      "🧪 Hiện đang ở giai đoạn beta, chưa phát hành chính thức rộng rãi",
+      "💬 Anh em đang dùng Apple Watch thấy watchOS 27.3 có tính năng nào khiến mình 'wow' nhất không?"
+    ],
+    "publish_time": "2026-11-07T04:42:50.459250",
     "performance": null
   }
 ]
