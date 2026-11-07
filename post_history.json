@@ -8755,8 +8755,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 3
+      "shares": 1,
+      "score": 8
     }
   },
   {
@@ -8775,6 +8775,31 @@
       "💬 Anh em đang dùng iPhone hay đang bị Fold 8 cám dỗ — thứ gì giữ chân bạn lại?"
     ],
     "publish_time": "2026-11-07T19:51:54.715581",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1608103394690320",
+    "title": "iPhone Duo gập: Dùng như máy tính bỏ túi thực thụ được không?",
+    "summary": "iPhone Duo — chiếc iPhone gập cỡ nhỏ của Apple — đang được dùng như máy tính bỏ túi thực thụ kết hợp bàn phím ngoài, gợi nhớ thời kỳ đầu iPad làm việc, dù vẫn còn hạn chế đa nhiệm.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/roundups/my-favorite-iphone-duo-productivity-apps-vol-1/",
+    "bullets": [
+      "📌 iPhone Duo là chiếc iPhone dạng gập cỡ nhỏ (diminutive foldable) của Apple, thiết kế hướng đến người dùng năng động",
+      "⌨️ Kết hợp bàn phím ngoài, Duo hoạt động như một pocket computer thực thụ — xử lý công việc ngay trong túi quần",
+      "🪟 Tính năng multi-window (đa cửa sổ) đang được khai thác tích cực, tuy vẫn còn giới hạn đa nhiệm cần Apple cải thiện",
+      "🕰️ Trải nghiệm làm việc trên Duo gợi nhớ 'thời kỳ vàng sơ khai' của iPad productivity — đầy hứa hẹn nhưng chưa hoàn hảo",
+      "💬 Anh em có nghĩ iPhone dạng gập có thể thay thế iPad cho việc làm việc di động không?"
+    ],
+    "publish_time": "2026-11-07T23:24:57.135041",
     "performance": null
   }
 ]
