@@ -8651,12 +8651,12 @@
     ],
     "publish_time": "2026-11-06T11:47:10.744785",
     "performance": {
-      "reactions": 5,
+      "reactions": 8,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 2,
-      "score": 15
+      "score": 18
     }
   },
   {
@@ -8675,6 +8675,31 @@
       "💬 Anh em có hay dùng Action Button không, hay mua về rồi để mặc định mãi?"
     ],
     "publish_time": "2026-11-06T18:51:17.997933",
+    "performance": {
+      "reactions": 7,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 10
+    }
+  },
+  {
+    "post_id": "1920842954802282_1607010644799595",
+    "title": "iOS 27.3 lộ diện: Health mới, iPhone Duo—bạn đã sẵn sàng?",
+    "summary": "Apple vừa tung beta đầu tiên của iOS 27.3 (tháng 11/2026) với app Health thiết kế lại hoàn toàn, cập nhật iPhone Duo và hàng loạt tính năng mới đáng chú ý cho người dùng iPhone.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/06/ios-27-3-new-features-release-date-more/",
+    "bullets": [
+      "🏥 App Health được thiết kế lại hoàn toàn — giao diện mới, trải nghiệm theo dõi sức khỏe hiện đại hơn hẳn",
+      "👥 iPhone Duo nhận loạt cải tiến mới trong iOS 27.3, mở rộng khả năng kết nối giữa hai người dùng",
+      "🧪 Beta đầu tiên của iOS 27.3 vừa được Apple phát hành tuần này (tháng 11/2026), hiện dành cho developer",
+      "🔍 Nhiều tính năng ẩn khác đang được cộng đồng beta tester khai quật — danh sách tính năng dự kiến còn dài",
+      "💬 Anh em háo hức nhất với tính năng nào trong iOS 27.3 — Health mới hay iPhone Duo?"
+    ],
+    "publish_time": "2026-11-07T00:04:59.271772",
     "performance": null
   }
 ]
