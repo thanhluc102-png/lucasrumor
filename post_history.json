@@ -8652,11 +8652,11 @@
     "publish_time": "2026-11-06T11:47:10.744785",
     "performance": {
       "reactions": 15,
-      "comments": 0,
-      "comments_total": 1,
+      "comments": 1,
+      "comments_total": 2,
       "own_comments": 1,
       "shares": 6,
-      "score": 45
+      "score": 48
     }
   },
   {
@@ -8676,12 +8676,12 @@
     ],
     "publish_time": "2026-11-06T18:51:17.997933",
     "performance": {
-      "reactions": 215,
-      "comments": 20,
-      "comments_total": 21,
+      "reactions": 247,
+      "comments": 21,
+      "comments_total": 22,
       "own_comments": 1,
-      "shares": 3,
-      "score": 290
+      "shares": 4,
+      "score": 330
     }
   },
   {
@@ -8750,6 +8750,31 @@
       "💬 Anh em có biết logo MacBook Pro của mình có thể tắt không, hay vẫn cứ để sáng suốt ngày?"
     ],
     "publish_time": "2026-11-07T14:39:36.533407",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1607956081371718",
+    "title": "Dùng Galaxy Fold 8 rồi quay lại iPhone: Ai thắng?",
+    "summary": "MrMobile dùng Galaxy Fold 8 suốt 3 tháng rồi đem so trực tiếp với bộ đôi iPhone 2026 — kết quả bất ngờ về trải nghiệm thực tế, pin, camera và hệ sinh thái.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xpsj5a/ive_used_a_galaxy_fold_8_for_3_months_heres_how/",
+    "bullets": [
+      "⏱️ 3 tháng dùng thực tế Galaxy Fold 8 — không phải review phòng lab, đánh giá sát thực tế nhất có thể",
+      "📺 Màn hình gập Fold 8 vượt trội cho đa nhiệm & xem nội dung, iPhone chưa có đối thủ tương đương về form factor",
+      "🔋 Pin & nhiệt máy là điểm yếu lộ rõ của Fold 8 sau thời gian dài sử dụng liên tục",
+      "🌐 Hệ sinh thái Apple (iMessage, AirDrop, Apple Intelligence 2026) vẫn là 'bẫy vàng' giữ chân người dùng iPhone",
+      "💬 Anh em đang dùng iPhone hay đang bị Fold 8 cám dỗ — thứ gì giữ chân bạn lại?"
+    ],
+    "publish_time": "2026-11-07T19:51:54.715581",
     "performance": null
   }
 ]
