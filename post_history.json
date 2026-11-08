@@ -8676,12 +8676,12 @@
     ],
     "publish_time": "2026-11-06T18:51:17.997933",
     "performance": {
-      "reactions": 247,
+      "reactions": 256,
       "comments": 21,
       "comments_total": 22,
       "own_comments": 1,
       "shares": 4,
-      "score": 330
+      "score": 339
     }
   },
   {
@@ -8800,6 +8800,31 @@
       "💬 Anh em có nghĩ iPhone dạng gập có thể thay thế iPad cho việc làm việc di động không?"
     ],
     "publish_time": "2026-11-07T23:24:57.135041",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1608315138002479",
+    "title": "iOS 27.2 mở khóa 3 cách tuỳ biến iPhone chưa ai ngờ tới!",
+    "summary": "iOS 27.2 vừa ra tuần trước mang theo hàng loạt tính năng mới, đặc biệt là 3 cách tuỳ biến giao diện iPhone hoàn toàn mới — thay đổi trực tiếp cách người dùng tương tác hằng ngày.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/06/ios-27-2-adds-three-new-ways-to-customize-your-iphone/",
+    "bullets": [
+      "🗓️ iOS 27.2 ra mắt cuối tháng 10/2026, chỉ vài tuần sau iOS 27 chính thức",
+      "🎨 Bổ sung 3 phương thức tuỳ biến iPhone hoàn toàn mới, chưa xuất hiện ở bản nào trước đó",
+      "📸 Giao diện Glacier Home Screen lần đầu xuất hiện trên iPhone 18 Pro đi kèm bản cập nhật này",
+      "🔧 Ngoài tuỳ biến, iOS 27.2 còn mang nhiều tính năng mới khác trong cùng một bản vá",
+      "💬 Anh em đang dùng iOS 27.2 chưa, tính năng tuỳ biến nào khiến bạn thích nhất?"
+    ],
+    "publish_time": "2026-11-08T04:15:18.074149",
     "performance": null
   }
 ]
