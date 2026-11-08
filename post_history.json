@@ -8676,12 +8676,12 @@
     ],
     "publish_time": "2026-11-06T18:51:17.997933",
     "performance": {
-      "reactions": 256,
+      "reactions": 259,
       "comments": 21,
       "comments_total": 22,
       "own_comments": 1,
       "shares": 4,
-      "score": 339
+      "score": 342
     }
   },
   {
@@ -8751,12 +8751,12 @@
     ],
     "publish_time": "2026-11-07T14:39:36.533407",
     "performance": {
-      "reactions": 3,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 8
+      "score": 10
     }
   },
   {
@@ -8825,6 +8825,31 @@
       "💬 Anh em đang dùng iOS 27.2 chưa, tính năng tuỳ biến nào khiến bạn thích nhất?"
     ],
     "publish_time": "2026-11-08T04:15:18.074149",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1608801791287147",
+    "title": "iPhone Duo lên ngôi: Ứng dụng kỳ lạ nào đang gây sốt?",
+    "summary": "iPhone Duo đã khai sinh làn sóng ứng dụng kỳ lạ lẫn hữu ích, khai thác triệt để phần cứng và cảm biến độc quyền của máy — những app này chạy được trên iPhone thường nhưng trải nghiệm đỉnh nhất chỉ trên Duo.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/our-favorite-iphone-duo-apps-weird-and-wonderful-vol-1/",
+    "bullets": [
+      "🌀 iPhone Duo châm ngòi làn sóng app 'kỳ lạ & tuyệt vời' khai thác phần cứng và cảm biến độc quyền của máy",
+      "⚙️ Ứng dụng đa dạng: từ app thuần giải trí vô thưởng vô phạt đến công cụ thực sự hữu ích trong đời sống",
+      "📲 Cài được trên iPhone thường — nhưng trải nghiệm 'đỉnh thật sự' chỉ hiện ra khi dùng trên Duo",
+      "📚 MacStories gọi đây là 'Vol. 1' — ngụ ý danh sách app đặc sắc sẽ còn được cập nhật liên tục",
+      "💬 Anh em đang dùng app nào hay nhất tận dụng phần cứng độc đáo của iPhone Duo — kể tên đi!"
+    ],
+    "publish_time": "2026-11-08T14:46:46.757465",
     "performance": null
   }
 ]
