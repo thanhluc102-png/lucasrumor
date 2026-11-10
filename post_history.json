@@ -8925,12 +8925,12 @@
     ],
     "publish_time": "2026-11-10T02:32:28.131006",
     "performance": {
-      "reactions": 7,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 7
+      "score": 11
     }
   },
   {
@@ -8949,6 +8949,31 @@
       "💬 Anh em đã lên iOS 27.2.1 chưa, hay vẫn đang chờ xem có lỗi pin không?"
     ],
     "publish_time": "2026-11-10T12:05:14.623190",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1611353627698630",
+    "title": "macOS 27.3 siết chặt bảo mật: Full Disk Access bị thay đổi lớn!",
+    "summary": "macOS 27.3 thay đổi cơ chế Full Disk Access, tăng cường bảo mật đáng kể. Người dùng Mac cần cấp lại quyền cho nhiều ứng dụng bên thứ ba, tránh rủi ro mất dữ liệu hoặc app bị chặn truy cập.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3280195/macos-27-3-increases-security-with-changes-to-full-disk-access.html",
+    "bullets": [
+      "🔐 macOS 27.3 thay đổi cơ chế Full Disk Access, tăng cường bảo mật toàn diện cho dữ liệu người dùng",
+      "⚠️ Ứng dụng bên thứ ba (backup, antivirus, cleaner...) cần được cấp lại quyền thủ công sau khi cập nhật",
+      "🗓️ Thay đổi này được Apple chuẩn bị từ tháng 10 năm trước, chính thức áp dụng trong macOS 27.3",
+      "⚙️ Người dùng vào System Settings → Privacy & Security → Full Disk Access để kiểm tra và cấp lại quyền",
+      "💬 Anh em có lo ngại macOS 27.3 siết quyền truy cập sẽ làm app bên thứ ba bị vỡ chức năng không?"
+    ],
+    "publish_time": "2026-11-10T21:38:56.342847",
     "performance": null
   }
 ]
