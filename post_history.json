@@ -8876,11 +8876,11 @@
     "publish_time": "2026-11-08T20:09:22.094656",
     "performance": {
       "reactions": 27,
-      "comments": 3,
-      "comments_total": 4,
+      "comments": 4,
+      "comments_total": 5,
       "own_comments": 1,
       "shares": 0,
-      "score": 36
+      "score": 39
     }
   },
   {
@@ -8974,6 +8974,31 @@
       "💬 Anh em có lo ngại macOS 27.3 siết quyền truy cập sẽ làm app bên thứ ba bị vỡ chức năng không?"
     ],
     "publish_time": "2026-11-10T21:38:56.342847",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1611660431001283",
+    "title": "MacBook Pro màn hình cảm ứng: Labrinth làm nhạc trực tiếp, choáng chưa?",
+    "summary": "Apple Music ra mắt single mới của Labrinth — được sáng tác TRỰC TIẾP trên MacBook Pro màn hình cảm ứng thế hệ mới ngay trong buổi livestream, đánh dấu kỷ nguyên MacBook cảm ứng đã chính thức mở màn.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/10/apple-music-debuts-labrinths-new-single-created-live-on-the-touchscreen-macbook-pro/",
+    "bullets": [
+      "🎵 Nghệ sĩ Labrinth sáng tác & thu âm single mới HOÀN TOÀN trực tiếp trên MacBook Pro màn hình cảm ứng",
+      "📺 Buổi livestream diễn ra tại Apple Store vào tuần đầu tháng 11/2026, thu hút lượng lớn người xem",
+      "🖥️ Đây là xác nhận công khai đầu tiên của Apple rằng MacBook Pro đã có màn hình cảm ứng trong năm 2026",
+      "🎧 Single được phát hành độc quyền trên Apple Music, kết hợp quảng bá sản phẩm phần cứng mới",
+      "💬 Anh em nghĩ MacBook Pro có màn hình cảm ứng sẽ thay đổi cách bạn làm việc không, hay chỉ là tính năng 'cho có'?"
+    ],
+    "publish_time": "2026-11-11T04:33:28.188050",
     "performance": null
   }
 ]
