@@ -8925,12 +8925,12 @@
     ],
     "publish_time": "2026-11-10T02:32:28.131006",
     "performance": {
-      "reactions": 11,
+      "reactions": 12,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 11
+      "score": 12
     }
   },
   {
@@ -8975,12 +8975,12 @@
     ],
     "publish_time": "2026-11-10T21:38:56.342847",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -8999,6 +8999,31 @@
       "💬 Anh em nghĩ MacBook Pro có màn hình cảm ứng sẽ thay đổi cách bạn làm việc không, hay chỉ là tính năng 'cho có'?"
     ],
     "publish_time": "2026-11-11T04:33:28.188050",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1612527600914566",
+    "title": "Apple đột ngột đóng cửa diễn đàn hỗ trợ: Người dùng bơ vơ?",
+    "summary": "Apple bất ngờ khai tử diễn đàn Support Community mà không giải thích lý do, khiến hàng triệu bài viết hỗ trợ kỹ thuật — bao gồm lỗi iPhone, Mac, iPad — biến mất hoàn toàn, người dùng toàn cầu không có nơi tìm giải đáp.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3282552/apple-suddenly-shutters-its-support-community-forums-and-wont-say-why.html",
+    "bullets": [
+      "🚪 Apple đột ngột đóng cửa diễn đàn Support Community — không thông báo trước, không lý do chính thức",
+      "📂 Toàn bộ kho bài viết kỹ thuật về iPhone, MacBook, iPad tích lũy nhiều năm đã bị xóa sổ hoàn toàn",
+      "🌍 Hàng triệu người dùng toàn cầu mất nguồn tra cứu lỗi tự phát sinh bởi cộng đồng — không có nền tảng thay thế",
+      "🤐 Apple giữ im lặng tuyệt đối trước mọi câu hỏi từ báo chí và người dùng về lý do đóng cửa",
+      "💬 Anh em hay dùng Support Community của Apple để tra cứu lỗi không — giờ mất nơi này thì xử lý thế nào?"
+    ],
+    "publish_time": "2026-11-11T22:28:22.040107",
     "performance": null
   }
 ]
