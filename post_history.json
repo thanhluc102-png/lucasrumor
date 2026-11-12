@@ -9049,6 +9049,31 @@
       "💬 Anh em có sẵn sàng đổi sang iPhone Duo hay vẫn chờ xem thêm?"
     ],
     "publish_time": "2026-11-12T05:38:25.468073",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1613445617489431",
+    "title": "macOS 27 chạy được trên PC Intel: Giấc mơ hay thảm họa?",
+    "summary": "Dự án Stela mã nguồn mở đang thử nghiệm layer giả lập Apple Silicon trên phần cứng x86-64, mục tiêu cho phép macOS 27 chạy trên PC thông thường — tham vọng lớn nhưng còn rất sơ khai.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xu1x4e/stela_a_general_purpose_apple_silicon_layer_for/",
+    "bullets": [
+      "🔧 Stela là lớp tương thích (layer) chuyển đổi lệnh ARM Apple Silicon → x86-64 theo thời gian thực trên PC thông thường",
+      "🖥️ Mục tiêu tham vọng: chạy macOS 27 — phiên bản macOS mới nhất — trên phần cứng Intel/AMD không phải của Apple",
+      "🚧 Dự án đang ở giai đoạn 'early-stage', chưa đủ ổn định để người dùng phổ thông cài đặt và sử dụng hàng ngày",
+      "🔒 Thách thức lớn nhất: Apple tích hợp sâu Secure Enclave, Neural Engine và các chip bảo mật độc quyền vào macOS — rất khó giả lập hoàn toàn",
+      "💬 Anh em có dám cài macOS 27 lên PC Windows không, hay vẫn chờ máy Mac chính hãng?"
+    ],
+    "publish_time": "2026-11-12T16:34:36.373307",
     "performance": null
   }
 ]
