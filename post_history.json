@@ -9025,12 +9025,12 @@
     ],
     "publish_time": "2026-11-11T22:28:22.040107",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -9050,12 +9050,12 @@
     ],
     "publish_time": "2026-11-12T05:38:25.468073",
     "performance": {
-      "reactions": 1,
-      "comments": 0,
-      "comments_total": 1,
+      "reactions": 2,
+      "comments": 1,
+      "comments_total": 2,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 5
     }
   },
   {
@@ -9099,6 +9099,31 @@
       "💬 Anh em nghĩ MacBook Neo sẽ là tên thật hay chỉ là tên trong phim quảng cáo thôi?"
     ],
     "publish_time": "2026-11-13T00:53:07.855265",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1614334734067186",
+    "title": "Màn ngoài iPhone Duo: Trải nghiệm tệ đến mức hối hận?",
+    "summary": "Người dùng iPhone Duo — iPhone gập đầu tiên của Apple — đang lên tiếng phàn nàn rằng màn hình ngoài cho trải nghiệm kém hơn hẳn so với màn trong, khiến nhiều người cảm thấy hối hận sau khi mua.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xuaywt/iphone_duo_regret_why_users_say_apples_foldable/",
+    "bullets": [
+      "🔥 iPhone Duo là chiếc iPhone gập đầu tiên của Apple — kỳ vọng cực cao trước khi ra mắt",
+      "😤 Người dùng thực tế nhận xét màn hình ngoài cho trải nghiệm 'chắc chắn kém hơn' màn trong khi mở",
+      "💸 Nhiều người dùng công khai bày tỏ sự hối hận (buyer's regret) sau khi bỏ tiền mua máy",
+      "⚔️ Màn ngoài vốn là USP của máy gập — nếu kém thì lợi thế so với iPhone thường bị xóa sổ",
+      "💬 Anh em nghĩ màn hình ngoài của iPhone Duo có đáng để trả thêm tiền không, hay Apple cần cải thiện thêm nhiều lắm?"
+    ],
+    "publish_time": "2026-11-13T11:50:55.670901",
     "performance": null
   }
 ]
