@@ -9149,6 +9149,31 @@
       "💬 Anh em đã đặt iPhone đợt này chưa, thấy ngày giao có được kéo lên sớm hơn không?"
     ],
     "publish_time": "2026-11-13T19:10:18.722980",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1614944687339524",
+    "title": "macOS chạy được trên PC Windows: Hackintosh hồi sinh rồi!",
+    "summary": "Dự án Hackintosh hồi sinh nhờ app UEFI chạy trên Linux, dịch lệnh ARM và Metal sang x86-64 theo thời gian thực — nhưng hiện vẫn 'chậm và không ổn định'.",
+    "category": "MacBook",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xvhv38/macos_on_pc_becomes_possible_again_thanks_to/",
+    "bullets": [
+      "🔧 Dùng app UEFI nền Linux để dịch lệnh ARM + Metal sang x86-64 theo thời gian thực — không cần phần cứng Apple",
+      "🐢 Nhóm phát triển tự thừa nhận: hiệu năng hiện tại 'chậm và không ổn định', chưa dùng được hàng ngày",
+      "⚰️ Hackintosh tưởng đã chết hẳn từ khi Apple Silicon ra đời — dự án này chính thức 'hồi sinh' phong trào",
+      "⚖️ Apple cấm cài macOS trên phần cứng bên thứ ba theo EULA — đây vẫn là vùng xám pháp lý",
+      "💬 Anh em có dám thử cài macOS lên PC không, hay vẫn sợ 'chậm và không ổn định'?"
+    ],
+    "publish_time": "2026-11-14T00:39:21.301677",
     "performance": null
   }
 ]
