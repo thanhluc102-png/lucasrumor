@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 12,
-      "comments": 2,
-      "comments_total": 3,
+      "reactions": 17,
+      "comments": 3,
+      "comments_total": 4,
       "own_comments": 1,
       "shares": 1,
-      "score": 23
+      "score": 31
     }
   },
   {
@@ -9224,6 +9224,31 @@
       "💬 Anh em dùng AI trên Mac nhiều không — Perplexity Teammates hay Apple Intelligence hữu dụng hơn trong công việc thực tế?"
     ],
     "publish_time": "2026-11-14T17:38:52.240779",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1616052593895400",
+    "title": "Internet sập cả ngày: Microsoft lên tiếng giải thích!",
+    "summary": "Microsoft chính thức đưa ra giải thích sau sự cố mất kết nối Internet kéo dài cả ngày, ảnh hưởng diện rộng đến người dùng toàn cầu. Chi tiết nguyên nhân và mức độ thiệt hại đang được làm rõ.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3284152/yes-the-whole-internet-is-having-major-issues-right-now.html",
+    "bullets": [
+      "⚠️ Sự cố kéo dài cả ngày (day-long outage) – một trong những gián đoạn dài nhất ghi nhận gần đây",
+      "🌐 Ảnh hưởng diện rộng toàn cầu, cả người dùng cá nhân lẫn doanh nghiệp đều bị tác động",
+      "🍎 Người dùng iPhone, Mac, iPad dùng OneDrive/Outlook/Teams cũng nằm trong vùng ảnh hưởng",
+      "📢 Microsoft đã chính thức phát thông báo giải thích sau sự cố – điều tra nguyên nhân đang tiến hành",
+      "💬 Anh em có bị ảnh hưởng đợt sập Internet hôm qua không, thiệt hại ra sao?"
+    ],
+    "publish_time": "2026-11-14T23:36:57.047680",
     "performance": null
   }
 ]
