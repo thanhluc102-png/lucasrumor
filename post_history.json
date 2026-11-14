@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 3,
-      "comments": 0,
-      "comments_total": 1,
+      "reactions": 12,
+      "comments": 2,
+      "comments_total": 3,
       "own_comments": 1,
-      "shares": 0,
-      "score": 3
+      "shares": 1,
+      "score": 23
     }
   },
   {
@@ -9199,6 +9199,31 @@
       "💬 Anh em dùng Apple TV 4K đời cũ có đang chờ bản này không, hay đã bỏ xó rồi?"
     ],
     "publish_time": "2026-11-14T11:12:17.257272",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1615799847254008",
+    "title": "Perplexity AI đổ bộ Mac: Đối thủ Siri ngay trên máy bạn!",
+    "summary": "Perplexity ra mắt tính năng AI chủ động 'Teammates' trên Mac (11/2026), sau khi đã có mặt trên iOS và web — biến AI thành 'đồng nghiệp ảo' chủ động hành động thay người dùng.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/13/perplexity-brings-ai-agents-feature-called-teammates-to-the-mac/",
+    "bullets": [
+      "🚀 Perplexity Teammates chính thức lên Mac tháng 11/2026 — trước đó chỉ có trên iOS và web",
+      "🤝 Teammates là AI agent chủ động: tự thực hiện tác vụ thay người dùng, không cần ra lệnh từng bước",
+      "🖥️ Mac là nền tảng mới nhất được hỗ trợ, hoàn thiện hệ sinh thái đa nền tảng của Perplexity",
+      "⚔️ Tính năng này đặt Perplexity vào thế cạnh tranh trực tiếp với Apple Intelligence ngay trên macOS",
+      "💬 Anh em dùng AI trên Mac nhiều không — Perplexity Teammates hay Apple Intelligence hữu dụng hơn trong công việc thực tế?"
+    ],
+    "publish_time": "2026-11-14T17:38:52.240779",
     "performance": null
   }
 ]
