@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 17,
-      "comments": 3,
-      "comments_total": 4,
+      "reactions": 24,
+      "comments": 9,
+      "comments_total": 10,
       "own_comments": 1,
       "shares": 1,
-      "score": 31
+      "score": 56
     }
   },
   {
@@ -9225,12 +9225,12 @@
     ],
     "publish_time": "2026-11-14T17:38:52.240779",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -9249,6 +9249,31 @@
       "💬 Anh em có bị ảnh hưởng đợt sập Internet hôm qua không, thiệt hại ra sao?"
     ],
     "publish_time": "2026-11-14T23:36:57.047680",
+    "performance": {
+      "reactions": 5,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1616312990536027",
+    "title": "Biến iPad cũ nằm xó thành màn hình dashboard xịn ngay!",
+    "summary": "App 'Milton' cho phép tái sử dụng iPad cũ làm bảng dashboard thông minh tại nhà — hiển thị thời tiết, lịch, widget tuỳ chỉnh — thay vì để máy thu bụi vô ích.",
+    "category": "iPad",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard/",
+    "bullets": [
+      "🖥️ Milton biến iPad cũ thành dashboard thông minh: hiển thị thời tiết, lịch, đồng hồ và widget tuỳ chỉnh",
+      "♻️ Giải pháp tái sử dụng iPad thay vì mua thiết bị smart home riêng — tiết kiệm đáng kể chi phí",
+      "🎨 Giao diện tối giản, dễ cài đặt, phù hợp nhiều thế hệ iPad còn được hỗ trợ phần mềm",
+      "🏆 Được 9to5Mac chọn featured trong chuyên mục Indie App Spotlight — ứng dụng indie đáng chú ý nhất tuần",
+      "💬 Anh em có chiếc iPad cũ đang 'đắp chiếu' ở nhà không — dùng app này có đáng thử không?"
+    ],
+    "publish_time": "2026-11-15T04:40:22.652747",
     "performance": null
   }
 ]
