@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 24,
-      "comments": 9,
-      "comments_total": 10,
+      "reactions": 39,
+      "comments": 12,
+      "comments_total": 13,
       "own_comments": 1,
-      "shares": 1,
-      "score": 56
+      "shares": 4,
+      "score": 95
     }
   },
   {
@@ -9250,12 +9250,12 @@
     ],
     "publish_time": "2026-11-14T23:36:57.047680",
     "performance": {
-      "reactions": 5,
+      "reactions": 8,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 8
     }
   },
   {
@@ -9274,6 +9274,31 @@
       "💬 Anh em có chiếc iPad cũ đang 'đắp chiếu' ở nhà không — dùng app này có đáng thử không?"
     ],
     "publish_time": "2026-11-15T04:40:22.652747",
+    "performance": {
+      "reactions": 7,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 7
+    }
+  },
+  {
+    "post_id": "1920842954802282_1616914310475895",
+    "title": "iOS 27 dính lỗ hổng nghiêm trọng: Khóa riêng tư bị lộ ra ngoài?",
+    "summary": "Binance cảnh báo iOS 27 tồn tại lỗ hổng bảo mật nghiêm trọng có thể làm lộ 'private key và thông tin đăng nhập' của người dùng, đặc biệt nguy hiểm với ví tiền mã hoá.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3285362/binance-warns-of-ios-27-flaw-that-could-expose-private-keys-and-login-credentials.html",
+    "bullets": [
+      "🔐 Lỗ hổng nằm trên iOS 27 — phiên bản mới nhất Apple phát hành cho iPhone năm nay (2026)",
+      "🗝️ Dữ liệu nguy cơ bị lộ bao gồm: private key (khóa ví crypto) và login credentials (thông tin đăng nhập tài khoản)",
+      "📢 Binance — sàn giao dịch tiền mã hoá lớn nhất thế giới — chủ động phát đi cảnh báo tới toàn bộ người dùng",
+      "🍎 Apple chưa có tuyên bố chính thức hay bản vá khẩn nào được công bố tính đến thời điểm hiện tại",
+      "💬 Anh em đang dùng iOS 27 và ví crypto — đã kịp tắt auto-fill hay chưa, hay vẫn đang 'phó mặc số phận'?"
+    ],
+    "publish_time": "2026-11-15T15:17:16.577670",
     "performance": null
   }
 ]
