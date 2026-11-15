@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 39,
+      "reactions": 42,
       "comments": 12,
       "comments_total": 13,
       "own_comments": 1,
-      "shares": 4,
-      "score": 95
+      "shares": 5,
+      "score": 103
     }
   },
   {
@@ -9299,6 +9299,31 @@
       "💬 Anh em đang dùng iOS 27 và ví crypto — đã kịp tắt auto-fill hay chưa, hay vẫn đang 'phó mặc số phận'?"
     ],
     "publish_time": "2026-11-15T15:17:16.577670",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1617261290441197",
+    "title": "Máy in đột ngột 'chết' vì macOS 27? Đây là cách cứu!",
+    "summary": "macOS 27 khiến nhiều máy in cũ ngừng hoạt động do Apple thay đổi hệ thống driver. May mắn là có cách khắc phục đơn giản ngay trên macOS mà không cần mua máy mới.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3283142/if-your-old-printer-stopped-working-with-macos-27-theres-an-easy-fix.html",
+    "bullets": [
+      "🖨️ macOS 27 thay đổi kiến trúc driver khiến nhiều máy in đời cũ mất kết nối hoàn toàn sau khi nâng cấp",
+      "⚠️ Lỗi xảy ra âm thầm, không có cảnh báo trước — người dùng chỉ phát hiện khi cần in tài liệu gấp",
+      "🔧 Có cách khắc phục đơn giản ngay trong cài đặt macOS 27, không cần cài driver bên thứ ba hay mua thiết bị mới",
+      "🏷️ Các máy in không còn được nhà sản xuất hỗ trợ cập nhật driver chính thức là nhóm bị ảnh hưởng nặng nhất",
+      "💬 Anh em dùng máy in đời cũ có bị dính lỗi này sau khi lên macOS 27 chưa, hay chỉ máy mình bị?"
+    ],
+    "publish_time": "2026-11-15T20:47:30.029527",
     "performance": null
   }
 ]
