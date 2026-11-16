@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 42,
+      "reactions": 49,
       "comments": 12,
       "comments_total": 13,
       "own_comments": 1,
       "shares": 5,
-      "score": 103
+      "score": 110
     }
   },
   {
@@ -9250,12 +9250,12 @@
     ],
     "publish_time": "2026-11-14T23:36:57.047680",
     "performance": {
-      "reactions": 8,
+      "reactions": 9,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 8
+      "score": 9
     }
   },
   {
@@ -9275,12 +9275,12 @@
     ],
     "publish_time": "2026-11-15T04:40:22.652747",
     "performance": {
-      "reactions": 7,
+      "reactions": 8,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 7
+      "score": 8
     }
   },
   {
@@ -9300,12 +9300,12 @@
     ],
     "publish_time": "2026-11-15T15:17:16.577670",
     "performance": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 2
     }
   },
   {
@@ -9324,6 +9324,31 @@
       "💬 Anh em dùng máy in đời cũ có bị dính lỗi này sau khi lên macOS 27 chưa, hay chỉ máy mình bị?"
     ],
     "publish_time": "2026-11-15T20:47:30.029527",
+    "performance": {
+      "reactions": 1,
+      "comments": 1,
+      "comments_total": 2,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 4
+    }
+  },
+  {
+    "post_id": "1920842954802282_1617674073733252",
+    "title": "iPhone Duo 2 sắp có Face ID mặt ngoài: Mở khóa siêu tiện?",
+    "summary": "Kỹ sư Apple đang tích cực phát triển Face ID cho màn hình ngoài iPhone Duo 2 — thế hệ thứ hai của dòng iPhone màn hình gập, dự kiến ra mắt mùa thu năm sau (2027).",
+    "category": "iPhone",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/15/apple-engineers-actively-working-on-face-id-for-iphone-duo-2s-outer-display-report/",
+    "bullets": [
+      "🔬 Kỹ sư Apple đang 'tích cực nghiên cứu' Face ID cho màn hình ngoài iPhone Duo 2 — tính năng hoàn toàn vắng mặt ở thế hệ đầu tiên",
+      "📅 iPhone Duo 2 dự kiến trình làng mùa thu năm sau (2027), theo đúng chu kỳ ra mắt hằng năm của Apple",
+      "⚙️ Ngoài Face ID màn hình ngoài, máy cũng sẽ được nâng cấp chip thế hệ mới và cải tiến hệ thống camera",
+      "😤 Thiếu Face ID ở màn hình ngoài là điểm trừ lớn của Duo thế hệ 1 — người dùng buộc phải mở gập máy ra mới xác thực được",
+      "💬 Anh em có sẵn sàng chi tiền cho iPhone Duo 2 nếu Face ID hoạt động được cả ở màn hình ngoài không?"
+    ],
+    "publish_time": "2026-11-16T04:37:25.002400",
     "performance": null
   }
 ]
