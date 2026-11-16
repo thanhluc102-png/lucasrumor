@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 49,
+      "reactions": 67,
       "comments": 12,
       "comments_total": 13,
       "own_comments": 1,
       "shares": 5,
-      "score": 110
+      "score": 128
     }
   },
   {
@@ -9275,12 +9275,12 @@
     ],
     "publish_time": "2026-11-15T04:40:22.652747",
     "performance": {
-      "reactions": 8,
+      "reactions": 11,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 8
+      "shares": 1,
+      "score": 16
     }
   },
   {
@@ -9326,11 +9326,11 @@
     "publish_time": "2026-11-15T20:47:30.029527",
     "performance": {
       "reactions": 1,
-      "comments": 1,
-      "comments_total": 2,
+      "comments": 2,
+      "comments_total": 3,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 7
     }
   },
   {
@@ -9349,6 +9349,31 @@
       "💬 Anh em có sẵn sàng chi tiền cho iPhone Duo 2 nếu Face ID hoạt động được cả ở màn hình ngoài không?"
     ],
     "publish_time": "2026-11-16T04:37:25.002400",
+    "performance": {
+      "reactions": 2,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 2
+    }
+  },
+  {
+    "post_id": "1920842954802282_1618524323648227",
+    "title": "Chip A19 trên Apple TV 4K: Yếu hơn iPhone 17 một lõi CPU!",
+    "summary": "Apple TV 4K (2026) dùng chip A19 nhưng bị cắt bớt 1 lõi CPU so với A19 trên iPhone 17 — chiêu phân tầng sản phẩm quen thuộc của Apple để bảo vệ doanh thu dòng iPhone.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xxqog7/apple_tv_4ks_a19_chip_has_one_less_cpu_core_than/",
+    "bullets": [
+      "🔴 A19 trên Apple TV 4K: ÍT HƠN 1 lõi CPU so với A19 trên iPhone 17 — cùng tên, khác sức mạnh",
+      "🔧 Apple dùng kỹ thuật 'chip binning': vô hiệu hóa lõi lỗi/dư để tái sử dụng cho thiết bị tầm thấp hơn, giảm lãng phí silicon",
+      "📺 Thực tế sử dụng Apple TV 4K: stream 4K, chơi game nhẹ — 1 lõi CPU ít hơn gần như KHÔNG tạo ra sự khác biệt",
+      "💰 Chiến lược rõ ràng: Apple bảo vệ vị thế iPhone 17 bằng cách đảm bảo chip trên TV box không 'ngang cơ' dù tên gọi giống nhau",
+      "💬 Anh em thấy Apple cắt xén chip như vậy có hợp lý không, hay đây là chiêu ép người dùng lên iPhone?"
+    ],
+    "publish_time": "2026-11-16T17:53:23.175258",
     "performance": null
   }
 ]
