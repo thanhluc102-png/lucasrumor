@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 66,
+      "reactions": 67,
       "comments": 12,
       "comments_total": 13,
       "own_comments": 1,
       "shares": 5,
-      "score": 127
+      "score": 128
     }
   },
   {
@@ -9399,6 +9399,31 @@
       "💬 Anh em thấy Face ID kiểu mới trên iPhone Duo có thực sự cần thiết không, hay Apple đang 'cứu vớt' dòng máy giá rẻ hơi muộn?"
     ],
     "publish_time": "2026-11-17T02:46:39.855067",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1619488976885095",
+    "title": "Tính năng iPhone Duo cực hot: MacBook bao giờ mới có?",
+    "summary": "Macworld kêu gọi Apple mang tính năng Duo mới ra mắt trên iPhone sang MacBook — tính năng cho phép chạy song song 2 chế độ giao diện/màn hình, hứa hẹn thay đổi lớn với người dùng đa nhiệm.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3287142/apple-please-bring-that-new-iphone-duo-feature-to-my-macbook.html",
+    "bullets": [
+      "🆕 Tính năng Duo vừa ra mắt trên iPhone mới nhất (2026), cho phép chạy song song 2 không gian làm việc độc lập",
+      "💻 Macworld kêu gọi Apple tích hợp Duo vào macOS để MacBook hưởng lợi, đặc biệt với nhóm người dùng đa nhiệm nặng",
+      "🔄 MacBook hiện có Spaces & Split View nhưng vẫn kém liền mạch và trực quan hơn so với Duo trên iPhone",
+      "🏢 Tính năng này đặc biệt có giá trị với người dùng vừa làm việc vừa dùng máy cá nhân — tách bạch hoàn toàn 2 môi trường",
+      "💬 Anh em dùng MacBook có muốn Apple mang tính năng Duo sang không, hay vẫn thích giữ nguyên như cũ?"
+    ],
+    "publish_time": "2026-11-17T12:45:25.013038",
     "performance": null
   }
 ]
