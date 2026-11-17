@@ -9175,12 +9175,12 @@
     ],
     "publish_time": "2026-11-14T00:39:21.301677",
     "performance": {
-      "reactions": 67,
+      "reactions": 66,
       "comments": 12,
       "comments_total": 13,
       "own_comments": 1,
       "shares": 5,
-      "score": 128
+      "score": 127
     }
   },
   {
@@ -9374,6 +9374,31 @@
       "💬 Anh em thấy Apple cắt xén chip như vậy có hợp lý không, hay đây là chiêu ép người dùng lên iPhone?"
     ],
     "publish_time": "2026-11-16T17:53:23.175258",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1618912880276038",
+    "title": "iOS 27.3 mở tính năng mở khóa khuôn mặt cho iPhone Duo!",
+    "summary": "Apple âm thầm bổ sung tùy chọn mở khóa khuôn mặt cho iPhone Duo qua iOS 27.3 — động thái bất ngờ nâng cấp trải nghiệm bảo mật cho dòng máy tầm trung.",
+    "category": "iPhone",
+    "visual_type": "community",
+    "source": "r/apple",
+    "article_link": "https://www.reddit.com/r/apple/comments/1xxwtw1/apple_adds_facial_unlock_option_on_iphone_duo_in/",
+    "bullets": [
+      "🆕 iOS 27.3 bổ sung tùy chọn Facial Unlock (mở khóa khuôn mặt) chính thức cho dòng iPhone Duo lần đầu tiên",
+      "🔐 Đây là lần đầu Apple đưa xác thực sinh trắc học khuôn mặt xuống phân khúc iPhone tầm trung",
+      "⚙️ Tính năng hoạt động dạng tùy chọn — người dùng tự bật/tắt, không thay thế bắt buộc vân tay hay PIN",
+      "📦 Cập nhật được phân phối qua iOS 27.3 — bản point release, không phải bản major update theo chu kỳ thường niên",
+      "💬 Anh em thấy Face ID kiểu mới trên iPhone Duo có thực sự cần thiết không, hay Apple đang 'cứu vớt' dòng máy giá rẻ hơi muộn?"
+    ],
+    "publish_time": "2026-11-17T02:46:39.855067",
     "performance": null
   }
 ]
