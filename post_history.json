@@ -9425,12 +9425,12 @@
     ],
     "publish_time": "2026-11-17T12:45:25.013038",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -9524,6 +9524,31 @@
       "💬 Anh em muốn iPhone kỷ niệm 20 năm giữ nguyên thiết kế hiện tại hay Apple nên làm gì đó điên rồ và đột phá hơn hẳn?"
     ],
     "publish_time": "2026-11-19T01:47:33.817800",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1621594003341259",
+    "title": "macOS 26.3 bí mật thêm icon menu bar: Làm được gì vậy?",
+    "summary": "Apple âm thầm bổ sung icon menu bar mới trong macOS 26.3, mang tính năng tiện dụng mà nhiều người dùng Mac chưa biết tới — cập nhật nhỏ nhưng tác động lớn đến trải nghiệm hàng ngày.",
+    "category": "MacBook",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3289705/apple-has-a-handy-new-menu-bar-icon-in-macos-27-3-heres-what-it-does.html",
+    "bullets": [
+      "🆕 macOS 26.3 bổ sung icon menu bar mới, phát hành thứ Hai 17/11/2026",
+      "🔍 Icon mới cung cấp lối tắt nhanh đến tính năng hệ thống, không cần vào System Settings",
+      "🤫 Apple không công bố tính năng này trong release notes chính thức — người dùng tự khám phá",
+      "📲 Áp dụng cho toàn bộ Mac chạy macOS 26 (Tahoe), bao gồm MacBook Air, MacBook Pro, iMac",
+      "💬 Anh em dùng macOS có hay để ý menu bar không, hay toàn ẩn hết cho gọn?"
+    ],
+    "publish_time": "2026-11-19T12:28:49.743787",
     "performance": null
   }
 ]
