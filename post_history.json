@@ -9549,6 +9549,31 @@
       "💬 Anh em dùng macOS có hay để ý menu bar không, hay toàn ẩn hết cho gọn?"
     ],
     "publish_time": "2026-11-19T12:28:49.743787",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 1,
+      "score": 5
+    }
+  },
+  {
+    "post_id": "1920842954802282_1622112059956120",
+    "title": "macOS 27.3 siết Full Disk Access: Máy Mac của bạn an toàn hơn hay phiền hơn?",
+    "summary": "macOS 27.3 Developer Beta 2 (ra hôm 18/11/2026) thay đổi cơ chế Full Disk Access: thêm hộp thoại cảnh báo rủi ro rõ ràng và tùy chọn cấp quyền chọn lọc từng thư mục, thay vì mở toàn bộ ổ đĩa như trước.",
+    "category": "MacBook",
+    "visual_type": "comparison",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/notes/macos-27-3s-full-disk-access-changes-no-biggie/",
+    "bullets": [
+      "🗓️ macOS 27.3 Developer Beta 2 phát hành ngày 18/11/2026 — thay đổi Full Disk Access được Apple thông báo trước từ tháng 10/2026",
+      "⚠️ Hộp thoại cảnh báo mới giải thích cụ thể RỦI RO bảo mật trước khi người dùng bấm đồng ý cấp quyền",
+      "📂 Tùy chọn cấp quyền chọn lọc từng thư mục — không còn bị ép phải mở toàn bộ ổ đĩa cho ứng dụng",
+      "✅ MacStories đánh giá thay đổi này 'tốt hơn lo ngại ban đầu' — Apple cân bằng được bảo mật lẫn trải nghiệm",
+      "💬 Anh em hay dùng app nào cần Full Disk Access — thấy dialog cảnh báo mới của Apple là chặn luôn hay vẫn cho qua?"
+    ],
+    "publish_time": "2026-11-19T22:54:17.102148",
     "performance": null
   }
 ]
