@@ -9550,12 +9550,12 @@
     ],
     "publish_time": "2026-11-19T12:28:49.743787",
     "performance": {
-      "reactions": 0,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 1,
-      "score": 5
+      "score": 9
     }
   },
   {
@@ -9574,6 +9574,31 @@
       "💬 Anh em hay dùng app nào cần Full Disk Access — thấy dialog cảnh báo mới của Apple là chặn luôn hay vẫn cho qua?"
     ],
     "publish_time": "2026-11-19T22:54:17.102148",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1622407639926562",
+    "title": "macOS 27.3 Public Beta 2 ra lò: Có gì mới hấp dẫn?",
+    "summary": "Apple vừa tung macOS 27.3 Public Beta 2 ngay sau Developer Beta 2 ra hồi đầu tuần (11/2026), mở rộng cho người dùng phổ thông muốn trải nghiệm sớm các tính năng mới trước khi lên bản chính thức.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/19/macos-27-3-public-beta-2-now-available-heres-everything-new/",
+    "bullets": [
+      "🚀 macOS 27.3 Public Beta 2 vừa phát hành ngày 20/11/2026, chỉ 4 ngày sau Developer Beta 2",
+      "🧑‍💻 Bất kỳ ai đăng ký Apple Beta Software Program đều có thể tải về miễn phí ngay hôm nay",
+      "🔧 Bản beta tập trung bổ sung tính năng mới & vá lỗi so với Public Beta 1 trước đó",
+      "⚠️ Apple khuyến cáo chỉ cài trên máy phụ, tránh rủi ro lỗi hệ thống trên máy chính",
+      "💬 Anh em đang chạy macOS 27 Public Beta chưa, thấy ổn định không hay còn nhiều lỗi vặt?"
+    ],
+    "publish_time": "2026-11-20T05:35:55.378738",
     "performance": null
   }
 ]
