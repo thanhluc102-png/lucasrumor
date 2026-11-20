@@ -9425,12 +9425,12 @@
     ],
     "publish_time": "2026-11-17T12:45:25.013038",
     "performance": {
-      "reactions": 6,
+      "reactions": 8,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 8
     }
   },
   {
@@ -9599,6 +9599,31 @@
       "💬 Anh em đang chạy macOS 27 Public Beta chưa, thấy ổn định không hay còn nhiều lỗi vặt?"
     ],
     "publish_time": "2026-11-20T05:35:55.378738",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1622971796536813",
+    "title": "WhatsApp iPhone vỡ trận: Nhóm chat phình lên 1.500 người!",
+    "summary": "WhatsApp chính thức nâng giới hạn thành viên nhóm chat lên 1.500 người trên iPhone và Android, tăng mạnh so với mức 1.024 trước đó — thay đổi đáng kể cho các cộng đồng lớn.",
+    "category": "Tin nóng",
+    "visual_type": "comparison",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/11/20/whatsapp-raises-group-chat-limit-to-1500-members/",
+    "bullets": [
+      "🔢 Giới hạn nhóm mới: 1.500 thành viên — tăng ~46% so với mức 1.024 trước đây",
+      "📱 Áp dụng đồng thời trên iPhone và Android, không phân biệt nền tảng",
+      "🌍 Đang rollout toàn cầu, người dùng nhận tự động, không cần cập nhật app thủ công",
+      "🔍 Nguồn xác nhận đầu tiên: WABetaInfo — trang uy tín chuyên theo dõi beta WhatsApp",
+      "💬 Nhóm càng đông, admin càng vất vả — 1.500 người liệu có kiểm soát được không?"
+    ],
+    "publish_time": "2026-11-20T16:40:59.820613",
     "performance": null
   }
 ]
