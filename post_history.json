@@ -9575,12 +9575,12 @@
     ],
     "publish_time": "2026-11-19T22:54:17.102148",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -9625,12 +9625,12 @@
     ],
     "publish_time": "2026-11-20T16:40:59.820613",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -9649,6 +9649,31 @@
       "💬 Anh em lo không khi 'kiến trúc sư' camera iPhone đã nghỉ hưu — liệu ảnh chụp iPhone 18 có còn đỉnh như trước?"
     ],
     "publish_time": "2026-11-21T01:04:37.080748",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1623846026449390",
+    "title": "iOS 27.3 Beta 2: iPhone Duo mở khóa bằng mặt, Mac thêm quyền riêng tư",
+    "summary": "Apple tung Developer Beta 2 của iOS 27.3, bổ sung Face Unlock cho dòng iPhone Duo và tăng cường kiểm soát quyền riêng tư trên Mac — chu kỳ beta lần này dày tính năng hơn thường lệ.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/news/apples-latest-second-27-3-developer-beta-adds-face-unlock-for-iphone-duo-new-mac-privacy-controls-and-more/",
+    "bullets": [
+      "🔓 iPhone Duo chính thức có Face Unlock trong beta 27.3 lần 2 — tính năng được kỳ vọng là 'crowd pleaser' khi lên bản public",
+      "🛡️ macOS 27.3 Beta 2 bổ sung các tùy chọn Privacy Controls mới trên Mac, kiểm soát quyền ứng dụng chi tiết hơn",
+      "📦 Chu kỳ beta 27.3 lần này được đánh giá dày tính năng hơn bình thường — không chỉ vá lỗi mà còn thêm hàng loạt cải tiến thực chất",
+      "🧪 Hiện chỉ dành cho Developer Beta; bản public beta và bản chính thức sẽ theo sau trong thời gian tới (năm nay 2026)",
+      "💬 Tính năng Face Unlock cho iPhone Duo có phải lý do anh em nâng cấp không, hay vẫn chờ bản chính thức?"
+    ],
+    "publish_time": "2026-11-21T12:03:32.009176",
     "performance": null
   }
 ]
