@@ -9749,6 +9749,31 @@
       "💬 Anh em hay tắt quyền truy cập nào đầu tiên khi cầm iPhone mới lên — hay để mặc định hết?"
     ],
     "publish_time": "2026-11-22T15:54:49.333639",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1625457009621625",
+    "title": "Siri tự tóm tắt cuộc họp trên Apple Watch: Có đáng tin?",
+    "summary": "watchOS 27.3 beta mang tính năng Audio Intelligence mới: Siri Recap tự động tóm tắt nội dung cuộc họp trực tiếp trên Apple Watch — kết quả thực tế ra sao?",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/linked/testing-audio-intelligence-with-siri-recap-in-watchos-27-3/",
+    "bullets": [
+      "🎙️ Siri Recap dùng Audio Intelligence để tự động nhận diện & tóm tắt các chủ đề trong cuộc họp ngay trên Apple Watch",
+      "📱 Tính năng ra mắt đồng thời trên watchOS 27.3 và iOS 27.3 developer beta — phát hành ngày 22/11/2026",
+      "✅ Thử nghiệm thực tế của The Verge: Siri phân biệt được nhiều chủ đề khác nhau trong 1 cuộc họp biên tập — kết quả 'khá tốt'",
+      "🔒 Câu hỏi chưa có lời giải: dữ liệu âm thanh nhạy cảm được xử lý on-device hay đẩy lên server Apple?",
+      "💬 Anh em có dám để Siri ghi âm rồi tóm tắt cuộc họp công việc quan trọng không?"
+    ],
+    "publish_time": "2026-11-22T21:30:47.110471",
     "performance": null
   }
 ]
