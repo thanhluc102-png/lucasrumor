@@ -9675,12 +9675,12 @@
     ],
     "publish_time": "2026-11-21T12:03:32.009176",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -9700,12 +9700,12 @@
     ],
     "publish_time": "2026-11-21T21:26:48.696368",
     "performance": {
-      "reactions": 0,
+      "reactions": 2,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 2
     }
   },
   {
@@ -9724,6 +9724,31 @@
       "💬 Anh em đang dùng iPhone đời nào — sẽ tiếp tục chờ 2027 hay xuống tiền mua 18 Pro/Duo luôn?"
     ],
     "publish_time": "2026-11-22T04:55:00.106301",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1625178112982848",
+    "title": "iPhone bị nhòm ngó? Khoá ngay 5 cài đặt quyền riêng tư này!",
+    "summary": "iOS ẩn nhiều cài đặt bảo mật mà đa số người dùng bỏ qua: từ quyền truy cập vị trí, micro, camera đến tracking quảng cáo — tất cả đều có thể bị khai thác nếu không tắt đúng chỗ.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3247870/these-ios-privacy-settings-will-lock-your-iphone-from-prying-eyes.html",
+    "bullets": [
+      "🌍 Tắt Location Services cho từng app: chỉ cho phép 'While Using' thay vì 'Always' để ngăn app theo dõi vị trí ngầm",
+      "👁️ App Tracking Transparency: vào Settings → Privacy & Security → Tracking, tắt 'Allow Apps to Request to Track' để chặn toàn bộ quảng cáo cá nhân hoá",
+      "🎙️ Kiểm tra quyền Micro & Camera từng app: nhiều app yêu cầu quyền này nhưng không cần thiết — thu hồi ngay nếu không dùng",
+      "📋 Giới hạn quyền truy cập Danh bạ, Ảnh, Dữ liệu Sức khỏe: chọn 'Selected Photos' thay vì 'All Photos' để tránh rò rỉ toàn bộ thư viện",
+      "💬 Anh em hay tắt quyền truy cập nào đầu tiên khi cầm iPhone mới lên — hay để mặc định hết?"
+    ],
+    "publish_time": "2026-11-22T15:54:49.333639",
     "performance": null
   }
 ]
