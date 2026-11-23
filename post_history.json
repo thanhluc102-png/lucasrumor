@@ -9700,12 +9700,12 @@
     ],
     "publish_time": "2026-11-21T21:26:48.696368",
     "performance": {
-      "reactions": 2,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 2
+      "score": 5
     }
   },
   {
@@ -9774,6 +9774,31 @@
       "💬 Anh em có dám để Siri ghi âm rồi tóm tắt cuộc họp công việc quan trọng không?"
     ],
     "publish_time": "2026-11-22T21:30:47.110471",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1625807739586552",
+    "title": "MacBook Neo 2 ra mắt tháng 3: Thêm màu mới, túi tiền có vui?",
+    "summary": "MacBook Neo 2 dự kiến ra mắt khoảng tháng 3/2027, Apple sẽ bổ sung màu sắc mới cho dòng máy được yêu thích nhất năm nay (2026), tiếp nối đà thành công của thế hệ đầu tiên.",
+    "category": "MacBook",
+    "visual_type": "timeline",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/22/macbook-neo-2-likely-to-launch-around-march-could-feature-new-colors-report/",
+    "bullets": [
+      "🗓️ MacBook Neo 2 dự kiến ra mắt vào khoảng tháng 3/2027, chỉ cách hiện tại (11/2026) khoảng 4 tháng",
+      "🎨 Điểm nhấn lớn nhất lần này: Apple sẽ bổ sung các tùy chọn MÀU SẮC MỚI — điều hiếm thấy ở dòng sản phẩm giá rẻ",
+      "🏆 MacBook Neo thế hệ đầu tiên được đánh giá là một trong những sản phẩm được yêu thích nhất của Apple trong năm nay (2026)",
+      "🔄 Khác với các dòng ngân sách bị 'bỏ bê', Apple đang tích cực cập nhật MacBook Neo theo chu kỳ ngắn",
+      "💬 Anh em đang chờ MacBook Neo 2 để xuống tiền, hay vẫn thấy màu cũ là đủ rồi?"
+    ],
+    "publish_time": "2026-11-23T05:35:50.286526",
     "performance": null
   }
 ]
