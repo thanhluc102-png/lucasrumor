@@ -9700,12 +9700,12 @@
     ],
     "publish_time": "2026-11-21T21:26:48.696368",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -9799,6 +9799,31 @@
       "💬 Anh em đang chờ MacBook Neo 2 để xuống tiền, hay vẫn thấy màu cũ là đủ rồi?"
     ],
     "publish_time": "2026-11-23T05:35:50.286526",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1626545752846084",
+    "title": "iPad cuối cùng có app Threads riêng: Chờ mãi rồi cũng tới!",
+    "summary": "Trưởng nhóm thiết kế Threads xác nhận app dành riêng cho iPad đang được phát triển — tin vui cho hàng triệu người dùng iPad vốn phải chịu đựng giao diện iPhone phóng to xấu xí bấy lâu nay.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/11/23/threads-is-getting-an-ipad-app/",
+    "bullets": [
+      "✅ Christopher Clare — trưởng nhóm thiết kế Threads — tự tay thông báo trên Threads ngày 23/11/2026",
+      "📱 Hiện tại iPad chỉ chạy được bản Threads của iPhone phóng to, không có giao diện tối ưu cho màn hình lớn",
+      "🗓️ Chưa có ngày ra mắt chính thức, nhưng việc công bố công khai cho thấy dự án đã ở giai đoạn tiến triển rõ ràng",
+      "🏆 Threads đang cạnh tranh trực tiếp với X (Twitter) và việc có app iPad riêng sẽ là lợi thế trải nghiệm đáng kể",
+      "💬 Anh em dùng iPad có hay lướt Threads không, hay vẫn cầm điện thoại cho tiện?"
+    ],
+    "publish_time": "2026-11-23T19:48:39.174639",
     "performance": null
   }
 ]
