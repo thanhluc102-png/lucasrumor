@@ -6,6 +6,28 @@ from datetime import datetime
 from pathlib import Path
 from difflib import SequenceMatcher
 
+
+# Claude Sonnet 5.5 (đổi từ Sonnet 4.6 ngày 2026-11-24). Thinking bật mặc định và tính vào
+# max_tokens nên trần phải dư; effort "low" (khuyến nghị cho viết content) giữ phần nghĩ ngắn.
+# fallbacks "default": bộ lọc an toàn từ chối nhầm thì API tự chạy lại trên model dự phòng.
+CLAUDE_MODEL = "claude-sonnet-5-5"
+
+
+def _ask_claude(client, prompt: str, max_tokens: int) -> str:
+    msg = client.messages.create(
+        model=CLAUDE_MODEL,
+        max_tokens=max_tokens,
+        output_config={"effort": "low"},
+        extra_headers={"anthropic-beta": "server-side-fallback-2026-07-01"},
+        extra_body={"fallbacks": "default"},
+        messages=[{"role": "user", "content": prompt}],
+    )
+    if msg.stop_reason in ("refusal", "max_tokens"):
+        raise RuntimeError(f"Claude dừng giữa chừng: {msg.stop_reason}")
+    # Phản hồi có thể mở đầu bằng block thinking -> lấy block text theo type, không theo vị trí.
+    return next((b.text for b in msg.content if b.type == "text"), "").strip()
+
+
 RSS_FEEDS = {
     "MacRumors":    "https://feeds.macrumors.com/MacRumors-All",
     "9to5Mac":      "https://9to5mac.com/feed/",
@@ -296,13 +318,7 @@ Chọn 1 tin nổi bật nhất rồi trả về JSON để render infographic (
   "sources": ["nguồn 1"]
 }}"""
 
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=900,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    raw = msg.content[0].text.strip()
+    raw = _ask_claude(client, prompt, max_tokens=8000)
     match = re.search(r"\{[\s\S]+?\n\}", raw)
     if not match:
         match = re.search(r"\{[\s\S]+\}", raw)
@@ -341,12 +357,7 @@ Chọn {n} bài nổi bật nhất, đa dạng chủ đề (không trùng nhau).
 
 [{", ".join(['{{"selected_index": số thứ tự (1-based)}}'] * n)}]"""
 
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=100,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = msg.content[0].text.strip()
+    raw = _ask_claude(client, prompt, max_tokens=2000)
     match = re.search(r"\[[\s\S]+\]", raw)
     picks = json.loads(match.group() if match else raw)
     # Claude đôi khi trả dict thay vì list khi n=1
@@ -422,13 +433,7 @@ Chọn 4 tin đa dạng, nổi bật nhất (không trùng chủ đề) rồi tr
   ]
 }}"""
 
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=1200,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    raw = msg.content[0].text.strip()
+    raw = _ask_claude(client, prompt, max_tokens=8000)
     match = re.search(r"\{[\s\S]+\}", raw)
     data = json.loads(match.group() if match else raw)
 
