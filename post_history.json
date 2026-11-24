@@ -9700,12 +9700,12 @@
     ],
     "publish_time": "2026-11-21T21:26:48.696368",
     "performance": {
-      "reactions": 6,
+      "reactions": 7,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -9754,8 +9754,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 1
+      "shares": 1,
+      "score": 6
     }
   },
   {
@@ -9849,6 +9849,31 @@
       "💬 Anh em dùng iPhone Duo có đang cần Apple Pencil hay Magic Keyboard không — combo này có đáng xuống tiền ngay không?"
     ],
     "publish_time": "2026-11-24T04:35:33.484354",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1627706672729992",
+    "title": "Nhà thông minh bước sang kỷ nguyên Siri AI: Phụ kiện nào đáng mua?",
+    "summary": "Apple Home đang mở ra kỷ nguyên mới với các sản phẩm chạy Siri AI như HomeView. Đây là lúc thích hợp để nâng cấp nhà thông minh bằng phụ kiện tương thích Apple Home, với 5 gợi ý nổi bật từ 9to5Mac.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/24/apple-home-accessories-here-are-my-five-top-picks-for-your-smart-home/",
+    "bullets": [
+      "🏠 Apple Home bắt đầu kỷ nguyên mới với các sản phẩm chạy Siri AI như HomeView",
+      "🤖 Siri AI trở thành trung tâm điều khiển trải nghiệm nhà thông minh",
+      "🔌 9to5Mac chọn 5 phụ kiện tương thích Apple Home đáng nâng cấp nhất",
+      "📱 Ảnh minh họa gắn với biểu tượng Home trên iOS 27, cho thấy Apple đầu tư mạnh cho nền tảng này",
+      "💬 Anh em đã sẵn sàng nâng cấp nhà thông minh theo Siri AI chưa, hay vẫn đợi thêm?"
+    ],
+    "publish_time": "2026-11-24T19:18:57.997267",
     "performance": null
   }
 ]
