@@ -9800,12 +9800,12 @@
     ],
     "publish_time": "2026-11-23T05:35:50.286526",
     "performance": {
-      "reactions": 3,
+      "reactions": 5,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 3
+      "score": 5
     }
   },
   {
@@ -9824,6 +9824,31 @@
       "💬 Anh em dùng iPad có hay lướt Threads không, hay vẫn cầm điện thoại cho tiện?"
     ],
     "publish_time": "2026-11-23T19:48:39.174639",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1626909626143030",
+    "title": "Hai phụ kiện iPhone Duo đang giảm giá sâu nhất từ trước đến nay!",
+    "summary": "Hai phụ kiện đỉnh dành riêng cho iPhone Duo — Apple Pencil (USB-C) và một sản phẩm đi kèm — đang ở mức giá thấp kỷ lục, cơ hội hiếm để nâng tầm bộ đôi iPhone Duo.",
+    "category": "Deal",
+    "visual_type": "deal",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/23/these-are-my-two-must-have-iphone-duo-accessories/",
+    "bullets": [
+      "🖊️ Apple Pencil (USB-C) đang ở mức giá thấp nhất lịch sử — cơ hội hiếm để rước về với giá hời",
+      "📱 Hai phụ kiện được đánh giá là 'must-have' dành riêng cho người dùng iPhone Duo",
+      "🔌 Apple Pencil USB-C tiện lợi hơn nhờ cổng sạc phổ thông, không cần adapter riêng",
+      "⏰ Đây là mức giá all-time low — có thể tăng lại bất cứ lúc nào, không nên chần chừ",
+      "💬 Anh em dùng iPhone Duo có đang cần Apple Pencil hay Magic Keyboard không — combo này có đáng xuống tiền ngay không?"
+    ],
+    "publish_time": "2026-11-24T04:35:33.484354",
     "performance": null
   }
 ]
