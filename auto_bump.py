@@ -69,12 +69,20 @@ Yêu cầu:
 - Vui vẻ, lịch sự, phù hợp với ngữ cảnh của bài đăng.
 - Chỉ in ra nội dung bình luận, tuyệt đối không có phần mở đầu hay kết thúc dư thừa.
 """
+    # Sonnet 5.5: thinking bật mặc định và tính vào max_tokens -> nâng trần 300 -> 2000;
+    # effort low cho viết content; fallbacks chạy lại trên model dự phòng nếu bị từ chối nhầm.
     response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=300,
+        model="claude-sonnet-5-5",
+        max_tokens=2000,
+        output_config={"effort": "low"},
+        extra_headers={"anthropic-beta": "server-side-fallback-2026-07-01"},
+        extra_body={"fallbacks": "default"},
         messages=[{"role": "user", "content": prompt}]
     )
-    return response.content[0].text.strip()
+    if response.stop_reason in ("refusal", "max_tokens"):
+        raise RuntimeError(f"Claude dừng giữa chừng: {response.stop_reason}")
+    # Phản hồi có thể mở đầu bằng block thinking -> lấy block text theo type.
+    return next((b.text for b in response.content if b.type == "text"), "").strip()
 
 def post_comment(post_id, message):
     url = f"https://graph.facebook.com/v25.0/{post_id}/comments"
