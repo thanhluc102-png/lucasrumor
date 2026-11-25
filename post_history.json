@@ -9704,8 +9704,8 @@
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
-      "shares": 0,
-      "score": 7
+      "shares": 1,
+      "score": 12
     }
   },
   {
@@ -9800,12 +9800,12 @@
     ],
     "publish_time": "2026-11-23T05:35:50.286526",
     "performance": {
-      "reactions": 6,
+      "reactions": 7,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -9899,6 +9899,31 @@
       "💬 Anh em có dám để iPhone chạy AI 27B offline thay ChatGPT không?"
     ],
     "publish_time": "2026-11-25T03:22:15.522793",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1628612089306117",
+    "title": "App quản lý chi tiêu trên iPhone có trợ lý AI: Dám giao tiền cho nó?",
+    "summary": "Copilot Money, app theo dõi chi tiêu từng được Apple Editors' Choice vinh danh, vừa ra mắt Money Assistant: trợ lý AI giúp phát hiện xu hướng chi tiêu, trả lời câu hỏi và lên kế hoạch tài chính ngay trên iPhone.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "MacStories",
+    "article_link": "https://www.macstories.net/sponsored/copilot-money-the-apple-editors-choice-money-tracker-now-has-an-ai-money-assistant/",
+    "bullets": [
+      "🤖 Money Assistant là tác tử AI tài chính hoạt động xuyên suốt trong app Copilot Money",
+      "📊 Phát hiện xu hướng chi tiêu và trả lời câu hỏi về tiền bạc của bạn",
+      "🧾 Hỗ trợ lên kế hoạch, kèm gợi ý ngân sách ngay trên iPhone",
+      "🏆 Copilot Money từng được Apple Editors' Choice vinh danh; đây là bài tài trợ trên MacStories",
+      "💬 Anh em có dám giao dữ liệu tài chính cho AI phân tích không?"
+    ],
+    "publish_time": "2026-11-25T13:52:27.699688",
     "performance": null
   }
 ]
