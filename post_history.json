@@ -9800,12 +9800,12 @@
     ],
     "publish_time": "2026-11-23T05:35:50.286526",
     "performance": {
-      "reactions": 5,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 5
+      "score": 6
     }
   },
   {
@@ -9874,6 +9874,31 @@
       "💬 Anh em đã sẵn sàng nâng cấp nhà thông minh theo Siri AI chưa, hay vẫn đợi thêm?"
     ],
     "publish_time": "2026-11-24T19:18:57.997267",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1628092322691427",
+    "title": "AI 27 tỷ tham số chạy thẳng trên iPhone: Bonsai 2.5 có đáng thử?",
+    "summary": "PrismML vừa ra mắt Ternary Bonsai 2.5 27B, bản nâng cấp của mô hình AI nhẹ khoảng 4 GB từng chạy được trên iPhone hồi tháng 7. Bản mới cải thiện khả năng viết code và dùng công cụ ngay trên máy.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/24/prismmls-bonsai-2-5-brings-better-coding-and-tool-use-to-on-device-ai/",
+    "bullets": [
+      "📱 Tháng 7: PrismML tuyên bố Bonsai 27B 1-bit (~4 GB) là mô hình cùng cỡ đầu tiên chạy được trên iPhone.",
+      "🆕 Ternary Bonsai 2.5 27B là bản nâng cấp của mô hình ra mắt hồi tháng 9.",
+      "💻 Điểm mới: viết code tốt hơn và dùng công cụ (tool use) hiệu quả hơn trên thiết bị.",
+      "🔒 AI chạy on-device giúp xử lý ngay trên máy, hướng tới trải nghiệm offline.",
+      "💬 Anh em có dám để iPhone chạy AI 27B offline thay ChatGPT không?"
+    ],
+    "publish_time": "2026-11-25T03:22:15.522793",
     "performance": null
   }
 ]
