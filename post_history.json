@@ -9949,6 +9949,31 @@
       "💬 Anh em có hay dùng khung viền thiết bị cho ảnh chụp màn hình không?"
     ],
     "publish_time": "2026-11-25T23:59:00.043125",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1629430292557630",
+    "title": "Wispr Flow ra model Canto-2: Gõ bằng giọng nói trên iPhone hết sai tên riêng?",
+    "summary": "Ứng dụng đọc chính tả AI Wispr Flow tung model speech-to-text mới Canto-2 cho Mac, iPhone và các nền tảng khác, hứa hẹn ít lỗi chép lời hơn và nhận diện tốt hơn tên riêng, thuật ngữ kỹ thuật.",
+    "category": "Apple AI",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/25/wispr-flow-improves-dictation-accuracy-with-new-canto-2-speech-to-text-model/",
+    "bullets": [
+      "🧠 Wispr Flow giới thiệu model speech-to-text mới tên Canto-2",
+      "📱 Triển khai cho Mac, iPhone và các nền tảng khác",
+      "✅ Hứa hẹn ít lỗi chép lời hơn trước",
+      "🔤 Nhận diện tên riêng và thuật ngữ kỹ thuật tốt hơn",
+      "💬 Anh em đang dùng ứng dụng đọc chính tả nào trên iPhone, Mac, và có đủ chính xác để bỏ bàn phím chưa?"
+    ],
+    "publish_time": "2026-11-26T07:37:12.369105",
     "performance": null
   }
 ]
