@@ -9950,12 +9950,12 @@
     ],
     "publish_time": "2026-11-25T23:59:00.043125",
     "performance": {
-      "reactions": 1,
+      "reactions": 4,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 1
+      "score": 4
     }
   },
   {
@@ -9975,12 +9975,12 @@
     ],
     "publish_time": "2026-11-26T07:37:12.369105",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -9999,12 +9999,12 @@
     ],
     "publish_time": "2026-11-26T18:06:21.649543",
     "performance": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 0
+      "score": 1
     }
   },
   {
@@ -10023,6 +10023,31 @@
       "💬 Bạn mua iPhone 16 vì Apple Intelligence, thực tế có đúng như quảng cáo không?"
     ],
     "publish_time": "2026-11-27T02:38:15.165845",
+    "performance": {
+      "reactions": 1,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 1
+    }
+  },
+  {
+    "post_id": "1920842954802282_1631002072400452",
+    "title": "iOS 27.3 cập nhật cho cả máy mới lẫn máy cũ: Bạn đã sẵn sàng?",
+    "summary": "Macworld nhận định iOS 27.3 là bản cập nhật đáng giá cho cả iPhone đời mới lẫn đời cũ. Tuy nhiên, dữ liệu bài gốc cung cấp rất hạn chế nên chưa thể xác nhận chi tiết tính năng cụ thể.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "MacWorld",
+    "article_link": "https://www.macworld.com/article/3288644/ios-27-3-feature-preview-ios-ipados-macos-watchos.html",
+    "bullets": [
+      "🎁 Macworld đánh giá iOS 27.3 là 'món quà' cho thiết bị Apple cả mới lẫn cũ",
+      "📱 Lợi ích hướng tới nhiều đời máy, không chỉ iPhone mới ra mắt",
+      "⚠️ Nội dung gốc bị cắt ngắn nên chưa có danh sách tính năng hay số liệu cụ thể",
+      "🛡️ Nên sao lưu dữ liệu và đọc ghi chú phát hành của Apple trước khi cập nhật",
+      "💬 Anh em đã cập nhật iOS 27.3 chưa, máy cũ chạy có mượt hơn không?"
+    ],
+    "publish_time": "2026-11-27T13:28:05.766569",
     "performance": null
   }
 ]
