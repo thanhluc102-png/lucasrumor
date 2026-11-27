@@ -9950,12 +9950,12 @@
     ],
     "publish_time": "2026-11-25T23:59:00.043125",
     "performance": {
-      "reactions": 4,
+      "reactions": 6,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 4
+      "score": 6
     }
   },
   {
@@ -10048,6 +10048,31 @@
       "💬 Anh em đã cập nhật iOS 27.3 chưa, máy cũ chạy có mượt hơn không?"
     ],
     "publish_time": "2026-11-27T13:28:05.766569",
+    "performance": {
+      "reactions": 0,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 0
+    }
+  },
+  {
+    "post_id": "1920842954802282_1631514325682560",
+    "title": "iPhone 20 Pro tin đồn dùng khung titan in 3D: Máy đắt hơn?",
+    "summary": "Theo tin đồn từ Trung Quốc, iPhone 20 Pro ra mắt năm sau (2027) sẽ dùng nhiều titan in 3D cho khung máy. Thông tin đến từ leaker Weibo 'Fixed Focus Digital' và hiện vẫn chưa được Apple xác nhận.",
+    "category": "iPhone",
+    "visual_type": "announcement",
+    "source": "MacRumors",
+    "article_link": "https://www.macrumors.com/2026/11/27/iphone-20-pro-3d-printed-titanium-frame/",
+    "bullets": [
+      "🔩 Tin đồn: iPhone 20 Pro sẽ dùng nhiều titan in 3D trong khung máy",
+      "📅 Dự kiến ra mắt năm sau (2027), theo thông tin rò rỉ",
+      "🕵️ Nguồn tin là leaker 'Fixed Focus Digital' trên Weibo, chưa được Apple xác nhận",
+      "📱 Khung titan từng xuất hiện trên iPhone 15 Pro, nay có thể đổi cách chế tạo",
+      "💬 Anh em thấy khung titan in 3D có đáng để iPhone đắt hơn không?"
+    ],
+    "publish_time": "2026-11-27T23:54:08.774007",
     "performance": null
   }
 ]
