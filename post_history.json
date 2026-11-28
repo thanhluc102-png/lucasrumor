@@ -9950,12 +9950,12 @@
     ],
     "publish_time": "2026-11-25T23:59:00.043125",
     "performance": {
-      "reactions": 6,
+      "reactions": 7,
       "comments": 0,
       "comments_total": 1,
       "own_comments": 1,
       "shares": 0,
-      "score": 6
+      "score": 7
     }
   },
   {
@@ -10073,6 +10073,31 @@
       "💬 Anh em thấy khung titan in 3D có đáng để iPhone đắt hơn không?"
     ],
     "publish_time": "2026-11-27T23:54:08.774007",
+    "performance": {
+      "reactions": 3,
+      "comments": 0,
+      "comments_total": 1,
+      "own_comments": 1,
+      "shares": 0,
+      "score": 3
+    }
+  },
+  {
+    "post_id": "1920842954802282_1631804055653587",
+    "title": "WhatsApp trên iPhone mua eSIM du lịch ngay trong app: Còn cần SIM ảo khác?",
+    "summary": "WhatsApp chính thức hỗ trợ mua eSIM du lịch ngay trong ứng dụng, đồng thời được cho là đang thử nghiệm hai tính năng mới trên iOS, trong đó có tin nhắn xem một lần và giao diện gọn gàng hơn.",
+    "category": "Tin nóng",
+    "visual_type": "announcement",
+    "source": "9to5Mac",
+    "article_link": "https://9to5mac.com/2026/11/27/whatsapp-announces-travel-esims-tests-view-once-texts-and-a-cleaner-interface/",
+    "bullets": [
+      "📲 WhatsApp chính thức hỗ trợ mua eSIM du lịch trực tiếp trong ứng dụng.",
+      "🧪 Hai tính năng mới đang được thử nghiệm trên iOS theo thông tin ghi nhận.",
+      "👁️ Một tính năng thử nghiệm là tin nhắn văn bản chỉ xem một lần (view-once).",
+      "✨ Tính năng còn lại là giao diện sạch sẽ, gọn gàng hơn.",
+      "💬 Anh em có dám mua eSIM ngay trong WhatsApp khi đi du lịch không?"
+    ],
+    "publish_time": "2026-11-28T06:08:08.293308",
     "performance": null
   }
 ]
